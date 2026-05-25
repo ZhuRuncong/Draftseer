@@ -9,16 +9,16 @@ Aatrox,6,21,0
 Aatrox,7,28,0
 Aatrox,8,44,0
 Aatrox,9,44,0
-Aatrox,10,28,0
-Aatrox,11,44,0
-Aatrox,12,31,0
-Aatrox,13,31,0
-Aatrox,14,44,0
-Aatrox,15,17,0
-Aatrox,16,0,27
-Aatrox,17,0,25
-Aatrox,18,0,18
-Aatrox,19,0,30
+Aatrox,10,31,0
+Aatrox,11,17,0
+Aatrox,12,0,27
+Aatrox,13,0,25
+Aatrox,14,0,18
+Aatrox,15,0,30
+Aatrox,16,48,0
+Aatrox,17,56,0
+Aatrox,18,60,0
+Aatrox,19,63,0
 Ahri,0,0,11
 Ahri,1,0,12
 Ahri,2,0,13
@@ -28,17 +28,17 @@ Ahri,5,0,20
 Ahri,6,33,0
 Ahri,7,36,0
 Ahri,8,37,0
-Ahri,9,37,0
-Ahri,10,36,0
-Ahri,11,33,0
-Ahri,12,76,0
-Ahri,13,76,0
-Ahri,14,33,0
-Ahri,15,112,0
-Ahri,16,0,62
-Ahri,17,0,82
-Ahri,18,0,82
-Ahri,19,0,74
+Ahri,9,33,0
+Ahri,10,76,0
+Ahri,11,112,0
+Ahri,12,0,62
+Ahri,13,0,82
+Ahri,14,0,82
+Ahri,15,0,74
+Ahri,16,114,0
+Ahri,17,73,0
+Ahri,18,82,0
+Ahri,19,56,0
 Akali,0,0,68
 Akali,1,0,64
 Akali,2,0,101
@@ -48,17 +48,17 @@ Akali,5,0,75
 Akali,6,18,0
 Akali,7,18,0
 Akali,8,18,0
-Akali,9,18,0
-Akali,10,18,0
-Akali,11,19,0
-Akali,12,53,0
-Akali,13,53,0
-Akali,14,19,0
-Akali,15,80,0
-Akali,16,0,164
-Akali,17,0,86
-Akali,18,0,85
-Akali,19,0,93
+Akali,9,19,0
+Akali,10,53,0
+Akali,11,80,0
+Akali,12,0,164
+Akali,13,0,86
+Akali,14,0,85
+Akali,15,0,93
+Akali,16,32,0
+Akali,17,36,0
+Akali,18,56,0
+Akali,19,58,0
 Alistar,0,0,2
 Alistar,1,0,1
 Alistar,2,0,2
@@ -68,17 +68,17 @@ Alistar,5,0,1
 Alistar,6,1,0
 Alistar,7,1,0
 Alistar,8,6,0
-Alistar,9,6,0
-Alistar,10,1,0
-Alistar,11,14,0
-Alistar,12,50,0
-Alistar,13,50,0
-Alistar,14,14,0
-Alistar,15,63,0
-Alistar,16,0,63
-Alistar,17,0,47
-Alistar,18,0,71
-Alistar,19,0,65
+Alistar,9,14,0
+Alistar,10,50,0
+Alistar,11,63,0
+Alistar,12,0,63
+Alistar,13,0,47
+Alistar,14,0,71
+Alistar,15,0,65
+Alistar,16,87,0
+Alistar,17,82,0
+Alistar,18,80,0
+Alistar,19,94,0
 Ambessa,0,0,145
 Ambessa,1,0,136
 Ambessa,2,0,142
@@ -88,17 +88,17 @@ Ambessa,5,0,138
 Ambessa,6,148,0
 Ambessa,7,91,0
 Ambessa,8,59,0
-Ambessa,9,59,0
-Ambessa,10,91,0
-Ambessa,11,57,0
-Ambessa,12,62,0
-Ambessa,13,62,0
-Ambessa,14,57,0
-Ambessa,15,70,0
-Ambessa,16,0,31
-Ambessa,17,0,45
-Ambessa,18,0,54
-Ambessa,19,0,61
+Ambessa,9,57,0
+Ambessa,10,62,0
+Ambessa,11,70,0
+Ambessa,12,0,31
+Ambessa,13,0,45
+Ambessa,14,0,54
+Ambessa,15,0,61
+Ambessa,16,57,0
+Ambessa,17,59,0
+Ambessa,18,60,0
+Ambessa,19,66,0
 Anivia,0,0,15
 Anivia,1,0,14
 Anivia,2,0,31
@@ -108,17 +108,17 @@ Anivia,5,0,32
 Anivia,6,14,0
 Anivia,7,28,0
 Anivia,8,40,0
-Anivia,9,40,0
-Anivia,10,28,0
-Anivia,11,21,0
-Anivia,12,34,0
-Anivia,13,34,0
-Anivia,14,21,0
-Anivia,15,51,0
-Anivia,16,0,60
-Anivia,17,0,34
-Anivia,18,0,38
-Anivia,19,0,32
+Anivia,9,21,0
+Anivia,10,34,0
+Anivia,11,51,0
+Anivia,12,0,60
+Anivia,13,0,34
+Anivia,14,0,38
+Anivia,15,0,32
+Anivia,16,46,0
+Anivia,17,48,0
+Anivia,18,46,0
+Anivia,19,46,0
 Annie,0,0,5
 Annie,1,0,8
 Annie,2,0,14
@@ -128,17 +128,17 @@ Annie,5,0,17
 Annie,6,26,0
 Annie,7,40,0
 Annie,8,15,0
-Annie,9,15,0
-Annie,10,40,0
-Annie,11,28,0
-Annie,12,47,0
-Annie,13,47,0
-Annie,14,28,0
-Annie,15,42,0
-Annie,16,0,49
-Annie,17,0,38
-Annie,18,0,66
-Annie,19,0,61
+Annie,9,28,0
+Annie,10,47,0
+Annie,11,42,0
+Annie,12,0,49
+Annie,13,0,38
+Annie,14,0,66
+Annie,15,0,61
+Annie,16,54,0
+Annie,17,63,0
+Annie,18,26,0
+Annie,19,26,0
 Aphelios,0,0,16
 Aphelios,1,0,17
 Aphelios,2,0,17
@@ -148,17 +148,17 @@ Aphelios,5,0,15
 Aphelios,6,24,0
 Aphelios,7,32,0
 Aphelios,8,44,0
-Aphelios,9,44,0
-Aphelios,10,32,0
-Aphelios,11,63,0
-Aphelios,12,25,0
-Aphelios,13,25,0
-Aphelios,14,63,0
-Aphelios,15,35,0
-Aphelios,16,0,31
-Aphelios,17,0,29
-Aphelios,18,0,31
-Aphelios,19,0,22
+Aphelios,9,63,0
+Aphelios,10,25,0
+Aphelios,11,35,0
+Aphelios,12,0,31
+Aphelios,13,0,29
+Aphelios,14,0,31
+Aphelios,15,0,22
+Aphelios,16,34,0
+Aphelios,17,42,0
+Aphelios,18,9,0
+Aphelios,19,5,0
 Ashe,0,0,50
 Ashe,1,0,55
 Ashe,2,0,72
@@ -168,17 +168,17 @@ Ashe,5,0,77
 Ashe,6,134,0
 Ashe,7,137,0
 Ashe,8,56,0
-Ashe,9,56,0
-Ashe,10,137,0
-Ashe,11,102,0
-Ashe,12,28,0
-Ashe,13,28,0
-Ashe,14,102,0
-Ashe,15,31,0
-Ashe,16,0,31
-Ashe,17,0,23
-Ashe,18,0,33
-Ashe,19,0,27
+Ashe,9,102,0
+Ashe,10,28,0
+Ashe,11,31,0
+Ashe,12,0,31
+Ashe,13,0,23
+Ashe,14,0,33
+Ashe,15,0,27
+Ashe,16,43,0
+Ashe,17,34,0
+Ashe,18,3,0
+Ashe,19,5,0
 Aurelion Sol,0,0,13
 Aurelion Sol,1,0,7
 Aurelion Sol,2,0,7
@@ -187,16 +187,17 @@ Aurelion Sol,4,0,3
 Aurelion Sol,5,0,2
 Aurelion Sol,6,1,0
 Aurelion Sol,7,3,0
-Aurelion Sol,10,3,0
-Aurelion Sol,11,1,0
-Aurelion Sol,12,2,0
-Aurelion Sol,13,2,0
-Aurelion Sol,14,1,0
-Aurelion Sol,15,7,0
-Aurelion Sol,16,0,4
-Aurelion Sol,17,0,3
-Aurelion Sol,18,0,4
-Aurelion Sol,19,0,2
+Aurelion Sol,9,1,0
+Aurelion Sol,10,2,0
+Aurelion Sol,11,7,0
+Aurelion Sol,12,0,4
+Aurelion Sol,13,0,3
+Aurelion Sol,14,0,4
+Aurelion Sol,15,0,2
+Aurelion Sol,16,5,0
+Aurelion Sol,17,7,0
+Aurelion Sol,18,5,0
+Aurelion Sol,19,7,0
 Aurora,0,0,53
 Aurora,1,0,30
 Aurora,2,0,46
@@ -206,17 +207,17 @@ Aurora,5,0,58
 Aurora,6,73,0
 Aurora,7,70,0
 Aurora,8,60,0
-Aurora,9,60,0
-Aurora,10,70,0
-Aurora,11,41,0
-Aurora,12,94,0
-Aurora,13,94,0
-Aurora,14,41,0
-Aurora,15,64,0
-Aurora,16,0,54
-Aurora,17,0,80
-Aurora,18,0,68
-Aurora,19,0,75
+Aurora,9,41,0
+Aurora,10,94,0
+Aurora,11,64,0
+Aurora,12,0,54
+Aurora,13,0,80
+Aurora,14,0,68
+Aurora,15,0,75
+Aurora,16,96,0
+Aurora,17,86,0
+Aurora,18,72,0
+Aurora,19,60,0
 Azir,0,0,90
 Azir,1,0,73
 Azir,2,0,95
@@ -226,17 +227,17 @@ Azir,5,0,77
 Azir,6,98,0
 Azir,7,90,0
 Azir,8,47,0
-Azir,9,47,0
-Azir,10,90,0
-Azir,11,49,0
-Azir,12,58,0
-Azir,13,58,0
-Azir,14,49,0
-Azir,15,64,0
-Azir,16,0,49
-Azir,17,0,42
-Azir,18,0,51
-Azir,19,0,36
+Azir,9,49,0
+Azir,10,58,0
+Azir,11,64,0
+Azir,12,0,49
+Azir,13,0,42
+Azir,14,0,51
+Azir,15,0,36
+Azir,16,38,0
+Azir,17,39,0
+Azir,18,36,0
+Azir,19,35,0
 Bard,0,0,76
 Bard,1,0,58
 Bard,2,0,97
@@ -246,43 +247,45 @@ Bard,5,0,73
 Bard,6,49,0
 Bard,7,49,0
 Bard,8,70,0
-Bard,9,70,0
-Bard,10,49,0
-Bard,11,58,0
-Bard,12,94,0
-Bard,13,94,0
-Bard,14,58,0
-Bard,15,101,0
-Bard,16,0,103
-Bard,17,0,97
-Bard,18,0,88
-Bard,19,0,80
+Bard,9,58,0
+Bard,10,94,0
+Bard,11,101,0
+Bard,12,0,103
+Bard,13,0,97
+Bard,14,0,88
+Bard,15,0,80
+Bard,16,60,0
+Bard,17,30,0
+Bard,18,72,0
+Bard,19,59,0
 Blitzcrank,3,0,1
 Blitzcrank,8,2,0
-Blitzcrank,9,2,0
-Blitzcrank,12,3,0
-Blitzcrank,13,3,0
-Blitzcrank,15,4,0
-Blitzcrank,16,0,5
-Blitzcrank,17,0,6
-Blitzcrank,18,0,15
-Blitzcrank,19,0,9
+Blitzcrank,10,3,0
+Blitzcrank,11,4,0
+Blitzcrank,12,0,5
+Blitzcrank,13,0,6
+Blitzcrank,14,0,15
+Blitzcrank,15,0,9
+Blitzcrank,16,9,0
+Blitzcrank,17,7,0
+Blitzcrank,18,13,0
+Blitzcrank,19,8,0
 Braum,2,0,4
 Braum,4,0,2
 Braum,5,0,4
 Braum,7,2,0
 Braum,8,2,0
-Braum,9,2,0
-Braum,10,2,0
-Braum,11,11,0
-Braum,12,30,0
-Braum,13,30,0
-Braum,14,11,0
-Braum,15,32,0
-Braum,16,0,56
-Braum,17,0,49
-Braum,18,0,54
-Braum,19,0,54
+Braum,9,11,0
+Braum,10,30,0
+Braum,11,32,0
+Braum,12,0,56
+Braum,13,0,49
+Braum,14,0,54
+Braum,15,0,54
+Braum,16,12,0
+Braum,17,25,0
+Braum,18,46,0
+Braum,19,64,0
 Caitlyn,0,0,52
 Caitlyn,1,0,50
 Caitlyn,2,0,51
@@ -292,33 +295,34 @@ Caitlyn,5,0,66
 Caitlyn,6,54,0
 Caitlyn,7,69,0
 Caitlyn,8,75,0
-Caitlyn,9,75,0
-Caitlyn,10,69,0
-Caitlyn,11,61,0
-Caitlyn,12,45,0
-Caitlyn,13,45,0
-Caitlyn,14,61,0
-Caitlyn,15,45,0
-Caitlyn,16,0,58
-Caitlyn,17,0,62
-Caitlyn,18,0,47
-Caitlyn,19,0,48
+Caitlyn,9,61,0
+Caitlyn,10,45,0
+Caitlyn,11,45,0
+Caitlyn,12,0,58
+Caitlyn,13,0,62
+Caitlyn,14,0,47
+Caitlyn,15,0,48
+Caitlyn,16,40,0
+Caitlyn,17,37,0
+Caitlyn,18,14,0
+Caitlyn,19,15,0
 Camille,1,0,1
 Camille,2,0,1
 Camille,4,0,2
 Camille,5,0,2
 Camille,6,3,0
 Camille,7,3,0
-Camille,10,3,0
-Camille,11,1,0
-Camille,12,4,0
-Camille,13,4,0
-Camille,14,1,0
-Camille,15,5,0
-Camille,16,0,6
-Camille,17,0,6
-Camille,18,0,4
-Camille,19,0,9
+Camille,9,1,0
+Camille,10,4,0
+Camille,11,5,0
+Camille,12,0,6
+Camille,13,0,6
+Camille,14,0,4
+Camille,15,0,9
+Camille,16,5,0
+Camille,17,8,0
+Camille,18,18,0
+Camille,19,18,0
 Cassiopeia,0,0,12
 Cassiopeia,1,0,10
 Cassiopeia,2,0,15
@@ -328,17 +332,17 @@ Cassiopeia,5,0,18
 Cassiopeia,6,11,0
 Cassiopeia,7,13,0
 Cassiopeia,8,16,0
-Cassiopeia,9,16,0
-Cassiopeia,10,13,0
-Cassiopeia,11,15,0
-Cassiopeia,12,23,0
-Cassiopeia,13,23,0
-Cassiopeia,14,15,0
-Cassiopeia,15,30,0
-Cassiopeia,16,0,32
-Cassiopeia,17,0,27
-Cassiopeia,18,0,29
-Cassiopeia,19,0,24
+Cassiopeia,9,15,0
+Cassiopeia,10,23,0
+Cassiopeia,11,30,0
+Cassiopeia,12,0,32
+Cassiopeia,13,0,27
+Cassiopeia,14,0,29
+Cassiopeia,15,0,24
+Cassiopeia,16,24,0
+Cassiopeia,17,35,0
+Cassiopeia,18,33,0
+Cassiopeia,19,21,0
 Cho'Gath,0,0,2
 Cho'Gath,1,0,4
 Cho'Gath,2,0,1
@@ -348,16 +352,15 @@ Cho'Gath,6,3,0
 Cho'Gath,7,1,0
 Cho'Gath,8,1,0
 Cho'Gath,9,1,0
-Cho'Gath,10,1,0
-Cho'Gath,11,1,0
-Cho'Gath,12,2,0
-Cho'Gath,13,2,0
-Cho'Gath,14,1,0
-Cho'Gath,15,4,0
-Cho'Gath,16,0,2
-Cho'Gath,17,0,1
-Cho'Gath,18,0,1
-Cho'Gath,19,0,5
+Cho'Gath,10,2,0
+Cho'Gath,11,4,0
+Cho'Gath,12,0,2
+Cho'Gath,13,0,1
+Cho'Gath,14,0,1
+Cho'Gath,15,0,5
+Cho'Gath,17,5,0
+Cho'Gath,18,5,0
+Cho'Gath,19,9,0
 Corki,0,0,4
 Corki,1,0,7
 Corki,2,0,16
@@ -367,17 +370,17 @@ Corki,5,0,19
 Corki,6,71,0
 Corki,7,92,0
 Corki,8,145,0
-Corki,9,145,0
-Corki,10,92,0
-Corki,11,123,0
-Corki,12,57,0
-Corki,13,57,0
-Corki,14,123,0
-Corki,15,44,0
-Corki,16,0,30
-Corki,17,0,49
-Corki,18,0,40
-Corki,19,0,32
+Corki,9,123,0
+Corki,10,57,0
+Corki,11,44,0
+Corki,12,0,30
+Corki,13,0,49
+Corki,14,0,40
+Corki,15,0,32
+Corki,16,80,0
+Corki,17,87,0
+Corki,18,19,0
+Corki,19,27,0
 Dr. Mundo,0,0,39
 Dr. Mundo,1,0,32
 Dr. Mundo,2,0,40
@@ -387,17 +390,17 @@ Dr. Mundo,5,0,43
 Dr. Mundo,6,31,0
 Dr. Mundo,7,28,0
 Dr. Mundo,8,44,0
-Dr. Mundo,9,44,0
-Dr. Mundo,10,28,0
-Dr. Mundo,11,50,0
-Dr. Mundo,12,17,0
-Dr. Mundo,13,17,0
-Dr. Mundo,14,50,0
-Dr. Mundo,15,40,0
-Dr. Mundo,16,0,43
-Dr. Mundo,17,0,22
-Dr. Mundo,18,0,33
-Dr. Mundo,19,0,26
+Dr. Mundo,9,50,0
+Dr. Mundo,10,17,0
+Dr. Mundo,11,40,0
+Dr. Mundo,12,0,43
+Dr. Mundo,13,0,22
+Dr. Mundo,14,0,33
+Dr. Mundo,15,0,26
+Dr. Mundo,16,31,0
+Dr. Mundo,17,44,0
+Dr. Mundo,18,20,0
+Dr. Mundo,19,25,0
 Draven,0,0,2
 Draven,1,0,6
 Draven,2,0,4
@@ -406,31 +409,33 @@ Draven,4,0,2
 Draven,5,0,3
 Draven,7,3,0
 Draven,8,5,0
-Draven,9,5,0
+Draven,9,3,0
 Draven,10,3,0
 Draven,11,3,0
-Draven,12,3,0
-Draven,13,3,0
-Draven,14,3,0
-Draven,15,3,0
-Draven,16,0,6
-Draven,17,0,9
-Draven,18,0,1
-Draven,19,0,3
+Draven,12,0,6
+Draven,13,0,9
+Draven,14,0,1
+Draven,15,0,3
+Draven,16,5,0
+Draven,17,2,0
+Draven,18,1,0
+Draven,19,2,0
 Elise,0,0,4
 Elise,1,0,3
 Elise,2,0,1
 Elise,4,0,3
 Elise,5,0,1
 Elise,8,7,0
-Elise,9,7,0
-Elise,12,4,0
-Elise,13,4,0
-Elise,15,6,0
-Elise,16,0,5
-Elise,17,0,3
-Elise,18,0,3
-Elise,19,0,6
+Elise,10,4,0
+Elise,11,6,0
+Elise,12,0,5
+Elise,13,0,3
+Elise,14,0,3
+Elise,15,0,6
+Elise,16,3,0
+Elise,17,3,0
+Elise,18,5,0
+Elise,19,11,0
 Ezreal,0,0,48
 Ezreal,1,0,32
 Ezreal,2,0,50
@@ -440,17 +445,17 @@ Ezreal,5,0,73
 Ezreal,6,102,0
 Ezreal,7,127,0
 Ezreal,8,136,0
-Ezreal,9,136,0
-Ezreal,10,127,0
-Ezreal,11,125,0
-Ezreal,12,96,0
-Ezreal,13,96,0
-Ezreal,14,125,0
-Ezreal,15,77,0
-Ezreal,16,0,48
-Ezreal,17,0,51
-Ezreal,18,0,46
-Ezreal,19,0,46
+Ezreal,9,125,0
+Ezreal,10,96,0
+Ezreal,11,77,0
+Ezreal,12,0,48
+Ezreal,13,0,51
+Ezreal,14,0,46
+Ezreal,15,0,46
+Ezreal,16,67,0
+Ezreal,17,59,0
+Ezreal,18,10,0
+Ezreal,19,13,0
 Fiora,0,0,25
 Fiora,1,0,10
 Fiora,2,0,15
@@ -459,12 +464,15 @@ Fiora,4,0,12
 Fiora,5,0,5
 Fiora,6,1,0
 Fiora,7,2,0
-Fiora,10,2,0
-Fiora,15,4,0
-Fiora,16,0,6
-Fiora,17,0,13
-Fiora,18,0,6
-Fiora,19,0,10
+Fiora,11,4,0
+Fiora,12,0,6
+Fiora,13,0,13
+Fiora,14,0,6
+Fiora,15,0,10
+Fiora,16,1,0
+Fiora,17,4,0
+Fiora,18,9,0
+Fiora,19,15,0
 Galio,0,0,8
 Galio,1,0,3
 Galio,2,0,6
@@ -474,17 +482,17 @@ Galio,5,0,18
 Galio,6,2,0
 Galio,7,26,0
 Galio,8,30,0
-Galio,9,30,0
-Galio,10,26,0
-Galio,11,23,0
-Galio,12,35,0
-Galio,13,35,0
-Galio,14,23,0
-Galio,15,30,0
-Galio,16,0,58
-Galio,17,0,40
-Galio,18,0,57
-Galio,19,0,39
+Galio,9,23,0
+Galio,10,35,0
+Galio,11,30,0
+Galio,12,0,58
+Galio,13,0,40
+Galio,14,0,57
+Galio,15,0,39
+Galio,16,41,0
+Galio,17,47,0
+Galio,18,48,0
+Galio,19,47,0
 Gnar,0,0,5
 Gnar,1,0,3
 Gnar,2,0,4
@@ -494,17 +502,17 @@ Gnar,5,0,13
 Gnar,6,19,0
 Gnar,7,30,0
 Gnar,8,20,0
-Gnar,9,20,0
-Gnar,10,30,0
-Gnar,11,21,0
-Gnar,12,69,0
-Gnar,13,69,0
-Gnar,14,21,0
-Gnar,15,68,0
-Gnar,16,0,94
-Gnar,17,0,106
-Gnar,18,0,103
-Gnar,19,0,116
+Gnar,9,21,0
+Gnar,10,69,0
+Gnar,11,68,0
+Gnar,12,0,94
+Gnar,13,0,106
+Gnar,14,0,103
+Gnar,15,0,116
+Gnar,16,87,0
+Gnar,17,91,0
+Gnar,18,131,0
+Gnar,19,174,0
 Gragas,0,0,1
 Gragas,1,0,9
 Gragas,3,0,2
@@ -512,15 +520,16 @@ Gragas,4,0,1
 Gragas,6,1,0
 Gragas,8,1,0
 Gragas,9,1,0
-Gragas,11,1,0
-Gragas,12,8,0
-Gragas,13,8,0
-Gragas,14,1,0
-Gragas,15,4,0
-Gragas,16,0,3
-Gragas,17,0,2
-Gragas,18,0,3
-Gragas,19,0,2
+Gragas,10,8,0
+Gragas,11,4,0
+Gragas,12,0,3
+Gragas,13,0,2
+Gragas,14,0,3
+Gragas,15,0,2
+Gragas,16,5,0
+Gragas,17,17,0
+Gragas,18,27,0
+Gragas,19,17,0
 Gwen,0,0,19
 Gwen,1,0,22
 Gwen,2,0,19
@@ -530,17 +539,17 @@ Gwen,5,0,36
 Gwen,6,13,0
 Gwen,7,13,0
 Gwen,8,5,0
-Gwen,9,5,0
-Gwen,10,13,0
-Gwen,11,6,0
-Gwen,12,21,0
-Gwen,13,21,0
-Gwen,14,6,0
-Gwen,15,32,0
-Gwen,16,0,65
-Gwen,17,0,112
-Gwen,18,0,89
-Gwen,19,0,110
+Gwen,9,6,0
+Gwen,10,21,0
+Gwen,11,32,0
+Gwen,12,0,65
+Gwen,13,0,112
+Gwen,14,0,89
+Gwen,15,0,110
+Gwen,16,29,0
+Gwen,17,29,0
+Gwen,18,52,0
+Gwen,19,102,0
 Hwei,0,0,3
 Hwei,1,0,1
 Hwei,2,0,7
@@ -549,17 +558,17 @@ Hwei,4,0,2
 Hwei,6,1,0
 Hwei,7,6,0
 Hwei,8,5,0
-Hwei,9,5,0
-Hwei,10,6,0
-Hwei,11,4,0
-Hwei,12,9,0
-Hwei,13,9,0
-Hwei,14,4,0
-Hwei,15,14,0
-Hwei,16,0,5
-Hwei,17,0,13
-Hwei,18,0,20
-Hwei,19,0,16
+Hwei,9,4,0
+Hwei,10,9,0
+Hwei,11,14,0
+Hwei,12,0,5
+Hwei,13,0,13
+Hwei,14,0,20
+Hwei,15,0,16
+Hwei,16,18,0
+Hwei,17,22,0
+Hwei,18,25,0
+Hwei,19,33,0
 Irelia,0,0,15
 Irelia,1,0,9
 Irelia,2,0,8
@@ -567,16 +576,17 @@ Irelia,3,0,4
 Irelia,4,0,4
 Irelia,5,0,2
 Irelia,7,2,0
+Irelia,9,1,0
 Irelia,10,2,0
-Irelia,11,1,0
-Irelia,12,2,0
-Irelia,13,2,0
-Irelia,14,1,0
-Irelia,15,5,0
-Irelia,16,0,4
-Irelia,17,0,1
-Irelia,18,0,3
-Irelia,19,0,13
+Irelia,11,5,0
+Irelia,12,0,4
+Irelia,13,0,1
+Irelia,14,0,3
+Irelia,15,0,13
+Irelia,16,1,0
+Irelia,17,6,0
+Irelia,18,8,0
+Irelia,19,23,0
 Jarvan IV,0,0,138
 Jarvan IV,1,0,120
 Jarvan IV,2,0,197
@@ -586,17 +596,17 @@ Jarvan IV,5,0,199
 Jarvan IV,6,186,0
 Jarvan IV,7,174,0
 Jarvan IV,8,196,0
-Jarvan IV,9,196,0
-Jarvan IV,10,174,0
-Jarvan IV,11,166,0
-Jarvan IV,12,40,0
-Jarvan IV,13,40,0
-Jarvan IV,14,166,0
-Jarvan IV,15,32,0
-Jarvan IV,16,0,41
-Jarvan IV,17,0,41
-Jarvan IV,18,0,31
-Jarvan IV,19,0,24
+Jarvan IV,9,166,0
+Jarvan IV,10,40,0
+Jarvan IV,11,32,0
+Jarvan IV,12,0,41
+Jarvan IV,13,0,41
+Jarvan IV,14,0,31
+Jarvan IV,15,0,24
+Jarvan IV,16,15,0
+Jarvan IV,17,13,0
+Jarvan IV,18,8,0
+Jarvan IV,19,7,0
 Jax,0,0,2
 Jax,1,0,4
 Jax,2,0,6
@@ -606,17 +616,17 @@ Jax,5,0,13
 Jax,6,6,0
 Jax,7,6,0
 Jax,8,8,0
-Jax,9,8,0
-Jax,10,6,0
-Jax,11,13,0
-Jax,12,23,0
-Jax,13,23,0
-Jax,14,13,0
-Jax,15,11,0
-Jax,16,0,36
-Jax,17,0,40
-Jax,18,0,30
-Jax,19,0,44
+Jax,9,13,0
+Jax,10,23,0
+Jax,11,11,0
+Jax,12,0,36
+Jax,13,0,40
+Jax,14,0,30
+Jax,15,0,44
+Jax,16,21,0
+Jax,17,32,0
+Jax,18,41,0
+Jax,19,68,0
 Jayce,0,0,169
 Jayce,1,0,148
 Jayce,2,0,121
@@ -626,48 +636,48 @@ Jayce,5,0,86
 Jayce,6,56,0
 Jayce,7,45,0
 Jayce,8,37,0
-Jayce,9,37,0
-Jayce,10,45,0
-Jayce,11,30,0
-Jayce,12,57,0
-Jayce,13,57,0
-Jayce,14,30,0
-Jayce,15,50,0
-Jayce,16,0,48
-Jayce,17,0,55
-Jayce,18,0,46
-Jayce,19,0,69
+Jayce,9,30,0
+Jayce,10,57,0
+Jayce,11,50,0
+Jayce,12,0,48
+Jayce,13,0,55
+Jayce,14,0,46
+Jayce,15,0,69
+Jayce,16,49,0
+Jayce,17,43,0
+Jayce,18,52,0
+Jayce,19,55,0
 Jhin,2,0,5
 Jhin,3,0,2
 Jhin,4,0,3
 Jhin,6,9,0
 Jhin,7,25,0
 Jhin,8,60,0
-Jhin,9,60,0
-Jhin,10,25,0
-Jhin,11,66,0
-Jhin,12,66,0
-Jhin,13,66,0
-Jhin,14,66,0
-Jhin,15,56,0
-Jhin,16,0,26
-Jhin,17,0,30
-Jhin,18,0,25
-Jhin,19,0,33
+Jhin,9,66,0
+Jhin,10,66,0
+Jhin,11,56,0
+Jhin,12,0,26
+Jhin,13,0,30
+Jhin,14,0,25
+Jhin,15,0,33
+Jhin,16,78,0
+Jhin,17,69,0
+Jhin,18,17,0
+Jhin,19,23,0
 Jinx,6,4,0
 Jinx,7,8,0
 Jinx,8,7,0
-Jinx,9,7,0
-Jinx,10,8,0
-Jinx,11,13,0
-Jinx,12,10,0
-Jinx,13,10,0
-Jinx,14,13,0
-Jinx,15,9,0
-Jinx,16,0,2
-Jinx,17,0,6
-Jinx,18,0,11
-Jinx,19,0,9
+Jinx,9,13,0
+Jinx,10,10,0
+Jinx,11,9,0
+Jinx,12,0,2
+Jinx,13,0,6
+Jinx,14,0,11
+Jinx,15,0,9
+Jinx,16,19,0
+Jinx,17,20,0
+Jinx,18,9,0
+Jinx,19,9,0
 K'Sante,0,0,19
 K'Sante,1,0,23
 K'Sante,2,0,16
@@ -677,17 +687,17 @@ K'Sante,5,0,18
 K'Sante,6,37,0
 K'Sante,7,46,0
 K'Sante,8,29,0
-K'Sante,9,29,0
-K'Sante,10,46,0
-K'Sante,11,42,0
-K'Sante,12,79,0
-K'Sante,13,79,0
-K'Sante,14,42,0
-K'Sante,15,63,0
-K'Sante,16,0,47
-K'Sante,17,0,42
-K'Sante,18,0,61
-K'Sante,19,0,61
+K'Sante,9,42,0
+K'Sante,10,79,0
+K'Sante,11,63,0
+K'Sante,12,0,47
+K'Sante,13,0,42
+K'Sante,14,0,61
+K'Sante,15,0,61
+K'Sante,16,97,0
+K'Sante,17,118,0
+K'Sante,18,150,0
+K'Sante,19,101,0
 Kai'Sa,0,0,13
 Kai'Sa,1,0,6
 Kai'Sa,2,0,6
@@ -697,17 +707,17 @@ Kai'Sa,5,0,10
 Kai'Sa,6,5,0
 Kai'Sa,7,22,0
 Kai'Sa,8,31,0
-Kai'Sa,9,31,0
-Kai'Sa,10,22,0
-Kai'Sa,11,53,0
-Kai'Sa,12,70,0
-Kai'Sa,13,70,0
-Kai'Sa,14,53,0
-Kai'Sa,15,55,0
-Kai'Sa,16,0,52
-Kai'Sa,17,0,60
-Kai'Sa,18,0,42
-Kai'Sa,19,0,52
+Kai'Sa,9,53,0
+Kai'Sa,10,70,0
+Kai'Sa,11,55,0
+Kai'Sa,12,0,52
+Kai'Sa,13,0,60
+Kai'Sa,14,0,42
+Kai'Sa,15,0,52
+Kai'Sa,16,65,0
+Kai'Sa,17,60,0
+Kai'Sa,18,27,0
+Kai'Sa,19,20,0
 Kalista,0,0,2
 Kalista,1,0,1
 Kalista,2,0,3
@@ -717,17 +727,17 @@ Kalista,5,0,5
 Kalista,6,3,0
 Kalista,7,6,0
 Kalista,8,9,0
-Kalista,9,9,0
-Kalista,10,6,0
-Kalista,11,10,0
-Kalista,12,5,0
-Kalista,13,5,0
-Kalista,14,10,0
-Kalista,15,3,0
-Kalista,16,0,6
-Kalista,17,0,6
-Kalista,18,0,13
-Kalista,19,0,15
+Kalista,9,10,0
+Kalista,10,5,0
+Kalista,11,3,0
+Kalista,12,0,6
+Kalista,13,0,6
+Kalista,14,0,13
+Kalista,15,0,15
+Kalista,16,30,0
+Kalista,17,26,0
+Kalista,18,3,0
+Kalista,19,5,0
 Karma,0,0,156
 Karma,1,0,142
 Karma,2,0,164
@@ -737,17 +747,17 @@ Karma,5,0,206
 Karma,6,140,0
 Karma,7,101,0
 Karma,8,45,0
-Karma,9,45,0
-Karma,10,101,0
-Karma,11,49,0
-Karma,12,50,0
-Karma,13,50,0
-Karma,14,49,0
-Karma,15,40,0
-Karma,16,0,60
-Karma,17,0,46
-Karma,18,0,44
-Karma,19,0,38
+Karma,9,49,0
+Karma,10,50,0
+Karma,11,40,0
+Karma,12,0,60
+Karma,13,0,46
+Karma,14,0,44
+Karma,15,0,38
+Karma,16,31,0
+Karma,17,15,0
+Karma,18,46,0
+Karma,19,41,0
 Kennen,1,0,2
 Kennen,2,0,2
 Kennen,3,0,7
@@ -755,43 +765,47 @@ Kennen,4,0,5
 Kennen,5,0,2
 Kennen,6,2,0
 Kennen,7,6,0
-Kennen,10,6,0
-Kennen,11,2,0
-Kennen,12,9,0
-Kennen,13,9,0
-Kennen,14,2,0
-Kennen,15,5,0
-Kennen,16,0,20
-Kennen,17,0,24
-Kennen,18,0,26
-Kennen,19,0,33
+Kennen,9,2,0
+Kennen,10,9,0
+Kennen,11,5,0
+Kennen,12,0,20
+Kennen,13,0,24
+Kennen,14,0,26
+Kennen,15,0,33
+Kennen,16,6,0
+Kennen,17,9,0
+Kennen,18,26,0
+Kennen,19,36,0
 Kha'Zix,0,0,2
 Kha'Zix,2,0,1
 Kha'Zix,4,0,2
 Kha'Zix,5,0,2
-Kha'Zix,11,1,0
-Kha'Zix,12,1,0
-Kha'Zix,13,1,0
-Kha'Zix,14,1,0
-Kha'Zix,15,2,0
-Kha'Zix,17,0,1
-Kha'Zix,18,0,2
-Kha'Zix,19,0,4
+Kha'Zix,9,1,0
+Kha'Zix,10,1,0
+Kha'Zix,11,2,0
+Kha'Zix,13,0,1
+Kha'Zix,14,0,2
+Kha'Zix,15,0,4
+Kha'Zix,16,8,0
+Kha'Zix,17,4,0
+Kha'Zix,18,14,0
+Kha'Zix,19,6,0
 Kog'Maw,1,0,3
 Kog'Maw,2,0,1
 Kog'Maw,3,0,1
 Kog'Maw,4,0,5
 Kog'Maw,8,1,0
-Kog'Maw,9,1,0
-Kog'Maw,11,6,0
-Kog'Maw,12,5,0
-Kog'Maw,13,5,0
-Kog'Maw,14,6,0
-Kog'Maw,15,8,0
-Kog'Maw,16,0,3
-Kog'Maw,17,0,4
-Kog'Maw,18,0,5
-Kog'Maw,19,0,3
+Kog'Maw,9,6,0
+Kog'Maw,10,5,0
+Kog'Maw,11,8,0
+Kog'Maw,12,0,3
+Kog'Maw,13,0,4
+Kog'Maw,14,0,5
+Kog'Maw,15,0,3
+Kog'Maw,16,7,0
+Kog'Maw,17,5,0
+Kog'Maw,18,2,0
+Kog'Maw,19,3,0
 LeBlanc,0,0,14
 LeBlanc,1,0,9
 LeBlanc,2,0,26
@@ -801,17 +815,17 @@ LeBlanc,5,0,26
 LeBlanc,6,4,0
 LeBlanc,7,3,0
 LeBlanc,8,8,0
-LeBlanc,9,8,0
-LeBlanc,10,3,0
-LeBlanc,11,7,0
-LeBlanc,12,16,0
-LeBlanc,13,16,0
-LeBlanc,14,7,0
-LeBlanc,15,22,0
-LeBlanc,16,0,73
-LeBlanc,17,0,58
-LeBlanc,18,0,71
-LeBlanc,19,0,67
+LeBlanc,9,7,0
+LeBlanc,10,16,0
+LeBlanc,11,22,0
+LeBlanc,12,0,73
+LeBlanc,13,0,58
+LeBlanc,14,0,71
+LeBlanc,15,0,67
+LeBlanc,16,27,0
+LeBlanc,17,28,0
+LeBlanc,18,36,0
+LeBlanc,19,30,0
 Lee Sin,0,0,12
 Lee Sin,1,0,9
 Lee Sin,2,0,10
@@ -821,17 +835,17 @@ Lee Sin,5,0,22
 Lee Sin,6,16,0
 Lee Sin,7,15,0
 Lee Sin,8,50,0
-Lee Sin,9,50,0
-Lee Sin,10,15,0
-Lee Sin,11,40,0
-Lee Sin,12,16,0
-Lee Sin,13,16,0
-Lee Sin,14,40,0
-Lee Sin,15,17,0
-Lee Sin,16,0,24
-Lee Sin,17,0,32
-Lee Sin,18,0,26
-Lee Sin,19,0,29
+Lee Sin,9,40,0
+Lee Sin,10,16,0
+Lee Sin,11,17,0
+Lee Sin,12,0,24
+Lee Sin,13,0,32
+Lee Sin,14,0,26
+Lee Sin,15,0,29
+Lee Sin,16,32,0
+Lee Sin,17,30,0
+Lee Sin,18,26,0
+Lee Sin,19,29,0
 Leona,0,0,1
 Leona,1,0,1
 Leona,3,0,2
@@ -840,28 +854,30 @@ Leona,5,0,3
 Leona,6,1,0
 Leona,7,4,0
 Leona,8,10,0
-Leona,9,10,0
-Leona,10,4,0
-Leona,11,11,0
-Leona,12,27,0
-Leona,13,27,0
-Leona,14,11,0
-Leona,15,42,0
-Leona,16,0,33
-Leona,17,0,28
-Leona,18,0,55
-Leona,19,0,46
+Leona,9,11,0
+Leona,10,27,0
+Leona,11,42,0
+Leona,12,0,33
+Leona,13,0,28
+Leona,14,0,55
+Leona,15,0,46
+Leona,16,56,0
+Leona,17,45,0
+Leona,18,57,0
+Leona,19,67,0
 Lissandra,2,0,1
 Lissandra,3,0,3
 Lissandra,7,1,0
-Lissandra,10,1,0
-Lissandra,12,5,0
-Lissandra,13,5,0
-Lissandra,15,3,0
-Lissandra,16,0,3
-Lissandra,17,0,5
-Lissandra,18,0,10
-Lissandra,19,0,5
+Lissandra,10,5,0
+Lissandra,11,3,0
+Lissandra,12,0,3
+Lissandra,13,0,5
+Lissandra,14,0,10
+Lissandra,15,0,5
+Lissandra,16,4,0
+Lissandra,17,14,0
+Lissandra,18,9,0
+Lissandra,19,9,0
 Lucian,0,0,18
 Lucian,1,0,17
 Lucian,2,0,35
@@ -871,17 +887,17 @@ Lucian,5,0,35
 Lucian,6,68,0
 Lucian,7,92,0
 Lucian,8,51,0
-Lucian,9,51,0
-Lucian,10,92,0
-Lucian,11,80,0
-Lucian,12,18,0
-Lucian,13,18,0
-Lucian,14,80,0
-Lucian,15,16,0
-Lucian,16,0,43
-Lucian,17,0,30
-Lucian,18,0,26
-Lucian,19,0,34
+Lucian,9,80,0
+Lucian,10,18,0
+Lucian,11,16,0
+Lucian,12,0,43
+Lucian,13,0,30
+Lucian,14,0,26
+Lucian,15,0,34
+Lucian,16,47,0
+Lucian,17,51,0
+Lucian,18,5,0
+Lucian,19,4,0
 Lulu,0,0,12
 Lulu,1,0,18
 Lulu,2,0,22
@@ -891,17 +907,17 @@ Lulu,5,0,36
 Lulu,6,69,0
 Lulu,7,51,0
 Lulu,8,92,0
-Lulu,9,92,0
-Lulu,10,51,0
-Lulu,11,89,0
-Lulu,12,135,0
-Lulu,13,135,0
-Lulu,14,89,0
-Lulu,15,115,0
-Lulu,16,0,80
-Lulu,17,0,95
-Lulu,18,0,67
-Lulu,19,0,76
+Lulu,9,89,0
+Lulu,10,135,0
+Lulu,11,115,0
+Lulu,12,0,80
+Lulu,13,0,95
+Lulu,14,0,67
+Lulu,15,0,76
+Lulu,16,23,0
+Lulu,17,23,0
+Lulu,18,58,0
+Lulu,19,56,0
 Lux,0,0,12
 Lux,1,0,9
 Lux,2,0,3
@@ -909,17 +925,17 @@ Lux,4,0,1
 Lux,5,0,1
 Lux,7,1,0
 Lux,8,2,0
-Lux,9,2,0
-Lux,10,1,0
-Lux,11,1,0
-Lux,12,5,0
-Lux,13,5,0
-Lux,14,1,0
-Lux,15,6,0
-Lux,16,0,2
-Lux,17,0,3
-Lux,18,0,4
-Lux,19,0,3
+Lux,9,1,0
+Lux,10,5,0
+Lux,11,6,0
+Lux,12,0,2
+Lux,13,0,3
+Lux,14,0,4
+Lux,15,0,3
+Lux,16,3,0
+Lux,17,3,0
+Lux,18,2,0
+Lux,19,7,0
 Malphite,0,0,109
 Malphite,1,0,91
 Malphite,2,0,54
@@ -929,17 +945,17 @@ Malphite,5,0,43
 Malphite,6,12,0
 Malphite,7,11,0
 Malphite,8,4,0
-Malphite,9,4,0
-Malphite,10,11,0
-Malphite,11,9,0
-Malphite,12,12,0
-Malphite,13,12,0
-Malphite,14,9,0
-Malphite,15,26,0
-Malphite,16,0,17
-Malphite,17,0,21
-Malphite,18,0,22
-Malphite,19,0,44
+Malphite,9,9,0
+Malphite,10,12,0
+Malphite,11,26,0
+Malphite,12,0,17
+Malphite,13,0,21
+Malphite,14,0,22
+Malphite,15,0,44
+Malphite,16,7,0
+Malphite,17,18,0
+Malphite,18,17,0
+Malphite,19,36,0
 Maokai,0,0,1
 Maokai,2,0,4
 Maokai,3,0,3
@@ -947,16 +963,16 @@ Maokai,4,0,1
 Maokai,6,3,0
 Maokai,7,3,0
 Maokai,8,11,0
-Maokai,9,11,0
-Maokai,10,3,0
-Maokai,11,12,0
-Maokai,12,4,0
-Maokai,13,4,0
-Maokai,14,12,0
-Maokai,15,1,0
-Maokai,16,0,3
-Maokai,17,0,8
-Maokai,18,0,6
+Maokai,9,12,0
+Maokai,10,4,0
+Maokai,11,1,0
+Maokai,12,0,3
+Maokai,13,0,8
+Maokai,14,0,6
+Maokai,16,11,0
+Maokai,17,19,0
+Maokai,18,11,0
+Maokai,19,12,0
 Mel,0,0,8
 Mel,1,0,5
 Mel,2,0,13
@@ -966,17 +982,17 @@ Mel,5,0,13
 Mel,6,6,0
 Mel,7,9,0
 Mel,8,13,0
-Mel,9,13,0
-Mel,10,9,0
-Mel,11,19,0
-Mel,12,20,0
-Mel,13,20,0
-Mel,14,19,0
-Mel,15,30,0
-Mel,16,0,52
-Mel,17,0,47
-Mel,18,0,44
-Mel,19,0,48
+Mel,9,19,0
+Mel,10,20,0
+Mel,11,30,0
+Mel,12,0,52
+Mel,13,0,47
+Mel,14,0,44
+Mel,15,0,48
+Mel,16,39,0
+Mel,17,30,0
+Mel,18,38,0
+Mel,19,26,0
 Milio,0,0,2
 Milio,1,0,2
 Milio,2,0,7
@@ -986,42 +1002,44 @@ Milio,5,0,2
 Milio,6,7,0
 Milio,7,6,0
 Milio,8,50,0
-Milio,9,50,0
-Milio,10,6,0
-Milio,11,40,0
-Milio,12,58,0
-Milio,13,58,0
-Milio,14,40,0
-Milio,15,52,0
-Milio,16,0,8
-Milio,17,0,6
-Milio,18,0,4
-Milio,19,0,13
+Milio,9,40,0
+Milio,10,58,0
+Milio,11,52,0
+Milio,12,0,8
+Milio,13,0,6
+Milio,14,0,4
+Milio,15,0,13
+Milio,16,8,0
+Milio,17,4,0
+Milio,18,35,0
+Milio,19,17,0
 Miss Fortune,4,0,4
 Miss Fortune,5,0,2
 Miss Fortune,6,4,0
 Miss Fortune,7,8,0
 Miss Fortune,8,21,0
-Miss Fortune,9,21,0
-Miss Fortune,10,8,0
-Miss Fortune,11,34,0
-Miss Fortune,12,22,0
-Miss Fortune,13,22,0
-Miss Fortune,14,34,0
-Miss Fortune,15,20,0
-Miss Fortune,16,0,14
-Miss Fortune,17,0,21
-Miss Fortune,18,0,21
-Miss Fortune,19,0,27
+Miss Fortune,9,34,0
+Miss Fortune,10,22,0
+Miss Fortune,11,20,0
+Miss Fortune,12,0,14
+Miss Fortune,13,0,21
+Miss Fortune,14,0,21
+Miss Fortune,15,0,27
+Miss Fortune,16,42,0
+Miss Fortune,17,29,0
+Miss Fortune,18,10,0
+Miss Fortune,19,19,0
 Mordekaiser,3,0,1
 Mordekaiser,6,1,0
 Mordekaiser,7,1,0
 Mordekaiser,10,1,0
-Mordekaiser,12,1,0
-Mordekaiser,13,1,0
-Mordekaiser,15,4,0
-Mordekaiser,18,0,2
-Mordekaiser,19,0,1
+Mordekaiser,11,4,0
+Mordekaiser,14,0,2
+Mordekaiser,15,0,1
+Mordekaiser,16,1,0
+Mordekaiser,17,4,0
+Mordekaiser,18,5,0
+Mordekaiser,19,7,0
 Naafiri,0,0,25
 Naafiri,1,0,24
 Naafiri,2,0,24
@@ -1031,17 +1049,17 @@ Naafiri,5,0,22
 Naafiri,6,11,0
 Naafiri,7,20,0
 Naafiri,8,32,0
-Naafiri,9,32,0
+Naafiri,9,40,0
 Naafiri,10,20,0
-Naafiri,11,40,0
-Naafiri,12,20,0
-Naafiri,13,20,0
-Naafiri,14,40,0
-Naafiri,15,23,0
-Naafiri,16,0,43
-Naafiri,17,0,34
-Naafiri,18,0,41
-Naafiri,19,0,28
+Naafiri,11,23,0
+Naafiri,12,0,43
+Naafiri,13,0,34
+Naafiri,14,0,41
+Naafiri,15,0,28
+Naafiri,16,40,0
+Naafiri,17,28,0
+Naafiri,18,36,0
+Naafiri,19,18,0
 Nami,0,0,4
 Nami,1,0,7
 Nami,2,0,22
@@ -1051,17 +1069,17 @@ Nami,5,0,20
 Nami,6,31,0
 Nami,7,37,0
 Nami,8,76,0
-Nami,9,76,0
-Nami,10,37,0
-Nami,11,49,0
-Nami,12,116,0
-Nami,13,116,0
-Nami,14,49,0
-Nami,15,123,0
-Nami,16,0,56
-Nami,17,0,54
-Nami,18,0,52
-Nami,19,0,50
+Nami,9,49,0
+Nami,10,116,0
+Nami,11,123,0
+Nami,12,0,56
+Nami,13,0,54
+Nami,14,0,52
+Nami,15,0,50
+Nami,16,33,0
+Nami,17,32,0
+Nami,18,71,0
+Nami,19,63,0
 Nautilus,0,0,136
 Nautilus,1,0,44
 Nautilus,2,0,108
@@ -1071,17 +1089,17 @@ Nautilus,5,0,72
 Nautilus,6,10,0
 Nautilus,7,22,0
 Nautilus,8,49,0
-Nautilus,9,49,0
-Nautilus,10,22,0
-Nautilus,11,61,0
-Nautilus,12,114,0
-Nautilus,13,114,0
-Nautilus,14,61,0
-Nautilus,15,138,0
-Nautilus,16,0,165
-Nautilus,17,0,158
-Nautilus,18,0,121
-Nautilus,19,0,104
+Nautilus,9,61,0
+Nautilus,10,114,0
+Nautilus,11,138,0
+Nautilus,12,0,165
+Nautilus,13,0,158
+Nautilus,14,0,121
+Nautilus,15,0,104
+Nautilus,16,65,0
+Nautilus,17,64,0
+Nautilus,18,111,0
+Nautilus,19,84,0
 Neeko,0,0,120
 Neeko,1,0,98
 Neeko,2,0,93
@@ -1091,17 +1109,17 @@ Neeko,5,0,95
 Neeko,6,81,0
 Neeko,7,70,0
 Neeko,8,72,0
-Neeko,9,72,0
-Neeko,10,70,0
-Neeko,11,62,0
-Neeko,12,102,0
-Neeko,13,102,0
-Neeko,14,62,0
-Neeko,15,80,0
-Neeko,16,0,77
-Neeko,17,0,73
-Neeko,18,0,91
-Neeko,19,0,73
+Neeko,9,62,0
+Neeko,10,102,0
+Neeko,11,80,0
+Neeko,12,0,77
+Neeko,13,0,73
+Neeko,14,0,91
+Neeko,15,0,73
+Neeko,16,54,0
+Neeko,17,47,0
+Neeko,18,36,0
+Neeko,19,27,0
 Nidalee,0,0,1
 Nidalee,1,0,3
 Nidalee,2,0,6
@@ -1110,17 +1128,17 @@ Nidalee,5,0,6
 Nidalee,6,1,0
 Nidalee,7,2,0
 Nidalee,8,8,0
-Nidalee,9,8,0
+Nidalee,9,3,0
 Nidalee,10,2,0
-Nidalee,11,3,0
-Nidalee,12,2,0
-Nidalee,13,2,0
-Nidalee,14,3,0
-Nidalee,15,2,0
-Nidalee,16,0,2
-Nidalee,17,0,1
-Nidalee,18,0,1
-Nidalee,19,0,2
+Nidalee,11,2,0
+Nidalee,12,0,2
+Nidalee,13,0,1
+Nidalee,14,0,1
+Nidalee,15,0,2
+Nidalee,16,5,0
+Nidalee,17,4,0
+Nidalee,18,6,0
+Nidalee,19,3,0
 Nocturne,0,0,129
 Nocturne,1,0,116
 Nocturne,2,0,161
@@ -1130,17 +1148,17 @@ Nocturne,5,0,118
 Nocturne,6,57,0
 Nocturne,7,79,0
 Nocturne,8,102,0
-Nocturne,9,102,0
-Nocturne,10,79,0
-Nocturne,11,90,0
-Nocturne,12,31,0
-Nocturne,13,31,0
-Nocturne,14,90,0
-Nocturne,15,31,0
-Nocturne,16,0,56
-Nocturne,17,0,65
-Nocturne,18,0,57
-Nocturne,19,0,42
+Nocturne,9,90,0
+Nocturne,10,31,0
+Nocturne,11,31,0
+Nocturne,12,0,56
+Nocturne,13,0,65
+Nocturne,14,0,57
+Nocturne,15,0,42
+Nocturne,16,23,0
+Nocturne,17,29,0
+Nocturne,18,14,0
+Nocturne,19,8,0
 Olaf,0,0,13
 Olaf,1,0,11
 Olaf,2,0,7
@@ -1151,16 +1169,16 @@ Olaf,6,2,0
 Olaf,7,1,0
 Olaf,8,2,0
 Olaf,9,2,0
-Olaf,10,1,0
-Olaf,11,2,0
-Olaf,12,5,0
-Olaf,13,5,0
-Olaf,14,2,0
-Olaf,15,5,0
-Olaf,16,0,12
-Olaf,17,0,17
-Olaf,18,0,12
-Olaf,19,0,23
+Olaf,10,5,0
+Olaf,11,5,0
+Olaf,12,0,12
+Olaf,13,0,17
+Olaf,14,0,12
+Olaf,15,0,23
+Olaf,16,13,0
+Olaf,17,12,0
+Olaf,18,16,0
+Olaf,19,28,0
 Orianna,0,0,397
 Orianna,1,0,634
 Orianna,2,0,285
@@ -1170,17 +1188,17 @@ Orianna,5,0,282
 Orianna,6,208,0
 Orianna,7,172,0
 Orianna,8,34,0
-Orianna,9,34,0
-Orianna,10,172,0
-Orianna,11,33,0
-Orianna,12,38,0
-Orianna,13,38,0
-Orianna,14,33,0
-Orianna,15,37,0
-Orianna,16,0,13
-Orianna,17,0,21
-Orianna,18,0,16
-Orianna,19,0,17
+Orianna,9,33,0
+Orianna,10,38,0
+Orianna,11,37,0
+Orianna,12,0,13
+Orianna,13,0,21
+Orianna,14,0,16
+Orianna,15,0,17
+Orianna,16,5,0
+Orianna,17,8,0
+Orianna,18,7,0
+Orianna,19,3,0
 Ornn,0,0,5
 Ornn,1,0,7
 Ornn,2,0,2
@@ -1190,17 +1208,17 @@ Ornn,5,0,6
 Ornn,6,10,0
 Ornn,7,19,0
 Ornn,8,9,0
-Ornn,9,9,0
-Ornn,10,19,0
-Ornn,11,15,0
-Ornn,12,26,0
-Ornn,13,26,0
-Ornn,14,15,0
-Ornn,15,24,0
-Ornn,16,0,37
-Ornn,17,0,26
-Ornn,18,0,37
-Ornn,19,0,41
+Ornn,9,15,0
+Ornn,10,26,0
+Ornn,11,24,0
+Ornn,12,0,37
+Ornn,13,0,26
+Ornn,14,0,37
+Ornn,15,0,41
+Ornn,16,24,0
+Ornn,17,41,0
+Ornn,18,54,0
+Ornn,19,56,0
 Pantheon,0,0,99
 Pantheon,1,0,91
 Pantheon,2,0,139
@@ -1210,17 +1228,17 @@ Pantheon,5,0,153
 Pantheon,6,170,0
 Pantheon,7,128,0
 Pantheon,8,137,0
-Pantheon,9,137,0
-Pantheon,10,128,0
-Pantheon,11,121,0
-Pantheon,12,43,0
-Pantheon,13,43,0
-Pantheon,14,121,0
-Pantheon,15,27,0
-Pantheon,16,0,37
-Pantheon,17,0,35
-Pantheon,18,0,40
-Pantheon,19,0,32
+Pantheon,9,121,0
+Pantheon,10,43,0
+Pantheon,11,27,0
+Pantheon,12,0,37
+Pantheon,13,0,35
+Pantheon,14,0,40
+Pantheon,15,0,32
+Pantheon,16,27,0
+Pantheon,17,33,0
+Pantheon,18,20,0
+Pantheon,19,15,0
 Poppy,0,0,25
 Poppy,1,0,46
 Poppy,2,0,30
@@ -1230,17 +1248,17 @@ Poppy,5,0,38
 Poppy,6,1,0
 Poppy,7,1,0
 Poppy,8,8,0
-Poppy,9,8,0
-Poppy,10,1,0
-Poppy,11,10,0
-Poppy,12,13,0
-Poppy,13,13,0
-Poppy,14,10,0
-Poppy,15,16,0
-Poppy,16,0,48
-Poppy,17,0,45
-Poppy,18,0,48
-Poppy,19,0,38
+Poppy,9,10,0
+Poppy,10,13,0
+Poppy,11,16,0
+Poppy,12,0,48
+Poppy,13,0,45
+Poppy,14,0,48
+Poppy,15,0,38
+Poppy,16,18,0
+Poppy,17,34,0
+Poppy,18,33,0
+Poppy,19,40,0
 Pyke,0,0,19
 Pyke,1,0,17
 Pyke,2,0,9
@@ -1248,16 +1266,17 @@ Pyke,3,0,5
 Pyke,4,0,13
 Pyke,5,0,10
 Pyke,8,1,0
-Pyke,9,1,0
-Pyke,11,8,0
-Pyke,12,7,0
-Pyke,13,7,0
-Pyke,14,8,0
-Pyke,15,25,0
-Pyke,16,0,9
-Pyke,17,0,21
-Pyke,18,0,15
-Pyke,19,0,16
+Pyke,9,8,0
+Pyke,10,7,0
+Pyke,11,25,0
+Pyke,12,0,9
+Pyke,13,0,21
+Pyke,14,0,15
+Pyke,15,0,16
+Pyke,16,6,0
+Pyke,17,8,0
+Pyke,18,13,0
+Pyke,19,15,0
 Qiyana,0,0,32
 Qiyana,1,0,19
 Qiyana,2,0,22
@@ -1267,33 +1286,33 @@ Qiyana,5,0,16
 Qiyana,6,7,0
 Qiyana,7,13,0
 Qiyana,8,22,0
-Qiyana,9,22,0
-Qiyana,10,13,0
-Qiyana,11,15,0
-Qiyana,12,10,0
-Qiyana,13,10,0
-Qiyana,14,15,0
-Qiyana,15,12,0
-Qiyana,16,0,16
-Qiyana,17,0,11
-Qiyana,18,0,18
-Qiyana,19,0,17
+Qiyana,9,15,0
+Qiyana,10,10,0
+Qiyana,11,12,0
+Qiyana,12,0,16
+Qiyana,13,0,11
+Qiyana,14,0,18
+Qiyana,15,0,17
+Qiyana,16,14,0
+Qiyana,17,8,0
+Qiyana,18,21,0
+Qiyana,19,14,0
 Rakan,3,0,1
 Rakan,5,0,2
 Rakan,6,4,0
 Rakan,7,2,0
 Rakan,8,17,0
-Rakan,9,17,0
-Rakan,10,2,0
-Rakan,11,11,0
-Rakan,12,53,0
-Rakan,13,53,0
-Rakan,14,11,0
-Rakan,15,53,0
-Rakan,16,0,38
-Rakan,17,0,51
-Rakan,18,0,56
-Rakan,19,0,49
+Rakan,9,11,0
+Rakan,10,53,0
+Rakan,11,53,0
+Rakan,12,0,38
+Rakan,13,0,51
+Rakan,14,0,56
+Rakan,15,0,49
+Rakan,16,77,0
+Rakan,17,63,0
+Rakan,18,113,0
+Rakan,19,87,0
 Rek'Sai,0,0,3
 Rek'Sai,2,0,1
 Rek'Sai,3,0,1
@@ -1301,17 +1320,17 @@ Rek'Sai,4,0,1
 Rek'Sai,6,2,0
 Rek'Sai,7,1,0
 Rek'Sai,8,4,0
-Rek'Sai,9,4,0
-Rek'Sai,10,1,0
-Rek'Sai,11,6,0
-Rek'Sai,12,5,0
-Rek'Sai,13,5,0
-Rek'Sai,14,6,0
-Rek'Sai,15,10,0
-Rek'Sai,16,0,6
-Rek'Sai,17,0,2
-Rek'Sai,18,0,9
-Rek'Sai,19,0,6
+Rek'Sai,9,6,0
+Rek'Sai,10,5,0
+Rek'Sai,11,10,0
+Rek'Sai,12,0,6
+Rek'Sai,13,0,2
+Rek'Sai,14,0,9
+Rek'Sai,15,0,6
+Rek'Sai,16,12,0
+Rek'Sai,17,21,0
+Rek'Sai,18,26,0
+Rek'Sai,19,21,0
 Rell,0,0,14
 Rell,1,0,8
 Rell,2,0,7
@@ -1321,17 +1340,17 @@ Rell,5,0,2
 Rell,6,4,0
 Rell,7,5,0
 Rell,8,23,0
-Rell,9,23,0
-Rell,10,5,0
-Rell,11,11,0
-Rell,12,36,0
-Rell,13,36,0
-Rell,14,11,0
-Rell,15,34,0
-Rell,16,0,34
-Rell,17,0,21
-Rell,18,0,42
-Rell,19,0,39
+Rell,9,11,0
+Rell,10,36,0
+Rell,11,34,0
+Rell,12,0,34
+Rell,13,0,21
+Rell,14,0,42
+Rell,15,0,39
+Rell,16,64,0
+Rell,17,54,0
+Rell,18,85,0
+Rell,19,66,0
 Renata Glasc,0,0,1
 Renata Glasc,1,0,1
 Renata Glasc,2,0,1
@@ -1340,16 +1359,16 @@ Renata Glasc,6,1,0
 Renata Glasc,7,1,0
 Renata Glasc,8,3,0
 Renata Glasc,9,3,0
-Renata Glasc,10,1,0
-Renata Glasc,11,3,0
-Renata Glasc,12,12,0
-Renata Glasc,13,12,0
-Renata Glasc,14,3,0
-Renata Glasc,15,10,0
-Renata Glasc,16,0,9
-Renata Glasc,17,0,14
-Renata Glasc,18,0,7
-Renata Glasc,19,0,11
+Renata Glasc,10,12,0
+Renata Glasc,11,10,0
+Renata Glasc,12,0,9
+Renata Glasc,13,0,14
+Renata Glasc,14,0,7
+Renata Glasc,15,0,11
+Renata Glasc,16,4,0
+Renata Glasc,17,5,0
+Renata Glasc,18,27,0
+Renata Glasc,19,31,0
 Renekton,0,0,10
 Renekton,1,0,10
 Renekton,2,0,22
@@ -1360,16 +1379,16 @@ Renekton,6,29,0
 Renekton,7,33,0
 Renekton,8,31,0
 Renekton,9,31,0
-Renekton,10,33,0
-Renekton,11,31,0
-Renekton,12,67,0
-Renekton,13,67,0
-Renekton,14,31,0
-Renekton,15,65,0
-Renekton,16,0,76
-Renekton,17,0,79
-Renekton,18,0,57
-Renekton,19,0,74
+Renekton,10,67,0
+Renekton,11,65,0
+Renekton,12,0,76
+Renekton,13,0,79
+Renekton,14,0,57
+Renekton,15,0,74
+Renekton,16,102,0
+Renekton,17,109,0
+Renekton,18,119,0
+Renekton,19,77,0
 Rumble,0,0,248
 Rumble,1,0,324
 Rumble,2,0,203
@@ -1379,17 +1398,17 @@ Rumble,5,0,185
 Rumble,6,232,0
 Rumble,7,205,0
 Rumble,8,34,0
-Rumble,9,34,0
-Rumble,10,205,0
-Rumble,11,41,0
-Rumble,12,45,0
-Rumble,13,45,0
-Rumble,14,41,0
-Rumble,15,34,0
-Rumble,16,0,18
-Rumble,17,0,32
-Rumble,18,0,24
-Rumble,19,0,31
+Rumble,9,41,0
+Rumble,10,45,0
+Rumble,11,34,0
+Rumble,12,0,18
+Rumble,13,0,32
+Rumble,14,0,24
+Rumble,15,0,31
+Rumble,16,22,0
+Rumble,17,34,0
+Rumble,18,29,0
+Rumble,19,22,0
 Ryze,0,0,98
 Ryze,1,0,92
 Ryze,2,0,127
@@ -1399,17 +1418,17 @@ Ryze,5,0,168
 Ryze,6,265,0
 Ryze,7,197,0
 Ryze,8,64,0
-Ryze,9,64,0
-Ryze,10,197,0
-Ryze,11,54,0
-Ryze,12,84,0
-Ryze,13,84,0
-Ryze,14,54,0
-Ryze,15,77,0
-Ryze,16,0,42
-Ryze,17,0,51
-Ryze,18,0,38
-Ryze,19,0,43
+Ryze,9,54,0
+Ryze,10,84,0
+Ryze,11,77,0
+Ryze,12,0,42
+Ryze,13,0,51
+Ryze,14,0,38
+Ryze,15,0,43
+Ryze,16,49,0
+Ryze,17,41,0
+Ryze,18,31,0
+Ryze,19,30,0
 Sejuani,0,0,1
 Sejuani,2,0,4
 Sejuani,3,0,3
@@ -1418,17 +1437,17 @@ Sejuani,5,0,2
 Sejuani,6,2,0
 Sejuani,7,8,0
 Sejuani,8,17,0
-Sejuani,9,17,0
+Sejuani,9,9,0
 Sejuani,10,8,0
-Sejuani,11,9,0
-Sejuani,12,8,0
-Sejuani,13,8,0
-Sejuani,14,9,0
-Sejuani,15,6,0
-Sejuani,16,0,5
-Sejuani,17,0,5
-Sejuani,18,0,9
-Sejuani,19,0,4
+Sejuani,11,6,0
+Sejuani,12,0,5
+Sejuani,13,0,5
+Sejuani,14,0,9
+Sejuani,15,0,4
+Sejuani,16,19,0
+Sejuani,17,20,0
+Sejuani,18,12,0
+Sejuani,19,12,0
 Senna,0,0,1
 Senna,1,0,2
 Senna,2,0,1
@@ -1436,16 +1455,17 @@ Senna,3,0,2
 Senna,4,0,1
 Senna,6,1,0
 Senna,8,8,0
-Senna,9,8,0
-Senna,11,4,0
-Senna,12,10,0
-Senna,13,10,0
-Senna,14,4,0
-Senna,15,10,0
-Senna,16,0,1
-Senna,17,0,5
-Senna,18,0,6
-Senna,19,0,2
+Senna,9,4,0
+Senna,10,10,0
+Senna,11,10,0
+Senna,12,0,1
+Senna,13,0,5
+Senna,14,0,6
+Senna,15,0,2
+Senna,16,12,0
+Senna,17,4,0
+Senna,18,7,0
+Senna,19,6,0
 Seraphine,0,0,35
 Seraphine,1,0,43
 Seraphine,2,0,63
@@ -1455,17 +1475,17 @@ Seraphine,5,0,66
 Seraphine,6,60,0
 Seraphine,7,71,0
 Seraphine,8,89,0
-Seraphine,9,89,0
-Seraphine,10,71,0
-Seraphine,11,73,0
-Seraphine,12,107,0
-Seraphine,13,107,0
-Seraphine,14,73,0
-Seraphine,15,74,0
-Seraphine,16,0,26
-Seraphine,17,0,21
-Seraphine,18,0,12
-Seraphine,19,0,14
+Seraphine,9,73,0
+Seraphine,10,107,0
+Seraphine,11,74,0
+Seraphine,12,0,26
+Seraphine,13,0,21
+Seraphine,14,0,12
+Seraphine,15,0,14
+Seraphine,16,9,0
+Seraphine,17,7,0
+Seraphine,18,33,0
+Seraphine,19,39,0
 Shen,0,0,6
 Shen,1,0,6
 Shen,2,0,3
@@ -1475,17 +1495,17 @@ Shen,5,0,4
 Shen,6,1,0
 Shen,7,4,0
 Shen,8,3,0
-Shen,9,3,0
-Shen,10,4,0
+Shen,9,2,0
+Shen,10,6,0
 Shen,11,2,0
-Shen,12,6,0
-Shen,13,6,0
-Shen,14,2,0
-Shen,15,2,0
-Shen,16,0,9
-Shen,17,0,5
-Shen,18,0,7
-Shen,19,0,5
+Shen,12,0,9
+Shen,13,0,5
+Shen,14,0,7
+Shen,15,0,5
+Shen,16,16,0
+Shen,17,16,0
+Shen,18,26,0
+Shen,19,15,0
 Sion,0,0,42
 Sion,1,0,28
 Sion,2,0,20
@@ -1495,17 +1515,17 @@ Sion,5,0,39
 Sion,6,50,0
 Sion,7,42,0
 Sion,8,27,0
-Sion,9,27,0
-Sion,10,42,0
-Sion,11,45,0
-Sion,12,91,0
-Sion,13,91,0
-Sion,14,45,0
-Sion,15,71,0
-Sion,16,0,75
-Sion,17,0,76
-Sion,18,0,86
-Sion,19,0,59
+Sion,9,45,0
+Sion,10,91,0
+Sion,11,71,0
+Sion,12,0,75
+Sion,13,0,76
+Sion,14,0,86
+Sion,15,0,59
+Sion,16,119,0
+Sion,17,146,0
+Sion,18,119,0
+Sion,19,86,0
 Sivir,0,0,2
 Sivir,1,0,4
 Sivir,2,0,10
@@ -1515,17 +1535,17 @@ Sivir,5,0,9
 Sivir,6,11,0
 Sivir,7,31,0
 Sivir,8,49,0
-Sivir,9,49,0
-Sivir,10,31,0
-Sivir,11,90,0
-Sivir,12,70,0
-Sivir,13,70,0
-Sivir,14,90,0
-Sivir,15,89,0
-Sivir,16,0,56
-Sivir,17,0,67
-Sivir,18,0,55
-Sivir,19,0,59
+Sivir,9,90,0
+Sivir,10,70,0
+Sivir,11,89,0
+Sivir,12,0,56
+Sivir,13,0,67
+Sivir,14,0,55
+Sivir,15,0,59
+Sivir,16,50,0
+Sivir,17,62,0
+Sivir,18,21,0
+Sivir,19,24,0
 Skarner,0,0,15
 Skarner,1,0,8
 Skarner,2,0,6
@@ -1535,17 +1555,17 @@ Skarner,5,0,8
 Skarner,6,6,0
 Skarner,7,11,0
 Skarner,8,31,0
-Skarner,9,31,0
-Skarner,10,11,0
-Skarner,11,25,0
-Skarner,12,31,0
-Skarner,13,31,0
-Skarner,14,25,0
-Skarner,15,24,0
-Skarner,16,0,19
-Skarner,17,0,28
-Skarner,18,0,26
-Skarner,19,0,18
+Skarner,9,25,0
+Skarner,10,31,0
+Skarner,11,24,0
+Skarner,12,0,19
+Skarner,13,0,28
+Skarner,14,0,26
+Skarner,15,0,18
+Skarner,16,36,0
+Skarner,17,36,0
+Skarner,18,20,0
+Skarner,19,18,0
 Smolder,1,0,2
 Smolder,2,0,3
 Smolder,3,0,9
@@ -1554,28 +1574,30 @@ Smolder,5,0,6
 Smolder,6,6,0
 Smolder,7,8,0
 Smolder,8,3,0
-Smolder,9,3,0
-Smolder,10,8,0
-Smolder,11,6,0
-Smolder,12,10,0
-Smolder,13,10,0
-Smolder,14,6,0
-Smolder,15,7,0
-Smolder,16,0,8
-Smolder,17,0,5
-Smolder,18,0,9
-Smolder,19,0,5
+Smolder,9,6,0
+Smolder,10,10,0
+Smolder,11,7,0
+Smolder,12,0,8
+Smolder,13,0,5
+Smolder,14,0,9
+Smolder,15,0,5
+Smolder,16,12,0
+Smolder,17,20,0
+Smolder,18,7,0
+Smolder,19,13,0
 Swain,0,0,2
 Swain,1,0,3
 Swain,5,0,1
 Swain,8,1,0
 Swain,9,1,0
 Swain,11,1,0
-Swain,14,1,0
-Swain,15,1,0
-Swain,17,0,3
-Swain,18,0,1
-Swain,19,0,1
+Swain,13,0,3
+Swain,14,0,1
+Swain,15,0,1
+Swain,16,5,0
+Swain,17,5,0
+Swain,18,6,0
+Swain,19,10,0
 Sylas,0,0,6
 Sylas,1,0,8
 Sylas,2,0,14
@@ -1584,17 +1606,17 @@ Sylas,4,0,25
 Sylas,5,0,23
 Sylas,7,3,0
 Sylas,8,8,0
-Sylas,9,8,0
-Sylas,10,3,0
-Sylas,11,10,0
-Sylas,12,10,0
-Sylas,13,10,0
-Sylas,14,10,0
-Sylas,15,15,0
-Sylas,16,0,38
-Sylas,17,0,35
-Sylas,18,0,36
-Sylas,19,0,40
+Sylas,9,10,0
+Sylas,10,10,0
+Sylas,11,15,0
+Sylas,12,0,38
+Sylas,13,0,35
+Sylas,14,0,36
+Sylas,15,0,40
+Sylas,16,27,0
+Sylas,17,44,0
+Sylas,18,40,0
+Sylas,19,55,0
 Syndra,0,0,21
 Syndra,1,0,11
 Syndra,2,0,25
@@ -1604,17 +1626,17 @@ Syndra,5,0,18
 Syndra,6,13,0
 Syndra,7,30,0
 Syndra,8,19,0
-Syndra,9,19,0
-Syndra,10,30,0
-Syndra,11,17,0
-Syndra,12,25,0
-Syndra,13,25,0
-Syndra,14,17,0
-Syndra,15,34,0
-Syndra,16,0,48
-Syndra,17,0,54
-Syndra,18,0,74
-Syndra,19,0,42
+Syndra,9,17,0
+Syndra,10,25,0
+Syndra,11,34,0
+Syndra,12,0,48
+Syndra,13,0,54
+Syndra,14,0,74
+Syndra,15,0,42
+Syndra,16,46,0
+Syndra,17,46,0
+Syndra,18,52,0
+Syndra,19,51,0
 Taliyah,0,0,17
 Taliyah,1,0,16
 Taliyah,2,0,16
@@ -1624,31 +1646,32 @@ Taliyah,5,0,22
 Taliyah,6,46,0
 Taliyah,7,44,0
 Taliyah,8,32,0
-Taliyah,9,32,0
-Taliyah,10,44,0
-Taliyah,11,30,0
-Taliyah,12,67,0
-Taliyah,13,67,0
-Taliyah,14,30,0
-Taliyah,15,65,0
-Taliyah,16,0,52
-Taliyah,17,0,43
-Taliyah,18,0,44
-Taliyah,19,0,44
+Taliyah,9,30,0
+Taliyah,10,67,0
+Taliyah,11,65,0
+Taliyah,12,0,52
+Taliyah,13,0,43
+Taliyah,14,0,44
+Taliyah,15,0,44
+Taliyah,16,42,0
+Taliyah,17,43,0
+Taliyah,18,45,0
+Taliyah,19,33,0
 Thresh,2,0,1
 Thresh,4,0,1
 Thresh,6,1,0
 Thresh,8,4,0
-Thresh,9,4,0
-Thresh,11,8,0
-Thresh,12,32,0
-Thresh,13,32,0
-Thresh,14,8,0
-Thresh,15,22,0
-Thresh,16,0,11
-Thresh,17,0,17
-Thresh,18,0,6
-Thresh,19,0,8
+Thresh,9,8,0
+Thresh,10,32,0
+Thresh,11,22,0
+Thresh,12,0,11
+Thresh,13,0,17
+Thresh,14,0,6
+Thresh,15,0,8
+Thresh,16,7,0
+Thresh,17,7,0
+Thresh,18,29,0
+Thresh,19,16,0
 Tristana,0,0,2
 Tristana,1,0,2
 Tristana,2,0,2
@@ -1656,17 +1679,17 @@ Tristana,4,0,4
 Tristana,5,0,3
 Tristana,7,6,0
 Tristana,8,6,0
-Tristana,9,6,0
+Tristana,9,11,0
 Tristana,10,6,0
-Tristana,11,11,0
-Tristana,12,6,0
-Tristana,13,6,0
-Tristana,14,11,0
-Tristana,15,7,0
-Tristana,16,0,6
-Tristana,17,0,8
-Tristana,18,0,11
-Tristana,19,0,8
+Tristana,11,7,0
+Tristana,12,0,6
+Tristana,13,0,8
+Tristana,14,0,11
+Tristana,15,0,8
+Tristana,16,17,0
+Tristana,17,14,0
+Tristana,18,12,0
+Tristana,19,12,0
 Trundle,0,0,2
 Trundle,1,0,1
 Trundle,2,0,3
@@ -1676,17 +1699,17 @@ Trundle,5,0,9
 Trundle,6,3,0
 Trundle,7,6,0
 Trundle,8,20,0
-Trundle,9,20,0
-Trundle,10,6,0
-Trundle,11,32,0
-Trundle,12,21,0
-Trundle,13,21,0
-Trundle,14,32,0
-Trundle,15,19,0
-Trundle,16,0,21
-Trundle,17,0,13
-Trundle,18,0,22
-Trundle,19,0,23
+Trundle,9,32,0
+Trundle,10,21,0
+Trundle,11,19,0
+Trundle,12,0,21
+Trundle,13,0,13
+Trundle,14,0,22
+Trundle,15,0,23
+Trundle,16,28,0
+Trundle,17,26,0
+Trundle,18,26,0
+Trundle,19,22,0
 Twisted Fate,1,0,5
 Twisted Fate,2,0,5
 Twisted Fate,3,0,4
@@ -1696,16 +1719,16 @@ Twisted Fate,6,2,0
 Twisted Fate,7,4,0
 Twisted Fate,8,2,0
 Twisted Fate,9,2,0
-Twisted Fate,10,4,0
-Twisted Fate,11,2,0
-Twisted Fate,12,12,0
-Twisted Fate,13,12,0
-Twisted Fate,14,2,0
-Twisted Fate,15,16,0
-Twisted Fate,16,0,16
-Twisted Fate,17,0,21
-Twisted Fate,18,0,30
-Twisted Fate,19,0,21
+Twisted Fate,10,12,0
+Twisted Fate,11,16,0
+Twisted Fate,12,0,16
+Twisted Fate,13,0,21
+Twisted Fate,14,0,30
+Twisted Fate,15,0,21
+Twisted Fate,16,20,0
+Twisted Fate,17,31,0
+Twisted Fate,18,26,0
+Twisted Fate,19,25,0
 Varus,0,0,305
 Varus,1,0,322
 Varus,2,0,262
@@ -1715,17 +1738,17 @@ Varus,5,0,224
 Varus,6,216,0
 Varus,7,142,0
 Varus,8,61,0
-Varus,9,61,0
-Varus,10,142,0
-Varus,11,69,0
-Varus,12,47,0
-Varus,13,47,0
-Varus,14,69,0
-Varus,15,29,0
-Varus,16,0,33
-Varus,17,0,33
-Varus,18,0,15
-Varus,19,0,31
+Varus,9,69,0
+Varus,10,47,0
+Varus,11,29,0
+Varus,12,0,33
+Varus,13,0,33
+Varus,14,0,15
+Varus,15,0,31
+Varus,16,33,0
+Varus,17,17,0
+Varus,18,5,0
+Varus,19,11,0
 Vayne,0,0,2
 Vayne,2,0,6
 Vayne,3,0,8
@@ -1734,17 +1757,17 @@ Vayne,5,0,7
 Vayne,6,1,0
 Vayne,7,2,0
 Vayne,8,1,0
-Vayne,9,1,0
-Vayne,10,2,0
+Vayne,9,6,0
+Vayne,10,7,0
 Vayne,11,6,0
-Vayne,12,7,0
-Vayne,13,7,0
-Vayne,14,6,0
-Vayne,15,6,0
-Vayne,16,0,42
-Vayne,17,0,71
-Vayne,18,0,48
-Vayne,19,0,61
+Vayne,12,0,42
+Vayne,13,0,71
+Vayne,14,0,48
+Vayne,15,0,61
+Vayne,16,5,0
+Vayne,17,20,0
+Vayne,18,28,0
+Vayne,19,70,0
 Vi,0,0,82
 Vi,1,0,83
 Vi,2,0,114
@@ -1754,17 +1777,17 @@ Vi,5,0,113
 Vi,6,100,0
 Vi,7,108,0
 Vi,8,173,0
-Vi,9,173,0
-Vi,10,108,0
-Vi,11,145,0
-Vi,12,53,0
-Vi,13,53,0
-Vi,14,145,0
-Vi,15,48,0
-Vi,16,0,68
-Vi,17,0,60
-Vi,18,0,60
-Vi,19,0,59
+Vi,9,145,0
+Vi,10,53,0
+Vi,11,48,0
+Vi,12,0,68
+Vi,13,0,60
+Vi,14,0,60
+Vi,15,0,59
+Vi,16,34,0
+Vi,17,31,0
+Vi,18,14,0
+Vi,19,16,0
 Viego,0,0,11
 Viego,1,0,11
 Viego,2,0,4
@@ -1774,17 +1797,17 @@ Viego,5,0,4
 Viego,6,1,0
 Viego,7,4,0
 Viego,8,17,0
-Viego,9,17,0
-Viego,10,4,0
-Viego,11,6,0
-Viego,12,3,0
-Viego,13,3,0
-Viego,14,6,0
-Viego,15,5,0
-Viego,16,0,3
-Viego,17,0,10
-Viego,18,0,2
-Viego,19,0,4
+Viego,9,6,0
+Viego,10,3,0
+Viego,11,5,0
+Viego,12,0,3
+Viego,13,0,10
+Viego,14,0,2
+Viego,15,0,4
+Viego,16,10,0
+Viego,17,11,0
+Viego,18,11,0
+Viego,19,9,0
 Viktor,0,0,4
 Viktor,1,0,8
 Viktor,2,0,11
@@ -1795,16 +1818,16 @@ Viktor,6,21,0
 Viktor,7,22,0
 Viktor,8,12,0
 Viktor,9,12,0
-Viktor,10,22,0
-Viktor,11,12,0
-Viktor,12,32,0
-Viktor,13,32,0
-Viktor,14,12,0
-Viktor,15,36,0
-Viktor,16,0,41
-Viktor,17,0,29
-Viktor,18,0,73
-Viktor,19,0,47
+Viktor,10,32,0
+Viktor,11,36,0
+Viktor,12,0,41
+Viktor,13,0,29
+Viktor,14,0,73
+Viktor,15,0,47
+Viktor,16,91,0
+Viktor,17,62,0
+Viktor,18,89,0
+Viktor,19,63,0
 Volibear,0,0,1
 Volibear,1,0,5
 Volibear,2,0,2
@@ -1814,17 +1837,17 @@ Volibear,5,0,1
 Volibear,6,2,0
 Volibear,7,4,0
 Volibear,8,2,0
-Volibear,9,2,0
-Volibear,10,4,0
+Volibear,9,4,0
+Volibear,10,3,0
 Volibear,11,4,0
-Volibear,12,3,0
-Volibear,13,3,0
-Volibear,14,4,0
-Volibear,15,4,0
-Volibear,16,0,5
-Volibear,17,0,4
-Volibear,18,0,2
-Volibear,19,0,3
+Volibear,12,0,5
+Volibear,13,0,4
+Volibear,14,0,2
+Volibear,15,0,3
+Volibear,16,7,0
+Volibear,17,5,0
+Volibear,18,7,0
+Volibear,19,17,0
 Wukong,0,0,10
 Wukong,1,0,6
 Wukong,2,0,16
@@ -1834,34 +1857,34 @@ Wukong,5,0,40
 Wukong,6,51,0
 Wukong,7,71,0
 Wukong,8,131,0
-Wukong,9,131,0
-Wukong,10,71,0
-Wukong,11,136,0
-Wukong,12,65,0
-Wukong,13,65,0
-Wukong,14,136,0
-Wukong,15,68,0
-Wukong,16,0,60
-Wukong,17,0,74
-Wukong,18,0,61
-Wukong,19,0,66
+Wukong,9,136,0
+Wukong,10,65,0
+Wukong,11,68,0
+Wukong,12,0,60
+Wukong,13,0,74
+Wukong,14,0,61
+Wukong,15,0,66
+Wukong,16,65,0
+Wukong,17,50,0
+Wukong,18,43,0
+Wukong,19,33,0
 Xayah,2,0,1
 Xayah,4,0,3
 Xayah,5,0,2
 Xayah,6,4,0
 Xayah,7,5,0
 Xayah,8,12,0
-Xayah,9,12,0
-Xayah,10,5,0
-Xayah,11,33,0
-Xayah,12,11,0
-Xayah,13,11,0
-Xayah,14,33,0
-Xayah,15,20,0
-Xayah,16,0,23
-Xayah,17,0,23
-Xayah,18,0,20
-Xayah,19,0,20
+Xayah,9,33,0
+Xayah,10,11,0
+Xayah,11,20,0
+Xayah,12,0,23
+Xayah,13,0,23
+Xayah,14,0,20
+Xayah,15,0,20
+Xayah,16,48,0
+Xayah,17,49,0
+Xayah,18,12,0
+Xayah,19,14,0
 Xin Zhao,0,0,15
 Xin Zhao,1,0,23
 Xin Zhao,2,0,32
@@ -1871,17 +1894,17 @@ Xin Zhao,5,0,50
 Xin Zhao,6,127,0
 Xin Zhao,7,122,0
 Xin Zhao,8,216,0
-Xin Zhao,9,216,0
-Xin Zhao,10,122,0
-Xin Zhao,11,217,0
-Xin Zhao,12,79,0
-Xin Zhao,13,79,0
-Xin Zhao,14,217,0
-Xin Zhao,15,79,0
-Xin Zhao,16,0,63
-Xin Zhao,17,0,69
-Xin Zhao,18,0,47
-Xin Zhao,19,0,62
+Xin Zhao,9,217,0
+Xin Zhao,10,79,0
+Xin Zhao,11,79,0
+Xin Zhao,12,0,63
+Xin Zhao,13,0,69
+Xin Zhao,14,0,47
+Xin Zhao,15,0,62
+Xin Zhao,16,63,0
+Xin Zhao,17,50,0
+Xin Zhao,18,23,0
+Xin Zhao,19,22,0
 Yasuo,0,0,16
 Yasuo,1,0,17
 Yasuo,2,0,7
@@ -1891,17 +1914,17 @@ Yasuo,5,0,8
 Yasuo,6,1,0
 Yasuo,7,2,0
 Yasuo,8,1,0
-Yasuo,9,1,0
-Yasuo,10,2,0
-Yasuo,11,2,0
-Yasuo,12,3,0
-Yasuo,13,3,0
-Yasuo,14,2,0
-Yasuo,15,7,0
-Yasuo,16,0,4
-Yasuo,17,0,6
-Yasuo,18,0,3
-Yasuo,19,0,3
+Yasuo,9,2,0
+Yasuo,10,3,0
+Yasuo,11,7,0
+Yasuo,12,0,4
+Yasuo,13,0,6
+Yasuo,14,0,3
+Yasuo,15,0,3
+Yasuo,16,6,0
+Yasuo,17,10,0
+Yasuo,18,8,0
+Yasuo,19,10,0
 Yone,0,0,7
 Yone,1,0,2
 Yone,2,0,14
@@ -1911,17 +1934,17 @@ Yone,5,0,18
 Yone,6,10,0
 Yone,7,9,0
 Yone,8,9,0
-Yone,9,9,0
-Yone,10,9,0
-Yone,11,5,0
-Yone,12,25,0
-Yone,13,25,0
-Yone,14,5,0
-Yone,15,22,0
-Yone,16,0,23
-Yone,17,0,19
-Yone,18,0,19
-Yone,19,0,15
+Yone,9,5,0
+Yone,10,25,0
+Yone,11,22,0
+Yone,12,0,23
+Yone,13,0,19
+Yone,14,0,19
+Yone,15,0,15
+Yone,16,25,0
+Yone,17,21,0
+Yone,18,38,0
+Yone,19,30,0
 Yorick,0,0,2
 Yorick,1,0,3
 Yorick,2,0,2
@@ -1932,16 +1955,16 @@ Yorick,6,1,0
 Yorick,7,5,0
 Yorick,8,8,0
 Yorick,9,8,0
-Yorick,10,5,0
-Yorick,11,8,0
-Yorick,12,20,0
-Yorick,13,20,0
-Yorick,14,8,0
-Yorick,15,24,0
-Yorick,16,0,47
-Yorick,17,0,32
-Yorick,18,0,33
-Yorick,19,0,42
+Yorick,10,20,0
+Yorick,11,24,0
+Yorick,12,0,47
+Yorick,13,0,32
+Yorick,14,0,33
+Yorick,15,0,42
+Yorick,16,22,0
+Yorick,17,23,0
+Yorick,18,38,0
+Yorick,19,62,0
 Yunara,0,0,32
 Yunara,1,0,34
 Yunara,2,0,70
@@ -1951,32 +1974,33 @@ Yunara,5,0,56
 Yunara,6,180,0
 Yunara,7,177,0
 Yunara,8,180,0
-Yunara,9,180,0
-Yunara,10,177,0
-Yunara,11,149,0
-Yunara,12,58,0
-Yunara,13,58,0
-Yunara,14,149,0
-Yunara,15,61,0
-Yunara,16,0,31
-Yunara,17,0,27
-Yunara,18,0,31
-Yunara,19,0,37
+Yunara,9,149,0
+Yunara,10,58,0
+Yunara,11,61,0
+Yunara,12,0,31
+Yunara,13,0,27
+Yunara,14,0,31
+Yunara,15,0,37
+Yunara,16,71,0
+Yunara,17,67,0
+Yunara,18,10,0
+Yunara,19,15,0
 Yuumi,2,0,2
 Yuumi,3,0,3
 Yuumi,4,0,2
 Yuumi,6,1,0
 Yuumi,8,1,0
-Yuumi,9,1,0
-Yuumi,11,4,0
-Yuumi,12,14,0
-Yuumi,13,14,0
-Yuumi,14,4,0
-Yuumi,15,5,0
-Yuumi,16,0,1
-Yuumi,17,0,1
-Yuumi,18,0,2
-Yuumi,19,0,1
+Yuumi,9,4,0
+Yuumi,10,14,0
+Yuumi,11,5,0
+Yuumi,12,0,1
+Yuumi,13,0,1
+Yuumi,14,0,2
+Yuumi,15,0,1
+Yuumi,16,1,0
+Yuumi,17,3,0
+Yuumi,18,12,0
+Yuumi,19,18,0
 Zaahen,0,0,17
 Zaahen,1,0,15
 Zaahen,2,0,24
@@ -1986,33 +2010,33 @@ Zaahen,5,0,7
 Zaahen,6,27,0
 Zaahen,7,32,0
 Zaahen,8,33,0
-Zaahen,9,33,0
-Zaahen,10,32,0
-Zaahen,11,41,0
-Zaahen,12,36,0
-Zaahen,13,36,0
-Zaahen,14,41,0
-Zaahen,15,29,0
-Zaahen,16,0,21
-Zaahen,17,0,15
-Zaahen,18,0,33
-Zaahen,19,0,36
+Zaahen,9,41,0
+Zaahen,10,36,0
+Zaahen,11,29,0
+Zaahen,12,0,21
+Zaahen,13,0,15
+Zaahen,14,0,33
+Zaahen,15,0,36
+Zaahen,16,43,0
+Zaahen,17,44,0
+Zaahen,18,73,0
+Zaahen,19,66,0
 Zeri,0,0,1
 Zeri,4,0,1
 Zeri,6,7,0
 Zeri,7,1,0
 Zeri,8,10,0
-Zeri,9,10,0
-Zeri,10,1,0
-Zeri,11,9,0
-Zeri,12,3,0
-Zeri,13,3,0
-Zeri,14,9,0
-Zeri,15,6,0
-Zeri,16,0,6
-Zeri,17,0,1
-Zeri,18,0,6
-Zeri,19,0,9
+Zeri,9,9,0
+Zeri,10,3,0
+Zeri,11,6,0
+Zeri,12,0,6
+Zeri,13,0,1
+Zeri,14,0,6
+Zeri,15,0,9
+Zeri,16,24,0
+Zeri,17,14,0
+Zeri,18,8,0
+Zeri,19,6,0
 Ziggs,0,0,9
 Ziggs,1,0,26
 Ziggs,2,0,3
@@ -2022,17 +2046,17 @@ Ziggs,5,0,9
 Ziggs,6,4,0
 Ziggs,7,2,0
 Ziggs,8,17,0
-Ziggs,9,17,0
-Ziggs,10,2,0
-Ziggs,11,5,0
-Ziggs,12,13,0
-Ziggs,13,13,0
-Ziggs,14,5,0
-Ziggs,15,12,0
-Ziggs,16,0,16
-Ziggs,17,0,9
-Ziggs,18,0,12
-Ziggs,19,0,15
+Ziggs,9,5,0
+Ziggs,10,13,0
+Ziggs,11,12,0
+Ziggs,12,0,16
+Ziggs,13,0,9
+Ziggs,14,0,12
+Ziggs,15,0,15
+Ziggs,16,19,0
+Ziggs,17,13,0
+Ziggs,18,6,0
+Ziggs,19,5,0
 Zoe,0,0,19
 Zoe,1,0,17
 Zoe,2,0,4
@@ -2041,17 +2065,17 @@ Zoe,4,0,5
 Zoe,5,0,12
 Zoe,7,4,0
 Zoe,8,1,0
-Zoe,9,1,0
+Zoe,9,4,0
 Zoe,10,4,0
-Zoe,11,4,0
-Zoe,12,4,0
-Zoe,13,4,0
-Zoe,14,4,0
-Zoe,15,8,0
-Zoe,16,0,10
-Zoe,17,0,12
-Zoe,18,0,10
-Zoe,19,0,12
+Zoe,11,8,0
+Zoe,12,0,10
+Zoe,13,0,12
+Zoe,14,0,10
+Zoe,15,0,12
+Zoe,16,12,0
+Zoe,17,13,0
+Zoe,18,12,0
+Zoe,19,20,0
 Zyra,0,0,6
 Zyra,1,0,2
 Zyra,2,0,5
@@ -2061,13 +2085,13 @@ Zyra,5,0,1
 Zyra,6,1,0
 Zyra,7,1,0
 Zyra,8,1,0
-Zyra,9,1,0
-Zyra,10,1,0
-Zyra,11,7,0
-Zyra,12,3,0
-Zyra,13,3,0
-Zyra,14,7,0
-Zyra,15,1,0
-Zyra,16,0,1
-Zyra,17,0,1
-Zyra,18,0,1
+Zyra,9,7,0
+Zyra,10,3,0
+Zyra,11,1,0
+Zyra,12,0,1
+Zyra,13,0,1
+Zyra,14,0,1
+Zyra,16,5,0
+Zyra,17,2,0
+Zyra,18,2,0
+Zyra,19,2,0
