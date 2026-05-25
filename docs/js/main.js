@@ -92,5 +92,5 @@ export const STRENGTH_TIP =
 
 export function infoTip(text, opts = {}) {
   const cls = opts.right ? "info-tip right" : "info-tip";
-  return `<i class="${cls}" data-tip="${text.replace(/"/g, '&quot;')}">i</i>`;
+  return `<i class="${cls}" data-tip="${text.replace(/"/g, '&quot;')}">?</i>`;
 }
