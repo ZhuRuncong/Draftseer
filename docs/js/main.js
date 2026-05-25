@@ -14,7 +14,7 @@ const VIEWS = {
 };
 
 export const state = {
-  metaToggle: false,
+  metaToggle: true,
   listeners: new Set(),
 };
 export function onToggleChange(fn) { state.listeners.add(fn); return () => state.listeners.delete(fn); }
