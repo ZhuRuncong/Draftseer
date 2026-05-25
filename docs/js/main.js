@@ -48,7 +48,6 @@ async function init() {
   // patch + meta badge
   try {
     const info = await loadMetaInfo();
-    document.getElementById("patch-badge").textContent = `DDragon ${info.ddragon_version}`;
     document.getElementById("footer-meta").textContent =
       `Model rows: ${info.model_rows} · ${info.note || ""}`;
   } catch {}
