@@ -9,9 +9,9 @@ import {
 import { infoTip } from "../main.js";
 
 const TIP =
-  "Picks-vs and bans-vs by opponents against the selected team. " +
-  "Pick counts are role-attributed. Bans have no role in the source data; " +
-  "they are credited to the champion's most-played role in season 16.";
+  "Picks by the selected team (role-attributed from the post-game roster) " +
+  "and bans by opponents against this team. Bans have no role in the source " +
+  "data; they are credited to the champion's most-played role in season 16.";
 
 export async function renderTeams(root, params) {
   const [index, ids] = await Promise.all([loadTeamsIndex(), loadChampIds()]);
@@ -73,7 +73,7 @@ export async function renderTeams(root, params) {
       </div>
 
       <div class="panel wide">
-        <h3>What opponents picked & banned vs <span id="team-title-name"></span>
+        <h3>Picked by & banned vs <span id="team-title-name"></span>
           ${infoTip(TIP)}
           <span class="panel-hint" id="team-hint"></span>
         </h3>
@@ -127,14 +127,14 @@ export async function renderTeams(root, params) {
       }
       const cell = rec.cells[r.role];
       if (!cell) continue;
-      cell.p += r.picksVs;
+      cell.p += r.picksBy;
       cell.b += r.bansVs;
-      rec.total += r.picksVs + r.bansVs;
+      rec.total += r.picksBy + r.bansVs;
     }
     const out = [...byChamp.values()]
       .filter(rec => rec.total > 0)
       .sort((a, b) => b.total - a.total || a.champ.localeCompare(b.champ));
-    hintEl.textContent = `${out.length} champions · ${filtered.reduce((s,r)=>s+r.picksVs+r.bansVs,0)} total actions · ${selectedPatches.size}/${patches.length} patches`;
+    hintEl.textContent = `${out.length} champions · ${filtered.reduce((s,r)=>s+r.picksBy+r.bansVs,0)} total actions · ${selectedPatches.size}/${patches.length} patches`;
     tableEl.innerHTML = buildTable(out, ids);
     syncURL();
   }
@@ -190,8 +190,8 @@ function buildTable(rows, ids) {
       const c = rec.cells[role];
       if (c.p === 0 && c.b === 0) return `<td class="cell-empty">·</td>`;
       const parts = [];
-      if (c.p) parts.push(`<span class="vs-p" title="${c.p} pick${c.p===1?"":"s"} vs">${c.p}P</span>`);
-      if (c.b) parts.push(`<span class="vs-b" title="${c.b} ban${c.b===1?"":"s"} vs">${c.b}B</span>`);
+      if (c.p) parts.push(`<span class="vs-p" title="${c.p} pick${c.p===1?"":"s"} by this team">${c.p}P</span>`);
+      if (c.b) parts.push(`<span class="vs-b" title="${c.b} ban${c.b===1?"":"s"} vs this team">${c.b}B</span>`);
       return `<td class="cell-vs">${parts.join(" ")}</td>`;
     }).join("");
     const img = ids.champions[rec.champ]?.square || "";

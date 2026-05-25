@@ -1,49 +1,46 @@
-patch,champ,role,picks_vs,bans_vs
+patch,champ,role,picks_by,bans_vs
+16.03,Ryze,mid,1,2
 16.03,Akali,mid,0,2
+16.03,Ambessa,top,1,1
 16.03,Braum,sup,0,2
 16.03,Nautilus,sup,1,1
-16.03,Ryze,mid,0,2
+16.03,Varus,bot,1,1
 16.03,Zaahen,top,0,2
-16.03,Aatrox,jng,1,0
-16.03,Ambessa,top,0,1
-16.03,Corki,bot,1,0
-16.03,Diana,mid,1,0
-16.03,Ezreal,bot,1,0
+16.03,Ahri,mid,1,0
+16.03,Bard,sup,1,0
+16.03,Dr. Mundo,jng,1,0
+16.03,Galio,top,1,0
 16.03,Galio,mid,0,1
-16.03,Jax,top,1,0
-16.03,Jhin,bot,1,0
-16.03,Karma,sup,1,0
-16.03,Leona,sup,1,0
+16.03,Jarvan IV,jng,1,0
+16.03,Kai'Sa,bot,1,0
+16.03,Malphite,top,1,0
 16.03,Nami,sup,0,1
 16.03,Neeko,sup,0,1
-16.03,Orianna,mid,1,0
-16.03,Rumble,top,1,0
+16.03,Poppy,sup,1,0
 16.03,Sion,top,0,1
-16.03,Twisted Fate,mid,1,0
-16.03,Varus,bot,0,1
-16.03,Vladimir,top,1,0
-16.03,Volibear,jng,1,0
-16.03,Wukong,jng,1,0
+16.03,Smolder,bot,1,0
+16.03,Viktor,mid,1,0
+16.03,Zaahen,jng,1,0
 16.04,Ambessa,top,0,3
-16.04,Sion,top,1,2
 16.04,Zaahen,top,0,3
 16.04,Lux,sup,0,2
-16.04,Ahri,mid,1,0
-16.04,Aurelion Sol,mid,1,0
+16.04,Ornn,top,1,1
+16.04,Sion,top,0,2
+16.04,Annie,mid,1,0
 16.04,Bard,sup,0,1
-16.04,Caitlyn,bot,1,0
+16.04,Corki,bot,1,0
+16.04,Dr. Mundo,jng,1,0
+16.04,Fiora,top,1,0
 16.04,Gnar,top,0,1
-16.04,Gwen,top,1,0
 16.04,Hwei,mid,0,1
-16.04,Jayce,top,1,0
-16.04,Leona,sup,1,0
-16.04,Lulu,sup,1,0
+16.04,Jarvan IV,jng,1,0
+16.04,Karma,sup,1,0
+16.04,Kennen,top,1,0
+16.04,Nami,sup,1,0
+16.04,Nautilus,sup,1,0
 16.04,Orianna,mid,0,1
-16.04,Ornn,top,0,1
-16.04,Rakan,sup,1,0
-16.04,Syndra,mid,1,0
-16.04,Varus,bot,1,0
-16.04,Vi,jng,1,0
-16.04,Wukong,jng,1,0
-16.04,Xin Zhao,jng,1,0
-16.04,Yunara,bot,1,0
+16.04,Ryze,mid,1,0
+16.04,Senna,bot,1,0
+16.04,Sivir,bot,1,0
+16.04,Taliyah,mid,1,0
+16.04,Trundle,jng,1,0

@@ -164,13 +164,13 @@ export function loadTeamVs(slug) {
   return memo(`team|${slug}`, async () => {
     const txt = await fetchText(`${ROOT}/teams/${slug}.csv`);
     const lines = txt.trim().split(/\r?\n/);
-    lines.shift(); // patch,champ,role,picks_vs,bans_vs
+    lines.shift(); // patch,champ,role,picks_by,bans_vs
     const rows = [];
     for (const line of lines) {
       const [patch, champ, role, p, b] = line.split(",");
       rows.push({
         patch, champ, role,
-        picksVs: parseInt(p, 10) || 0,
+        picksBy: parseInt(p, 10) || 0,
         bansVs:  parseInt(b, 10) || 0,
       });
     }

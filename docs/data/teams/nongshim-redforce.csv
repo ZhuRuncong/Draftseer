@@ -1,319 +1,293 @@
-patch,champ,role,picks_vs,bans_vs
-16.01,Orianna,mid,1,6
+patch,champ,role,picks_by,bans_vs
+16.01,Orianna,mid,2,6
+16.01,Rumble,top,1,5
+16.01,Alistar,sup,2,3
 16.01,Jayce,top,0,5
-16.01,Rumble,top,0,5
-16.01,Varus,bot,2,3
 16.01,Azir,mid,1,3
 16.01,Nautilus,sup,1,3
-16.01,Alistar,sup,0,3
+16.01,Taliyah,mid,4,0
+16.01,Varus,bot,1,3
 16.01,Ambessa,top,1,2
-16.01,Gwen,top,2,1
-16.01,Lulu,sup,2,1
+16.01,Jarvan IV,jng,2,1
 16.01,Neeko,sup,2,1
 16.01,Pantheon,jng,2,1
-16.01,Poppy,sup,1,2
-16.01,Ryze,mid,3,0
-16.01,Vi,jng,2,1
+16.01,Renekton,top,2,1
 16.01,Xin Zhao,jng,1,2
-16.01,Bard,sup,2,0
+16.01,Yunara,bot,3,0
+16.01,Aurora,mid,2,0
 16.01,Braum,sup,1,1
 16.01,Ezreal,bot,1,1
-16.01,Jarvan IV,jng,1,1
-16.01,K'Sante,top,2,0
-16.01,Lucian,bot,1,1
-16.01,Sylas,mid,1,1
-16.01,Aatrox,jng,1,0
-16.01,Ahri,mid,1,0
+16.01,Gwen,top,1,1
+16.01,Jayce,jng,2,0
+16.01,Kalista,bot,2,0
+16.01,Leona,sup,1,1
+16.01,Malphite,jng,1,1
+16.01,Nocturne,jng,1,1
+16.01,Poppy,sup,0,2
+16.01,Renata Glasc,sup,2,0
+16.01,Sion,top,2,0
+16.01,Wukong,jng,1,1
+16.01,Zaahen,top,2,0
 16.01,Akali,mid,1,0
 16.01,Aphelios,bot,1,0
+16.01,Caitlyn,bot,1,0
 16.01,Corki,bot,1,0
 16.01,Gnar,top,1,0
-16.01,Jax,jng,1,0
-16.01,Jhin,bot,1,0
-16.01,Kai'Sa,bot,1,0
-16.01,Kennen,top,1,0
-16.01,Leona,sup,0,1
-16.01,Malphite,jng,0,1
+16.01,Karma,sup,1,0
+16.01,Lucian,bot,0,1
+16.01,Lulu,sup,0,1
 16.01,Miss Fortune,bot,0,1
-16.01,Nami,sup,1,0
-16.01,Nautilus,jng,1,0
-16.01,Nocturne,jng,0,1
-16.01,Qiyana,jng,1,0
-16.01,Rek'Sai,top,1,0
-16.01,Renekton,top,0,1
-16.01,Sion,top,1,0
-16.01,Sivir,bot,1,0
-16.01,Twisted Fate,mid,1,0
-16.01,Wukong,jng,0,1
-16.01,Yunara,bot,1,0
-16.01,Zaahen,top,1,0
-16.01,Zoe,mid,1,0
-16.02,Rumble,top,1,8
-16.02,Varus,bot,0,6
+16.01,Sylas,mid,0,1
+16.01,Vi,jng,0,1
+16.02,Rumble,top,0,8
+16.02,Varus,bot,1,6
 16.02,Jayce,top,0,5
-16.02,Rakan,sup,2,2
-16.02,Azir,mid,2,1
-16.02,Corki,bot,3,0
-16.02,Gwen,top,2,1
-16.02,Jarvan IV,jng,1,2
-16.02,Nautilus,sup,3,0
-16.02,Neeko,sup,0,3
-16.02,Nocturne,jng,1,2
-16.02,Orianna,mid,1,2
+16.02,Jarvan IV,jng,2,2
+16.02,Leona,sup,2,2
+16.02,Neeko,sup,1,3
+16.02,Orianna,mid,2,2
+16.02,Kai'Sa,bot,2,1
+16.02,Kalista,bot,1,2
+16.02,Malphite,jng,2,1
 16.02,Pantheon,jng,1,2
-16.02,Rell,sup,1,2
-16.02,Ahri,mid,2,0
+16.02,Renata Glasc,sup,2,1
+16.02,Ryze,mid,2,1
 16.02,Akali,mid,1,1
 16.02,Alistar,sup,1,1
-16.02,Aphelios,bot,1,1
+16.02,Ambessa,top,2,0
+16.02,Azir,mid,1,1
 16.02,Bard,sup,0,2
-16.02,Ezreal,bot,2,0
-16.02,Kalista,bot,0,2
-16.02,Karma,sup,2,0
-16.02,Leona,sup,0,2
-16.02,Rek'Sai,top,2,0
+16.02,K'Sante,top,2,0
+16.02,Lucian,bot,2,0
+16.02,Lulu,sup,1,1
+16.02,Nocturne,jng,0,2
+16.02,Rakan,sup,0,2
+16.02,Rell,sup,0,2
 16.02,Renekton,top,1,1
-16.02,Sivir,bot,1,1
-16.02,Syndra,mid,2,0
-16.02,Wukong,jng,2,0
-16.02,Ambessa,top,1,0
-16.02,Anivia,mid,1,0
+16.02,Sion,top,2,0
+16.02,Vi,jng,2,0
+16.02,Xin Zhao,jng,2,0
+16.02,Yunara,bot,2,0
+16.02,Aatrox,top,1,0
+16.02,Aphelios,bot,0,1
 16.02,Aurora,mid,1,0
-16.02,Blitzcrank,sup,1,0
 16.02,Braum,sup,1,0
-16.02,Dr. Mundo,jng,1,0
+16.02,Caitlyn,bot,1,0
 16.02,Elise,sup,0,1
+16.02,Ezreal,bot,1,0
+16.02,Galio,mid,1,0
 16.02,Gnar,top,1,0
-16.02,Jax,jng,1,0
-16.02,Jayce,jng,1,0
-16.02,K'Sante,top,1,0
-16.02,Kai'Sa,bot,0,1
+16.02,Gragas,top,1,0
+16.02,Gwen,top,0,1
+16.02,Jinx,bot,1,0
 16.02,Kennen,top,0,1
-16.02,Lee Sin,jng,1,0
-16.02,Lucian,bot,1,0
-16.02,Lulu,sup,0,1
-16.02,Malphite,jng,0,1
-16.02,Miss Fortune,bot,1,0
+16.02,Nami,sup,1,0
+16.02,Olaf,top,1,0
 16.02,Poppy,sup,0,1
-16.02,Renata Glasc,sup,0,1
-16.02,Ryze,mid,0,1
-16.02,Sion,top,1,0
+16.02,Shen,sup,1,0
+16.02,Sivir,bot,0,1
+16.02,Tahm Kench,sup,1,0
 16.02,Taliyah,mid,1,0
-16.02,Vi,jng,1,0
-16.02,Xayah,bot,1,0
-16.02,Xin Zhao,jng,1,0
-16.02,Yunara,bot,1,0
-16.02,Zaahen,top,1,0
-16.06,Orianna,mid,0,3
-16.06,Pantheon,jng,1,2
-16.06,Leona,sup,1,1
+16.02,Trundle,jng,1,0
+16.02,Viktor,mid,1,0
+16.02,Wukong,jng,1,0
+16.02,Yone,mid,1,0
+16.06,Orianna,mid,1,3
+16.06,Anivia,sup,2,0
+16.06,Bard,sup,1,1
+16.06,Gnar,top,2,0
+16.06,Jarvan IV,jng,2,0
 16.06,Nautilus,sup,1,1
-16.06,Neeko,sup,1,1
-16.06,Nocturne,jng,1,1
+16.06,Pantheon,jng,0,2
 16.06,Rumble,top,0,2
 16.06,Sivir,bot,1,1
-16.06,Alistar,sup,1,0
-16.06,Ambessa,jng,1,0
-16.06,Ambessa,top,1,0
+16.06,Vi,jng,1,1
 16.06,Ashe,bot,0,1
 16.06,Azir,mid,1,0
-16.06,Bard,sup,0,1
-16.06,Caitlyn,bot,1,0
-16.06,Cassiopeia,mid,1,0
-16.06,Corki,bot,1,0
 16.06,Jayce,top,1,0
-16.06,Kai'Sa,bot,1,0
+16.06,Jhin,bot,1,0
+16.06,K'Sante,top,1,0
 16.06,Karma,sup,0,1
 16.06,LeBlanc,mid,1,0
+16.06,Lee Sin,jng,1,0
+16.06,Leona,sup,0,1
 16.06,Lulu,sup,0,1
-16.06,Renekton,top,1,0
+16.06,Neeko,sup,0,1
+16.06,Nocturne,jng,0,1
 16.06,Ryze,mid,1,0
 16.06,Seraphine,sup,0,1
 16.06,Taliyah,mid,0,1
-16.06,Vi,jng,0,1
-16.06,Xin Zhao,jng,1,0
-16.06,Yorick,top,1,0
+16.06,Varus,bot,1,0
+16.06,Yunara,bot,1,0
 16.06,Ziggs,bot,0,1
-16.07,Orianna,mid,1,4
+16.07,Azir,mid,3,2
+16.07,Pantheon,jng,2,3
 16.07,Varus,bot,0,5
-16.07,Gnar,top,3,1
-16.07,Pantheon,jng,1,3
+16.07,Anivia,mid,1,3
+16.07,Jarvan IV,jng,3,1
+16.07,Nautilus,sup,1,3
+16.07,Orianna,mid,0,4
 16.07,Rumble,top,0,4
-16.07,Anivia,mid,0,3
-16.07,Aurora,mid,2,1
+16.07,Yunara,bot,3,1
+16.07,Ambessa,top,2,1
+16.07,Annie,mid,1,2
+16.07,Bard,sup,2,1
 16.07,Caitlyn,bot,1,2
-16.07,Ezreal,bot,3,0
+16.07,Jayce,top,3,0
 16.07,Karma,sup,1,2
-16.07,Nautilus,sup,0,3
-16.07,Neeko,sup,3,0
-16.07,Ryze,mid,3,0
-16.07,Vi,jng,2,1
-16.07,Ahri,mid,1,1
-16.07,Alistar,sup,2,0
-16.07,Ambessa,top,1,1
-16.07,Annie,mid,0,2
-16.07,Azir,mid,0,2
-16.07,Bard,sup,1,1
-16.07,K'Sante,top,2,0
-16.07,Lee Sin,jng,2,0
+16.07,Lulu,sup,3,0
+16.07,Jhin,bot,2,0
 16.07,Nocturne,jng,1,1
+16.07,Renekton,top,1,1
 16.07,Sion,top,1,1
+16.07,Vi,jng,1,1
 16.07,Xin Zhao,jng,1,1
-16.07,Yorick,top,1,1
-16.07,Yunara,bot,1,1
-16.07,Akali,mid,1,0
-16.07,Ashe,bot,1,0
-16.07,Jarvan IV,jng,0,1
-16.07,Jayce,top,1,0
-16.07,Jhin,bot,1,0
-16.07,Kalista,bot,1,0
-16.07,Naafiri,jng,1,0
+16.07,Ahri,mid,0,1
+16.07,Anivia,sup,1,0
+16.07,Aurora,mid,0,1
+16.07,Corki,bot,1,0
+16.07,Ezreal,bot,1,0
+16.07,Gnar,top,0,1
+16.07,K'Sante,top,1,0
+16.07,LeBlanc,mid,1,0
+16.07,Leona,sup,1,0
 16.07,Nami,sup,0,1
 16.07,Poppy,jng,1,0
-16.07,Renata Glasc,sup,1,0
-16.07,Renekton,top,0,1
-16.07,Seraphine,sup,1,0
+16.07,Ryze,mid,1,0
 16.07,Sivir,bot,0,1
-16.07,Taliyah,mid,1,0
+16.07,Sylas,mid,1,0
+16.07,Yone,mid,1,0
+16.07,Yorick,top,0,1
+16.07,Zaahen,top,1,0
 16.07,Ziggs,bot,1,0
 16.08,Varus,bot,0,6
-16.08,Xin Zhao,jng,3,3
-16.08,Karma,sup,2,3
-16.08,Annie,mid,2,2
+16.08,Azir,mid,3,2
+16.08,Ezreal,bot,2,2
 16.08,Jayce,top,1,3
-16.08,Nautilus,sup,2,2
-16.08,Jarvan IV,jng,3,0
+16.08,Karma,sup,1,3
+16.08,Pantheon,jng,2,2
+16.08,Rumble,top,1,3
+16.08,Xin Zhao,jng,1,3
+16.08,Yunara,bot,2,2
+16.08,Aurora,mid,2,1
+16.08,Lucian,bot,1,2
+16.08,Nautilus,sup,1,2
+16.08,Neeko,sup,3,0
 16.08,Orianna,mid,0,3
-16.08,Rumble,top,0,3
-16.08,Yunara,bot,1,2
-16.08,Anivia,top,2,0
-16.08,Ashe,bot,1,1
-16.08,Aurora,mid,1,1
-16.08,Azir,mid,0,2
-16.08,Bard,sup,2,0
-16.08,Ezreal,bot,0,2
-16.08,Jhin,bot,2,0
-16.08,Lucian,bot,0,2
-16.08,Lulu,sup,2,0
-16.08,Nocturne,jng,2,0
-16.08,Pantheon,jng,0,2
-16.08,Renekton,top,1,1
-16.08,Sion,top,1,1
-16.08,Ahri,mid,1,0
+16.08,Sion,top,2,1
+16.08,Annie,mid,0,2
+16.08,Corki,bot,2,0
+16.08,Gnar,top,2,0
+16.08,Kalista,bot,1,1
+16.08,Nami,sup,2,0
 16.08,Akali,mid,1,0
 16.08,Ambessa,top,1,0
+16.08,Anivia,mid,1,0
+16.08,Ashe,bot,0,1
 16.08,Caitlyn,bot,1,0
-16.08,Gnar,top,1,0
-16.08,Kalista,bot,0,1
-16.08,Kog'Maw,bot,1,0
+16.08,Hwei,mid,1,0
+16.08,Jarvan IV,jng,1,0
 16.08,LeBlanc,mid,0,1
+16.08,Lee Sin,jng,1,0
 16.08,Leona,sup,0,1
-16.08,Mel,mid,1,0
-16.08,Miss Fortune,bot,1,0
+16.08,Milio,sup,1,0
+16.08,Nocturne,jng,1,0
+16.08,Poppy,jng,1,0
 16.08,Poppy,sup,0,1
-16.08,Rek'Sai,top,1,0
+16.08,Renata Glasc,sup,1,0
+16.08,Renekton,top,0,1
 16.08,Ryze,mid,1,0
-16.08,Seraphine,sup,1,0
-16.08,Sivir,bot,1,0
 16.08,Trundle,jng,1,0
-16.08,Twisted Fate,top,1,0
-16.08,Twisted Fate,mid,1,0
+16.08,Vayne,top,1,0
 16.08,Vi,jng,0,1
-16.08,Xayah,bot,1,0
-16.08,Ziggs,mid,1,0
+16.08,Wukong,jng,1,0
+16.08,Yorick,top,1,0
 16.08,Ziggs,bot,0,1
-16.09,Lucian,bot,3,3
 16.09,Rumble,top,1,5
-16.09,Xin Zhao,jng,4,2
+16.09,Nocturne,jng,2,3
 16.09,Orianna,mid,0,5
 16.09,Varus,bot,0,5
+16.09,Annie,mid,2,2
 16.09,Azir,mid,1,3
-16.09,Cassiopeia,mid,3,1
-16.09,Milio,sup,4,0
-16.09,Akali,mid,1,2
+16.09,Pantheon,jng,4,0
+16.09,Caitlyn,bot,2,1
+16.09,Ezreal,bot,3,0
+16.09,Gnar,top,3,0
 16.09,Jarvan IV,jng,2,1
 16.09,Jayce,top,1,2
 16.09,Karma,sup,1,2
 16.09,Lee Sin,jng,0,3
-16.09,Nocturne,jng,0,3
-16.09,Annie,mid,0,2
-16.09,Ashe,bot,2,0
+16.09,Lucian,bot,0,3
+16.09,Neeko,sup,3,0
+16.09,Ryze,mid,3,0
+16.09,Akali,mid,0,2
+16.09,Ambessa,top,2,0
 16.09,Bard,sup,1,1
-16.09,Caitlyn,bot,1,1
-16.09,Renekton,top,1,1
-16.09,Ryze,mid,2,0
-16.09,Seraphine,sup,2,0
+16.09,Lulu,sup,1,1
+16.09,Miss Fortune,bot,2,0
+16.09,Nautilus,sup,2,0
 16.09,Sion,top,2,0
 16.09,Trundle,jng,0,2
 16.09,Vayne,top,0,2
+16.09,Viktor,mid,1,1
+16.09,Xin Zhao,jng,0,2
 16.09,Anivia,mid,0,1
 16.09,Aphelios,bot,0,1
-16.09,Aurora,mid,1,0
-16.09,Ezreal,bot,1,0
-16.09,Gnar,top,1,0
-16.09,Jhin,bot,1,0
-16.09,K'Sante,top,1,0
-16.09,Lulu,sup,0,1
-16.09,Mel,mid,1,0
-16.09,Miss Fortune,bot,1,0
-16.09,Naafiri,jng,1,0
+16.09,Ashe,bot,1,0
+16.09,Cassiopeia,mid,0,1
+16.09,Corki,bot,1,0
+16.09,Galio,mid,1,0
+16.09,Kog'Maw,bot,1,0
 16.09,Nami,sup,1,0
-16.09,Nautilus,sup,1,0
-16.09,Olaf,top,1,0
-16.09,Pantheon,jng,1,0
+16.09,Renekton,top,0,1
+16.09,Seraphine,sup,1,0
 16.09,Skarner,jng,1,0
-16.09,Tristana,top,1,0
-16.09,Twisted Fate,mid,1,0
+16.09,Taliyah,mid,1,0
 16.09,Twisted Fate,top,1,0
-16.09,Viktor,mid,0,1
+16.09,Twisted Fate,mid,1,0
 16.09,Wukong,jng,1,0
-16.09,Yunara,bot,1,0
+16.1,Jarvan IV,jng,2,4
 16.1,Varus,bot,0,6
-16.1,Cassiopeia,mid,2,3
-16.1,Gnar,top,3,2
-16.1,Jarvan IV,jng,1,4
 16.1,Orianna,mid,0,5
+16.1,Twisted Fate,mid,4,1
+16.1,Ashe,bot,3,1
+16.1,Azir,mid,1,3
 16.1,Ezreal,bot,1,3
-16.1,Karma,sup,1,3
-16.1,Vi,jng,1,3
-16.1,Annie,mid,2,1
-16.1,Azir,mid,0,3
-16.1,Bard,sup,3,0
+16.1,Lee Sin,jng,3,1
+16.1,Lulu,sup,2,2
+16.1,Pantheon,jng,3,1
 16.1,Caitlyn,bot,1,2
-16.1,K'Sante,top,2,1
+16.1,Cassiopeia,mid,0,3
+16.1,Gnar,top,1,2
+16.1,Karma,sup,0,3
 16.1,Lucian,bot,2,1
-16.1,Lulu,sup,1,2
-16.1,Naafiri,jng,3,0
-16.1,Sion,top,2,1
+16.1,Nami,sup,2,1
+16.1,Renekton,top,3,0
+16.1,Rumble,top,2,1
 16.1,Vayne,top,0,3
-16.1,Wukong,jng,2,1
-16.1,Akali,mid,1,1
-16.1,Aurora,mid,2,0
-16.1,Lee Sin,jng,1,1
+16.1,Vi,jng,0,3
+16.1,Annie,mid,1,1
+16.1,Jayce,top,1,1
+16.1,K'Sante,top,1,1
 16.1,Milio,sup,2,0
-16.1,Nami,sup,1,1
-16.1,Pantheon,jng,1,1
-16.1,Rumble,top,1,1
+16.1,Nautilus,sup,2,0
 16.1,Ryze,mid,2,0
-16.1,Taliyah,mid,2,0
-16.1,Ashe,bot,0,1
+16.1,Seraphine,sup,2,0
+16.1,Wukong,jng,1,1
+16.1,Yunara,bot,2,0
+16.1,Ahri,mid,1,0
+16.1,Akali,mid,0,1
+16.1,Ambessa,top,1,0
+16.1,Anivia,top,1,0
+16.1,Bard,sup,1,0
 16.1,Corki,bot,1,0
+16.1,Galio,mid,1,0
 16.1,Gwen,top,0,1
-16.1,Jayce,top,0,1
-16.1,Jhin,bot,1,0
-16.1,Miss Fortune,bot,1,0
-16.1,Nautilus,sup,1,0
 16.1,Nocturne,jng,0,1
 16.1,Poppy,sup,0,1
-16.1,Pyke,sup,1,0
-16.1,Sivir,bot,1,0
-16.1,Trundle,jng,1,0
-16.1,Twisted Fate,mid,0,1
-16.1,Xin Zhao,top,1,0
+16.1,Sion,top,0,1
+16.1,Skarner,jng,1,0
+16.1,Viktor,mid,1,0
+16.1,Xayah,bot,1,0
 16.1,Xin Zhao,jng,1,0
 16.1,Yorick,top,1,0
-16.1,Yunara,bot,1,0
-16.1,Yuumi,sup,1,0
-16.1,Zaahen,top,1,0
-16.1,Zeri,bot,1,0
-16.1,Ziggs,bot,1,0
