@@ -45,13 +45,6 @@ async function route() {
 }
 
 async function init() {
-  // wire global toggle
-  const cb = document.getElementById("meta-toggle");
-  cb.addEventListener("change", () => {
-    state.metaToggle = cb.checked;
-    state.listeners.forEach(fn => fn(state.metaToggle));
-  });
-
   // patch + meta badge
   try {
     const info = await loadMetaInfo();
@@ -65,6 +58,25 @@ async function init() {
 }
 
 init();
+
+// Inline toggle helper for view toolbars. Returns HTML + must be paired with
+// wireToggle(container) after innerHTML is set.
+export function toggleHTML() {
+  return `
+    <label class="switch" title="Add per-champion baseline strength to each cell">
+      <input type="checkbox" class="meta-toggle-cb" ${state.metaToggle?'checked':''} />
+      <span class="slider"></span>
+      <span class="switch-label">Consider baseline strength</span>
+    </label>`;
+}
+export function wireToggle(container) {
+  const cb = container.querySelector(".meta-toggle-cb");
+  if (!cb) return;
+  cb.addEventListener("change", () => {
+    state.metaToggle = cb.checked;
+    state.listeners.forEach(fn => fn(state.metaToggle));
+  });
+}
 
 // expose for inline links / debugging
 window.DraftSeer = { state, route };

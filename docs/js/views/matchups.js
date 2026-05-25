@@ -2,7 +2,7 @@
 
 import { loadMeta, loadChampIds, loadMatchup, ROLES, ROLE_LABEL, roleIcon } from "../data.js";
 import { renderHeatmap } from "../heatmap.js";
-import { state, onToggleChange } from "../main.js";
+import { state, onToggleChange, toggleHTML, wireToggle } from "../main.js";
 
 export async function renderMatchups(root, params) {
   const allyRole  = params.get("ally")  || "top";
@@ -34,6 +34,7 @@ export async function renderMatchups(root, params) {
         <option value="30" ${limit===30?'selected':''}>30</option>
         <option value="50" ${limit===50?'selected':''}>50</option>
       </select>
+      ${toggleHTML()}
       <div class="spacer"></div>
       <span style="color:var(--text-dim); font-size:12px;">
         Rows = ${ROLE_LABEL[allyRole]} allies · Cols = ${ROLE_LABEL[enemyRole]} enemies ·
@@ -78,6 +79,7 @@ export async function renderMatchups(root, params) {
 
   paint();
   onToggleChange(paint);
+  wireToggle(root);
 
   // Re-route on selector changes
   function nav(field, val) {

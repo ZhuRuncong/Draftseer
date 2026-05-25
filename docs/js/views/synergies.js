@@ -2,7 +2,7 @@
 
 import { loadMeta, loadChampIds, loadSynergy, ROLES, ROLE_LABEL, SYNERGY_PAIRS, roleIcon } from "../data.js";
 import { renderHeatmap } from "../heatmap.js";
-import { state, onToggleChange } from "../main.js";
+import { state, onToggleChange, toggleHTML, wireToggle } from "../main.js";
 
 export async function renderSynergies(root, params) {
   let r1 = params.get("r1") || "top";
@@ -36,6 +36,7 @@ export async function renderSynergies(root, params) {
         <option value="30" ${limit===30?'selected':''}>30</option>
         <option value="50" ${limit===50?'selected':''}>50</option>
       </select>
+      ${toggleHTML()}
       <div class="spacer"></div>
       <span style="color:var(--text-dim); font-size:12px;">
         Rows = ${ROLE_LABEL[r1]} · Cols = ${ROLE_LABEL[r2]} · positive = pair works well together
@@ -79,6 +80,7 @@ export async function renderSynergies(root, params) {
 
   paint();
   onToggleChange(paint);
+  wireToggle(root);
 
   function nav(field, val) {
     const p = new URLSearchParams(params);

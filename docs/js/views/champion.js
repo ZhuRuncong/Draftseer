@@ -1,7 +1,7 @@
 // Champion deep-dive view: strengths, best/worst matchups, top synergies.
 
 import { loadMeta, loadChampIds, loadMatchup, loadSynergy, ROLES, ROLE_LABEL, SYNERGY_PAIRS, roleIcon } from "../data.js";
-import { state, onToggleChange } from "../main.js";
+import { state, onToggleChange, toggleHTML, wireToggle } from "../main.js";
 
 const TOP_N = 8;
 
@@ -67,9 +67,10 @@ export async function renderChampion(root, params) {
       <select id="role-pick">
         ${champRoles.map(r => `<option value="${r}" ${r===role?'selected':''}>${ROLE_LABEL[r]}</option>`).join("")}
       </select>
+      ${toggleHTML()}
       <div class="spacer"></div>
       <span style="color:var(--text-dim); font-size:12px;">
-        Top ${TOP_N} matchups & synergies per role · respects "Consider baseline strength" toggle
+        Top ${TOP_N} matchups & synergies per role
       </span>
     </div>
 
@@ -134,6 +135,7 @@ export async function renderChampion(root, params) {
   }
   paint();
   onToggleChange(paint);
+  wireToggle(root);
 
   root.querySelector("#role-pick").addEventListener("change", (e) => {
     location.hash = `#/champion?name=${encodeURIComponent(name)}&role=${e.target.value}`;
