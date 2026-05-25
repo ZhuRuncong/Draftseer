@@ -1,6 +1,7 @@
 // Lightweight data layer: parses the CSVs once and caches in-memory.
 
 const ROOT = "data";
+const DATA_V = "2"; // bump to invalidate browser cache for data files
 export const ROLES = ["top", "jng", "mid", "bot", "sup"];
 export const ROLE_LABEL = { top: "Top", jng: "Jungle", mid: "Mid", bot: "Bot", sup: "Support" };
 
@@ -158,11 +159,11 @@ export function loadSynergy(r1, r2) {
 
 // ----- Teams "vs" data -----
 export function loadTeamsIndex() {
-  return memo("teamsIndex", () => fetchJSON(`${ROOT}/teams_index.json`));
+  return memo("teamsIndex", () => fetchJSON(`${ROOT}/teams_index.json?v=${DATA_V}`));
 }
 export function loadTeamVs(slug) {
   return memo(`team|${slug}`, async () => {
-    const txt = await fetchText(`${ROOT}/teams/${slug}.csv`);
+    const txt = await fetchText(`${ROOT}/teams/${slug}.csv?v=${DATA_V}`);
     const lines = txt.trim().split(/\r?\n/);
     lines.shift(); // patch,champ,role,picks_by,bans_vs
     const rows = [];
