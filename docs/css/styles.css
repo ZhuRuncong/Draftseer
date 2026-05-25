@@ -344,3 +344,4 @@ main { padding: 20px; min-height: calc(100vh - 110px); }
 .tbl-teams .vs-p { color: var(--blue); }
 .tbl-teams .vs-b { color: var(--red); }
 .tbl-teams td.num.strong { color: var(--text); font-weight: 600; }
+.view-teams .field-hint { font-size: 10px; color: var(--text-dim); text-transform: none; letter-spacing: normal; opacity: .8; margin-left: 4px; }

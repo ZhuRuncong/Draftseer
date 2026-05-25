@@ -3,1542 +3,1850 @@
     {
       "slug": "3bl-esports",
       "name": "3BL Esports",
-      "games": 68
+      "games": 68,
+      "league": "AL"
     },
     {
       "slug": "4-employed-e-1-budino",
       "name": "4 Employed e 1 Budino",
-      "games": 12
+      "games": 12,
+      "league": "LIT"
     },
     {
       "slug": "4-swines-a-bum",
       "name": "4 Swines & A Bum",
-      "games": 7
+      "games": 7,
+      "league": "NLC"
     },
     {
       "slug": "7rex",
       "name": "7REX",
-      "games": 14
+      "games": 14,
+      "league": "CD"
     },
     {
       "slug": "9gaming-esports",
       "name": "9Gaming Esports",
-      "games": 27
+      "games": 27,
+      "league": "VCS"
     },
     {
       "slug": "9z-globant",
       "name": "9z Globant",
-      "games": 22
+      "games": 22,
+      "league": "LRS"
     },
     {
       "slug": "a-one-man-army-prime",
       "name": "A One Man Army Prime",
-      "games": 10
+      "games": 10,
+      "league": "PRM"
     },
     {
       "slug": "aeterna-esports",
       "name": "Aeterna Esports",
-      "games": 16
+      "games": 16,
+      "league": "LIT"
     },
     {
       "slug": "almo-players",
       "name": "ALMO Players",
-      "games": 35
+      "games": 35,
+      "league": "HLL"
     },
     {
       "slug": "andromeda-gaming",
       "name": "Andromeda Gaming",
-      "games": 25
+      "games": 25,
+      "league": "HC"
     },
     {
       "slug": "anonymo-esports",
       "name": "Anonymo Esports",
-      "games": 31
+      "games": 31,
+      "league": "RL"
     },
     {
       "slug": "anubis-gaming",
       "name": "Anubis Gaming",
-      "games": 55
+      "games": 55,
+      "league": "AL"
     },
     {
       "slug": "anyone-s-legend",
       "name": "Anyone's Legend",
-      "games": 74
+      "games": 74,
+      "league": "LPL"
     },
     {
       "slug": "apex-mission-impossible",
       "name": "Apex Mission Impossible",
-      "games": 19
+      "games": 19,
+      "league": "NACL"
     },
     {
       "slug": "arctic-pandas",
       "name": "Arctic Pandas",
-      "games": 23
+      "games": 23,
+      "league": "NLC"
     },
     {
       "slug": "arneb",
       "name": "Arneb",
-      "games": 39
+      "games": 39,
+      "league": "LJL"
     },
     {
       "slug": "axolotl",
       "name": "Axolotl",
-      "games": 21
+      "games": 21,
+      "league": "LIT"
     },
     {
       "slug": "baam-esports",
       "name": "BAAM Esports",
-      "games": 71
+      "games": 71,
+      "league": "AL"
     },
     {
       "slug": "bamboo-juice",
       "name": "Bamboo Juice",
-      "games": 26
+      "games": 26,
+      "league": "LJL"
     },
     {
       "slug": "barcz-ca-esports",
       "name": "Barcz\u0105ca Esports",
-      "games": 48
+      "games": 48,
+      "league": "RL"
     },
     {
       "slug": "barulhinhos",
       "name": "Barulhinhos",
-      "games": 6
+      "games": 6,
+      "league": "CD"
     },
     {
       "slug": "bar-a-esports",
       "name": "Bar\u00e7a eSports",
-      "games": 36
+      "games": 36,
+      "league": "LES"
     },
     {
       "slug": "befive",
       "name": "BeFive",
-      "games": 19
+      "games": 19,
+      "league": "EBL"
     },
     {
       "slug": "berlin-international-gaming",
       "name": "Berlin International Gaming",
-      "games": 73
+      "games": 73,
+      "league": "PRM"
     },
     {
       "slug": "bilibili-gaming",
       "name": "Bilibili Gaming",
-      "games": 87
+      "games": 87,
+      "league": "LPL"
     },
     {
       "slug": "bk-rog-esports",
       "name": "BK ROG Esports",
-      "games": 12
+      "games": 12,
+      "league": "LFL"
     },
     {
       "slug": "blue-otter",
       "name": "Blue Otter",
-      "games": 22
+      "games": 22,
+      "league": "NACL"
     },
     {
       "slug": "bnk-fearx",
       "name": "BNK FEARX",
-      "games": 85
+      "games": 85,
+      "league": "LCK"
     },
     {
       "slug": "bnk-fearx-youth",
       "name": "BNK FEARX Youth",
-      "games": 58
+      "games": 58,
+      "league": "LCKC"
     },
     {
       "slug": "bohemian-guardians",
       "name": "Bohemian Guardians",
-      "games": 15
+      "games": 15,
+      "league": "HM"
     },
     {
       "slug": "bomba-team",
       "name": "Bomba Team",
-      "games": 36
+      "games": 36,
+      "league": "RL"
     },
     {
       "slug": "boostgate-esports",
       "name": "BoostGate Esports",
-      "games": 27
+      "games": 27,
+      "league": "TCL"
     },
     {
       "slug": "brute",
       "name": "BRUTE",
-      "games": 44
+      "games": 44,
+      "league": "HW"
     },
     {
       "slug": "bubliki",
       "name": "Bubliki",
-      "games": 7
+      "games": 7,
+      "league": "LPLOL"
     },
     {
       "slug": "bulldog-esports",
       "name": "Bulldog Esports",
-      "games": 12
+      "games": 12,
+      "league": "NLC"
     },
     {
       "slug": "bushido-wildcats",
       "name": "Bushido Wildcats",
-      "games": 48
+      "games": 48,
+      "league": "TCL"
     },
     {
       "slug": "cag-osaka",
       "name": "CAG OSAKA",
-      "games": 26
+      "games": 26,
+      "league": "LJL"
     },
     {
       "slug": "caldya-esport",
       "name": "Caldya Esport",
-      "games": 16
+      "games": 16,
+      "league": "NL"
     },
     {
       "slug": "ccg-esports",
       "name": "CCG Esports",
-      "games": 25
+      "games": 25,
+      "league": "NACL"
     },
     {
       "slug": "cita-kaizen",
       "name": "CITA Kaizen",
-      "games": 47
+      "games": 47,
+      "league": "HW"
     },
     {
       "slug": "cita-kaizen-academy",
       "name": "CITA Kaizen Academy",
-      "games": 17
+      "games": 17,
+      "league": "HC"
     },
     {
       "slug": "citadel-gaming",
       "name": "Citadel Gaming",
-      "games": 20
+      "games": 20,
+      "league": "NACL"
     },
     {
       "slug": "cloud9",
       "name": "Cloud9",
-      "games": 60
+      "games": 60,
+      "league": "LCS"
     },
     {
       "slug": "colossal-gaming",
       "name": "Colossal Gaming",
-      "games": 43
+      "games": 43,
+      "league": "LIT"
     },
     {
       "slug": "conviction",
       "name": "Conviction",
-      "games": 26
+      "games": 26,
+      "league": "NACL"
     },
     {
       "slug": "croatian-flair",
       "name": "Croatian Flair",
-      "games": 21
+      "games": 21,
+      "league": "EBL"
     },
     {
       "slug": "crusaders",
       "name": "Crusaders",
-      "games": 14
+      "games": 14,
+      "league": "LPLOL"
     },
     {
       "slug": "crvena-zvezda-esports",
       "name": "Crvena zvezda Esports",
-      "games": 9
+      "games": 9,
+      "league": "EBL"
     },
     {
       "slug": "crystal-rose",
       "name": "Crystal Rose",
-      "games": 14
+      "games": 14,
+      "league": "NL"
     },
     {
       "slug": "ctbc-flying-oyster",
       "name": "CTBC Flying Oyster",
-      "games": 52
+      "games": 52,
+      "league": "LCP"
     },
     {
       "slug": "c-es-de-gua",
       "name": "C\u00e3es de \u00c1gua",
-      "games": 6
+      "games": 6,
+      "league": "LPLOL"
     },
     {
       "slug": "dark-passage",
       "name": "Dark Passage",
-      "games": 28
+      "games": 28,
+      "league": "TCL"
     },
     {
       "slug": "deacoy",
       "name": "Deacoy",
-      "games": 15
+      "games": 15,
+      "league": "LIT"
     },
     {
       "slug": "decoy-21",
       "name": "DECOY 21",
-      "games": 10
+      "games": 10,
+      "league": "LIT"
     },
     {
       "slug": "deep-cross-gaming",
       "name": "Deep Cross Gaming",
-      "games": 67
+      "games": 67,
+      "league": "LCP"
     },
     {
       "slug": "deer-gaming",
       "name": "Deer Gaming",
-      "games": 9
+      "games": 9,
+      "league": "NLC"
     },
     {
       "slug": "detonation-focusme",
       "name": "DetonatioN FocusMe",
-      "games": 37
+      "games": 37,
+      "league": "LCP"
     },
     {
       "slug": "detonation-focusme-academy",
       "name": "DetonatioN FocusMe Academy",
-      "games": 17
+      "games": 17,
+      "league": "LJL"
     },
     {
       "slug": "devils-one-instreamly",
       "name": "devils.one inStreamly",
-      "games": 23
+      "games": 23,
+      "league": "RL"
     },
     {
       "slug": "dignitas",
       "name": "Dignitas",
-      "games": 28
+      "games": 28,
+      "league": "LCS"
     },
     {
       "slug": "disguised",
       "name": "Disguised",
-      "games": 38
+      "games": 38,
+      "league": "LCS"
     },
     {
       "slug": "divernex",
       "name": "Divernex",
-      "games": 8
+      "games": 8,
+      "league": "HW"
     },
     {
       "slug": "diversion-gaming",
       "name": "Diversion Gaming",
-      "games": 23
+      "games": 23,
+      "league": "HC"
     },
     {
       "slug": "dmg-esports",
       "name": "DMG Esports",
-      "games": 25
+      "games": 25,
+      "league": "NLC"
     },
     {
       "slug": "dn-soopers",
       "name": "DN SOOPers",
-      "games": 72
+      "games": 72,
+      "league": "LCK"
     },
     {
       "slug": "dn-soopers-academy",
       "name": "DN SOOPers Academy",
-      "games": 55
+      "games": 55,
+      "league": "LAS"
     },
     {
       "slug": "dn-soopers-challengers",
       "name": "DN SOOPers Challengers",
-      "games": 63
+      "games": 63,
+      "league": "LCKC"
     },
     {
       "slug": "docisk",
       "name": "DOCISK",
-      "games": 28
+      "games": 28,
+      "league": "RL"
     },
     {
       "slug": "dorado-gaming",
       "name": "Dorado Gaming",
-      "games": 22
+      "games": 22,
+      "league": "NACL"
     },
     {
       "slug": "dplus-kia",
       "name": "Dplus Kia",
-      "games": 77
+      "games": 77,
+      "league": "LCK"
     },
     {
       "slug": "dplus-kia-academy",
       "name": "Dplus Kia Academy",
-      "games": 65
+      "games": 65,
+      "league": "LAS"
     },
     {
       "slug": "dplus-kia-challengers",
       "name": "Dplus Kia Challengers",
-      "games": 54
+      "games": 54,
+      "league": "LCKC"
     },
     {
       "slug": "dragons-esports",
       "name": "Dragons Esports",
-      "games": 49
+      "games": 49,
+      "league": "AL"
     },
     {
       "slug": "dream-esports",
       "name": "Dream Esports",
-      "games": 7
+      "games": 7,
+      "league": "LPLOL"
     },
     {
       "slug": "dynasty",
       "name": "Dynasty",
-      "games": 35
+      "games": 35,
+      "league": "ROL"
     },
     {
       "slug": "e-wie-einfach-e-sports",
       "name": "E WIE EINFACH E-SPORTS",
-      "games": 41
+      "games": 41,
+      "league": "PRM"
     },
     {
       "slug": "edward-gaming",
       "name": "EDward Gaming",
-      "games": 38
+      "games": 38,
+      "league": "LPL"
     },
     {
       "slug": "ei-nerd-esports",
       "name": "Ei Nerd Esports",
-      "games": 14
+      "games": 14,
+      "league": "CD"
     },
     {
       "slug": "eintracht-frankfurt",
       "name": "Eintracht Frankfurt",
-      "games": 35
+      "games": 35,
+      "league": "PRM"
     },
     {
       "slug": "eintracht-spandau",
       "name": "Eintracht Spandau",
-      "games": 50
+      "games": 50,
+      "league": "PRM"
     },
     {
       "slug": "eko-esports",
       "name": "EKO Esports",
-      "games": 27
+      "games": 27,
+      "league": "LIT"
     },
     {
       "slug": "elegance",
       "name": "Elegance",
-      "games": 5
+      "games": 5,
+      "league": "LPLOL"
     },
     {
       "slug": "embraza-esports",
       "name": "emBRAZA! Esports",
-      "games": 5
+      "games": 5,
+      "league": "CD"
     },
     {
       "slug": "epitomy-esports",
       "name": "Epitomy Esports",
-      "games": 20
+      "games": 20,
+      "league": "LIT"
     },
     {
       "slug": "epitomy-masters",
       "name": "Epitomy Masters",
-      "games": 10
+      "games": 10,
+      "league": "LIT"
     },
     {
       "slug": "esprit-sh-nen",
       "name": "Esprit Sh\u014dnen",
-      "games": 18
+      "games": 18,
+      "league": "LFL"
     },
     {
       "slug": "estral-esports",
       "name": "Estral Esports",
-      "games": 23
+      "games": 23,
+      "league": "CD"
     },
     {
       "slug": "esuba",
       "name": "eSuba",
-      "games": 37
+      "games": 37,
+      "league": "HW"
     },
     {
       "slug": "ethereal-enigmas",
       "name": "Ethereal Enigmas",
-      "games": 24
+      "games": 24,
+      "league": "HC"
     },
     {
       "slug": "exile-esports",
       "name": "EXILE esports",
-      "games": 33
+      "games": 33,
+      "league": "HW"
     },
     {
       "slug": "exile-esports-academy",
       "name": "EXILE esports Academy",
-      "games": 17
+      "games": 17,
+      "league": "HC"
     },
     {
       "slug": "falke-esports",
       "name": "Falke Esports",
-      "games": 18
+      "games": 18,
+      "league": "LES"
     },
     {
       "slug": "fast8",
       "name": "Fast8",
-      "games": 31
+      "games": 31,
+      "league": "LJL"
     },
     {
       "slug": "fennel",
       "name": "FENNEL",
-      "games": 27
+      "games": 27,
+      "league": "LJL"
     },
     {
       "slug": "fluxo-w7m",
       "name": "Fluxo W7M",
-      "games": 34
+      "games": 34,
+      "league": "CBLOL"
     },
     {
       "slug": "flyquest",
       "name": "FlyQuest",
-      "games": 53
+      "games": 53,
+      "league": "LCS"
     },
     {
       "slug": "fn-esports",
       "name": "FN Esports",
-      "games": 67
+      "games": 67,
+      "league": "AL"
     },
     {
       "slug": "fnatic",
       "name": "Fnatic",
-      "games": 45
+      "games": 45,
+      "league": "LEC"
     },
     {
       "slug": "forsaken",
       "name": "Forsaken",
-      "games": 34
+      "games": 34,
+      "league": "RL"
     },
     {
       "slug": "francesinhas",
       "name": "Francesinhas",
-      "games": 13
+      "games": 13,
+      "league": "LPLOL"
     },
     {
       "slug": "frank-esports",
       "name": "Frank Esports",
-      "games": 8
+      "games": 8,
+      "league": "PCS"
     },
     {
       "slug": "french-flair",
       "name": "French Flair",
-      "games": 40
+      "games": 40,
+      "league": "LFL"
     },
     {
       "slug": "frites-esports-club",
       "name": "Frites Esports Club",
-      "games": 39
+      "games": 39,
+      "league": "ROL"
     },
     {
       "slug": "fuego",
       "name": "Fuego",
-      "games": 17
+      "games": 17,
+      "league": "LRN"
     },
     {
       "slug": "fukuoka-softbank-hawks-gaming",
       "name": "Fukuoka SoftBank HAWKS gaming",
-      "games": 62
+      "games": 62,
+      "league": "LCP"
     },
     {
       "slug": "furia",
       "name": "FURIA",
-      "games": 54
+      "games": 54,
+      "league": "CBLOL"
     },
     {
       "slug": "g2-esports",
       "name": "G2 Esports",
-      "games": 71
+      "games": 71,
+      "league": "LEC"
     },
     {
       "slug": "g2-nord",
       "name": "G2 NORD",
-      "games": 65
+      "games": 65,
+      "league": "PRM"
     },
     {
       "slug": "g3v-e-sports",
       "name": "G3V E-sports",
-      "games": 19
+      "games": 19,
+      "league": "LRN"
     },
     {
       "slug": "galions",
       "name": "Galions",
-      "games": 69
+      "games": 69,
+      "league": "LFL"
     },
     {
       "slug": "galions-sharks",
       "name": "Galions Sharks",
-      "games": 16
+      "games": 16,
+      "league": "NL"
     },
     {
       "slug": "gam-esports",
       "name": "GAM Esports",
-      "games": 54
+      "games": 54,
+      "league": "LCP"
     },
     {
       "slug": "gamespace-mediterranean-college-esports",
       "name": "Gamespace Mediterranean College Esports",
-      "games": 32
+      "games": 32,
+      "league": "HLL"
     },
     {
       "slug": "gen-g",
       "name": "Gen.G",
-      "games": 67
+      "games": 67,
+      "league": "LCK"
     },
     {
       "slug": "gen-g-global-academy",
       "name": "Gen.G Global Academy",
-      "games": 50
+      "games": 50,
+      "league": "LCKC"
     },
     {
       "slug": "gen-g-scholars",
       "name": "Gen.G Scholars",
-      "games": 67
+      "games": 67,
+      "league": "LAS"
     },
     {
       "slug": "giantx",
       "name": "GiantX",
-      "games": 52
+      "games": 52,
+      "league": "LEC"
     },
     {
       "slug": "giantx-itero",
       "name": "GIANTX iTero",
-      "games": 21
+      "games": 21,
+      "league": "LES"
     },
     {
       "slug": "gity-meavedronu",
       "name": "Gity Meavedronu",
-      "games": 5
+      "games": 5,
+      "league": "HW"
     },
     {
       "slug": "glore",
       "name": "GLORE",
-      "games": 14
+      "games": 14,
+      "league": "RL"
     },
     {
       "slug": "gmblers-esports",
       "name": "GMBLERS Esports",
-      "games": 50
+      "games": 50,
+      "league": "LIT"
     },
     {
       "slug": "gng-amazigh",
       "name": "GnG Amazigh",
-      "games": 55
+      "games": 55,
+      "league": "AL"
     },
     {
       "slug": "goal",
       "name": "GOAL",
-      "games": 41
+      "games": 41,
+      "league": "HLL"
     },
     {
       "slug": "golden-lions",
       "name": "Golden Lions",
-      "games": 19
+      "games": 19,
+      "league": "LRS"
     },
     {
       "slug": "ground-zero-gaming",
       "name": "Ground Zero Gaming",
-      "games": 53
+      "games": 53,
+      "league": "LCP"
     },
     {
       "slug": "gtz-esports",
       "name": "GTZ Esports",
-      "games": 9
+      "games": 9,
+      "league": "LPLOL"
     },
     {
       "slug": "hanjin-brion",
       "name": "HANJIN BRION",
-      "games": 61
+      "games": 61,
+      "league": "LCK"
     },
     {
       "slug": "hanjin-brion-academy",
       "name": "HANJIN BRION Academy",
-      "games": 48
+      "games": 48,
+      "league": "LAS"
     },
     {
       "slug": "hanjin-brion-challengers",
       "name": "HANJIN BRION Challengers",
-      "games": 55
+      "games": 55,
+      "league": "LCKC"
     },
     {
       "slug": "hanwha-life-esports",
       "name": "Hanwha Life Esports",
-      "games": 59
+      "games": 59,
+      "league": "LCK"
     },
     {
       "slug": "hanwha-life-esports-academy",
       "name": "Hanwha Life Esports Academy",
-      "games": 55
+      "games": 55,
+      "league": "LAS"
     },
     {
       "slug": "hanwha-life-esports-challengers",
       "name": "Hanwha Life Esports Challengers",
-      "games": 63
+      "games": 63,
+      "league": "LCKC"
     },
     {
       "slug": "hmble",
       "name": "HMBLE",
-      "games": 38
+      "games": 38,
+      "league": "LIT"
     },
     {
       "slug": "howl-esports",
       "name": "Howl Esports",
-      "games": 14
+      "games": 14,
+      "league": "HLL"
     },
     {
       "slug": "huskies-esports",
       "name": "Huskies Esports",
-      "games": 15
+      "games": 15,
+      "league": "LIT"
     },
     {
       "slug": "ici-japon-corp-esport",
       "name": "Ici Japon Corp. Esport",
-      "games": 16
+      "games": 16,
+      "league": "LFL"
     },
     {
       "slug": "icon-esports",
       "name": "Icon Esports",
-      "games": 12
+      "games": 12,
+      "league": "LRN"
     },
     {
       "slug": "inferno-drive-tokyo",
       "name": "Inferno Drive Tokyo",
-      "games": 40
+      "games": 40,
+      "league": "LJL"
     },
     {
       "slug": "inside-games",
       "name": "Inside Games",
-      "games": 7
+      "games": 7,
+      "league": "HW"
     },
     {
       "slug": "intz",
       "name": "INTZ",
-      "games": 20
+      "games": 20,
+      "league": "CD"
     },
     {
       "slug": "invictus-gaming",
       "name": "Invictus Gaming",
-      "games": 81
+      "games": 81,
+      "league": "LPL"
     },
     {
       "slug": "jd-gaming",
       "name": "JD Gaming",
-      "games": 96
+      "games": 96,
+      "league": "LPL"
     },
     {
       "slug": "joblife",
       "name": "Joblife",
-      "games": 28
+      "games": 28,
+      "league": "LFL"
     },
     {
       "slug": "jsk-esports",
       "name": "JSK Esports",
-      "games": 34
+      "games": 34,
+      "league": "AL"
     },
     {
       "slug": "kabum-ilha-das-lendas",
       "name": "KaBuM! Ilha das Lendas",
-      "games": 17
+      "games": 17,
+      "league": "CD"
     },
     {
       "slug": "karmine-corp",
       "name": "Karmine Corp",
-      "games": 69
+      "games": 69,
+      "league": "LEC"
     },
     {
       "slug": "karmine-corp-blue",
       "name": "Karmine Corp Blue",
-      "games": 38
+      "games": 38,
+      "league": "LFL"
     },
     {
       "slug": "karmine-corp-blue-stars",
       "name": "Karmine Corp Blue Stars",
-      "games": 17
+      "games": 17,
+      "league": "NL"
     },
     {
       "slug": "kaufland-hangry-knights",
       "name": "Kaufland Hangry Knights",
-      "games": 30
+      "games": 30,
+      "league": "PRM"
     },
     {
       "slug": "kia-esuba-academy",
       "name": "KIA.eSuba Academy",
-      "games": 21
+      "games": 21,
+      "league": "HC"
     },
     {
       "slug": "kiwoom-drx",
       "name": "Kiwoom DRX",
-      "games": 74
+      "games": 74,
+      "league": "LCK"
     },
     {
       "slug": "kiwoom-drx-challengers",
       "name": "Kiwoom DRX Challengers",
-      "games": 74
+      "games": 74,
+      "league": "LCKC"
     },
     {
       "slug": "kt-rolster",
       "name": "KT Rolster",
-      "games": 58
+      "games": 58,
+      "league": "LCK"
     },
     {
       "slug": "kt-rolster-academy",
       "name": "KT Rolster Academy",
-      "games": 53
+      "games": 53,
+      "league": "LAS"
     },
     {
       "slug": "kt-rolster-challengers",
       "name": "KT Rolster Challengers",
-      "games": 65
+      "games": 65,
+      "league": "LCKC"
     },
     {
       "slug": "kuma-e-sports",
       "name": "Kuma e-Sports",
-      "games": 9
+      "games": 9,
+      "league": "CD"
     },
     {
       "slug": "l-guide-gaming",
       "name": "L Guide Gaming",
-      "games": 38
+      "games": 38,
+      "league": "LJL"
     },
     {
       "slug": "la-bombas",
       "name": "La BOMBAS",
-      "games": 9
+      "games": 9,
+      "league": "NLC"
     },
     {
       "slug": "lausanne-sport-esports",
       "name": "Lausanne-Sport Esports",
-      "games": 17
+      "games": 17,
+      "league": "NL"
     },
     {
       "slug": "lenovo-legion-honv-d",
       "name": "Lenovo Legion Honv\u00e9d",
-      "games": 23
+      "games": 23,
+      "league": "EBL"
     },
     {
       "slug": "leviatan",
       "name": "Leviatan",
-      "games": 37
+      "games": 37,
+      "league": "CBLOL"
     },
     {
       "slug": "lgd-gaming",
       "name": "LGD Gaming",
-      "games": 34
+      "games": 34,
+      "league": "LPL"
     },
     {
       "slug": "lille-esport",
       "name": "Lille Esport",
-      "games": 26
+      "games": 26,
+      "league": "NL"
     },
     {
       "slug": "lng-esports",
       "name": "LNG Esports",
-      "games": 39
+      "games": 39,
+      "league": "LPL"
     },
     {
       "slug": "lodis",
       "name": "LODIS",
-      "games": 24
+      "games": 24,
+      "league": "RL"
     },
     {
       "slug": "los-ratones",
       "name": "Los Ratones",
-      "games": 11
+      "games": 11,
+      "league": "LEC"
     },
     {
       "slug": "loud",
       "name": "LOUD",
-      "games": 51
+      "games": 51,
+      "league": "CBLOL"
     },
     {
       "slug": "lua-gaming",
       "name": "LUA Gaming",
-      "games": 19
+      "games": 19,
+      "league": "LES"
     },
     {
       "slug": "lund-esports-organization",
       "name": "Lund Esports Organization",
-      "games": 8
+      "games": 8,
+      "league": "NLC"
     },
     {
       "slug": "lundqvist-lightside",
       "name": "Lundqvist Lightside",
-      "games": 8
+      "games": 8,
+      "league": "NLC"
     },
     {
       "slug": "lupus-esports",
       "name": "Lupus Esports",
-      "games": 41
+      "games": 41,
+      "league": "EBL"
     },
     {
       "slug": "lyon",
       "name": "LYON",
-      "games": 65
+      "games": 65,
+      "league": "LCS"
     },
     {
       "slug": "lyon-academy",
       "name": "LYON Academy",
-      "games": 16
+      "games": 16,
+      "league": "LRN"
     },
     {
       "slug": "l-s",
       "name": "L\u00d8S",
-      "games": 40
+      "games": 40,
+      "league": "CBLOL"
     },
     {
       "slug": "macko-academy",
       "name": "Macko Academy",
-      "games": 5
+      "games": 5,
+      "league": "LIT"
     },
     {
       "slug": "magaza-esports",
       "name": "Magaza Esports",
-      "games": 17
+      "games": 17,
+      "league": "EBL"
     },
     {
       "slug": "malvinas-gaming",
       "name": "Malvinas Gaming",
-      "games": 27
+      "games": 27,
+      "league": "LRS"
     },
     {
       "slug": "marere-invokers",
       "name": "Marere Invokers",
-      "games": 9
+      "games": 9,
+      "league": "CD"
     },
     {
       "slug": "maryville-university",
       "name": "Maryville University",
-      "games": 28
+      "games": 28,
+      "league": "NACL"
     },
     {
       "slug": "maze-gaming",
       "name": "Maze Gaming",
-      "games": 15
+      "games": 15,
+      "league": "LRS"
     },
     {
       "slug": "mcon-esports",
       "name": "mCon esports",
-      "games": 39
+      "games": 39,
+      "league": "ROL"
     },
     {
       "slug": "meavedron",
       "name": "Meavedron",
-      "games": 34
+      "games": 34,
+      "league": "HM"
     },
     {
       "slug": "misa-esports",
       "name": "Misa Esports",
-      "games": 51
+      "games": 51,
+      "league": "TCL"
     },
     {
       "slug": "movistar-koi",
       "name": "Movistar KOI",
-      "games": 62
+      "games": 62,
+      "league": "LEC"
     },
     {
       "slug": "movistar-koi-f-nix",
       "name": "Movistar KOI F\u00e9nix",
-      "games": 33
+      "games": 33,
+      "league": "LES"
     },
     {
       "slug": "mvk-esports",
       "name": "MVK Esports",
-      "games": 47
+      "games": 47,
+      "league": "LCP"
     },
     {
       "slug": "mvk-esports-academy",
       "name": "MVK Esports Academy",
-      "games": 30
+      "games": 30,
+      "league": "VCS"
     },
     {
       "slug": "myth-esports",
       "name": "Myth Esports",
-      "games": 30
+      "games": 30,
+      "league": "ROL"
     },
     {
       "slug": "natus-vincere",
       "name": "Natus Vincere",
-      "games": 52
+      "games": 52,
+      "league": "LEC"
     },
     {
       "slug": "ncg-esports",
       "name": "NCG Esports",
-      "games": 18
+      "games": 18,
+      "league": "LRN"
     },
     {
       "slug": "nerd-s-gangster-s-carecas",
       "name": "Nerd's Gangster's Carecas",
-      "games": 12
+      "games": 12,
+      "league": "CD"
     },
     {
       "slug": "new-meta",
       "name": "New Meta",
-      "games": 51
+      "games": 51,
+      "league": "LJL"
     },
     {
       "slug": "nextgeneration-esports",
       "name": "NextGeneration Esports",
-      "games": 28
+      "games": 28,
+      "league": "AL"
     },
     {
       "slug": "ng-a-h-esports",
       "name": "Ng\u1ef1a H\u00ed Esports",
-      "games": 11
+      "games": 11,
+      "league": "VCS"
     },
     {
       "slug": "nightbirds",
       "name": "Nightbirds",
-      "games": 41
+      "games": 41,
+      "league": "HM"
     },
     {
       "slug": "ninjas-in-pyjamas",
       "name": "Ninjas in Pyjamas",
-      "games": 67
+      "games": 67,
+      "league": "LPL"
     },
     {
       "slug": "nongshim-esports-academy",
       "name": "Nongshim Esports Academy",
-      "games": 73
+      "games": 73,
+      "league": "LCKC"
     },
     {
       "slug": "nongshim-redforce",
       "name": "Nongshim RedForce",
-      "games": 64
+      "games": 64,
+      "league": "LCK"
     },
     {
       "slug": "nongshim-redforce-academy",
       "name": "Nongshim RedForce Academy",
-      "games": 51
+      "games": 51,
+      "league": "LAS"
     },
     {
       "slug": "novex",
       "name": "NOVEX",
-      "games": 37
+      "games": 37,
+      "league": "LJL"
     },
     {
       "slug": "nrg",
       "name": "NRG",
-      "games": 24
+      "games": 24,
+      "league": "NACL"
     },
     {
       "slug": "obsidian-oath",
       "name": "Obsidian Oath",
-      "games": 6
+      "games": 6,
+      "league": "LIT"
     },
     {
       "slug": "oh-my-god",
       "name": "Oh My God",
-      "games": 34
+      "games": 34,
+      "league": "LPL"
     },
     {
       "slug": "once-upon-a-team",
       "name": "Once Upon A Team",
-      "games": 33
+      "games": 33,
+      "league": "ROL"
     },
     {
       "slug": "one-more-esports",
       "name": "One More Esports",
-      "games": 53
+      "games": 53,
+      "league": "AL"
     },
     {
       "slug": "one-round-specialists",
       "name": "One Round Specialists",
-      "games": 6
+      "games": 6,
+      "league": "PCS"
     },
     {
       "slug": "onion-team",
       "name": "Onion Team",
-      "games": 28
+      "games": 28,
+      "league": "HM"
     },
     {
       "slug": "otter-side",
       "name": "Otter Side",
-      "games": 23
+      "games": 23,
+      "league": "LPLOL"
     },
     {
       "slug": "ozarox-esports",
       "name": "Ozarox Esports",
-      "games": 17
+      "games": 17,
+      "league": "TCL"
     },
     {
       "slug": "p11-esports",
       "name": "P11 Esports",
-      "games": 34
+      "games": 34,
+      "league": "LIT"
     },
     {
       "slug": "pain-gaming",
       "name": "paiN Gaming",
-      "games": 30
+      "games": 30,
+      "league": "CBLOL"
     },
     {
       "slug": "pain-gaming-academy",
       "name": "paiN Gaming Academy",
-      "games": 23
+      "games": 23,
+      "league": "CD"
     },
     {
       "slug": "partizan-sangal",
       "name": "Partizan Sangal",
-      "games": 38
+      "games": 38,
+      "league": "EBL"
     },
     {
       "slug": "pcific-esports",
       "name": "PCIFIC Esports",
-      "games": 39
+      "games": 39,
+      "league": "TCL"
     },
     {
       "slug": "polar-squad-esports",
       "name": "Polar Squad Esports",
-      "games": 19
+      "games": 19,
+      "league": "LRN"
     },
     {
       "slug": "prediqt",
       "name": "PREDIQT",
-      "games": 5
+      "games": 5,
+      "league": "CD"
     },
     {
       "slug": "priority",
       "name": "Priority",
-      "games": 35
+      "games": 35,
+      "league": "HC"
     },
     {
       "slug": "project-conquerors",
       "name": "Project Conquerors",
-      "games": 17
+      "games": 17,
+      "league": "NL"
     },
     {
       "slug": "rampage",
       "name": "RAMPAGE",
-      "games": 8
+      "games": 8,
+      "league": "CD"
     },
     {
       "slug": "rayn-clocks",
       "name": "RAYN Clocks",
-      "games": 41
+      "games": 41,
+      "league": "LJL"
     },
     {
       "slug": "red-academy",
       "name": "RED Academy",
-      "games": 14
+      "games": 14,
+      "league": "CD"
     },
     {
       "slug": "red-canids",
       "name": "RED Canids",
-      "games": 50
+      "games": 50,
+      "league": "CBLOL"
     },
     {
       "slug": "revolution-victory-x",
       "name": "Revolution Victory X",
-      "games": 13
+      "games": 13,
+      "league": "LJL"
     },
     {
       "slug": "rising-gaming",
       "name": "Rising Gaming",
-      "games": 44
+      "games": 44,
+      "league": "LJL"
     },
     {
       "slug": "rmd-gaming",
       "name": "RMD Gaming",
-      "games": 15
+      "games": 15,
+      "league": "CD"
     },
     {
       "slug": "ronaldo-team",
       "name": "Ronaldo Team",
-      "games": 7
+      "games": 7,
+      "league": "LPLOL"
     },
     {
       "slug": "rossmann-centaurs",
       "name": "ROSSMANN Centaurs",
-      "games": 25
+      "games": 25,
+      "league": "PRM"
     },
     {
       "slug": "ruddy-corporation",
       "name": "Ruddy Corporation",
-      "games": 9
+      "games": 9,
+      "league": "NLC"
     },
     {
       "slug": "rugby-club-hav-ov",
       "name": "Rugby Club Hav\u00ed\u0159ov",
-      "games": 17
+      "games": 17,
+      "league": "HC"
     },
     {
       "slug": "s2g-esports",
       "name": "S2G Esports",
-      "games": 29
+      "games": 29,
+      "league": "TCL"
     },
     {
       "slug": "saigon-dino",
       "name": "Saigon Dino",
-      "games": 29
+      "games": 29,
+      "league": "VCS"
     },
     {
       "slug": "saigon-warriors",
       "name": "Saigon Warriors",
-      "games": 36
+      "games": 36,
+      "league": "VCS"
     },
     {
       "slug": "sdm-tigres",
       "name": "SDM Tigres",
-      "games": 25
+      "games": 25,
+      "league": "LRN"
     },
     {
       "slug": "senshi-esports",
       "name": "Senshi eSports",
-      "games": 37
+      "games": 37,
+      "league": "ROL"
     },
     {
       "slug": "sentinels",
       "name": "Sentinels",
-      "games": 58
+      "games": 58,
+      "league": "LCS"
     },
     {
       "slug": "seven-dark",
       "name": "Seven Dark",
-      "games": 21
+      "games": 21,
+      "league": "LRS"
     },
     {
       "slug": "shifters",
       "name": "Shifters",
-      "games": 40
+      "games": 40,
+      "league": "LEC"
     },
     {
       "slug": "shopify-rebellion",
       "name": "Shopify Rebellion",
-      "games": 25
+      "games": 25,
+      "league": "LCS"
     },
     {
       "slug": "sillysilly-gaming",
       "name": "SillySilly Gaming",
-      "games": 6
+      "games": 6,
+      "league": "PCS"
     },
     {
       "slug": "sk-gaming",
       "name": "SK Gaming",
-      "games": 38
+      "games": 38,
+      "league": "LEC"
     },
     {
       "slug": "skillcamp",
       "name": "Skillcamp",
-      "games": 23
+      "games": 23,
+      "league": "LFL"
     },
     {
       "slug": "sn-cybercore-esports",
       "name": "SN CyberCore Esports",
-      "games": 21
+      "games": 21,
+      "league": "VCS"
     },
     {
       "slug": "solary",
       "name": "Solary",
-      "games": 58
+      "games": 58,
+      "league": "LFL"
     },
     {
       "slug": "spartans-eu",
       "name": "Spartans EU",
-      "games": 14
+      "games": 14,
+      "league": "HLL"
     },
     {
       "slug": "spaxfamily",
       "name": "SPAXFAMILY",
-      "games": 14
+      "games": 14,
+      "league": "HW"
     },
     {
       "slug": "spike-syndicate",
       "name": "SPIKE Syndicate",
-      "games": 29
+      "games": 29,
+      "league": "EBL"
     },
     {
       "slug": "stained",
       "name": "STAINED",
-      "games": 6
+      "games": 6,
+      "league": "CD"
     },
     {
       "slug": "stonehenge-esports",
       "name": "StoneHenge Esports",
-      "games": 18
+      "games": 18,
+      "league": "LIT"
     },
     {
       "slug": "su-esports",
       "name": "SU Esports",
-      "games": 45
+      "games": 45,
+      "league": "TCL"
     },
     {
       "slug": "super-stars",
       "name": "Super Stars",
-      "games": 10
+      "games": 10,
+      "league": "AL"
     },
     {
       "slug": "supernova",
       "name": "Supernova",
-      "games": 25
+      "games": 25,
+      "league": "NACL"
     },
     {
       "slug": "t1",
       "name": "T1",
-      "games": 63
+      "games": 63,
+      "league": "LCK"
     },
     {
       "slug": "t1-esports-academy",
       "name": "T1 Esports Academy",
-      "games": 73
+      "games": 73,
+      "league": "LCKC"
     },
     {
       "slug": "t1-esports-academy-rookies",
       "name": "T1 Esports Academy Rookies",
-      "games": 64
+      "games": 64,
+      "league": "LAS"
     },
     {
       "slug": "team-heretics",
       "name": "Team Heretics",
-      "games": 40
+      "games": 40,
+      "league": "LEC"
     },
     {
       "slug": "team-heretics-academy",
       "name": "Team Heretics Academy",
-      "games": 31
+      "games": 31,
+      "league": "LES"
     },
     {
       "slug": "team-insidious",
       "name": "Team Insidious",
-      "games": 36
+      "games": 36,
+      "league": "HLL"
     },
     {
       "slug": "team-liquid",
       "name": "Team Liquid",
-      "games": 50
+      "games": 50,
+      "league": "LCS"
     },
     {
       "slug": "team-phantasma",
       "name": "Team Phantasma",
-      "games": 49
+      "games": 49,
+      "league": "HLL"
     },
     {
       "slug": "team-phoenix",
       "name": "Team Phoenix",
-      "games": 23
+      "games": 23,
+      "league": "TCL"
     },
     {
       "slug": "team-secret-whales",
       "name": "Team Secret Whales",
-      "games": 58
+      "games": 58,
+      "league": "LCP"
     },
     {
       "slug": "team-solid",
       "name": "Team Solid",
-      "games": 11
+      "games": 11,
+      "league": "CD"
     },
     {
       "slug": "team-spawn-peek",
       "name": "Team Spawn Peek",
-      "games": 7
+      "games": 7,
+      "league": "EBL"
     },
     {
       "slug": "team-vitality",
       "name": "Team Vitality",
-      "games": 53
+      "games": 53,
+      "league": "LEC"
     },
     {
       "slug": "team-we",
       "name": "Team WE",
-      "games": 69
+      "games": 69,
+      "league": "LPL"
     },
     {
       "slug": "teamorangegaming",
       "name": "TeamOrangeGaming",
-      "games": 35
+      "games": 35,
+      "league": "PRM"
     },
     {
       "slug": "the-bandits",
       "name": "The Bandits",
-      "games": 48
+      "games": 48,
+      "league": "ROL"
     },
     {
       "slug": "the-new-kings",
       "name": "The New Kings",
-      "games": 21
+      "games": 21,
+      "league": "LRS"
     },
     {
       "slug": "the-paradox",
       "name": "The ParadOx",
-      "games": 33
+      "games": 33,
+      "league": "HLL"
     },
     {
       "slug": "the-secret-club",
       "name": "The Secret Club",
-      "games": 37
+      "games": 37,
+      "league": "EBL"
     },
     {
       "slug": "thundertalk-gaming",
       "name": "ThunderTalk Gaming",
-      "games": 33
+      "games": 33,
+      "league": "LPL"
     },
     {
       "slug": "titans",
       "name": "TITANS",
-      "games": 10
+      "games": 10,
+      "league": "LIT"
     },
     {
       "slug": "tln-pirates",
       "name": "TLN Pirates",
-      "games": 37
+      "games": 37,
+      "league": "LFL"
     },
     {
       "slug": "top-esports",
       "name": "Top Esports",
-      "games": 73
+      "games": 73,
+      "league": "LPL"
     },
     {
       "slug": "tq-durpa-kashlq",
       "name": "TQ DURPA KASHLQ",
-      "games": 11
+      "games": 11,
+      "league": "EBL"
     },
     {
       "slug": "tu-pap-esports",
       "name": "Tu Pap\u00e1 Esports",
-      "games": 13
+      "games": 13,
+      "league": "LRS"
     },
     {
       "slug": "ub-alma-mater",
       "name": "UB Alma Mater",
-      "games": 19
+      "games": 19,
+      "league": "LES"
     },
     {
       "slug": "ucam-esports",
       "name": "UCAM Esports",
-      "games": 34
+      "games": 34,
+      "league": "LES"
     },
     {
       "slug": "uec-esports-plusplus",
       "name": "UEC eSports PlusPlus",
-      "games": 14
+      "games": 14,
+      "league": "LJL"
     },
     {
       "slug": "ultra-prime",
       "name": "Ultra Prime",
-      "games": 25
+      "games": 25,
+      "league": "LPL"
     },
     {
       "slug": "unicorns-of-love-sexy-edition",
       "name": "Unicorns of Love Sexy Edition",
-      "games": 64
+      "games": 64,
+      "league": "PRM"
     },
     {
       "slug": "utesports",
       "name": "UTeSports",
-      "games": 12
+      "games": 12,
+      "league": "LJL"
     },
     {
       "slug": "uwinks",
       "name": "Uwinks",
-      "games": 44
+      "games": 44,
+      "league": "LJL"
     },
     {
       "slug": "v3-esports",
       "name": "V3 Esports",
-      "games": 26
+      "games": 26,
+      "league": "LJL"
     },
     {
       "slug": "vantex-esports",
       "name": "Vantex Esports",
-      "games": 16
+      "games": 16,
+      "league": "LPLOL"
     },
     {
       "slug": "varrel-youth",
       "name": "VARREL YOUTH",
-      "games": 25
+      "games": 25,
+      "league": "LJL"
     },
     {
       "slug": "vasco-e-sports",
       "name": "Vasco E-Sports",
-      "games": 12
+      "games": 12,
+      "league": "CD"
     },
     {
       "slug": "velbelikaizokudan",
       "name": "VelbeliKaizokudan",
-      "games": 26
+      "games": 26,
+      "league": "LJL"
     },
     {
       "slug": "verdant",
       "name": "Verdant",
-      "games": 25
+      "games": 25,
+      "league": "NLC"
     },
     {
       "slug": "vfb-esports",
       "name": "VfB eSports",
-      "games": 18
+      "games": 18,
+      "league": "PRM"
     },
     {
       "slug": "vitality-bee",
       "name": "Vitality.Bee",
-      "games": 29
+      "games": 29,
+      "league": "LFL"
     },
     {
       "slug": "vivo-keyd-stars",
       "name": "Vivo Keyd Stars",
-      "games": 39
+      "games": 39,
+      "league": "CBLOL"
     },
     {
       "slug": "vivo-keyd-stars-academy",
       "name": "Vivo Keyd Stars Academy",
-      "games": 18
+      "games": 18,
+      "league": "CD"
     },
     {
       "slug": "volticons",
       "name": "Volticons",
-      "games": 22
+      "games": 22,
+      "league": "LRS"
     },
     {
       "slug": "washed-gaming",
       "name": "Washed Gaming",
-      "games": 5
+      "games": 5,
+      "league": "EBL"
     },
     {
       "slug": "weibo-gaming",
       "name": "Weibo Gaming",
-      "games": 84
+      "games": 84,
+      "league": "LPL"
     },
     {
       "slug": "winthrop-university",
       "name": "Winthrop University",
-      "games": 25
+      "games": 25,
+      "league": "NACL"
     },
     {
       "slug": "witchcraft",
       "name": "Witchcraft",
-      "games": 10
+      "games": 10,
+      "league": "EM"
     },
     {
       "slug": "wlgaming-esports",
       "name": "WLGaming Esports",
-      "games": 55
+      "games": 55,
+      "league": "HLL"
     },
     {
       "slug": "yang-yang-gaming",
       "name": "Yang Yang Gaming",
-      "games": 17
+      "games": 17,
+      "league": "LJL"
     },
     {
       "slug": "zen-esports",
       "name": "ZEN Esports",
-      "games": 8
+      "games": 8,
+      "league": "VCS"
     },
     {
       "slug": "zena-esports",
       "name": "Zena Esports",
-      "games": 25
+      "games": 25,
+      "league": "LIT"
     },
     {
       "slug": "zennit",
       "name": "ZennIT",
-      "games": 39
+      "games": 39,
+      "league": "ROL"
     },
     {
       "slug": "zephyr-esport",
       "name": "Zephyr Esport",
-      "games": 16
+      "games": 16,
+      "league": "NL"
     },
     {
       "slug": "zerolag-esports",
       "name": "Zerolag Esports",
-      "games": 8
+      "games": 8,
+      "league": "HLL"
     },
     {
       "slug": "zerozone-gaming",
       "name": "ZeroZone Gaming",
-      "games": 14
+      "games": 14,
+      "league": "LPLOL"
     },
     {
       "slug": "zeu5-esports",
       "name": "Zeu5 Esports",
-      "games": 28
+      "games": 28,
+      "league": "LRN"
     },
     {
       "slug": "zyb-esport",
       "name": "ZYB Esport",
-      "games": 26
+      "games": 26,
+      "league": "LFL"
     }
   ],
   "patches": [

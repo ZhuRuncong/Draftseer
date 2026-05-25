@@ -15,9 +15,23 @@ const TIP =
 
 export async function renderTeams(root, params) {
   const [index, ids] = await Promise.all([loadTeamsIndex(), loadChampIds()]);
-  const teams = index.teams;
+  const allTeams = index.teams.slice().sort((a, b) => b.games - a.games || a.name.localeCompare(b.name));
+  const leagues = [...new Set(allTeams.map(t => t.league).filter(Boolean))].sort();
   const patches = index.patches.slice().sort();
-  let selectedSlug = params.get("team") || (teams[0] && teams[0].slug);
+
+  let selectedLeague = params.get("league") || "__all";
+  if (selectedLeague !== "__all" && !leagues.includes(selectedLeague)) selectedLeague = "__all";
+
+  const teamsInLeague = () =>
+    selectedLeague === "__all"
+      ? allTeams
+      : allTeams.filter(t => t.league === selectedLeague);
+
+  let selectedSlug = params.get("team");
+  if (!selectedSlug || !teamsInLeague().some(t => t.slug === selectedSlug)) {
+    selectedSlug = teamsInLeague()[0]?.slug;
+  }
+
   let selectedPatches = new Set(patches); // default: all
   const fromQ = params.get("patches");
   if (fromQ) {
@@ -26,14 +40,25 @@ export async function renderTeams(root, params) {
     if (selectedPatches.size === 0) selectedPatches = new Set(patches);
   }
 
+  function teamOptionsHTML() {
+    return teamsInLeague()
+      .map(t => `<option value="${t.slug}" ${t.slug===selectedSlug?"selected":""}>${t.name} (${t.games})</option>`)
+      .join("");
+  }
+
   root.innerHTML = `
     <section class="view view-teams">
       <div class="panel toolbar">
         <label class="field">
-          <span class="field-label">Team</span>
-          <select id="team-pick">
-            ${teams.map(t => `<option value="${t.slug}" ${t.slug===selectedSlug?"selected":""}>${t.name} (${t.games})</option>`).join("")}
+          <span class="field-label">League</span>
+          <select id="league-pick">
+            <option value="__all" ${selectedLeague==="__all"?"selected":""}>All leagues</option>
+            ${leagues.map(l => `<option value="${l}" ${l===selectedLeague?"selected":""}>${l}</option>`).join("")}
           </select>
+        </label>
+        <label class="field">
+          <span class="field-label">Team <span class="field-hint">(sorted by games played)</span></span>
+          <select id="team-pick">${teamOptionsHTML()}</select>
         </label>
         <div class="field">
           <span class="field-label">Patches ${infoTip("Click chips to toggle. All-on by default.")}</span>
@@ -57,6 +82,7 @@ export async function renderTeams(root, params) {
     </section>
   `;
 
+  const leaguePick = root.querySelector("#league-pick");
   const teamPick = root.querySelector("#team-pick");
   const chipBox = root.querySelector("#patch-chips");
   const tableEl = root.querySelector("#teams-table");
@@ -65,22 +91,32 @@ export async function renderTeams(root, params) {
 
   function syncURL() {
     const sp = new URLSearchParams();
-    sp.set("team", selectedSlug);
+    if (selectedLeague !== "__all") sp.set("league", selectedLeague);
+    if (selectedSlug) sp.set("team", selectedSlug);
     if (selectedPatches.size !== patches.length) {
       sp.set("patches", [...selectedPatches].sort().join(","));
     }
-    const newHash = `#/teams?${sp.toString()}`;
+    const qs = sp.toString();
+    const newHash = qs ? `#/teams?${qs}` : "#/teams";
     if (location.hash !== newHash) {
       history.replaceState(null, "", newHash);
     }
   }
 
   async function rerender() {
-    const team = teams.find(t => t.slug === selectedSlug);
-    titleEl.textContent = team ? team.name : "—";
+    if (!selectedSlug) {
+      titleEl.textContent = "—";
+      tableEl.innerHTML = `<div class="loading">No teams in this league.</div>`;
+      hintEl.textContent = "";
+      syncURL();
+      return;
+    }
+    const team = allTeams.find(t => t.slug === selectedSlug);
+    titleEl.textContent = team
+      ? `${team.name}${team.league ? " · " + team.league : ""}`
+      : "—";
     const rows = await loadTeamVs(selectedSlug);
     const filtered = rows.filter(r => selectedPatches.has(r.patch));
-    // pivot: champ -> { role: {p, b}, total }
     const byChamp = new Map();
     for (const r of filtered) {
       let rec = byChamp.get(r.champ);
@@ -102,6 +138,14 @@ export async function renderTeams(root, params) {
     tableEl.innerHTML = buildTable(out, ids);
     syncURL();
   }
+
+  leaguePick.addEventListener("change", () => {
+    selectedLeague = leaguePick.value;
+    const first = teamsInLeague()[0];
+    selectedSlug = first ? first.slug : null;
+    teamPick.innerHTML = teamOptionsHTML();
+    rerender();
+  });
 
   teamPick.addEventListener("change", () => {
     selectedSlug = teamPick.value;
