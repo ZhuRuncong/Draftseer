@@ -85,7 +85,7 @@ window.DraftSeer = { state, route };
 export const STRENGTH_TIP =
   "How strongly drafters reach for this champion in this role, after " +
   "accounting for who else is already picked or banned. It is learned " +
-  "from pro-game pick/ban patterns — not from match results — so a high " +
+  "from pro-game pick/ban patterns, so a high " +
   "strength means \"frequently drafted / hard to leave open\", not " +
   "\"high win rate\". Positive = picked more than average, negative = " +
   "picked less. Units are model logits.";
