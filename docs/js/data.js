@@ -44,18 +44,20 @@ function memo(key, loader) {
 async function _loadMeta() {
   const txt = await fetchText(`${ROOT}/meta.csv`);
   const lines = txt.trim().split(/\r?\n/);
-  lines.shift(); // header: champ,role,strength,pick_count,pick_rate
+  lines.shift(); // header: champ,role,strength,pick_count,pick_rate,ban_count,ban_rate
   const rows = [];
   const byChamp = {};
   const byChampRole = {}; // key: `${champ}|${role}` -> strength (for multi-role champs)
   const byRole = { top: [], jng: [], mid: [], bot: [], sup: [] };
   for (const line of lines) {
-    const [champ, role, strength, pc, pr] = line.split(",");
+    const [champ, role, strength, pc, pr, bc, br] = line.split(",");
     const row = {
       champ, role,
       strength: parseFloat(strength),
       pickCount: parseInt(pc, 10),
       pickRate: parseFloat(pr),
+      banCount: bc != null ? parseInt(bc, 10) : 0,
+      banRate:  br != null ? parseFloat(br)  : 0,
     };
     rows.push(row);
     byRole[role].push(row);

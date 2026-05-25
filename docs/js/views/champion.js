@@ -62,6 +62,7 @@ export async function renderChampion(root, params) {
         <div class="stats">
           <span>Strength${infoTip(STRENGTH_TIP)} <b style="color:${strength>=0?'var(--pos)':'var(--neg)'}">${fmt(strength)}</b></span>
           <span>Pick rate <b>${(meR.pickRate*100).toFixed(1)}%</b></span>
+          <span>Ban rate <b>${(meR.banRate*100).toFixed(1)}%</b></span>
           <span>Games <b>${meR.pickCount}</b></span>
         </div>
       </div>

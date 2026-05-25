@@ -27,6 +27,7 @@ export async function renderStrengths(root, params) {
         <th data-key="role">Role</th>
         <th class="num sort-desc" data-key="strength">Strength${infoTip(STRENGTH_TIP, {right:true})}</th>
         <th class="num" data-key="pickRate">Pick rate</th>
+        <th class="num" data-key="banRate">Ban rate</th>
         <th class="num" data-key="pickCount">Games</th>
       </tr></thead>
       <tbody></tbody>
@@ -59,6 +60,7 @@ export async function renderStrengths(root, params) {
           ${r.strength>=0?'+':'−'}${Math.abs(r.strength).toFixed(3)}
         </td>
         <td class="num">${(r.pickRate*100).toFixed(1)}%</td>
+        <td class="num">${(r.banRate*100).toFixed(1)}%</td>
         <td class="num">${r.pickCount}</td>
       </tr>
     `).join("");
@@ -120,6 +122,7 @@ export async function renderStrengths(root, params) {
         <td class="num" style="color:${r.strength>=0?'var(--pos)':'var(--neg)'}">
           ${r.strength>=0?'+':'−'}${Math.abs(r.strength).toFixed(3)}</td>
         <td class="num">${(r.pickRate*100).toFixed(1)}%</td>
+        <td class="num">${(r.banRate*100).toFixed(1)}%</td>
         <td class="num">${r.pickCount}</td>
       </tr>`).join("");
   }
