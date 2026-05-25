@@ -64,9 +64,9 @@ init();
 export function toggleHTML() {
   return `
     <label class="switch" title="Add per-champion baseline strength to each cell">
+      <span class="switch-label">Consider baseline strength</span>
       <input type="checkbox" class="meta-toggle-cb" ${state.metaToggle?'checked':''} />
       <span class="slider"></span>
-      <span class="switch-label">Consider baseline strength</span>
     </label>`;
 }
 export function wireToggle(container) {

@@ -63,7 +63,9 @@ a:hover { text-decoration: underline; }
 .switch input:checked + .slider { background: rgba(122,162,255,.25); border-color: var(--accent); }
 .switch input:checked + .slider::after { transform: translateX(14px); background: var(--accent); }
 .switch-label { color: var(--text-dim); font-size: 13px; }
-.switch input:checked ~ .switch-label { color: var(--text); }
+.switch input:checked ~ .slider { background: rgba(122,162,255,.25); border-color: var(--accent); }
+.switch input:checked ~ .slider::after { transform: translateX(14px); background: var(--accent); }
+.switch:has(input:checked) .switch-label { color: var(--text); }
 
 /* Inline toolbar variant: looks like the dropdowns next to it */
 .toolbar .switch {
@@ -73,7 +75,7 @@ a:hover { text-decoration: underline; }
 .toolbar .switch:hover { border-color: var(--accent); }
 .toolbar .switch .slider { width: 26px; height: 14px; }
 .toolbar .switch .slider::after { width: 10px; height: 10px; top: 1px; left: 1px; }
-.toolbar .switch input:checked + .slider::after { transform: translateX(12px); }
+.toolbar .switch input:checked ~ .slider::after { transform: translateX(12px); }
 .toolbar .switch-label { font-size: 12px; text-transform: uppercase; letter-spacing: .5px; }
 
 main { padding: 20px; min-height: calc(100vh - 110px); }
