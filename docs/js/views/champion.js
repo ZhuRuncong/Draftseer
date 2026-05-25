@@ -232,22 +232,56 @@ function renderSlotDist(container, dist, name) {
     container.innerHTML = "";
     return;
   }
-  const max = Math.max(1, ...dist.map(d => d.picks + d.bans));
+  // Simultaneous same-side pick pairs in tournament draft order. Each entry
+  // is the index of the first slot of the pair; its partner (i+1) is folded
+  // into a single double-width bar at half the summed height.
+  const MERGED_FIRST = new Set([7, 9, 17]); // R1+R2, B2+B3, B4+B5
+  const isPartner = i => MERGED_FIRST.has(i - 1);
+  const effCount = (i) => {
+    const action = SLOT_ACTION[i];
+    const d = dist[i];
+    const own = action === "pick" ? d.picks : d.bans;
+    if (MERGED_FIRST.has(i)) {
+      const d2 = dist[i + 1];
+      const other = SLOT_ACTION[i + 1] === "pick" ? d2.picks : d2.bans;
+      return (own + other) / 2;
+    }
+    return own;
+  };
+  const max = Math.max(
+    1,
+    ...dist.map((_, i) => isPartner(i) ? 0 : effCount(i))
+  );
   const total = dist.reduce((acc, d) => acc + d.picks + d.bans, 0);
-  const bars = dist.map((d, i) => {
+  const barsArr = [];
+  for (let i = 0; i < dist.length; i++) {
+    if (isPartner(i)) continue;
+    const d = dist[i];
     const side = SLOT_SIDE[i];
     const action = SLOT_ACTION[i];
-    const count = action === "pick" ? d.picks : d.bans;
-    const h = (count / max) * 100;
+    const merged = MERGED_FIRST.has(i);
+    const own = action === "pick" ? d.picks : d.bans;
+    const other = merged
+      ? (SLOT_ACTION[i + 1] === "pick" ? dist[i + 1].picks : dist[i + 1].bans)
+      : 0;
+    const count = merged ? own + other : own;
+    const h = (effCount(i) / max) * 100;
     const sideColor = side === "blue" ? "var(--blue)" : "var(--red)";
     const fillOpacity = action === "pick" ? 1 : 0.45;
-    const label = SLOT_LABELS[i];
-    return `<div class="slot-bar" title="${label}: ${count} ${action}${count===1?'':'s'}">
+    const tick = merged
+      ? `${SLOT_LABELS[i].replace(/^[BR] /, "")} + ${SLOT_LABELS[i + 1].replace(/^[BR] /, "")}`
+      : SLOT_LABELS[i].replace(/^[BR] /, "");
+    const title = merged
+      ? `${SLOT_LABELS[i]} + ${SLOT_LABELS[i + 1]}: ${count} ${action}${count === 1 ? "" : "s"} (simultaneous)`
+      : `${SLOT_LABELS[i]}: ${count} ${action}${count === 1 ? "" : "s"}`;
+    const spanStyle = merged ? "grid-column: span 2;" : "";
+    barsArr.push(`<div class="slot-bar${merged ? " merged" : ""}" style="${spanStyle}" title="${title}">
       <div class="bar-fill" style="height: ${h}%; background: ${sideColor}; opacity: ${fillOpacity};"></div>
       <div class="bar-label">${count || ""}</div>
-      <div class="bar-tick ${side}">${label.replace(/^[BR] /, "")}</div>
-    </div>`;
-  }).join("");
+      <div class="bar-tick ${side}">${tick}</div>
+    </div>`);
+  }
+  const bars = barsArr.join("");
   container.innerHTML = `
     <div class="panel wide" style="margin-bottom: 16px;">
       <h3>Draft timeline ${infoTip(
