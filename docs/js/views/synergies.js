@@ -10,7 +10,7 @@ export async function renderSynergies(root, params) {
   if (r1 === r2) r2 = ROLES.find(r => r !== r1);
 
   const sortBy = params.get("sort") || "strength";
-  const limit  = parseInt(params.get("limit") || "0", 10);
+  const limit  = parseInt(params.get("limit") ?? "20", 10);
 
   const [meta, ids, mat] = await Promise.all([
     loadMeta(), loadChampIds(), loadSynergy(r1, r2),

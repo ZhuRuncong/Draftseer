@@ -8,7 +8,7 @@ export async function renderMatchups(root, params) {
   const allyRole  = params.get("ally")  || "top";
   const enemyRole = params.get("enemy") || "top";
   const sortBy    = params.get("sort")  || "strength";
-  const limit     = parseInt(params.get("limit") || "0", 10); // 0 = all
+  const limit     = parseInt(params.get("limit") ?? "20", 10); // 0 = all
 
   const [meta, ids, mat] = await Promise.all([
     loadMeta(), loadChampIds(), loadMatchup(allyRole, enemyRole),
