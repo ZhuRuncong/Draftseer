@@ -5,6 +5,7 @@ import { renderHeatmap } from "../heatmap.js";
 import { state, onToggleChange, toggleHTML, wireToggle } from "../main.js";
 
 export async function renderSynergies(root, params) {
+  state.metaToggle = true;
   let r1 = params.get("r1") || "top";
   let r2 = params.get("r2") || "jng";
   if (r1 === r2) r2 = ROLES.find(r => r !== r1);

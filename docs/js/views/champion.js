@@ -11,6 +11,7 @@ function fmt(v) {
 }
 
 export async function renderChampion(root, params) {
+  state.metaToggle = false;
   const [meta, ids] = await Promise.all([loadMeta(), loadChampIds()]);
   let name = params.get("name");
   if (!name) {

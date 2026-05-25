@@ -5,6 +5,7 @@ import { renderHeatmap } from "../heatmap.js";
 import { state, onToggleChange, toggleHTML, wireToggle } from "../main.js";
 
 export async function renderMatchups(root, params) {
+  state.metaToggle = true;
   const allyRole  = params.get("ally")  || "top";
   const enemyRole = params.get("enemy") || "top";
   const sortBy    = params.get("sort")  || "strength";
