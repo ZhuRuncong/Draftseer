@@ -1,6 +1,7 @@
 // Strengths leaderboard view.
 
 import { loadMeta, loadChampIds, ROLES, ROLE_LABEL, roleIcon } from "../data.js";
+import { STRENGTH_TIP, infoTip } from "../main.js";
 
 export async function renderStrengths(root, params) {
   const [meta, ids] = await Promise.all([loadMeta(), loadChampIds()]);
@@ -24,7 +25,7 @@ export async function renderStrengths(root, params) {
         <th data-key="rank">#</th>
         <th data-key="champ">Champion</th>
         <th data-key="role">Role</th>
-        <th class="num sort-desc" data-key="strength">Strength</th>
+        <th class="num sort-desc" data-key="strength">Strength${infoTip(STRENGTH_TIP, {right:true})}</th>
         <th class="num" data-key="pickRate">Pick rate</th>
         <th class="num" data-key="pickCount">Games</th>
       </tr></thead>

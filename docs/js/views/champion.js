@@ -3,7 +3,7 @@
 // remaining roles as smaller panels.
 
 import { loadMeta, loadChampIds, loadMatchup, loadSynergy, ROLES, ROLE_LABEL, roleIcon } from "../data.js";
-import { state, onToggleChange, toggleHTML, wireToggle } from "../main.js";
+import { state, onToggleChange, toggleHTML, wireToggle, STRENGTH_TIP, infoTip } from "../main.js";
 
 const TOP_N = 8;
 
@@ -60,7 +60,7 @@ export async function renderChampion(root, params) {
           `).join(" ")}
         </div>
         <div class="stats">
-          <span>Strength <b style="color:${strength>=0?'var(--pos)':'var(--neg)'}">${fmt(strength)}</b></span>
+          <span>Strength${infoTip(STRENGTH_TIP)} <b style="color:${strength>=0?'var(--pos)':'var(--neg)'}">${fmt(strength)}</b></span>
           <span>Pick rate <b>${(meR.pickRate*100).toFixed(1)}%</b></span>
           <span>Games <b>${meR.pickCount}</b></span>
         </div>

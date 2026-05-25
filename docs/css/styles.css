@@ -182,6 +182,31 @@ main { padding: 20px; min-height: calc(100vh - 110px); }
 .heatmap td.cell { width: 36px; min-width: 36px; height: 30px; text-align: center; cursor: default; }
 .heatmap td.cell.diag { background: repeating-linear-gradient(45deg, #1a1f27, #1a1f27 4px, #11151b 4px, #11151b 8px); color: var(--text-dim); }
 
+/* ---- Inline info tooltip (hover the ⓘ) ---- */
+.info-tip {
+  display: inline-flex; align-items: center; justify-content: center;
+  width: 14px; height: 14px; margin-left: 4px;
+  border-radius: 50%; border: 1px solid var(--line);
+  color: var(--text-dim); font-size: 10px; font-style: normal;
+  cursor: help; position: relative; vertical-align: middle;
+  background: var(--bg);
+}
+.info-tip:hover { color: var(--text); border-color: var(--accent); }
+.info-tip::after {
+  content: attr(data-tip);
+  position: absolute; bottom: calc(100% + 8px); left: 50%;
+  transform: translateX(-50%);
+  background: #0a0d12; border: 1px solid var(--line); border-radius: 8px;
+  padding: 10px 12px; box-shadow: var(--shadow);
+  color: var(--text); font-size: 12px; font-style: normal; font-weight: 400;
+  text-align: left; line-height: 1.5;
+  width: 280px; white-space: normal;
+  opacity: 0; pointer-events: none; transition: opacity .12s;
+  z-index: 300;
+}
+.info-tip:hover::after { opacity: 1; }
+.info-tip.right::after { left: auto; right: 0; transform: none; }
+
 /* ---- Tooltip ---- */
 .tip {
   position: fixed; pointer-events: none; z-index: 200;

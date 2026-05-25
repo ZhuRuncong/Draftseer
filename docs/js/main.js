@@ -80,3 +80,16 @@ export function wireToggle(container) {
 
 // expose for inline links / debugging
 window.DraftSeer = { state, route };
+
+// Plain-English explanation of "strength", reused across views.
+export const STRENGTH_TIP =
+  "Baseline strength is the champion's role-specific bias learned from " +
+  "pro-game data — roughly, how much above or below average that champion " +
+  "performs in that lane, before any matchup or synergy effects. " +
+  "Positive = better than average, negative = worse. " +
+  "Units are model logits, not win-rate %.";
+
+export function infoTip(text, opts = {}) {
+  const cls = opts.right ? "info-tip right" : "info-tip";
+  return `<i class="${cls}" data-tip="${text.replace(/"/g, '&quot;')}">i</i>`;
+}
