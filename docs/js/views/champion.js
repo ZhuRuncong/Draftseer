@@ -1,9 +1,20 @@
-// Champion deep-dive view: strengths, best/worst matchups, top synergies.
+// Champion deep-dive view: pick matchups or synergies, then see a primary
+// pairing (wide panel, favored + disfavored side by side) plus the
+// remaining roles as smaller panels.
 
-import { loadMeta, loadChampIds, loadMatchup, loadSynergy, ROLES, ROLE_LABEL, SYNERGY_PAIRS, roleIcon } from "../data.js";
+import { loadMeta, loadChampIds, loadMatchup, loadSynergy, ROLES, ROLE_LABEL, roleIcon } from "../data.js";
 import { state, onToggleChange, toggleHTML, wireToggle } from "../main.js";
 
 const TOP_N = 8;
+
+// Primary synergy partner per role.
+const SYNERGY_PARTNER = {
+  top: "jng",
+  jng: "mid",
+  mid: "jng",
+  bot: "sup",
+  sup: "bot",
+};
 
 function fmt(v) {
   if (!isFinite(v)) return "—";
@@ -13,11 +24,8 @@ function fmt(v) {
 export async function renderChampion(root, params) {
   state.metaToggle = false;
   const [meta, ids] = await Promise.all([loadMeta(), loadChampIds()]);
-  let name = params.get("name");
-  if (!name) {
-    // default: top strength row
-    name = meta.rows[0].champ;
-  }
+
+  let name = params.get("name") || meta.rows[0].champ;
   const champRoles = (meta.byChamp[name] || []).map(r => r.role);
   if (champRoles.length === 0) {
     root.innerHTML = `<div class="loading">No data for "${name}". <a href="#/strengths">Browse strengths →</a></div>`;
@@ -25,6 +33,7 @@ export async function renderChampion(root, params) {
   }
   let role = params.get("role");
   if (!champRoles.includes(role)) role = champRoles[0];
+  const mode = params.get("mode") === "synergies" ? "synergies" : "matchups";
 
   const champInfo = ids.champions[name];
   const strength = meta.byChampRole[`${name}|${role}`];
@@ -46,7 +55,7 @@ export async function renderChampion(root, params) {
         <div class="name">${name}</div>
         <div>
           ${champRoles.map(r => `
-            <a class="role-pill ${r}" href="#/champion?name=${encodeURIComponent(name)}&role=${r}"
+            <a class="role-pill ${r}" href="#/champion?name=${encodeURIComponent(name)}&role=${r}&mode=${mode}"
                style="${r===role?'border-color:var(--accent); color:var(--text);':''}"><img src="${roleIcon(r)}" alt="" />${r}</a>
           `).join(" ")}
         </div>
@@ -68,86 +77,114 @@ export async function renderChampion(root, params) {
       <select id="role-pick">
         ${champRoles.map(r => `<option value="${r}" ${r===role?'selected':''}>${ROLE_LABEL[r]}</option>`).join("")}
       </select>
+      <div class="role-tabs" id="mode-tabs">
+        <button data-mode="matchups" class="${mode==='matchups'?'active':''}">Matchups</button>
+        <button data-mode="synergies" class="${mode==='synergies'?'active':''}">Synergies</button>
+      </div>
       ${toggleHTML()}
       <div class="spacer"></div>
       <span style="color:var(--text-dim); font-size:12px;">
-        Top ${TOP_N} matchups & synergies per role
+        Top ${TOP_N} per role
       </span>
     </div>
 
-    <h2 style="font-size:14px; text-transform:uppercase; letter-spacing:.8px; color:var(--text-dim); margin: 8px 4px;">Matchups</h2>
-    <div class="grid-2" id="matchup-grid"></div>
-
-    <h2 style="font-size:14px; text-transform:uppercase; letter-spacing:.8px; color:var(--text-dim); margin: 16px 4px 8px;">Synergies</h2>
-    <div class="grid-2" id="synergy-grid"></div>
+    <div id="primary"></div>
+    <div id="secondary" style="margin-top: 16px;"></div>
   `;
 
   function strengthOf(r, c) { return meta.byChampRole[`${c}|${r}`] ?? 0; }
 
+  // Build a ranked list (best + worst) for a given target role.
+  function rankFor(targetRole) {
+    const metaOn = state.metaToggle;
+    const isMatch = mode === "matchups";
+    const mat = isMatch ? matchupMats[targetRole] : synergyMats[targetRole];
+    const row = mat?.data[name];
+    if (!row) return null;
+    const items = Object.keys(row)
+      .filter(c => !(isMatch && targetRole === role && c === name))
+      .map(c => ({
+        c,
+        raw: row[c],
+        adj: row[c] + strength + (isMatch ? -strengthOf(targetRole, c) : strengthOf(targetRole, c)),
+      }));
+    items.sort((a, b) => (metaOn ? b.adj : b.raw) - (metaOn ? a.adj : a.raw));
+    return {
+      best: items.slice(0, TOP_N),
+      worst: items.slice(-TOP_N).reverse(),
+    };
+  }
+
   function paint() {
     const metaOn = state.metaToggle;
+    const primaryRole = mode === "matchups" ? role : SYNERGY_PARTNER[role];
+    // Secondary list = the remaining valid target roles.
+    const allTargets = mode === "matchups" ? ROLES : ROLES.filter(r => r !== role);
+    const secondaryRoles = allTargets.filter(r => r !== primaryRole);
+    const titleVerb = mode === "matchups" ? "vs" : "+";
+    const primaryHint = mode === "matchups" ? "lane opponent" : "primary partner";
 
-    // ----- matchups: for each enemy role, top + bottom for this champion as the ally -----
-    const mg = root.querySelector("#matchup-grid");
-    mg.innerHTML = ROLES.map(er => {
-      const mat = matchupMats[er];
-      const row = mat.data[name];
-      const title = `vs <img class="role-icon" src="${roleIcon(er)}" alt="" /> ${ROLE_LABEL[er]}`;
-      if (!row) return panel(title, "<div style='color:var(--text-dim); padding: 8px;'>Champion not in this role's matrix.</div>");
-      const items = Object.keys(row).map(c => ({
-        c,
-        raw: row[c],
-        adj: row[c] + strength - strengthOf(er, c),
-      }));
-      const visible = items.filter(i => !(er === role && i.c === name));
-      const sorted = visible.slice().sort((a, b) => (metaOn?b.adj:b.raw) - (metaOn?a.adj:a.raw));
-      const best = sorted.slice(0, TOP_N);
-      const worst = sorted.slice(-TOP_N).reverse();
-      return panel(title, `
-        <div class="row-list">
-          <div style="font-size:11px; color:var(--text-dim); text-transform:uppercase; letter-spacing:.6px; margin: 2px 6px;">Favored</div>
-          ${best.map(it => itemRow(it, ids, er, metaOn)).join("")}
-          <div style="font-size:11px; color:var(--text-dim); text-transform:uppercase; letter-spacing:.6px; margin: 8px 6px 2px;">Disfavored</div>
-          ${worst.map(it => itemRow(it, ids, er, metaOn)).join("")}
+    // ----- primary wide panel: favored + disfavored side by side -----
+    const prim = root.querySelector("#primary");
+    const ranked = rankFor(primaryRole);
+    const title = `${titleVerb} <img class="role-icon" src="${roleIcon(primaryRole)}" alt="" /> ${ROLE_LABEL[primaryRole]}
+      <span class="panel-hint">${primaryHint}</span>`;
+    if (!ranked) {
+      prim.innerHTML = panelWide(title, `<div style='color:var(--text-dim); padding: 12px;'>No data for this pairing.</div>`);
+    } else {
+      prim.innerHTML = panelWide(title, `
+        <div class="panel-cols">
+          <div>
+            <div class="col-header pos">Favored</div>
+            <div class="row-list">${ranked.best.map(it => itemRow(it, ids, primaryRole, metaOn)).join("")}</div>
+          </div>
+          <div>
+            <div class="col-header neg">Disfavored</div>
+            <div class="row-list">${ranked.worst.map(it => itemRow(it, ids, primaryRole, metaOn)).join("")}</div>
+          </div>
         </div>
       `);
-    }).join("");
+    }
 
-    // ----- synergies: for each other role -----
-    const sg = root.querySelector("#synergy-grid");
-    sg.innerHTML = ROLES.filter(r => r !== role).map(ar => {
-      const mat = synergyMats[ar];
-      const row = mat.data[name];
-      const title = `+ <img class="role-icon" src="${roleIcon(ar)}" alt="" /> ${ROLE_LABEL[ar]}`;
-      if (!row) return panel(title, "<div style='color:var(--text-dim); padding: 8px;'>Champion not in this role's matrix.</div>");
-      const items = Object.keys(row).map(c => ({
-        c,
-        raw: row[c],
-        adj: row[c] + strength + strengthOf(ar, c),
-      }));
-      const sorted = items.slice().sort((a, b) => (metaOn?b.adj:b.raw) - (metaOn?a.adj:a.raw));
-      const best = sorted.slice(0, TOP_N);
-      return panel(title, `
+    // ----- secondary panels: remaining roles, side by side -----
+    const sec = root.querySelector("#secondary");
+    const gridClass = secondaryRoles.length === 3 ? "grid-3" : "grid-4";
+    sec.innerHTML = `<div class="${gridClass}">${secondaryRoles.map(r2 => {
+      const rk = rankFor(r2);
+      const t = `${titleVerb} <img class="role-icon" src="${roleIcon(r2)}" alt="" /> ${ROLE_LABEL[r2]}`;
+      if (!rk) return panel(t, "<div style='color:var(--text-dim); padding: 8px;'>No data.</div>");
+      return panel(t, `
         <div class="row-list">
-          ${best.map(it => itemRow(it, ids, ar, metaOn)).join("")}
+          <div class="col-header pos small">Favored</div>
+          ${rk.best.map(it => itemRow(it, ids, r2, metaOn)).join("")}
+          <div class="col-header neg small">Disfavored</div>
+          ${rk.worst.map(it => itemRow(it, ids, r2, metaOn)).join("")}
         </div>
       `);
-    }).join("");
+    }).join("")}</div>`;
   }
   paint();
   onToggleChange(paint);
   wireToggle(root);
 
   root.querySelector("#role-pick").addEventListener("change", (e) => {
-    location.hash = `#/champion?name=${encodeURIComponent(name)}&role=${e.target.value}`;
+    location.hash = `#/champion?name=${encodeURIComponent(name)}&role=${e.target.value}&mode=${mode}`;
   });
   root.querySelector("#champ-pick").addEventListener("change", (e) => {
-    location.hash = `#/champion?name=${encodeURIComponent(e.target.value)}`;
+    location.hash = `#/champion?name=${encodeURIComponent(e.target.value)}&mode=${mode}`;
+  });
+  root.querySelectorAll("#mode-tabs button").forEach(btn => {
+    btn.addEventListener("click", () => {
+      location.hash = `#/champion?name=${encodeURIComponent(name)}&role=${role}&mode=${btn.dataset.mode}`;
+    });
   });
 }
 
 function panel(title, body) {
   return `<div class="panel"><h3>${title}</h3>${body}</div>`;
+}
+function panelWide(title, body) {
+  return `<div class="panel wide"><h3>${title}</h3>${body}</div>`;
 }
 function itemRow(it, ids, role, metaOn) {
   const v = metaOn ? it.adj : it.raw;
