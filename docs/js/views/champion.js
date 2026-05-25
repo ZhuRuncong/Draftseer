@@ -2,7 +2,7 @@
 // pairing (wide panel, favored + disfavored side by side) plus the
 // remaining roles as smaller panels.
 
-import { loadMeta, loadChampIds, loadMatchup, loadSynergy, ROLES, ROLE_LABEL, roleIcon } from "../data.js";
+import { loadMeta, loadChampIds, loadMatchup, loadSynergy, loadSlotDistribution, SLOT_LABELS, SLOT_SIDE, SLOT_ACTION, NUM_SLOTS, ROLES, ROLE_LABEL, roleIcon } from "../data.js";
 import { state, onToggleChange, toggleHTML, wireToggle, STRENGTH_TIP, infoTip } from "../main.js";
 
 const TOP_N = 8;
@@ -23,7 +23,7 @@ function fmt(v) {
 
 export async function renderChampion(root, params) {
   state.metaToggle = false;
-  const [meta, ids] = await Promise.all([loadMeta(), loadChampIds()]);
+  const [meta, ids, slotDist] = await Promise.all([loadMeta(), loadChampIds(), loadSlotDistribution()]);
 
   let name = params.get("name") || meta.rows[0].champ;
   const champRoles = (meta.byChamp[name] || []).map(r => r.role);
@@ -89,6 +89,7 @@ export async function renderChampion(root, params) {
       </span>
     </div>
 
+    <div id="slot-dist"></div>
     <div id="primary"></div>
     <div id="secondary" style="margin-top: 16px;"></div>
   `;
@@ -165,6 +166,7 @@ export async function renderChampion(root, params) {
     }).join("")}</div>`;
   }
   paint();
+  renderSlotDist(root.querySelector("#slot-dist"), slotDist.byChamp[name], name);
   onToggleChange(paint);
   wireToggle(root);
 
@@ -195,4 +197,54 @@ function itemRow(it, ids, role, metaOn) {
     <span>${it.c} <span style="color:var(--text-dim); font-size:11px;"> · <img class="role-icon" src="${roleIcon(role)}" alt="" style="width:11px;height:11px;" /> ${role}</span></span>
     <span class="val" style="color:${color}">${fmt(v)}</span>
   </a>`;
+}
+
+// Draft-slot distribution chart: 20 vertical bars (one per draft slot in
+// canonical tournament order), split into pick (solid) + ban (lighter) by
+// side color. Bar height is proportional to count.
+function renderSlotDist(container, dist, name) {
+  if (!container) return;
+  if (!dist) {
+    container.innerHTML = "";
+    return;
+  }
+  const max = Math.max(1, ...dist.map(d => d.picks + d.bans));
+  const total = dist.reduce((acc, d) => acc + d.picks + d.bans, 0);
+  const bars = dist.map((d, i) => {
+    const side = SLOT_SIDE[i];
+    const action = SLOT_ACTION[i];
+    const count = action === "pick" ? d.picks : d.bans;
+    const h = (count / max) * 100;
+    const sideColor = side === "blue" ? "var(--blue)" : "var(--red)";
+    const fillOpacity = action === "pick" ? 1 : 0.45;
+    const label = SLOT_LABELS[i];
+    return `<div class="slot-bar" title="${label}: ${count} ${action}${count===1?'':'s'}">
+      <div class="bar-fill" style="height: ${h}%; background: ${sideColor}; opacity: ${fillOpacity};"></div>
+      <div class="bar-label">${count || ""}</div>
+      <div class="bar-tick ${side}">${label.replace(/^[BR] /, "")}</div>
+    </div>`;
+  }).join("");
+  container.innerHTML = `
+    <div class="panel wide" style="margin-bottom: 16px;">
+      <h3>Draft timeline ${infoTip(
+        "When during the draft this champion is picked or banned, across all " +
+        "in-vocab games. Bars are colored by side (blue/red); pick bars are " +
+        "solid, ban bars are translucent. Heights are scaled to this " +
+        "champion's busiest slot."
+      )} <span class="panel-hint">${total} actions, busiest slot = ${
+        SLOT_LABELS[dist.reduce((bi, d, i, a) => {
+          const cur = SLOT_ACTION[i] === "pick" ? d.picks : d.bans;
+          const bcur = SLOT_ACTION[bi] === "pick" ? a[bi].picks : a[bi].bans;
+          return cur > bcur ? i : bi;
+        }, 0)]
+      }</span></h3>
+      <div class="slot-chart">${bars}</div>
+      <div class="slot-legend">
+        <span><i class="sw blue solid"></i> Blue pick</span>
+        <span><i class="sw blue ban"></i> Blue ban</span>
+        <span><i class="sw red solid"></i> Red pick</span>
+        <span><i class="sw red ban"></i> Red ban</span>
+      </div>
+    </div>
+  `;
 }

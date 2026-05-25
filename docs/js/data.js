@@ -73,6 +73,35 @@ export function loadMeta()        { return memo("meta", _loadMeta); }
 export function loadChampIds()    { return memo("ids",  () => fetchJSON(`${ROOT}/champion_ids.json`)); }
 export function loadMetaInfo()    { return memo("info", () => fetchJSON(`${ROOT}/meta_info.json`)); }
 
+// ----- slot_distribution.csv -> { byChamp: {name: [{picks, bans} x NUM_SLOTS]} }
+export const NUM_SLOTS = 20;
+// Canonical pro tournament draft order (0..19), matches dataset's PHASE_ORDER.
+export const SLOT_LABELS = [
+  "B Ban 1", "R Ban 1", "B Ban 2", "R Ban 2", "B Ban 3", "R Ban 3",
+  "B Pick 1", "R Pick 1", "R Pick 2", "B Pick 2", "B Pick 3", "R Pick 3",
+  "R Ban 4", "B Ban 4", "R Ban 5", "B Ban 5",
+  "R Pick 4", "B Pick 4", "B Pick 5", "R Pick 5",
+];
+export const SLOT_SIDE = SLOT_LABELS.map(l => l.startsWith("B") ? "blue" : "red");
+export const SLOT_ACTION = SLOT_LABELS.map(l => l.includes("Pick") ? "pick" : "ban");
+
+async function _loadSlotDist() {
+  const txt = await fetchText(`${ROOT}/slot_distribution.csv`);
+  const lines = txt.trim().split(/\r?\n/);
+  lines.shift(); // header
+  const byChamp = {};
+  for (const line of lines) {
+    const [champ, slot, picks, bans] = line.split(",");
+    if (!byChamp[champ]) {
+      byChamp[champ] = Array.from({length: NUM_SLOTS}, () => ({picks: 0, bans: 0}));
+    }
+    const s = parseInt(slot, 10);
+    byChamp[champ][s] = { picks: parseInt(picks, 10), bans: parseInt(bans, 10) };
+  }
+  return { byChamp };
+}
+export function loadSlotDistribution() { return memo("slot", _loadSlotDist); }
+
 // ----- matrix CSV (counters & synergies) -----
 async function _loadMatrix(url) {
   const txt = await fetchText(url);
