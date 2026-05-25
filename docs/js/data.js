@@ -155,3 +155,25 @@ export function loadSynergy(r1, r2) {
   }
   return Promise.reject(new Error(`No synergy file for ${r1}+${r2}`));
 }
+
+// ----- Teams "vs" data -----
+export function loadTeamsIndex() {
+  return memo("teamsIndex", () => fetchJSON(`${ROOT}/teams_index.json`));
+}
+export function loadTeamVs(slug) {
+  return memo(`team|${slug}`, async () => {
+    const txt = await fetchText(`${ROOT}/teams/${slug}.csv`);
+    const lines = txt.trim().split(/\r?\n/);
+    lines.shift(); // patch,champ,role,picks_vs,bans_vs
+    const rows = [];
+    for (const line of lines) {
+      const [patch, champ, role, p, b] = line.split(",");
+      rows.push({
+        patch, champ, role,
+        picksVs: parseInt(p, 10) || 0,
+        bansVs:  parseInt(b, 10) || 0,
+      });
+    }
+    return rows;
+  });
+}

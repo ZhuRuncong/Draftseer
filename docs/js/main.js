@@ -5,12 +5,14 @@ import { renderStrengths } from "./views/strengths.js";
 import { renderMatchups }  from "./views/matchups.js";
 import { renderSynergies } from "./views/synergies.js";
 import { renderChampion } from "./views/champion.js";
+import { renderTeams } from "./views/teams.js";
 
 const VIEWS = {
   strengths: renderStrengths,
   matchups:  renderMatchups,
   synergies: renderSynergies,
   champion:  renderChampion,
+  teams:     renderTeams,
 };
 
 export const state = {

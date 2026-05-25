@@ -1,0 +1,71 @@
+patch,champ,role,picks_vs,bans_vs
+16.01,Rumble,top,1,2
+16.01,Dr. Mundo,jng,1,1
+16.01,Ryze,mid,1,1
+16.01,Varus,bot,2,0
+16.01,Akali,mid,1,0
+16.01,Ambessa,top,1,0
+16.01,Azir,mid,1,0
+16.01,Braum,sup,1,0
+16.01,Caitlyn,bot,0,1
+16.01,Jarvan IV,jng,0,1
+16.01,K'Sante,top,1,0
+16.01,Kindred,jng,0,1
+16.01,Nautilus,sup,1,0
+16.01,Neeko,sup,1,0
+16.01,Orianna,mid,0,1
+16.01,Ornn,top,0,1
+16.01,Pantheon,jng,1,0
+16.01,Rakan,sup,0,1
+16.01,Renekton,top,0,1
+16.01,Sylas,mid,0,1
+16.01,Syndra,mid,0,1
+16.01,Vi,jng,0,1
+16.01,Wukong,jng,1,0
+16.01,Yunara,bot,1,0
+16.01,Zaahen,top,0,1
+16.02,Orianna,mid,0,2
+16.02,Varus,bot,0,2
+16.02,Aatrox,top,1,0
+16.02,Braum,sup,1,0
+16.02,Jarvan IV,jng,0,1
+16.02,Jayce,jng,1,0
+16.02,Jhin,bot,0,1
+16.02,K'Sante,top,1,0
+16.02,Kai'Sa,bot,1,0
+16.02,Leona,sup,0,1
+16.02,Neeko,sup,0,1
+16.02,Rakan,sup,0,1
+16.02,Rell,sup,1,0
+16.02,Rumble,top,0,1
+16.02,Ryze,mid,1,0
+16.02,Viktor,mid,1,0
+16.02,Wukong,jng,1,0
+16.02,Yunara,bot,1,0
+16.03,Kai'Sa,bot,1,1
+16.03,Kindred,jng,0,2
+16.03,Yunara,bot,0,2
+16.03,Ahri,mid,1,0
+16.03,Bard,sup,1,0
+16.03,Braum,sup,0,1
+16.03,Gnar,top,1,0
+16.03,Jarvan IV,jng,1,0
+16.03,Jax,top,0,1
+16.03,Nautilus,sup,1,0
+16.03,Orianna,mid,1,0
+16.03,Renekton,top,1,0
+16.03,Sivir,bot,0,1
+16.03,Syndra,mid,0,1
+16.03,Varus,bot,1,0
+16.03,Vi,jng,0,1
+16.03,Xin Zhao,jng,1,0
+16.04,Ahri,mid,1,0
+16.04,Ambessa,top,0,1
+16.04,Dr. Mundo,jng,1,0
+16.04,K'Sante,top,1,0
+16.04,Karma,sup,1,0
+16.04,Orianna,mid,0,1
+16.04,Rumble,top,0,1
+16.04,Sivir,bot,0,1
+16.04,Varus,bot,1,0
+16.04,Yunara,bot,0,1
