@@ -59,11 +59,10 @@ export async function renderChampion(root, params) {
 
     <div class="toolbar" style="margin-bottom:12px;">
       <label>Champion</label>
-      <input type="search" id="champ-search" list="champ-options" placeholder="Type to search…"
-             value="${name}" autocomplete="off" style="min-width: 220px;" />
-      <datalist id="champ-options">
-        ${Object.keys(meta.byChamp).sort().map(n => `<option value="${n}"></option>`).join("")}
-      </datalist>
+      <select id="champ-pick" style="min-width: 200px;">
+        ${Object.keys(meta.byChamp).sort().map(n =>
+          `<option value="${n}" ${n===name?'selected':''}>${n}</option>`).join("")}
+      </select>
       <label>Role lens</label>
       <select id="role-pick">
         ${champRoles.map(r => `<option value="${r}" ${r===role?'selected':''}>${ROLE_LABEL[r]}</option>`).join("")}
@@ -139,18 +138,8 @@ export async function renderChampion(root, params) {
   root.querySelector("#role-pick").addEventListener("change", (e) => {
     location.hash = `#/champion?name=${encodeURIComponent(name)}&role=${e.target.value}`;
   });
-
-  const searchEl = root.querySelector("#champ-search");
-  function tryNavigateToChamp(val) {
-    const v = (val || "").trim();
-    if (!v || v === name) return;
-    if (meta.byChamp[v]) {
-      location.hash = `#/champion?name=${encodeURIComponent(v)}`;
-    }
-  }
-  searchEl.addEventListener("change", e => tryNavigateToChamp(e.target.value));
-  searchEl.addEventListener("keydown", e => {
-    if (e.key === "Enter") tryNavigateToChamp(e.target.value);
+  root.querySelector("#champ-pick").addEventListener("change", (e) => {
+    location.hash = `#/champion?name=${encodeURIComponent(e.target.value)}`;
   });
 }
 

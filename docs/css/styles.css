@@ -189,7 +189,7 @@ main { padding: 20px; min-height: calc(100vh - 110px); }
   background: var(--bg-2); border: 1px solid var(--line); border-radius: var(--radius);
   padding: 18px; margin-bottom: 16px;
 }
-.champ-hero img { width: 96px; height: 96px; border-radius: 12px; border: 1px solid var(--line); }
+.champ-hero > img { width: 96px; height: 96px; border-radius: 12px; border: 1px solid var(--line); }
 .champ-hero .name { font-size: 24px; font-weight: 700; }
 .champ-hero .stats { display: flex; gap: 18px; margin-top: 10px; color: var(--text-dim); font-family: var(--mono); }
 .champ-hero .stats b { color: var(--text); }
