@@ -114,6 +114,54 @@ main { padding: 20px; min-height: calc(100vh - 110px); }
 .role-tabs button.active img { filter: invert(95%); }
 .role-tabs button.active { background: var(--bg); color: var(--text); }
 .role-tabs button:hover { color: var(--text); }
+.role-tabs button.disabled,
+.role-tabs button[disabled] { opacity: .35; cursor: not-allowed; }
+.role-tabs button.disabled:hover { color: var(--text-dim); }
+.role-tabs-icons button {
+  padding: 6px 10px;
+}
+.role-tabs-icons button img { width: 18px; height: 18px; }
+
+/* ---- Champion typeahead search ---- */
+.champ-search {
+  position: relative;
+  display: inline-flex; align-items: center;
+  background: var(--bg-3); border: 1px solid var(--line);
+  border-radius: 8px; padding: 2px 6px;
+  min-width: 220px;
+}
+.champ-search-icon {
+  width: 22px; height: 22px; border-radius: 4px;
+  margin-right: 6px; background: var(--bg-2);
+  object-fit: cover;
+}
+.champ-search input {
+  flex: 1; background: transparent; color: var(--text);
+  border: 0; outline: 0; font: inherit;
+  padding: 4px 0;
+  min-width: 0;
+}
+.champ-search-menu {
+  position: absolute; top: calc(100% + 4px); left: 0; right: 0;
+  background: var(--bg-2); border: 1px solid var(--line);
+  border-radius: 8px; padding: 4px;
+  max-height: 320px; overflow-y: auto;
+  z-index: 50;
+  box-shadow: 0 6px 20px rgba(0,0,0,.35);
+}
+.champ-search-item {
+  display: flex; align-items: center; gap: 8px;
+  padding: 5px 8px; border-radius: 6px; cursor: pointer;
+  font-size: 13px;
+}
+.champ-search-item img {
+  width: 22px; height: 22px; border-radius: 4px; object-fit: cover;
+}
+.champ-search-item.on,
+.champ-search-item:hover { background: var(--bg-3); }
+.champ-search-empty {
+  padding: 8px; color: var(--text-dim); font-size: 12px; text-align: center;
+}
 
 /* ---- Tables ---- */
 .tbl {

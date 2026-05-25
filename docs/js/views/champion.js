@@ -70,14 +70,23 @@ export async function renderChampion(root, params) {
 
     <div class="toolbar" style="margin-bottom:12px;">
       <label>Champion</label>
-      <select id="champ-pick" style="min-width: 200px;">
-        ${Object.keys(meta.byChamp).sort().map(n =>
-          `<option value="${n}" ${n===name?'selected':''}>${n}</option>`).join("")}
-      </select>
-      <label>Role lens</label>
-      <select id="role-pick">
-        ${champRoles.map(r => `<option value="${r}" ${r===role?'selected':''}>${ROLE_LABEL[r]}</option>`).join("")}
-      </select>
+      <div class="champ-search" id="champ-search">
+        <img class="champ-search-icon" src="${champInfo?.square || ''}" alt="" />
+        <input id="champ-search-input" type="text" autocomplete="off" spellcheck="false"
+               placeholder="Type to search…" value="${name}" />
+        <div class="champ-search-menu" id="champ-search-menu" hidden></div>
+      </div>
+      <label>Role</label>
+      <div class="role-tabs role-tabs-icons" id="role-pick">
+        ${ROLES.map(r => {
+          const enabled = champRoles.includes(r);
+          const active = r === role;
+          const cls = `${active ? "active" : ""} ${enabled ? "" : "disabled"}`.trim();
+          return `<button type="button" data-role="${r}" class="${cls}" ${enabled ? "" : "disabled"} title="${ROLE_LABEL[r]}${enabled ? "" : " · not played"}">
+            <img src="${roleIcon(r)}" alt="${ROLE_LABEL[r]}" />
+          </button>`;
+        }).join("")}
+      </div>
       <div class="role-tabs" id="mode-tabs">
         <button data-mode="matchups" class="${mode==='matchups'?'active':''}">Matchups</button>
         <button data-mode="synergies" class="${mode==='synergies'?'active':''}">Synergies</button>
@@ -194,11 +203,60 @@ export async function renderChampion(root, params) {
   onToggleChange(paint);
   wireToggle(root);
 
-  root.querySelector("#role-pick").addEventListener("change", (e) => {
-    location.hash = `#/champion?name=${encodeURIComponent(name)}&role=${e.target.value}&mode=${mode}`;
+  root.querySelectorAll("#role-pick button").forEach(btn => {
+    if (btn.disabled) return;
+    btn.addEventListener("click", () => {
+      const r = btn.dataset.role;
+      if (r === role) return;
+      location.hash = `#/champion?name=${encodeURIComponent(name)}&role=${r}&mode=${mode}`;
+    });
   });
-  root.querySelector("#champ-pick").addEventListener("change", (e) => {
-    location.hash = `#/champion?name=${encodeURIComponent(e.target.value)}&mode=${mode}`;
+  // Champion typeahead.
+  const allChampNames = Object.keys(meta.byChamp).sort();
+  const searchEl = root.querySelector("#champ-search");
+  const inputEl = root.querySelector("#champ-search-input");
+  const iconEl = root.querySelector(".champ-search-icon");
+  const menuEl = root.querySelector("#champ-search-menu");
+  let cursor = -1;
+  const renderMenu = (q) => {
+    const ql = q.trim().toLowerCase();
+    const list = (ql ? allChampNames.filter(n => n.toLowerCase().includes(ql)) : allChampNames).slice(0, 12);
+    cursor = list.length ? 0 : -1;
+    menuEl.innerHTML = list.map((n, i) => `
+      <div class="champ-search-item ${i===cursor?'on':''}" data-name="${n}">
+        <img loading="lazy" src="${ids.champions[n]?.square || ''}" alt="" />
+        <span>${n}</span>
+      </div>`).join("") || `<div class="champ-search-empty">No matches</div>`;
+    menuEl.hidden = false;
+  };
+  const navigate = (n) => {
+    if (!meta.byChamp[n]) return;
+    location.hash = `#/champion?name=${encodeURIComponent(n)}&mode=${mode}`;
+  };
+  inputEl.addEventListener("focus", () => { inputEl.select(); renderMenu(""); });
+  inputEl.addEventListener("input", () => { iconEl.style.opacity = .35; renderMenu(inputEl.value); });
+  inputEl.addEventListener("keydown", (e) => {
+    const items = menuEl.querySelectorAll(".champ-search-item");
+    if (e.key === "ArrowDown") { e.preventDefault(); cursor = Math.min(cursor + 1, items.length - 1); }
+    else if (e.key === "ArrowUp") { e.preventDefault(); cursor = Math.max(cursor - 1, 0); }
+    else if (e.key === "Enter") {
+      e.preventDefault();
+      const pick = items[cursor]?.dataset.name || items[0]?.dataset.name;
+      if (pick) navigate(pick);
+      return;
+    } else if (e.key === "Escape") { menuEl.hidden = true; inputEl.blur(); return; }
+    else return;
+    items.forEach((el, i) => el.classList.toggle("on", i === cursor));
+    items[cursor]?.scrollIntoView({ block: "nearest" });
+  });
+  menuEl.addEventListener("mousedown", (e) => {
+    const it = e.target.closest(".champ-search-item");
+    if (!it) return;
+    e.preventDefault();
+    navigate(it.dataset.name);
+  });
+  document.addEventListener("mousedown", (e) => {
+    if (!searchEl.contains(e.target)) menuEl.hidden = true;
   });
   root.querySelectorAll("#mode-tabs button").forEach(btn => {
     btn.addEventListener("click", () => {
