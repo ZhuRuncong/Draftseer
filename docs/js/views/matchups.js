@@ -48,17 +48,34 @@ export async function renderMatchups(root, params) {
   function strengthOf(role, champ) {
     return meta.byChampRole[`${champ}|${role}`] ?? 0;
   }
+  function popularityOf(role, champ) {
+    const row = (meta.byChamp[champ] || []).find(r => r.role === role);
+    if (!row) return -1;
+    return (row.pickRate || 0) + (row.banRate || 0);
+  }
+  function topByPopularity(role, names, n) {
+    return names.slice()
+      .sort((a, b) => popularityOf(role, b) - popularityOf(role, a))
+      .slice(0, n);
+  }
 
   function paint() {
     let rows = mat.rows.slice();
     let cols = mat.cols.slice();
+    if (limit > 0) {
+      // Restrict to top-N most-contested champions (pick rate + ban rate)
+      // BEFORE the user's chosen sort, so we always look at the contested meta.
+      const rowKeep = new Set(topByPopularity(allyRole,  rows, limit));
+      const colKeep = new Set(topByPopularity(enemyRole, cols, limit));
+      rows = rows.filter(r => rowKeep.has(r));
+      cols = cols.filter(c => colKeep.has(c));
+    }
     if (sortBy === "strength") {
       rows.sort((a,b) => strengthOf(allyRole,b)  - strengthOf(allyRole,a));
       cols.sort((a,b) => strengthOf(enemyRole,b) - strengthOf(enemyRole,a));
     } else {
       rows.sort(); cols.sort();
     }
-    if (limit > 0) { rows = rows.slice(0, limit); cols = cols.slice(0, limit); }
 
     renderHeatmap(document.getElementById("hm"), {
       rows, cols,

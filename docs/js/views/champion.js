@@ -96,6 +96,28 @@ export async function renderChampion(root, params) {
 
   function strengthOf(r, c) { return meta.byChampRole[`${c}|${r}`] ?? 0; }
 
+  // Per-(champ,role) popularity = pick rate (in role) + ban rate (per champ).
+  // We use this to restrict each target role's candidate set to the top N
+  // most-contested champions, so the "favored / disfavored" lists aren't
+  // dominated by obscure picks.
+  const POP_TOP_N = 20;
+  function popularity(c, targetRole) {
+    const row = meta.byChampRole[`${c}|${targetRole}`] != null
+      ? (meta.byChamp[c] || []).find(r => r.role === targetRole)
+      : null;
+    if (!row) return -1;
+    return (row.pickRate || 0) + (row.banRate || 0);
+  }
+  // Memoized "top-N champ names per role" by popularity.
+  const popularByRole = {};
+  for (const r of ROLES) {
+    popularByRole[r] = (meta.byRole[r] || [])
+      .slice()
+      .sort((a, b) => popularity(b.champ, r) - popularity(a.champ, r))
+      .slice(0, POP_TOP_N)
+      .map(x => x.champ);
+  }
+
   // Build a ranked list (best + worst) for a given target role.
   function rankFor(targetRole) {
     const metaOn = state.metaToggle;
@@ -103,7 +125,9 @@ export async function renderChampion(root, params) {
     const mat = isMatch ? matchupMats[targetRole] : synergyMats[targetRole];
     const row = mat?.data[name];
     if (!row) return null;
+    const allowed = new Set(popularByRole[targetRole]);
     const items = Object.keys(row)
+      .filter(c => allowed.has(c))
       .filter(c => !(isMatch && targetRole === role && c === name))
       .map(c => ({
         c,
