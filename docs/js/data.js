@@ -131,7 +131,16 @@ export function loadSynergy(r1, r2) {
   // if caller asks for the reverse, transpose.
   const direct = SYNERGY_PAIRS.find(([a,b]) => a===r1 && b===r2);
   const reverse = SYNERGY_PAIRS.find(([a,b]) => a===r2 && b===r1);
-  if (direct)  return memo(`s|${r1}|${r2}`, () => _loadMatrix(`${ROOT}/synergies/${r1}_${r2}.csv`));
+  const zeroSelfPairs = (mat) => {
+    // A champion paired with itself across two different roles is noise
+    // (e.g. Galio mid + Galio top) — zero those cells.
+    for (const r of mat.rows) {
+      if (mat.data[r] && r in mat.data[r]) mat.data[r][r] = 0;
+    }
+    return mat;
+  };
+  if (direct)  return memo(`s|${r1}|${r2}`, async () =>
+    zeroSelfPairs(await _loadMatrix(`${ROOT}/synergies/${r1}_${r2}.csv`)));
   if (reverse) {
     return memo(`s|${r1}|${r2}`, async () => {
       const m = await _loadMatrix(`${ROOT}/synergies/${r2}_${r1}.csv`);
@@ -141,7 +150,7 @@ export function loadSynergy(r1, r2) {
         data[c] = {};
         for (const r of m.rows) data[c][r] = m.data[r][c];
       }
-      return { rows: m.cols, cols: m.rows, data };
+      return zeroSelfPairs({ rows: m.cols, cols: m.rows, data });
     });
   }
   return Promise.reject(new Error(`No synergy file for ${r1}+${r2}`));
