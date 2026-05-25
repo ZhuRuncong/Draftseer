@@ -83,7 +83,7 @@ window.DraftSeer = { state, route };
 
 // Plain-English explanation of "strength", reused across views.
 export const STRENGTH_TIP =
-  "How strongly drafters reach for this champion in this role, after " +
+  "How strongly coaches reach for this champion in this role, after " +
   "accounting for who else is already picked or banned. It is learned " +
   "from pro-game pick/ban patterns, so a high " +
   "strength means \"frequently drafted / hard to leave open\", not " +
