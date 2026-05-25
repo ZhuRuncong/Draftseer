@@ -1,0 +1,117 @@
+// Lightweight data layer: parses the CSVs once and caches in-memory.
+
+const ROOT = "data";
+export const ROLES = ["top", "jng", "mid", "bot", "sup"];
+export const ROLE_LABEL = { top: "Top", jng: "Jungle", mid: "Mid", bot: "Bot", sup: "Support" };
+
+// Position icons from Riot's published game assets (Community Dragon mirror).
+const ROLE_ICON_NAME = { top: "top", jng: "jungle", mid: "middle", bot: "bottom", sup: "utility" };
+export function roleIcon(role) {
+  const n = ROLE_ICON_NAME[role];
+  return n
+    ? `https://raw.communitydragon.org/latest/plugins/rcp-fe-lol-static-assets/global/default/svg/position-${n}.svg`
+    : "";
+}
+
+// Unordered ally-ally pairs available in synergies/<r1>_<r2>.csv
+export const SYNERGY_PAIRS = [
+  ["top","jng"],["top","mid"],["top","bot"],["top","sup"],
+  ["jng","mid"],["jng","bot"],["jng","sup"],
+  ["mid","bot"],["mid","sup"],
+  ["bot","sup"],
+];
+
+const cache = new Map();
+
+async function fetchText(url) {
+  const r = await fetch(url);
+  if (!r.ok) throw new Error(`Failed to fetch ${url}: ${r.status}`);
+  return r.text();
+}
+
+async function fetchJSON(url) {
+  const r = await fetch(url);
+  if (!r.ok) throw new Error(`Failed to fetch ${url}: ${r.status}`);
+  return r.json();
+}
+
+function memo(key, loader) {
+  if (!cache.has(key)) cache.set(key, loader());
+  return cache.get(key);
+}
+
+// ----- meta.csv -> { byChamp: {name: {role, strength, pickCount, pickRate}}, byRole: {role: [...]} }
+async function _loadMeta() {
+  const txt = await fetchText(`${ROOT}/meta.csv`);
+  const lines = txt.trim().split(/\r?\n/);
+  lines.shift(); // header: champ,role,strength,pick_count,pick_rate
+  const rows = [];
+  const byChamp = {};
+  const byChampRole = {}; // key: `${champ}|${role}` -> strength (for multi-role champs)
+  const byRole = { top: [], jng: [], mid: [], bot: [], sup: [] };
+  for (const line of lines) {
+    const [champ, role, strength, pc, pr] = line.split(",");
+    const row = {
+      champ, role,
+      strength: parseFloat(strength),
+      pickCount: parseInt(pc, 10),
+      pickRate: parseFloat(pr),
+    };
+    rows.push(row);
+    byRole[role].push(row);
+    byChampRole[`${champ}|${role}`] = row.strength;
+    // first row wins as "primary" listing for byChamp; for strength-by-role lookups use byChampRole.
+    if (!byChamp[champ]) byChamp[champ] = [];
+    byChamp[champ].push(row);
+  }
+  for (const role of ROLES) byRole[role].sort((a, b) => b.strength - a.strength);
+  return { rows, byChamp, byChampRole, byRole };
+}
+export function loadMeta()        { return memo("meta", _loadMeta); }
+export function loadChampIds()    { return memo("ids",  () => fetchJSON(`${ROOT}/champion_ids.json`)); }
+export function loadMetaInfo()    { return memo("info", () => fetchJSON(`${ROOT}/meta_info.json`)); }
+
+// ----- matrix CSV (counters & synergies) -----
+async function _loadMatrix(url) {
+  const txt = await fetchText(url);
+  const lines = txt.trim().split(/\r?\n/);
+  const header = lines.shift().split(",");
+  const cols = header.slice(1); // first cell is "r1\r2"
+  const rows = [];
+  const data = {}; // {rowChamp: {colChamp: value}}
+  for (const line of lines) {
+    const parts = line.split(",");
+    const r = parts[0];
+    rows.push(r);
+    const row = {};
+    for (let i = 0; i < cols.length; i++) {
+      row[cols[i]] = parseFloat(parts[i + 1]);
+    }
+    data[r] = row;
+  }
+  return { rows, cols, data };
+}
+export function loadMatchup(allyRole, enemyRole) {
+  return memo(`m|${allyRole}|${enemyRole}`,
+    () => _loadMatrix(`${ROOT}/counters/${allyRole}_vs_${enemyRole}.csv`));
+}
+export function loadSynergy(r1, r2) {
+  // synergies/<r1>_<r2>.csv exists for the ordered key listed in SYNERGY_PAIRS;
+  // if caller asks for the reverse, transpose.
+  const direct = SYNERGY_PAIRS.find(([a,b]) => a===r1 && b===r2);
+  const reverse = SYNERGY_PAIRS.find(([a,b]) => a===r2 && b===r1);
+  if (direct)  return memo(`s|${r1}|${r2}`, () => _loadMatrix(`${ROOT}/synergies/${r1}_${r2}.csv`));
+  if (reverse) {
+    return memo(`s|${r1}|${r2}`, async () => {
+      const m = await _loadMatrix(`${ROOT}/synergies/${r2}_${r1}.csv`);
+      // transpose so caller's "rows" axis is r1 champions
+      const data = {};
+      for (const c of m.cols) {
+        data[c] = {};
+        for (const r of m.rows) data[c][r] = m.data[r][c];
+      }
+      return { rows: m.cols, cols: m.rows, data };
+    });
+  }
+  return Promise.reject(new Error(`No synergy file for ${r1}+${r2}`));
+}

@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>DraftSeer — Value Model Explorer</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <span class="logo">⟁</span>
+      <span>DraftSeer</span>
+      <span class="subtle">value-model explorer</span>
+    </div>
+    <nav class="tabs" id="nav-tabs">
+      <a href="#/strengths" data-view="strengths">Baseline Strength</a>
+      <a href="#/matchups"  data-view="matchups">Matchups</a>
+      <a href="#/synergies" data-view="synergies">Synergies</a>
+      <a href="#/champion"  data-view="champion">Champion</a>
+    </nav>
+    <div class="meta-toggle">
+      <label class="switch" title="Add per-champion baseline strength to each cell">
+        <input type="checkbox" id="meta-toggle" />
+        <span class="slider"></span>
+        <span class="switch-label">Consider baseline strength</span>
+      </label>
+      <span class="badge" id="patch-badge">—</span>
+    </div>
+  </header>
+
+  <main id="view-root">
+    <div class="loading">Loading model data…</div>
+  </main>
+
+  <footer class="footer">
+    <span>Champion icons © Riot Games via Data Dragon.</span>
+    <span id="footer-meta"></span>
+  </footer>
+
+  <script type="module" src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,8 @@
+# Only the site + its README are tracked. Everything else lives locally;
+# re-run export_site_data.py from your working copy to refresh docs/data/
+# when the model retrains.
+/*
+!/.gitignore
+!/README.md
+!/docs/
+!/docs/**
