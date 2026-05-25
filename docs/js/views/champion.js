@@ -218,7 +218,7 @@ function itemRow(it, ids, role, metaOn) {
   const color = v >= 0 ? "var(--pos)" : "var(--neg)";
   return `<a class="item" href="#/champion?name=${encodeURIComponent(it.c)}&role=${role}">
     <img loading="lazy" src="${ids.champions[it.c]?.square || ''}" alt="${it.c}" />
-    <span>${it.c} <span style="color:var(--text-dim); font-size:11px;"> · <img class="role-icon" src="${roleIcon(role)}" alt="" style="width:11px;height:11px;" /> ${role}</span></span>
+    <span>${it.c}</span>
     <span class="val" style="color:${color}">${fmt(v)}</span>
   </a>`;
 }
