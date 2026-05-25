@@ -53,12 +53,6 @@ export async function renderChampion(root, params) {
       <img src="${champInfo?.square || ''}" alt="${name}" />
       <div>
         <div class="name">${name}</div>
-        <div>
-          ${champRoles.map(r => `
-            <a class="role-pill ${r}" href="#/champion?name=${encodeURIComponent(name)}&role=${r}&mode=${mode}"
-               style="${r===role?'border-color:var(--accent); color:var(--text);':''}"><img src="${roleIcon(r)}" alt="" />${r}</a>
-          `).join(" ")}
-        </div>
         <div class="stats">
           <span>Strength${infoTip(STRENGTH_TIP)} <b style="color:${strength>=0?'var(--pos)':'var(--neg)'}">${fmt(strength)}</b></span>
           <span>Pick rate <b>${(meR.pickRate*100).toFixed(1)}%</b></span>
