@@ -214,7 +214,7 @@ export async function renderChampion(root, params) {
   let cursor = -1;
   const renderMenu = (q) => {
     const ql = q.trim().toLowerCase();
-    const list = (ql ? allChampNames.filter(n => n.toLowerCase().includes(ql)) : allChampNames).slice(0, 12);
+    const list = ql ? allChampNames.filter(n => n.toLowerCase().includes(ql)) : allChampNames;
     cursor = list.length ? 0 : -1;
     menuEl.innerHTML = list.map((n, i) => `
       <div class="champ-search-item ${i===cursor?'on':''}" data-name="${n}">
