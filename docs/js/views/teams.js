@@ -32,13 +32,26 @@ export async function renderTeams(root, params) {
     selectedSlug = teamsInLeague()[0]?.slug;
   }
 
-  let selectedPatches = new Set(patches); // default: all
-  const fromQ = params.get("patches");
-  if (fromQ) {
-    const wanted = new Set(fromQ.split(","));
-    selectedPatches = new Set(patches.filter(p => wanted.has(p)));
-    if (selectedPatches.size === 0) selectedPatches = new Set(patches);
+  let fromIdx = 0;
+  let toIdx = patches.length - 1;
+  const pFrom = params.get("patchFrom");
+  const pTo = params.get("patchTo");
+  if (pFrom && patches.includes(pFrom)) fromIdx = patches.indexOf(pFrom);
+  if (pTo && patches.includes(pTo)) toIdx = patches.indexOf(pTo);
+  // back-compat: contiguous patches= list
+  if (!pFrom && !pTo) {
+    const fromQ = params.get("patches");
+    if (fromQ) {
+      const idxs = fromQ.split(",")
+        .filter(p => patches.includes(p))
+        .map(p => patches.indexOf(p));
+      if (idxs.length) { fromIdx = Math.min(...idxs); toIdx = Math.max(...idxs); }
+    }
   }
+  if (fromIdx > toIdx) [fromIdx, toIdx] = [toIdx, fromIdx];
+
+  const selectedPatchList = () => patches.slice(fromIdx, toIdx + 1);
+  const selectedPatchSet = () => new Set(selectedPatchList());
 
   function teamOptionsHTML() {
     return teamsInLeague()
@@ -60,14 +73,29 @@ export async function renderTeams(root, params) {
           <span class="field-label">Team <span class="field-hint">(sorted by games played)</span></span>
           <select id="team-pick">${teamOptionsHTML()}</select>
         </label>
-        <div class="field">
-          <span class="field-label">Patches ${infoTip("Click chips to toggle. All-on by default.")}</span>
-          <div class="patch-chips" id="patch-chips">
-            <button class="chip chip-all" data-patch="__all">All</button>
-            <button class="chip chip-none" data-patch="__none">None</button>
-            ${patches.map(p =>
-              `<button class="chip${selectedPatches.has(p)?" on":""}" data-patch="${p}">${p}</button>`
-            ).join("")}
+        <div class="field patch-range-field">
+          <span class="field-label">Patch range ${infoTip("Drag either handle to narrow the patch range. Snaps to each patch.")}</span>
+          <div class="patch-range" id="patch-range">
+            <div class="patch-range-summary" id="patch-range-summary"></div>
+            <div class="patch-range-track" id="patch-range-track">
+              <div class="patch-range-fill" id="patch-range-fill"></div>
+              ${patches.map((_, i) => {
+                const pct = patches.length === 1 ? 0 : (i / (patches.length - 1)) * 100;
+                return `<span class="patch-range-tick" data-idx="${i}" style="left:${pct}%"></span>`;
+              }).join("")}
+              <button class="patch-range-handle" data-end="from" aria-label="From patch">
+                <span class="patch-range-bubble" id="patch-range-bubble-from"></span>
+              </button>
+              <button class="patch-range-handle" data-end="to" aria-label="To patch">
+                <span class="patch-range-bubble" id="patch-range-bubble-to"></span>
+              </button>
+            </div>
+            <div class="patch-range-axis">
+              ${patches.map((p, i) => {
+                const pct = patches.length === 1 ? 0 : (i / (patches.length - 1)) * 100;
+                return `<span class="patch-range-axis-label" style="left:${pct}%">${p}</span>`;
+              }).join("")}
+            </div>
           </div>
         </div>
       </div>
@@ -84,18 +112,61 @@ export async function renderTeams(root, params) {
 
   const leaguePick = root.querySelector("#league-pick");
   const teamPick = root.querySelector("#team-pick");
-  const chipBox = root.querySelector("#patch-chips");
+  const rangeEl = root.querySelector("#patch-range");
+  const trackEl = root.querySelector("#patch-range-track");
+  const fillEl = root.querySelector("#patch-range-fill");
+  const bubbleFrom = root.querySelector("#patch-range-bubble-from");
+  const bubbleTo = root.querySelector("#patch-range-bubble-to");
+  const summaryEl = root.querySelector("#patch-range-summary");
+  const handleFrom = rangeEl.querySelector('.patch-range-handle[data-end="from"]');
+  const handleTo = rangeEl.querySelector('.patch-range-handle[data-end="to"]');
+  const tickEls = [...rangeEl.querySelectorAll('.patch-range-tick')];
   const tableEl = root.querySelector("#teams-table");
   const titleEl = root.querySelector("#team-title-name");
   const hintEl = root.querySelector("#team-hint");
+
+  function pct(i) {
+    return patches.length === 1 ? 0 : (i / (patches.length - 1)) * 100;
+  }
+
+  function paintRange() {
+    const lo = pct(fromIdx), hi = pct(toIdx);
+    handleFrom.style.left = `${lo}%`;
+    handleTo.style.left = `${hi}%`;
+    fillEl.style.left = `${lo}%`;
+    fillEl.style.width = `${hi - lo}%`;
+    bubbleFrom.textContent = patches[fromIdx];
+    bubbleTo.textContent = patches[toIdx];
+    for (const t of tickEls) {
+      const i = +t.dataset.idx;
+      t.classList.toggle("in-range", i >= fromIdx && i <= toIdx);
+    }
+  }
+
+  function updateSummary() {
+    const team = allTeams.find(t => t.slug === selectedSlug);
+    const gbp = team?.games_by_patch || {};
+    const sbp = team?.series_by_patch || {};
+    let games = 0, series = 0;
+    for (const p of selectedPatchList()) {
+      games += gbp[p] || 0;
+      series += sbp[p] || 0;
+    }
+    const span = toIdx === fromIdx
+      ? patches[fromIdx]
+      : `${patches[fromIdx]}\u2013${patches[toIdx]}`;
+    summaryEl.innerHTML =
+      `<strong>${games}</strong> game${games===1?"":"s"} \u00b7 ` +
+      `<strong>${series}</strong> series \u00b7 ` +
+      `patches <strong>${span}</strong>`;
+  }
 
   function syncURL() {
     const sp = new URLSearchParams();
     if (selectedLeague !== "__all") sp.set("league", selectedLeague);
     if (selectedSlug) sp.set("team", selectedSlug);
-    if (selectedPatches.size !== patches.length) {
-      sp.set("patches", [...selectedPatches].sort().join(","));
-    }
+    if (fromIdx !== 0) sp.set("patchFrom", patches[fromIdx]);
+    if (toIdx !== patches.length - 1) sp.set("patchTo", patches[toIdx]);
     const qs = sp.toString();
     const newHash = qs ? `#/teams?${qs}` : "#/teams";
     if (location.hash !== newHash) {
@@ -152,24 +223,55 @@ export async function renderTeams(root, params) {
     rerender();
   });
 
-  chipBox.addEventListener("click", (ev) => {
-    const btn = ev.target.closest("button.chip");
-    if (!btn) return;
-    const p = btn.dataset.patch;
-    if (p === "__all") {
-      selectedPatches = new Set(patches);
-    } else if (p === "__none") {
-      selectedPatches = new Set();
-    } else {
-      if (selectedPatches.has(p)) selectedPatches.delete(p);
-      else selectedPatches.add(p);
-    }
-    for (const b of chipBox.querySelectorAll("button.chip")) {
-      const bp = b.dataset.patch;
-      if (bp === "__all" || bp === "__none") continue;
-      b.classList.toggle("on", selectedPatches.has(bp));
-    }
-    rerender();
+  // ---- dual-handle snap slider ----
+  function indexFromClientX(x) {
+    const rect = trackEl.getBoundingClientRect();
+    if (rect.width <= 0 || patches.length <= 1) return 0;
+    const p = (x - rect.left) / rect.width;
+    const clamped = Math.min(1, Math.max(0, p));
+    return Math.round(clamped * (patches.length - 1));
+  }
+
+  function beginDrag(which, startEvent) {
+    startEvent.preventDefault();
+    const handle = which === "from" ? handleFrom : handleTo;
+    handle.classList.add("dragging");
+    const move = (ev) => {
+      const idx = indexFromClientX(ev.clientX);
+      if (which === "from") {
+        const ni = Math.min(idx, toIdx);
+        if (ni !== fromIdx) { fromIdx = ni; paintRange(); updateSummary(); }
+      } else {
+        const ni = Math.max(idx, fromIdx);
+        if (ni !== toIdx) { toIdx = ni; paintRange(); updateSummary(); }
+      }
+    };
+    const up = () => {
+      handle.classList.remove("dragging");
+      window.removeEventListener("pointermove", move);
+      window.removeEventListener("pointerup", up);
+      window.removeEventListener("pointercancel", up);
+      rerender();
+    };
+    window.addEventListener("pointermove", move);
+    window.addEventListener("pointerup", up);
+    window.addEventListener("pointercancel", up);
+  }
+
+  handleFrom.addEventListener("pointerdown", (ev) => beginDrag("from", ev));
+  handleTo.addEventListener("pointerdown", (ev) => beginDrag("to", ev));
+
+  trackEl.addEventListener("pointerdown", (ev) => {
+    if (ev.target.closest(".patch-range-handle")) return;
+    const idx = indexFromClientX(ev.clientX);
+    const distFrom = Math.abs(idx - fromIdx);
+    const distTo = Math.abs(idx - toIdx);
+    const which = distFrom <= distTo ? "from" : "to";
+    if (which === "from") fromIdx = Math.min(idx, toIdx);
+    else toIdx = Math.max(idx, fromIdx);
+    paintRange();
+    updateSummary();
+    beginDrag(which, ev);
   });
 
   await rerender();

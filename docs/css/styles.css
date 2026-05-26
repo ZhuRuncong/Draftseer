@@ -445,6 +445,95 @@ main {
   font-family: inherit;
 }
 
+/* ---- Patch range slider ---- */
+.patch-range-field { min-width: 380px; }
+.patch-range { padding: 4px 0 0; }
+.patch-range-summary {
+  font-size: 12px; color: var(--text-dim);
+  margin: 0 0 26px;
+}
+.patch-range-summary strong {
+  color: var(--text); font-family: var(--mono); font-weight: 600;
+}
+.patch-range-track {
+  position: relative;
+  height: 4px;
+  background: var(--line);
+  border-radius: 999px;
+  margin: 0 14px 6px;
+  touch-action: none;
+}
+.patch-range-fill {
+  position: absolute; top: 0; bottom: 0;
+  background: var(--accent);
+  border-radius: 999px;
+  pointer-events: none;
+}
+.patch-range-tick {
+  position: absolute; top: 50%;
+  width: 2px; height: 6px;
+  background: var(--line);
+  transform: translate(-50%, -50%);
+  border-radius: 1px;
+  pointer-events: none;
+}
+.patch-range-tick.in-range { background: var(--accent); opacity: .55; }
+.patch-range-handle {
+  position: absolute; top: 50%;
+  width: 18px; height: 18px; padding: 0;
+  border-radius: 50%;
+  border: 2px solid var(--accent);
+  background: var(--panel);
+  transform: translate(-50%, -50%);
+  cursor: grab;
+  z-index: 2;
+  transition: background .12s, box-shadow .12s, transform .12s;
+}
+.patch-range-handle:hover {
+  background: var(--accent);
+  box-shadow: 0 0 0 6px rgba(122,162,255,.15);
+}
+.patch-range-handle:focus-visible {
+  outline: none;
+  box-shadow: 0 0 0 4px rgba(122,162,255,.35);
+}
+.patch-range-handle.dragging {
+  background: var(--accent);
+  cursor: grabbing;
+  box-shadow: 0 0 0 8px rgba(122,162,255,.20);
+  transform: translate(-50%, -50%) scale(1.05);
+}
+.patch-range-bubble {
+  position: absolute;
+  bottom: calc(100% + 8px);
+  left: 50%;
+  transform: translateX(-50%);
+  font-family: var(--mono); font-size: 11px;
+  color: var(--text);
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  padding: 2px 7px;
+  white-space: nowrap;
+  pointer-events: none;
+}
+.patch-range-handle.dragging .patch-range-bubble,
+.patch-range-handle:hover .patch-range-bubble {
+  border-color: var(--accent);
+}
+.patch-range-axis {
+  position: relative;
+  height: 14px;
+  margin: 8px 14px 0;
+  font-family: var(--mono); font-size: 10px;
+  color: var(--text-dim);
+}
+.patch-range-axis-label {
+  position: absolute; top: 0;
+  transform: translateX(-50%);
+  opacity: .7;
+}
+
 .tbl-teams th.role-col { text-align: center; width: 92px; }
 .tbl-teams th.role-col .role-svg { width: 18px; height: 18px; vertical-align: middle; opacity: .85; }
 .tbl-teams td.cell-vs { text-align: center; font-family: var(--mono); font-size: 12px; white-space: nowrap; }
