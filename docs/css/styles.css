@@ -530,7 +530,7 @@ main {
   padding: 4px 10px;
   border: 1px solid var(--line);
   border-radius: 8px;
-  background: var(--panel);
+  background: var(--bg-3);
   color: var(--text);
   font: inherit;
   cursor: pointer;
@@ -554,7 +554,7 @@ main {
 .team-combobox-placeholder { color: var(--text-dim); flex: 1 1 auto; }
 .team-combobox-panel {
   position: absolute; top: calc(100% + 4px); left: 0; right: 0;
-  background: var(--panel);
+  background: var(--bg-2);
   border: 1px solid var(--line);
   border-radius: 8px;
   max-height: 340px;
