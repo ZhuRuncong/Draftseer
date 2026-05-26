@@ -228,7 +228,7 @@ main {
 /* ---- Heatmap ---- */
 .heatmap-wrap {
   background: var(--bg-2); border: 1px solid var(--line); border-radius: var(--radius);
-  overflow: auto; max-height: 78vh; position: relative;
+  overflow-x: auto; position: relative;
 }
 .heatmap {
   border-collapse: separate; border-spacing: 0;
