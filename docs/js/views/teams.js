@@ -64,7 +64,7 @@ export async function renderTeams(root, params) {
   function teamOptionsHTML() {
     return teamsInLeague()
       .map(t => `<button type="button" class="team-combobox-option ${t.slug===selectedSlug?"is-selected":""}" role="option" data-slug="${t.slug}" aria-selected="${t.slug===selectedSlug}">
-        ${teamLogoHTML(t, 28)}
+        ${teamLogoHTML(t, 24)}
         <span class="team-name">${t.name}</span>
         <span class="team-games">${t.games}</span>
       </button>`)
@@ -73,7 +73,7 @@ export async function renderTeams(root, params) {
 
   function teamButtonHTML(team) {
     if (!team) return `<span class="team-combobox-placeholder">— select a team —</span><span class="combobox-caret">▾</span>`;
-    return `${teamLogoHTML(team, 32)}
+    return `${teamLogoHTML(team, 27)}
       <span class="team-name">${team.name}</span>
       <span class="team-games">${team.games}</span>
       <span class="combobox-caret">▾</span>`;
