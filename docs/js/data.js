@@ -1,7 +1,7 @@
 // Lightweight data layer: parses the CSVs once and caches in-memory.
 
 const ROOT = "data";
-const DATA_V = "7"; // bump to invalidate browser cache for data files
+const DATA_V = "8"; // bump to invalidate browser cache for data files
 export const ROLES = ["top", "jng", "mid", "bot", "sup"];
 export const ROLE_LABEL = { top: "Top", jng: "Jungle", mid: "Mid", bot: "Bot", sup: "Support" };
 
