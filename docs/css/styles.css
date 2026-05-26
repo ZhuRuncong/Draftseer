@@ -241,7 +241,7 @@ main {
 }
 .heatmap th, .heatmap td { padding: 0; border: 1px solid rgba(0,0,0,.25); }
 .heatmap thead th {
-  background: var(--bg-3); position: sticky; top: 0; z-index: 3;
+  background: var(--bg-3); position: sticky; top: 52px; z-index: 3;
   height: 110px; vertical-align: bottom; padding: 4px 0 6px;
 }
 .heatmap thead th.corner { left: 0; z-index: 5; background: var(--bg-3); width: 190px; min-width: 190px; }
