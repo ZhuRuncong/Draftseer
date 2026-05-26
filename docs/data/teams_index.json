@@ -4,1849 +4,6437 @@
       "slug": "3bl-esports",
       "name": "3BL Esports",
       "games": 68,
-      "league": "AL"
+      "league": "AL",
+      "games_by_patch": {
+        "16.01": 17,
+        "16.02": 3,
+        "16.03": 13,
+        "16.05": 4,
+        "16.07": 18,
+        "16.09": 13
+      },
+      "series_by_patch": {
+        "16.01": 6,
+        "16.02": 1,
+        "16.03": 6,
+        "16.05": 2,
+        "16.07": 7,
+        "16.09": 4
+      }
     },
     {
       "slug": "4-employed-e-1-budino",
       "name": "4 Employed e 1 Budino",
       "games": 12,
-      "league": "LIT"
+      "league": "LIT",
+      "games_by_patch": {
+        "16.02": 4,
+        "16.03": 5,
+        "16.04": 3
+      },
+      "series_by_patch": {
+        "16.02": 2,
+        "16.03": 2,
+        "16.04": 1
+      }
     },
     {
       "slug": "4-swines-a-bum",
       "name": "4 Swines & A Bum",
       "games": 7,
-      "league": "NLC"
+      "league": "NLC",
+      "games_by_patch": {
+        "16.01": 3,
+        "16.02": 2,
+        "16.03": 2
+      },
+      "series_by_patch": {
+        "16.01": 3,
+        "16.02": 2,
+        "16.03": 2
+      }
     },
     {
       "slug": "7rex",
       "name": "7REX",
       "games": 14,
-      "league": "CD"
+      "league": "CD",
+      "games_by_patch": {
+        "16.06": 3,
+        "16.07": 3,
+        "16.08": 3,
+        "16.09": 5
+      },
+      "series_by_patch": {
+        "16.06": 3,
+        "16.07": 3,
+        "16.08": 3,
+        "16.09": 2
+      }
     },
     {
       "slug": "9gaming-esports",
       "name": "9Gaming Esports",
       "games": 27,
-      "league": "VCS"
+      "league": "VCS",
+      "games_by_patch": {
+        "16.04": 11,
+        "16.05": 8,
+        "16.09": 8
+      },
+      "series_by_patch": {
+        "16.04": 5,
+        "16.05": 2,
+        "16.09": 4
+      }
     },
     {
       "slug": "9z-globant",
       "name": "9z Globant",
       "games": 22,
-      "league": "LRS"
+      "league": "LRS",
+      "games_by_patch": {
+        "16.04": 2,
+        "16.05": 6,
+        "16.06": 4,
+        "16.07": 4,
+        "16.09": 3,
+        "16.10": 3
+      },
+      "series_by_patch": {
+        "16.04": 1,
+        "16.05": 3,
+        "16.06": 2,
+        "16.07": 2,
+        "16.09": 1,
+        "16.10": 1
+      }
     },
     {
       "slug": "a-one-man-army-prime",
       "name": "A One Man Army Prime",
       "games": 10,
-      "league": "PRM"
+      "league": "PRM",
+      "games_by_patch": {
+        "16.01": 2,
+        "16.02": 2,
+        "16.03": 6
+      },
+      "series_by_patch": {
+        "16.01": 2,
+        "16.02": 1,
+        "16.03": 6
+      }
     },
     {
       "slug": "aeterna-esports",
       "name": "Aeterna Esports",
       "games": 16,
-      "league": "LIT"
+      "league": "LIT",
+      "games_by_patch": {
+        "16.06": 3,
+        "16.07": 4,
+        "16.08": 9
+      },
+      "series_by_patch": {
+        "16.06": 3,
+        "16.07": 4,
+        "16.08": 3
+      }
     },
     {
       "slug": "almo-players",
       "name": "ALMO Players",
       "games": 35,
-      "league": "HLL"
+      "league": "HLL",
+      "games_by_patch": {
+        "16.01": 6,
+        "16.02": 2,
+        "16.03": 9,
+        "16.06": 2,
+        "16.07": 4,
+        "16.08": 4,
+        "16.09": 8
+      },
+      "series_by_patch": {
+        "16.01": 3,
+        "16.02": 1,
+        "16.03": 4,
+        "16.06": 1,
+        "16.07": 2,
+        "16.08": 2,
+        "16.09": 3
+      }
     },
     {
       "slug": "andromeda-gaming",
       "name": "Andromeda Gaming",
       "games": 25,
-      "league": "HC"
+      "league": "HC",
+      "games_by_patch": {
+        "16.01": 1,
+        "16.02": 7,
+        "16.08": 9,
+        "16.09": 8
+      },
+      "series_by_patch": {
+        "16.01": 1,
+        "16.02": 4,
+        "16.08": 4,
+        "16.09": 3
+      }
     },
     {
       "slug": "anonymo-esports",
       "name": "Anonymo Esports",
       "games": 31,
-      "league": "RL"
+      "league": "RL",
+      "games_by_patch": {
+        "16.03": 7,
+        "16.04": 4,
+        "16.05": 5,
+        "16.06": 2,
+        "16.07": 5,
+        "16.08": 2,
+        "16.09": 4,
+        "16.10": 2
+      },
+      "series_by_patch": {
+        "16.03": 5,
+        "16.04": 1,
+        "16.05": 1,
+        "16.06": 1,
+        "16.07": 2,
+        "16.08": 1,
+        "16.09": 2,
+        "16.10": 1
+      }
     },
     {
       "slug": "anubis-gaming",
       "name": "Anubis Gaming",
       "games": 55,
-      "league": "AL"
+      "league": "AL",
+      "games_by_patch": {
+        "16.01": 15,
+        "16.02": 2,
+        "16.03": 12,
+        "16.07": 18,
+        "16.09": 8
+      },
+      "series_by_patch": {
+        "16.01": 6,
+        "16.02": 1,
+        "16.03": 6,
+        "16.07": 7,
+        "16.09": 3
+      }
     },
     {
       "slug": "anyone-s-legend",
       "name": "Anyone's Legend",
       "games": 74,
-      "league": "LPL"
+      "league": "LPL",
+      "games_by_patch": {
+        "16.01": 13,
+        "16.02": 14,
+        "16.03": 16,
+        "16.07": 10,
+        "16.08": 11,
+        "16.09": 10
+      },
+      "series_by_patch": {
+        "16.01": 5,
+        "16.02": 5,
+        "16.03": 4,
+        "16.07": 5,
+        "16.08": 5,
+        "16.09": 4
+      }
     },
     {
       "slug": "apex-mission-impossible",
       "name": "Apex Mission Impossible",
       "games": 19,
-      "league": "NACL"
+      "league": "NACL",
+      "games_by_patch": {
+        "16.06": 6,
+        "16.07": 4,
+        "16.08": 7,
+        "16.09": 2
+      },
+      "series_by_patch": {
+        "16.06": 3,
+        "16.07": 2,
+        "16.08": 4,
+        "16.09": 1
+      }
     },
     {
       "slug": "arctic-pandas",
       "name": "Arctic Pandas",
       "games": 23,
-      "league": "NLC"
+      "league": "NLC",
+      "games_by_patch": {
+        "16.01": 3,
+        "16.02": 2,
+        "16.03": 2,
+        "16.04": 8,
+        "16.05": 8
+      },
+      "series_by_patch": {
+        "16.01": 3,
+        "16.02": 2,
+        "16.03": 2,
+        "16.04": 4,
+        "16.05": 4
+      }
     },
     {
       "slug": "arneb",
       "name": "Arneb",
       "games": 39,
-      "league": "LJL"
+      "league": "LJL",
+      "games_by_patch": {
+        "16.02": 7,
+        "16.03": 7,
+        "16.07": 7,
+        "16.08": 8,
+        "16.09": 8,
+        "16.10": 2
+      },
+      "series_by_patch": {
+        "16.02": 7,
+        "16.03": 7,
+        "16.07": 7,
+        "16.08": 6,
+        "16.09": 3,
+        "16.10": 1
+      }
     },
     {
       "slug": "axolotl",
       "name": "Axolotl",
       "games": 21,
-      "league": "LIT"
+      "league": "LIT",
+      "games_by_patch": {
+        "16.01": 7,
+        "16.02": 8,
+        "16.03": 3,
+        "16.04": 3
+      },
+      "series_by_patch": {
+        "16.01": 7,
+        "16.02": 2,
+        "16.03": 1,
+        "16.04": 1
+      }
     },
     {
       "slug": "baam-esports",
       "name": "BAAM Esports",
       "games": 71,
-      "league": "AL"
+      "league": "AL",
+      "games_by_patch": {
+        "16.01": 14,
+        "16.02": 3,
+        "16.03": 19,
+        "16.05": 6,
+        "16.07": 16,
+        "16.09": 13
+      },
+      "series_by_patch": {
+        "16.01": 6,
+        "16.02": 1,
+        "16.03": 8,
+        "16.05": 3,
+        "16.07": 7,
+        "16.09": 4
+      }
     },
     {
       "slug": "bamboo-juice",
       "name": "Bamboo Juice",
       "games": 26,
-      "league": "LJL"
+      "league": "LJL",
+      "games_by_patch": {
+        "16.02": 7,
+        "16.03": 7,
+        "16.07": 7,
+        "16.08": 5
+      },
+      "series_by_patch": {
+        "16.02": 7,
+        "16.03": 7,
+        "16.07": 7,
+        "16.08": 5
+      }
     },
     {
       "slug": "barcz-ca-esports",
       "name": "Barcz\u0105ca Esports",
       "games": 48,
-      "league": "RL"
+      "league": "RL",
+      "games_by_patch": {
+        "16.03": 7,
+        "16.04": 3,
+        "16.05": 21,
+        "16.06": 2,
+        "16.07": 5,
+        "16.08": 2,
+        "16.09": 3,
+        "16.10": 5
+      },
+      "series_by_patch": {
+        "16.03": 5,
+        "16.04": 1,
+        "16.05": 7,
+        "16.06": 1,
+        "16.07": 2,
+        "16.08": 1,
+        "16.09": 1,
+        "16.10": 2
+      }
     },
     {
       "slug": "barulhinhos",
       "name": "Barulhinhos",
       "games": 6,
-      "league": "CD"
+      "league": "CD",
+      "games_by_patch": {
+        "16.10": 6
+      },
+      "series_by_patch": {
+        "16.10": 2
+      }
     },
     {
       "slug": "bar-a-esports",
       "name": "Bar\u00e7a eSports",
       "games": 36,
-      "league": "LES"
+      "league": "LES",
+      "games_by_patch": {
+        "16.03": 11,
+        "16.05": 8,
+        "16.07": 5,
+        "16.08": 6,
+        "16.09": 4,
+        "16.10": 2
+      },
+      "series_by_patch": {
+        "16.03": 5,
+        "16.05": 3,
+        "16.07": 2,
+        "16.08": 2,
+        "16.09": 2,
+        "16.10": 1
+      }
     },
     {
       "slug": "befive",
       "name": "BeFive",
       "games": 19,
-      "league": "EBL"
+      "league": "EBL",
+      "games_by_patch": {
+        "16.02": 7,
+        "16.03": 7,
+        "16.04": 5
+      },
+      "series_by_patch": {
+        "16.02": 3,
+        "16.03": 3,
+        "16.04": 2
+      }
     },
     {
       "slug": "berlin-international-gaming",
       "name": "Berlin International Gaming",
       "games": 73,
-      "league": "PRM"
+      "league": "PRM",
+      "games_by_patch": {
+        "16.01": 4,
+        "16.02": 11,
+        "16.03": 4,
+        "16.04": 11,
+        "16.05": 8,
+        "16.06": 13,
+        "16.07": 12,
+        "16.08": 5,
+        "16.09": 5
+      },
+      "series_by_patch": {
+        "16.01": 4,
+        "16.02": 3,
+        "16.03": 4,
+        "16.04": 3,
+        "16.05": 4,
+        "16.06": 7,
+        "16.07": 8,
+        "16.08": 2,
+        "16.09": 2
+      }
     },
     {
       "slug": "bilibili-gaming",
       "name": "Bilibili Gaming",
       "games": 87,
-      "league": "LPL"
+      "league": "LPL",
+      "games_by_patch": {
+        "16.01": 15,
+        "16.02": 10,
+        "16.03": 15,
+        "16.05": 15,
+        "16.07": 14,
+        "16.08": 6,
+        "16.09": 12
+      },
+      "series_by_patch": {
+        "16.01": 6,
+        "16.02": 4,
+        "16.03": 4,
+        "16.05": 4,
+        "16.07": 6,
+        "16.08": 3,
+        "16.09": 5
+      }
     },
     {
       "slug": "bk-rog-esports",
       "name": "BK ROG Esports",
       "games": 12,
-      "league": "LFL"
+      "league": "LFL",
+      "games_by_patch": {
+        "16.01": 1,
+        "16.02": 5,
+        "16.03": 6
+      },
+      "series_by_patch": {
+        "16.01": 1,
+        "16.02": 5,
+        "16.03": 6
+      }
     },
     {
       "slug": "blue-otter",
       "name": "Blue Otter",
       "games": 22,
-      "league": "NACL"
+      "league": "NACL",
+      "games_by_patch": {
+        "16.06": 5,
+        "16.07": 7,
+        "16.08": 7,
+        "16.09": 3
+      },
+      "series_by_patch": {
+        "16.06": 3,
+        "16.07": 4,
+        "16.08": 3,
+        "16.09": 1
+      }
     },
     {
       "slug": "bnk-fearx",
       "name": "BNK FEARX",
       "games": 85,
-      "league": "LCK"
+      "league": "LCK",
+      "games_by_patch": {
+        "16.01": 10,
+        "16.02": 4,
+        "16.03": 19,
+        "16.05": 11,
+        "16.06": 4,
+        "16.07": 9,
+        "16.08": 8,
+        "16.09": 12,
+        "16.10": 8
+      },
+      "series_by_patch": {
+        "16.01": 4,
+        "16.02": 1,
+        "16.03": 5,
+        "16.05": 3,
+        "16.06": 2,
+        "16.07": 4,
+        "16.08": 4,
+        "16.09": 6,
+        "16.10": 3
+      }
     },
     {
       "slug": "bnk-fearx-youth",
       "name": "BNK FEARX Youth",
       "games": 58,
-      "league": "LCKC"
+      "league": "LCKC",
+      "games_by_patch": {
+        "16.01": 10,
+        "16.02": 6,
+        "16.06": 4,
+        "16.07": 11,
+        "16.08": 11,
+        "16.09": 11,
+        "16.10": 5
+      },
+      "series_by_patch": {
+        "16.01": 4,
+        "16.02": 2,
+        "16.06": 2,
+        "16.07": 4,
+        "16.08": 4,
+        "16.09": 4,
+        "16.10": 2
+      }
     },
     {
       "slug": "bohemian-guardians",
       "name": "Bohemian Guardians",
       "games": 15,
-      "league": "HM"
+      "league": "HM",
+      "games_by_patch": {
+        "16.07": 4,
+        "16.08": 5,
+        "16.09": 2,
+        "16.10": 4
+      },
+      "series_by_patch": {
+        "16.07": 2,
+        "16.08": 2,
+        "16.09": 1,
+        "16.10": 2
+      }
     },
     {
       "slug": "bomba-team",
       "name": "Bomba Team",
       "games": 36,
-      "league": "RL"
+      "league": "RL",
+      "games_by_patch": {
+        "16.03": 5,
+        "16.04": 5,
+        "16.05": 10,
+        "16.06": 2,
+        "16.07": 5,
+        "16.08": 2,
+        "16.09": 5,
+        "16.10": 2
+      },
+      "series_by_patch": {
+        "16.03": 3,
+        "16.04": 1,
+        "16.05": 4,
+        "16.06": 1,
+        "16.07": 2,
+        "16.08": 1,
+        "16.09": 2,
+        "16.10": 1
+      }
     },
     {
       "slug": "boostgate-esports",
       "name": "BoostGate Esports",
       "games": 27,
-      "league": "TCL"
+      "league": "TCL",
+      "games_by_patch": {
+        "16.01": 2,
+        "16.02": 4,
+        "16.07": 4,
+        "16.08": 5,
+        "16.09": 8,
+        "16.10": 4
+      },
+      "series_by_patch": {
+        "16.01": 1,
+        "16.02": 2,
+        "16.07": 2,
+        "16.08": 2,
+        "16.09": 3,
+        "16.10": 1
+      }
     },
     {
       "slug": "brute",
       "name": "BRUTE",
       "games": 44,
-      "league": "HW"
+      "league": "HW",
+      "games_by_patch": {
+        "16.01": 1,
+        "16.02": 3,
+        "16.03": 7,
+        "16.04": 4,
+        "16.05": 13,
+        "16.07": 4,
+        "16.08": 5,
+        "16.09": 3,
+        "16.10": 4
+      },
+      "series_by_patch": {
+        "16.01": 1,
+        "16.02": 2,
+        "16.03": 2,
+        "16.04": 1,
+        "16.05": 4,
+        "16.07": 2,
+        "16.08": 2,
+        "16.09": 1,
+        "16.10": 2
+      }
     },
     {
       "slug": "bubliki",
       "name": "Bubliki",
       "games": 7,
-      "league": "LPLOL"
+      "league": "LPLOL",
+      "games_by_patch": {
+        "16.08": 2,
+        "16.09": 5
+      },
+      "series_by_patch": {
+        "16.08": 2,
+        "16.09": 5
+      }
     },
     {
       "slug": "bulldog-esports",
       "name": "Bulldog Esports",
       "games": 12,
-      "league": "NLC"
+      "league": "NLC",
+      "games_by_patch": {
+        "16.01": 3,
+        "16.02": 2,
+        "16.03": 2,
+        "16.04": 5
+      },
+      "series_by_patch": {
+        "16.01": 3,
+        "16.02": 2,
+        "16.03": 2,
+        "16.04": 3
+      }
     },
     {
       "slug": "bushido-wildcats",
       "name": "Bushido Wildcats",
       "games": 48,
-      "league": "TCL"
+      "league": "TCL",
+      "games_by_patch": {
+        "16.01": 2,
+        "16.02": 4,
+        "16.03": 10,
+        "16.04": 3,
+        "16.05": 6,
+        "16.07": 5,
+        "16.08": 5,
+        "16.09": 8,
+        "16.10": 5
+      },
+      "series_by_patch": {
+        "16.01": 1,
+        "16.02": 2,
+        "16.03": 3,
+        "16.04": 1,
+        "16.05": 3,
+        "16.07": 2,
+        "16.08": 2,
+        "16.09": 3,
+        "16.10": 1
+      }
     },
     {
       "slug": "cag-osaka",
       "name": "CAG OSAKA",
       "games": 26,
-      "league": "LJL"
+      "league": "LJL",
+      "games_by_patch": {
+        "16.02": 8,
+        "16.03": 6,
+        "16.07": 7,
+        "16.08": 5
+      },
+      "series_by_patch": {
+        "16.02": 8,
+        "16.03": 6,
+        "16.07": 7,
+        "16.08": 5
+      }
     },
     {
       "slug": "caldya-esport",
       "name": "Caldya Esport",
       "games": 16,
-      "league": "NL"
+      "league": "NL",
+      "games_by_patch": {
+        "16.01": 1,
+        "16.02": 1,
+        "16.07": 4,
+        "16.08": 4,
+        "16.09": 4,
+        "16.10": 2
+      },
+      "series_by_patch": {
+        "16.01": 1,
+        "16.02": 1,
+        "16.07": 4,
+        "16.08": 4,
+        "16.09": 4,
+        "16.10": 2
+      }
     },
     {
       "slug": "ccg-esports",
       "name": "CCG Esports",
       "games": 25,
-      "league": "NACL"
+      "league": "NACL",
+      "games_by_patch": {
+        "16.06": 6,
+        "16.07": 4,
+        "16.08": 5,
+        "16.09": 3,
+        "16.10": 7
+      },
+      "series_by_patch": {
+        "16.06": 3,
+        "16.07": 2,
+        "16.08": 2,
+        "16.09": 2,
+        "16.10": 3
+      }
     },
     {
       "slug": "cita-kaizen",
       "name": "CITA Kaizen",
       "games": 47,
-      "league": "HW"
+      "league": "HW",
+      "games_by_patch": {
+        "16.01": 1,
+        "16.02": 6,
+        "16.03": 7,
+        "16.04": 10,
+        "16.05": 5,
+        "16.07": 4,
+        "16.08": 4,
+        "16.09": 3,
+        "16.10": 7
+      },
+      "series_by_patch": {
+        "16.01": 1,
+        "16.02": 3,
+        "16.03": 2,
+        "16.04": 2,
+        "16.05": 1,
+        "16.07": 2,
+        "16.08": 2,
+        "16.09": 1,
+        "16.10": 3
+      }
     },
     {
       "slug": "cita-kaizen-academy",
       "name": "CITA Kaizen Academy",
       "games": 17,
-      "league": "HC"
+      "league": "HC",
+      "games_by_patch": {
+        "16.08": 6,
+        "16.09": 11
+      },
+      "series_by_patch": {
+        "16.08": 3,
+        "16.09": 4
+      }
     },
     {
       "slug": "citadel-gaming",
       "name": "Citadel Gaming",
       "games": 20,
-      "league": "NACL"
+      "league": "NACL",
+      "games_by_patch": {
+        "16.06": 5,
+        "16.07": 6,
+        "16.08": 5,
+        "16.09": 2,
+        "16.10": 2
+      },
+      "series_by_patch": {
+        "16.06": 2,
+        "16.07": 3,
+        "16.08": 2,
+        "16.09": 1,
+        "16.10": 1
+      }
     },
     {
       "slug": "cloud9",
       "name": "Cloud9",
       "games": 60,
-      "league": "LCS"
+      "league": "LCS",
+      "games_by_patch": {
+        "16.02": 4,
+        "16.03": 6,
+        "16.04": 21,
+        "16.07": 8,
+        "16.08": 8,
+        "16.09": 6,
+        "16.10": 7
+      },
+      "series_by_patch": {
+        "16.02": 2,
+        "16.03": 3,
+        "16.04": 8,
+        "16.07": 3,
+        "16.08": 4,
+        "16.09": 2,
+        "16.10": 2
+      }
     },
     {
       "slug": "colossal-gaming",
       "name": "Colossal Gaming",
       "games": 43,
-      "league": "LIT"
+      "league": "LIT",
+      "games_by_patch": {
+        "16.01": 7,
+        "16.02": 7,
+        "16.03": 4,
+        "16.04": 3,
+        "16.05": 4,
+        "16.06": 3,
+        "16.07": 4,
+        "16.08": 3,
+        "16.09": 8
+      },
+      "series_by_patch": {
+        "16.01": 7,
+        "16.02": 2,
+        "16.03": 1,
+        "16.04": 1,
+        "16.05": 2,
+        "16.06": 3,
+        "16.07": 4,
+        "16.08": 1,
+        "16.09": 2
+      }
     },
     {
       "slug": "conviction",
       "name": "Conviction",
       "games": 26,
-      "league": "NACL"
+      "league": "NACL",
+      "games_by_patch": {
+        "16.06": 5,
+        "16.07": 4,
+        "16.08": 4,
+        "16.09": 5,
+        "16.10": 8
+      },
+      "series_by_patch": {
+        "16.06": 2,
+        "16.07": 2,
+        "16.08": 2,
+        "16.09": 2,
+        "16.10": 4
+      }
     },
     {
       "slug": "croatian-flair",
       "name": "Croatian Flair",
       "games": 21,
-      "league": "EBL"
+      "league": "EBL",
+      "games_by_patch": {
+        "16.03": 2,
+        "16.04": 8,
+        "16.07": 5,
+        "16.08": 6
+      },
+      "series_by_patch": {
+        "16.03": 1,
+        "16.04": 3,
+        "16.07": 2,
+        "16.08": 2
+      }
     },
     {
       "slug": "crusaders",
       "name": "Crusaders",
       "games": 14,
-      "league": "LPLOL"
+      "league": "LPLOL",
+      "games_by_patch": {
+        "16.03": 2,
+        "16.04": 5,
+        "16.08": 2,
+        "16.09": 5
+      },
+      "series_by_patch": {
+        "16.03": 2,
+        "16.04": 2,
+        "16.08": 2,
+        "16.09": 5
+      }
     },
     {
       "slug": "crvena-zvezda-esports",
       "name": "Crvena zvezda Esports",
       "games": 9,
-      "league": "EBL"
+      "league": "EBL",
+      "games_by_patch": {
+        "16.02": 7,
+        "16.03": 2
+      },
+      "series_by_patch": {
+        "16.02": 3,
+        "16.03": 1
+      }
     },
     {
       "slug": "crystal-rose",
       "name": "Crystal Rose",
       "games": 14,
-      "league": "NL"
+      "league": "NL",
+      "games_by_patch": {
+        "16.07": 4,
+        "16.08": 4,
+        "16.09": 4,
+        "16.10": 2
+      },
+      "series_by_patch": {
+        "16.07": 4,
+        "16.08": 4,
+        "16.09": 4,
+        "16.10": 2
+      }
     },
     {
       "slug": "ctbc-flying-oyster",
       "name": "CTBC Flying Oyster",
       "games": 52,
-      "league": "LCP"
+      "league": "LCP",
+      "games_by_patch": {
+        "16.01": 7,
+        "16.02": 10,
+        "16.03": 4,
+        "16.07": 5,
+        "16.08": 5,
+        "16.09": 13,
+        "16.10": 8
+      },
+      "series_by_patch": {
+        "16.01": 3,
+        "16.02": 4,
+        "16.03": 1,
+        "16.07": 2,
+        "16.08": 2,
+        "16.09": 5,
+        "16.10": 2
+      }
     },
     {
       "slug": "c-es-de-gua",
       "name": "C\u00e3es de \u00c1gua",
       "games": 6,
-      "league": "LPLOL"
+      "league": "LPLOL",
+      "games_by_patch": {
+        "16.03": 3,
+        "16.04": 3
+      },
+      "series_by_patch": {
+        "16.03": 3,
+        "16.04": 2
+      }
     },
     {
       "slug": "dark-passage",
       "name": "Dark Passage",
       "games": 28,
-      "league": "TCL"
+      "league": "TCL",
+      "games_by_patch": {
+        "16.01": 3,
+        "16.02": 5,
+        "16.03": 5,
+        "16.07": 4,
+        "16.08": 5,
+        "16.09": 6
+      },
+      "series_by_patch": {
+        "16.01": 1,
+        "16.02": 2,
+        "16.03": 2,
+        "16.07": 2,
+        "16.08": 2,
+        "16.09": 3
+      }
     },
     {
       "slug": "deacoy",
       "name": "Deacoy",
       "games": 15,
-      "league": "LIT"
+      "league": "LIT",
+      "games_by_patch": {
+        "16.01": 7,
+        "16.02": 4,
+        "16.03": 4
+      },
+      "series_by_patch": {
+        "16.01": 7,
+        "16.02": 1,
+        "16.03": 1
+      }
     },
     {
       "slug": "decoy-21",
       "name": "DECOY 21",
       "games": 10,
-      "league": "LIT"
+      "league": "LIT",
+      "games_by_patch": {
+        "16.10": 10
+      },
+      "series_by_patch": {
+        "16.10": 4
+      }
     },
     {
       "slug": "deep-cross-gaming",
       "name": "Deep Cross Gaming",
       "games": 67,
-      "league": "LCP"
+      "league": "LCP",
+      "games_by_patch": {
+        "16.01": 8,
+        "16.02": 11,
+        "16.03": 17,
+        "16.07": 5,
+        "16.08": 5,
+        "16.09": 15,
+        "16.10": 6
+      },
+      "series_by_patch": {
+        "16.01": 3,
+        "16.02": 4,
+        "16.03": 4,
+        "16.07": 2,
+        "16.08": 2,
+        "16.09": 6,
+        "16.10": 2
+      }
     },
     {
       "slug": "deer-gaming",
       "name": "Deer Gaming",
       "games": 9,
-      "league": "NLC"
+      "league": "NLC",
+      "games_by_patch": {
+        "16.01": 3,
+        "16.02": 2,
+        "16.03": 2,
+        "16.04": 2
+      },
+      "series_by_patch": {
+        "16.01": 3,
+        "16.02": 2,
+        "16.03": 2,
+        "16.04": 2
+      }
     },
     {
       "slug": "detonation-focusme",
       "name": "DetonatioN FocusMe",
       "games": 37,
-      "league": "LCP"
+      "league": "LCP",
+      "games_by_patch": {
+        "16.01": 6,
+        "16.02": 9,
+        "16.07": 5,
+        "16.08": 5,
+        "16.09": 9,
+        "16.10": 3
+      },
+      "series_by_patch": {
+        "16.01": 3,
+        "16.02": 4,
+        "16.07": 2,
+        "16.08": 2,
+        "16.09": 4,
+        "16.10": 1
+      }
     },
     {
       "slug": "detonation-focusme-academy",
       "name": "DetonatioN FocusMe Academy",
       "games": 17,
-      "league": "LJL"
+      "league": "LJL",
+      "games_by_patch": {
+        "16.04": 5,
+        "16.08": 5,
+        "16.09": 4,
+        "16.10": 3
+      },
+      "series_by_patch": {
+        "16.04": 5,
+        "16.08": 2,
+        "16.09": 2,
+        "16.10": 1
+      }
     },
     {
       "slug": "devils-one-instreamly",
       "name": "devils.one inStreamly",
       "games": 23,
-      "league": "RL"
+      "league": "RL",
+      "games_by_patch": {
+        "16.03": 4,
+        "16.06": 2,
+        "16.07": 6,
+        "16.08": 3,
+        "16.09": 2,
+        "16.10": 6
+      },
+      "series_by_patch": {
+        "16.03": 3,
+        "16.06": 1,
+        "16.07": 2,
+        "16.08": 1,
+        "16.09": 1,
+        "16.10": 2
+      }
     },
     {
       "slug": "dignitas",
       "name": "Dignitas",
       "games": 28,
-      "league": "LCS"
+      "league": "LCS",
+      "games_by_patch": {
+        "16.02": 4,
+        "16.03": 3,
+        "16.07": 9,
+        "16.08": 5,
+        "16.09": 5,
+        "16.10": 2
+      },
+      "series_by_patch": {
+        "16.02": 4,
+        "16.03": 2,
+        "16.07": 4,
+        "16.08": 2,
+        "16.09": 2,
+        "16.10": 1
+      }
     },
     {
       "slug": "disguised",
       "name": "Disguised",
       "games": 38,
-      "league": "LCS"
+      "league": "LCS",
+      "games_by_patch": {
+        "16.02": 6,
+        "16.03": 8,
+        "16.04": 3,
+        "16.07": 9,
+        "16.08": 6,
+        "16.09": 4,
+        "16.10": 2
+      },
+      "series_by_patch": {
+        "16.02": 3,
+        "16.03": 3,
+        "16.04": 1,
+        "16.07": 5,
+        "16.08": 3,
+        "16.09": 2,
+        "16.10": 1
+      }
     },
     {
       "slug": "divernex",
       "name": "Divernex",
       "games": 8,
-      "league": "HW"
+      "league": "HW",
+      "games_by_patch": {
+        "16.01": 1,
+        "16.02": 7
+      },
+      "series_by_patch": {
+        "16.01": 1,
+        "16.02": 4
+      }
     },
     {
       "slug": "diversion-gaming",
       "name": "Diversion Gaming",
       "games": 23,
-      "league": "HC"
+      "league": "HC",
+      "games_by_patch": {
+        "16.01": 1,
+        "16.02": 5,
+        "16.08": 10,
+        "16.09": 7
+      },
+      "series_by_patch": {
+        "16.01": 1,
+        "16.02": 3,
+        "16.08": 4,
+        "16.09": 3
+      }
     },
     {
       "slug": "dmg-esports",
       "name": "DMG Esports",
       "games": 25,
-      "league": "NLC"
+      "league": "NLC",
+      "games_by_patch": {
+        "16.01": 3,
+        "16.02": 2,
+        "16.03": 2,
+        "16.04": 8,
+        "16.05": 10
+      },
+      "series_by_patch": {
+        "16.01": 3,
+        "16.02": 2,
+        "16.03": 2,
+        "16.04": 4,
+        "16.05": 4
+      }
     },
     {
       "slug": "dn-soopers",
       "name": "DN SOOPers",
       "games": 72,
-      "league": "LCK"
+      "league": "LCK",
+      "games_by_patch": {
+        "16.01": 11,
+        "16.02": 9,
+        "16.03": 13,
+        "16.06": 4,
+        "16.07": 8,
+        "16.08": 8,
+        "16.09": 13,
+        "16.10": 6
+      },
+      "series_by_patch": {
+        "16.01": 4,
+        "16.02": 3,
+        "16.03": 3,
+        "16.06": 2,
+        "16.07": 4,
+        "16.08": 4,
+        "16.09": 6,
+        "16.10": 3
+      }
     },
     {
       "slug": "dn-soopers-academy",
       "name": "DN SOOPers Academy",
       "games": 55,
-      "league": "LAS"
+      "league": "LAS",
+      "games_by_patch": {
+        "16.05": 8,
+        "16.06": 13,
+        "16.07": 15,
+        "16.08": 15,
+        "16.09": 4
+      },
+      "series_by_patch": {
+        "16.05": 3,
+        "16.06": 6,
+        "16.07": 6,
+        "16.08": 6,
+        "16.09": 1
+      }
     },
     {
       "slug": "dn-soopers-challengers",
       "name": "DN SOOPers Challengers",
       "games": 63,
-      "league": "LCKC"
+      "league": "LCKC",
+      "games_by_patch": {
+        "16.01": 9,
+        "16.02": 3,
+        "16.03": 10,
+        "16.06": 4,
+        "16.07": 12,
+        "16.08": 10,
+        "16.09": 10,
+        "16.10": 5
+      },
+      "series_by_patch": {
+        "16.01": 4,
+        "16.02": 1,
+        "16.03": 2,
+        "16.06": 2,
+        "16.07": 4,
+        "16.08": 4,
+        "16.09": 4,
+        "16.10": 2
+      }
     },
     {
       "slug": "docisk",
       "name": "DOCISK",
       "games": 28,
-      "league": "RL"
+      "league": "RL",
+      "games_by_patch": {
+        "16.03": 8,
+        "16.04": 3,
+        "16.06": 3,
+        "16.07": 5,
+        "16.08": 2,
+        "16.09": 2,
+        "16.10": 5
+      },
+      "series_by_patch": {
+        "16.03": 5,
+        "16.04": 1,
+        "16.06": 1,
+        "16.07": 2,
+        "16.08": 1,
+        "16.09": 1,
+        "16.10": 2
+      }
     },
     {
       "slug": "dorado-gaming",
       "name": "Dorado Gaming",
       "games": 22,
-      "league": "NACL"
+      "league": "NACL",
+      "games_by_patch": {
+        "16.06": 6,
+        "16.07": 4,
+        "16.08": 5,
+        "16.09": 3,
+        "16.10": 4
+      },
+      "series_by_patch": {
+        "16.06": 3,
+        "16.07": 2,
+        "16.08": 3,
+        "16.09": 1,
+        "16.10": 2
+      }
     },
     {
       "slug": "dplus-kia",
       "name": "Dplus Kia",
       "games": 77,
-      "league": "LCK"
+      "league": "LCK",
+      "games_by_patch": {
+        "16.01": 9,
+        "16.02": 5,
+        "16.03": 21,
+        "16.06": 4,
+        "16.07": 10,
+        "16.08": 9,
+        "16.09": 13,
+        "16.10": 6
+      },
+      "series_by_patch": {
+        "16.01": 4,
+        "16.02": 2,
+        "16.03": 5,
+        "16.06": 2,
+        "16.07": 4,
+        "16.08": 4,
+        "16.09": 6,
+        "16.10": 2
+      }
     },
     {
       "slug": "dplus-kia-academy",
       "name": "Dplus Kia Academy",
       "games": 65,
-      "league": "LAS"
+      "league": "LAS",
+      "games_by_patch": {
+        "16.05": 11,
+        "16.06": 14,
+        "16.07": 13,
+        "16.08": 12,
+        "16.09": 15
+      },
+      "series_by_patch": {
+        "16.05": 4,
+        "16.06": 6,
+        "16.07": 6,
+        "16.08": 5,
+        "16.09": 4
+      }
     },
     {
       "slug": "dplus-kia-challengers",
       "name": "Dplus Kia Challengers",
       "games": 54,
-      "league": "LCKC"
+      "league": "LCKC",
+      "games_by_patch": {
+        "16.01": 9,
+        "16.02": 6,
+        "16.06": 4,
+        "16.07": 11,
+        "16.08": 11,
+        "16.09": 9,
+        "16.10": 4
+      },
+      "series_by_patch": {
+        "16.01": 4,
+        "16.02": 2,
+        "16.06": 2,
+        "16.07": 4,
+        "16.08": 4,
+        "16.09": 4,
+        "16.10": 2
+      }
     },
     {
       "slug": "dragons-esports",
       "name": "Dragons Esports",
       "games": 49,
-      "league": "AL"
+      "league": "AL",
+      "games_by_patch": {
+        "16.01": 13,
+        "16.02": 3,
+        "16.03": 12,
+        "16.07": 17,
+        "16.09": 4
+      },
+      "series_by_patch": {
+        "16.01": 6,
+        "16.02": 1,
+        "16.03": 5,
+        "16.07": 7,
+        "16.09": 2
+      }
     },
     {
       "slug": "dream-esports",
       "name": "Dream Esports",
       "games": 7,
-      "league": "LPLOL"
+      "league": "LPLOL",
+      "games_by_patch": {
+        "16.08": 2,
+        "16.09": 5
+      },
+      "series_by_patch": {
+        "16.08": 2,
+        "16.09": 5
+      }
     },
     {
       "slug": "dynasty",
       "name": "Dynasty",
       "games": 35,
-      "league": "ROL"
+      "league": "ROL",
+      "games_by_patch": {
+        "16.01": 9,
+        "16.02": 4,
+        "16.06": 2,
+        "16.07": 6,
+        "16.08": 5,
+        "16.09": 5,
+        "16.10": 4
+      },
+      "series_by_patch": {
+        "16.01": 8,
+        "16.02": 3,
+        "16.06": 1,
+        "16.07": 2,
+        "16.08": 2,
+        "16.09": 2,
+        "16.10": 2
+      }
     },
     {
       "slug": "e-wie-einfach-e-sports",
       "name": "E WIE EINFACH E-SPORTS",
       "games": 41,
-      "league": "PRM"
+      "league": "PRM",
+      "games_by_patch": {
+        "16.01": 4,
+        "16.02": 5,
+        "16.03": 6,
+        "16.04": 3,
+        "16.06": 3,
+        "16.07": 6,
+        "16.08": 5,
+        "16.09": 5,
+        "16.10": 4
+      },
+      "series_by_patch": {
+        "16.01": 4,
+        "16.02": 2,
+        "16.03": 6,
+        "16.04": 1,
+        "16.06": 3,
+        "16.07": 6,
+        "16.08": 2,
+        "16.09": 2,
+        "16.10": 1
+      }
     },
     {
       "slug": "edward-gaming",
       "name": "EDward Gaming",
       "games": 38,
-      "league": "LPL"
+      "league": "LPL",
+      "games_by_patch": {
+        "16.01": 10,
+        "16.02": 9,
+        "16.07": 3,
+        "16.08": 5,
+        "16.09": 6,
+        "16.10": 5
+      },
+      "series_by_patch": {
+        "16.01": 4,
+        "16.02": 3,
+        "16.07": 1,
+        "16.08": 2,
+        "16.09": 2,
+        "16.10": 1
+      }
     },
     {
       "slug": "ei-nerd-esports",
       "name": "Ei Nerd Esports",
       "games": 14,
-      "league": "CD"
+      "league": "CD",
+      "games_by_patch": {
+        "16.06": 3,
+        "16.07": 3,
+        "16.08": 5,
+        "16.09": 3
+      },
+      "series_by_patch": {
+        "16.06": 3,
+        "16.07": 3,
+        "16.08": 4,
+        "16.09": 1
+      }
     },
     {
       "slug": "eintracht-frankfurt",
       "name": "Eintracht Frankfurt",
       "games": 35,
-      "league": "PRM"
+      "league": "PRM",
+      "games_by_patch": {
+        "16.01": 4,
+        "16.02": 5,
+        "16.03": 6,
+        "16.04": 3,
+        "16.06": 3,
+        "16.07": 6,
+        "16.08": 4,
+        "16.09": 4
+      },
+      "series_by_patch": {
+        "16.01": 4,
+        "16.02": 2,
+        "16.03": 6,
+        "16.04": 1,
+        "16.06": 3,
+        "16.07": 6,
+        "16.08": 2,
+        "16.09": 2
+      }
     },
     {
       "slug": "eintracht-spandau",
       "name": "Eintracht Spandau",
       "games": 50,
-      "league": "PRM"
+      "league": "PRM",
+      "games_by_patch": {
+        "16.01": 4,
+        "16.02": 2,
+        "16.03": 4,
+        "16.04": 12,
+        "16.05": 6,
+        "16.06": 8,
+        "16.07": 6,
+        "16.08": 4,
+        "16.09": 4
+      },
+      "series_by_patch": {
+        "16.01": 4,
+        "16.02": 1,
+        "16.03": 4,
+        "16.04": 3,
+        "16.05": 3,
+        "16.06": 5,
+        "16.07": 6,
+        "16.08": 2,
+        "16.09": 2
+      }
     },
     {
       "slug": "eko-esports",
       "name": "EKO Esports",
       "games": 27,
-      "league": "LIT"
+      "league": "LIT",
+      "games_by_patch": {
+        "16.01": 7,
+        "16.02": 3,
+        "16.03": 4,
+        "16.06": 3,
+        "16.07": 4,
+        "16.08": 3,
+        "16.09": 3
+      },
+      "series_by_patch": {
+        "16.01": 7,
+        "16.02": 1,
+        "16.03": 1,
+        "16.06": 3,
+        "16.07": 4,
+        "16.08": 1,
+        "16.09": 1
+      }
     },
     {
       "slug": "elegance",
       "name": "Elegance",
       "games": 5,
-      "league": "LPLOL"
+      "league": "LPLOL",
+      "games_by_patch": {
+        "16.03": 3,
+        "16.04": 2
+      },
+      "series_by_patch": {
+        "16.03": 2,
+        "16.04": 1
+      }
     },
     {
       "slug": "embraza-esports",
       "name": "emBRAZA! Esports",
       "games": 5,
-      "league": "CD"
+      "league": "CD",
+      "games_by_patch": {
+        "16.10": 5
+      },
+      "series_by_patch": {
+        "16.10": 3
+      }
     },
     {
       "slug": "epitomy-esports",
       "name": "Epitomy Esports",
       "games": 20,
-      "league": "LIT"
+      "league": "LIT",
+      "games_by_patch": {
+        "16.02": 2,
+        "16.03": 6,
+        "16.10": 12
+      },
+      "series_by_patch": {
+        "16.02": 1,
+        "16.03": 2,
+        "16.10": 4
+      }
     },
     {
       "slug": "epitomy-masters",
       "name": "Epitomy Masters",
       "games": 10,
-      "league": "LIT"
+      "league": "LIT",
+      "games_by_patch": {
+        "16.02": 5,
+        "16.03": 5
+      },
+      "series_by_patch": {
+        "16.02": 2,
+        "16.03": 2
+      }
     },
     {
       "slug": "esprit-sh-nen",
       "name": "Esprit Sh\u014dnen",
       "games": 18,
-      "league": "LFL"
+      "league": "LFL",
+      "games_by_patch": {
+        "16.01": 1,
+        "16.02": 2,
+        "16.07": 6,
+        "16.08": 3,
+        "16.09": 4,
+        "16.10": 2
+      },
+      "series_by_patch": {
+        "16.01": 1,
+        "16.02": 2,
+        "16.07": 6,
+        "16.08": 3,
+        "16.09": 2,
+        "16.10": 1
+      }
     },
     {
       "slug": "estral-esports",
       "name": "Estral Esports",
       "games": 23,
-      "league": "CD"
+      "league": "CD",
+      "games_by_patch": {
+        "16.04": 5,
+        "16.06": 3,
+        "16.07": 3,
+        "16.08": 3,
+        "16.09": 6,
+        "16.10": 3
+      },
+      "series_by_patch": {
+        "16.04": 2,
+        "16.06": 3,
+        "16.07": 3,
+        "16.08": 3,
+        "16.09": 2,
+        "16.10": 1
+      }
     },
     {
       "slug": "esuba",
       "name": "eSuba",
       "games": 37,
-      "league": "HW"
+      "league": "HW",
+      "games_by_patch": {
+        "16.01": 1,
+        "16.02": 5,
+        "16.03": 6,
+        "16.04": 8,
+        "16.07": 4,
+        "16.08": 4,
+        "16.09": 2,
+        "16.10": 7
+      },
+      "series_by_patch": {
+        "16.01": 1,
+        "16.02": 3,
+        "16.03": 2,
+        "16.04": 2,
+        "16.07": 2,
+        "16.08": 2,
+        "16.09": 1,
+        "16.10": 3
+      }
     },
     {
       "slug": "ethereal-enigmas",
       "name": "Ethereal Enigmas",
       "games": 24,
-      "league": "HC"
+      "league": "HC",
+      "games_by_patch": {
+        "16.01": 1,
+        "16.02": 7,
+        "16.08": 9,
+        "16.09": 7
+      },
+      "series_by_patch": {
+        "16.01": 1,
+        "16.02": 4,
+        "16.08": 4,
+        "16.09": 3
+      }
     },
     {
       "slug": "exile-esports",
       "name": "EXILE esports",
       "games": 33,
-      "league": "HW"
+      "league": "HW",
+      "games_by_patch": {
+        "16.01": 1,
+        "16.02": 4,
+        "16.03": 8,
+        "16.04": 5,
+        "16.07": 4,
+        "16.08": 5,
+        "16.09": 2,
+        "16.10": 4
+      },
+      "series_by_patch": {
+        "16.01": 1,
+        "16.02": 3,
+        "16.03": 2,
+        "16.04": 1,
+        "16.07": 2,
+        "16.08": 2,
+        "16.09": 1,
+        "16.10": 2
+      }
     },
     {
       "slug": "exile-esports-academy",
       "name": "EXILE esports Academy",
       "games": 17,
-      "league": "HC"
+      "league": "HC",
+      "games_by_patch": {
+        "16.08": 7,
+        "16.09": 10
+      },
+      "series_by_patch": {
+        "16.08": 3,
+        "16.09": 4
+      }
     },
     {
       "slug": "falke-esports",
       "name": "Falke Esports",
       "games": 18,
-      "league": "LES"
+      "league": "LES",
+      "games_by_patch": {
+        "16.03": 3,
+        "16.07": 4,
+        "16.08": 4,
+        "16.09": 5,
+        "16.10": 2
+      },
+      "series_by_patch": {
+        "16.03": 2,
+        "16.07": 2,
+        "16.08": 2,
+        "16.09": 2,
+        "16.10": 1
+      }
     },
     {
       "slug": "fast8",
       "name": "Fast8",
       "games": 31,
-      "league": "LJL"
+      "league": "LJL",
+      "games_by_patch": {
+        "16.02": 8,
+        "16.03": 6,
+        "16.04": 5,
+        "16.07": 7,
+        "16.08": 5
+      },
+      "series_by_patch": {
+        "16.02": 8,
+        "16.03": 6,
+        "16.04": 5,
+        "16.07": 7,
+        "16.08": 5
+      }
     },
     {
       "slug": "fennel",
       "name": "FENNEL",
       "games": 27,
-      "league": "LJL"
+      "league": "LJL",
+      "games_by_patch": {
+        "16.04": 5,
+        "16.05": 6,
+        "16.06": 5,
+        "16.08": 4,
+        "16.09": 5,
+        "16.10": 2
+      },
+      "series_by_patch": {
+        "16.04": 5,
+        "16.05": 3,
+        "16.06": 2,
+        "16.08": 2,
+        "16.09": 2,
+        "16.10": 1
+      }
     },
     {
       "slug": "fluxo-w7m",
       "name": "Fluxo W7M",
       "games": 34,
-      "league": "CBLOL"
+      "league": "CBLOL",
+      "games_by_patch": {
+        "16.01": 3,
+        "16.02": 6,
+        "16.06": 2,
+        "16.07": 7,
+        "16.08": 4,
+        "16.09": 8,
+        "16.10": 4
+      },
+      "series_by_patch": {
+        "16.01": 3,
+        "16.02": 6,
+        "16.06": 1,
+        "16.07": 4,
+        "16.08": 2,
+        "16.09": 2,
+        "16.10": 1
+      }
     },
     {
       "slug": "flyquest",
       "name": "FlyQuest",
       "games": 53,
-      "league": "LCS"
+      "league": "LCS",
+      "games_by_patch": {
+        "16.02": 5,
+        "16.03": 6,
+        "16.04": 3,
+        "16.07": 8,
+        "16.08": 17,
+        "16.09": 6,
+        "16.10": 8
+      },
+      "series_by_patch": {
+        "16.02": 2,
+        "16.03": 3,
+        "16.04": 1,
+        "16.07": 3,
+        "16.08": 6,
+        "16.09": 2,
+        "16.10": 2
+      }
     },
     {
       "slug": "fn-esports",
       "name": "FN Esports",
       "games": 67,
-      "league": "AL"
+      "league": "AL",
+      "games_by_patch": {
+        "16.01": 13,
+        "16.02": 2,
+        "16.03": 13,
+        "16.05": 8,
+        "16.07": 19,
+        "16.09": 12
+      },
+      "series_by_patch": {
+        "16.01": 6,
+        "16.02": 1,
+        "16.03": 5,
+        "16.05": 3,
+        "16.07": 7,
+        "16.09": 4
+      }
     },
     {
       "slug": "fnatic",
       "name": "Fnatic",
       "games": 45,
-      "league": "LEC"
+      "league": "LEC",
+      "games_by_patch": {
+        "16.01": 3,
+        "16.02": 6,
+        "16.03": 6,
+        "16.06": 5,
+        "16.07": 5,
+        "16.08": 15,
+        "16.09": 5
+      },
+      "series_by_patch": {
+        "16.01": 3,
+        "16.02": 6,
+        "16.03": 4,
+        "16.06": 2,
+        "16.07": 2,
+        "16.08": 6,
+        "16.09": 2
+      }
     },
     {
       "slug": "forsaken",
       "name": "Forsaken",
       "games": 34,
-      "league": "RL"
+      "league": "RL",
+      "games_by_patch": {
+        "16.03": 9,
+        "16.04": 5,
+        "16.05": 3,
+        "16.06": 2,
+        "16.07": 6,
+        "16.08": 2,
+        "16.09": 3,
+        "16.10": 4
+      },
+      "series_by_patch": {
+        "16.03": 5,
+        "16.04": 1,
+        "16.05": 1,
+        "16.06": 1,
+        "16.07": 2,
+        "16.08": 1,
+        "16.09": 1,
+        "16.10": 2
+      }
     },
     {
       "slug": "francesinhas",
       "name": "Francesinhas",
       "games": 13,
-      "league": "LPLOL"
+      "league": "LPLOL",
+      "games_by_patch": {
+        "16.03": 3,
+        "16.04": 3,
+        "16.08": 2,
+        "16.09": 5
+      },
+      "series_by_patch": {
+        "16.03": 3,
+        "16.04": 1,
+        "16.08": 2,
+        "16.09": 5
+      }
     },
     {
       "slug": "frank-esports",
       "name": "Frank Esports",
       "games": 8,
-      "league": "PCS"
+      "league": "PCS",
+      "games_by_patch": {
+        "16.08": 8
+      },
+      "series_by_patch": {
+        "16.08": 4
+      }
     },
     {
       "slug": "french-flair",
       "name": "French Flair",
       "games": 40,
-      "league": "LFL"
+      "league": "LFL",
+      "games_by_patch": {
+        "16.01": 1,
+        "16.02": 4,
+        "16.03": 8,
+        "16.04": 12,
+        "16.05": 6,
+        "16.06": 6,
+        "16.07": 3
+      },
+      "series_by_patch": {
+        "16.01": 1,
+        "16.02": 4,
+        "16.03": 8,
+        "16.04": 3,
+        "16.05": 3,
+        "16.06": 3,
+        "16.07": 1
+      }
     },
     {
       "slug": "frites-esports-club",
       "name": "Frites Esports Club",
       "games": 39,
-      "league": "ROL"
+      "league": "ROL",
+      "games_by_patch": {
+        "16.01": 9,
+        "16.02": 4,
+        "16.03": 3,
+        "16.05": 7,
+        "16.06": 2,
+        "16.07": 4,
+        "16.08": 4,
+        "16.09": 4,
+        "16.10": 2
+      },
+      "series_by_patch": {
+        "16.01": 8,
+        "16.02": 2,
+        "16.03": 1,
+        "16.05": 3,
+        "16.06": 1,
+        "16.07": 2,
+        "16.08": 2,
+        "16.09": 2,
+        "16.10": 1
+      }
     },
     {
       "slug": "fuego",
       "name": "Fuego",
       "games": 17,
-      "league": "LRN"
+      "league": "LRN",
+      "games_by_patch": {
+        "16.04": 2,
+        "16.05": 5,
+        "16.06": 5,
+        "16.07": 2,
+        "16.08": 3
+      },
+      "series_by_patch": {
+        "16.04": 1,
+        "16.05": 2,
+        "16.06": 3,
+        "16.07": 2,
+        "16.08": 2
+      }
     },
     {
       "slug": "fukuoka-softbank-hawks-gaming",
       "name": "Fukuoka SoftBank HAWKS gaming",
       "games": 62,
-      "league": "LCP"
+      "league": "LCP",
+      "games_by_patch": {
+        "16.01": 7,
+        "16.02": 9,
+        "16.03": 16,
+        "16.07": 4,
+        "16.08": 5,
+        "16.09": 13,
+        "16.10": 8
+      },
+      "series_by_patch": {
+        "16.01": 3,
+        "16.02": 4,
+        "16.03": 4,
+        "16.07": 2,
+        "16.08": 2,
+        "16.09": 5,
+        "16.10": 3
+      }
     },
     {
       "slug": "furia",
       "name": "FURIA",
       "games": 54,
-      "league": "CBLOL"
+      "league": "CBLOL",
+      "games_by_patch": {
+        "16.01": 3,
+        "16.02": 4,
+        "16.03": 7,
+        "16.04": 16,
+        "16.06": 3,
+        "16.07": 7,
+        "16.08": 5,
+        "16.09": 3,
+        "16.10": 6
+      },
+      "series_by_patch": {
+        "16.01": 3,
+        "16.02": 4,
+        "16.03": 3,
+        "16.04": 5,
+        "16.06": 1,
+        "16.07": 3,
+        "16.08": 2,
+        "16.09": 1,
+        "16.10": 2
+      }
     },
     {
       "slug": "g2-esports",
       "name": "G2 Esports",
       "games": 71,
-      "league": "LEC"
+      "league": "LEC",
+      "games_by_patch": {
+        "16.01": 3,
+        "16.02": 6,
+        "16.03": 14,
+        "16.05": 16,
+        "16.07": 8,
+        "16.08": 6,
+        "16.09": 14,
+        "16.10": 4
+      },
+      "series_by_patch": {
+        "16.01": 3,
+        "16.02": 6,
+        "16.03": 6,
+        "16.05": 5,
+        "16.07": 3,
+        "16.08": 3,
+        "16.09": 6,
+        "16.10": 1
+      }
     },
     {
       "slug": "g2-nord",
       "name": "G2 NORD",
       "games": 65,
-      "league": "PRM"
+      "league": "PRM",
+      "games_by_patch": {
+        "16.01": 4,
+        "16.02": 10,
+        "16.03": 4,
+        "16.04": 11,
+        "16.05": 8,
+        "16.06": 10,
+        "16.07": 6,
+        "16.08": 5,
+        "16.09": 4,
+        "16.10": 3
+      },
+      "series_by_patch": {
+        "16.01": 4,
+        "16.02": 3,
+        "16.03": 4,
+        "16.04": 3,
+        "16.05": 3,
+        "16.06": 6,
+        "16.07": 6,
+        "16.08": 2,
+        "16.09": 2,
+        "16.10": 1
+      }
     },
     {
       "slug": "g3v-e-sports",
       "name": "G3V E-sports",
       "games": 19,
-      "league": "LRN"
+      "league": "LRN",
+      "games_by_patch": {
+        "16.04": 2,
+        "16.05": 4,
+        "16.06": 5,
+        "16.07": 4,
+        "16.08": 4
+      },
+      "series_by_patch": {
+        "16.04": 1,
+        "16.05": 2,
+        "16.06": 3,
+        "16.07": 3,
+        "16.08": 2
+      }
     },
     {
       "slug": "galions",
       "name": "Galions",
       "games": 69,
-      "league": "LFL"
+      "league": "LFL",
+      "games_by_patch": {
+        "16.01": 1,
+        "16.02": 4,
+        "16.03": 8,
+        "16.04": 12,
+        "16.05": 7,
+        "16.06": 10,
+        "16.07": 6,
+        "16.08": 10,
+        "16.09": 7,
+        "16.10": 4
+      },
+      "series_by_patch": {
+        "16.01": 1,
+        "16.02": 4,
+        "16.03": 8,
+        "16.04": 3,
+        "16.05": 3,
+        "16.06": 4,
+        "16.07": 6,
+        "16.08": 6,
+        "16.09": 3,
+        "16.10": 2
+      }
     },
     {
       "slug": "galions-sharks",
       "name": "Galions Sharks",
       "games": 16,
-      "league": "NL"
+      "league": "NL",
+      "games_by_patch": {
+        "16.01": 1,
+        "16.02": 1,
+        "16.07": 4,
+        "16.08": 4,
+        "16.09": 4,
+        "16.10": 2
+      },
+      "series_by_patch": {
+        "16.01": 1,
+        "16.02": 1,
+        "16.07": 4,
+        "16.08": 4,
+        "16.09": 4,
+        "16.10": 2
+      }
     },
     {
       "slug": "gam-esports",
       "name": "GAM Esports",
       "games": 54,
-      "league": "LCP"
+      "league": "LCP",
+      "games_by_patch": {
+        "16.01": 7,
+        "16.02": 10,
+        "16.03": 3,
+        "16.07": 5,
+        "16.08": 5,
+        "16.09": 15,
+        "16.10": 9
+      },
+      "series_by_patch": {
+        "16.01": 3,
+        "16.02": 4,
+        "16.03": 1,
+        "16.07": 2,
+        "16.08": 2,
+        "16.09": 6,
+        "16.10": 3
+      }
     },
     {
       "slug": "gamespace-mediterranean-college-esports",
       "name": "Gamespace Mediterranean College Esports",
       "games": 32,
-      "league": "HLL"
+      "league": "HLL",
+      "games_by_patch": {
+        "16.01": 4,
+        "16.02": 4,
+        "16.03": 6,
+        "16.06": 2,
+        "16.07": 4,
+        "16.08": 4,
+        "16.09": 8
+      },
+      "series_by_patch": {
+        "16.01": 2,
+        "16.02": 2,
+        "16.03": 3,
+        "16.06": 1,
+        "16.07": 2,
+        "16.08": 2,
+        "16.09": 3
+      }
     },
     {
       "slug": "gen-g",
       "name": "Gen.G",
       "games": 67,
-      "league": "LCK"
+      "league": "LCK",
+      "games_by_patch": {
+        "16.01": 8,
+        "16.02": 3,
+        "16.03": 11,
+        "16.05": 9,
+        "16.06": 5,
+        "16.07": 8,
+        "16.08": 10,
+        "16.09": 9,
+        "16.10": 4
+      },
+      "series_by_patch": {
+        "16.01": 4,
+        "16.02": 1,
+        "16.03": 3,
+        "16.05": 3,
+        "16.06": 2,
+        "16.07": 4,
+        "16.08": 4,
+        "16.09": 4,
+        "16.10": 2
+      }
     },
     {
       "slug": "gen-g-global-academy",
       "name": "Gen.G Global Academy",
       "games": 50,
-      "league": "LCKC"
+      "league": "LCKC",
+      "games_by_patch": {
+        "16.01": 9,
+        "16.02": 3,
+        "16.06": 5,
+        "16.07": 11,
+        "16.08": 9,
+        "16.09": 9,
+        "16.10": 4
+      },
+      "series_by_patch": {
+        "16.01": 4,
+        "16.02": 1,
+        "16.06": 2,
+        "16.07": 4,
+        "16.08": 4,
+        "16.09": 4,
+        "16.10": 2
+      }
     },
     {
       "slug": "gen-g-scholars",
       "name": "Gen.G Scholars",
       "games": 67,
-      "league": "LAS"
+      "league": "LAS",
+      "games_by_patch": {
+        "16.05": 11,
+        "16.06": 16,
+        "16.07": 13,
+        "16.08": 12,
+        "16.09": 15
+      },
+      "series_by_patch": {
+        "16.05": 4,
+        "16.06": 6,
+        "16.07": 6,
+        "16.08": 5,
+        "16.09": 4
+      }
     },
     {
       "slug": "giantx",
       "name": "GiantX",
       "games": 52,
-      "league": "LEC"
+      "league": "LEC",
+      "games_by_patch": {
+        "16.01": 3,
+        "16.02": 6,
+        "16.03": 13,
+        "16.06": 3,
+        "16.07": 7,
+        "16.08": 9,
+        "16.09": 11
+      },
+      "series_by_patch": {
+        "16.01": 3,
+        "16.02": 6,
+        "16.03": 6,
+        "16.06": 1,
+        "16.07": 3,
+        "16.08": 4,
+        "16.09": 5
+      }
     },
     {
       "slug": "giantx-itero",
       "name": "GIANTX iTero",
       "games": 21,
-      "league": "LES"
+      "league": "LES",
+      "games_by_patch": {
+        "16.03": 6,
+        "16.07": 4,
+        "16.08": 5,
+        "16.09": 4,
+        "16.10": 2
+      },
+      "series_by_patch": {
+        "16.03": 3,
+        "16.07": 2,
+        "16.08": 2,
+        "16.09": 2,
+        "16.10": 1
+      }
     },
     {
       "slug": "gity-meavedronu",
       "name": "Gity Meavedronu",
       "games": 5,
-      "league": "HW"
+      "league": "HW",
+      "games_by_patch": {
+        "16.01": 1,
+        "16.02": 4
+      },
+      "series_by_patch": {
+        "16.01": 1,
+        "16.02": 2
+      }
     },
     {
       "slug": "glore",
       "name": "GLORE",
       "games": 14,
-      "league": "RL"
+      "league": "RL",
+      "games_by_patch": {
+        "16.06": 2,
+        "16.07": 4,
+        "16.08": 2,
+        "16.09": 4,
+        "16.10": 2
+      },
+      "series_by_patch": {
+        "16.06": 1,
+        "16.07": 2,
+        "16.08": 1,
+        "16.09": 2,
+        "16.10": 1
+      }
     },
     {
       "slug": "gmblers-esports",
       "name": "GMBLERS Esports",
       "games": 50,
-      "league": "LIT"
+      "league": "LIT",
+      "games_by_patch": {
+        "16.01": 7,
+        "16.02": 8,
+        "16.03": 12,
+        "16.06": 3,
+        "16.07": 4,
+        "16.08": 3,
+        "16.09": 13
+      },
+      "series_by_patch": {
+        "16.01": 7,
+        "16.02": 2,
+        "16.03": 3,
+        "16.06": 3,
+        "16.07": 4,
+        "16.08": 1,
+        "16.09": 3
+      }
     },
     {
       "slug": "gng-amazigh",
       "name": "GnG Amazigh",
       "games": 55,
-      "league": "AL"
+      "league": "AL",
+      "games_by_patch": {
+        "16.01": 13,
+        "16.02": 3,
+        "16.03": 13,
+        "16.07": 18,
+        "16.09": 8
+      },
+      "series_by_patch": {
+        "16.01": 6,
+        "16.02": 1,
+        "16.03": 5,
+        "16.07": 7,
+        "16.09": 3
+      }
     },
     {
       "slug": "goal",
       "name": "GOAL",
       "games": 41,
-      "league": "HLL"
+      "league": "HLL",
+      "games_by_patch": {
+        "16.01": 6,
+        "16.02": 4,
+        "16.03": 4,
+        "16.04": 5,
+        "16.06": 2,
+        "16.07": 4,
+        "16.08": 6,
+        "16.09": 10
+      },
+      "series_by_patch": {
+        "16.01": 3,
+        "16.02": 2,
+        "16.03": 2,
+        "16.04": 1,
+        "16.06": 1,
+        "16.07": 2,
+        "16.08": 3,
+        "16.09": 3
+      }
     },
     {
       "slug": "golden-lions",
       "name": "Golden Lions",
       "games": 19,
-      "league": "LRS"
+      "league": "LRS",
+      "games_by_patch": {
+        "16.04": 2,
+        "16.05": 5,
+        "16.06": 4,
+        "16.07": 5,
+        "16.08": 3
+      },
+      "series_by_patch": {
+        "16.04": 1,
+        "16.05": 2,
+        "16.06": 2,
+        "16.07": 2,
+        "16.08": 1
+      }
     },
     {
       "slug": "ground-zero-gaming",
       "name": "Ground Zero Gaming",
       "games": 53,
-      "league": "LCP"
+      "league": "LCP",
+      "games_by_patch": {
+        "16.01": 9,
+        "16.02": 12,
+        "16.03": 12,
+        "16.07": 4,
+        "16.08": 4,
+        "16.09": 9,
+        "16.10": 3
+      },
+      "series_by_patch": {
+        "16.01": 3,
+        "16.02": 4,
+        "16.03": 3,
+        "16.07": 2,
+        "16.08": 2,
+        "16.09": 4,
+        "16.10": 1
+      }
     },
     {
       "slug": "gtz-esports",
       "name": "GTZ Esports",
       "games": 9,
-      "league": "LPLOL"
+      "league": "LPLOL",
+      "games_by_patch": {
+        "16.03": 2,
+        "16.08": 2,
+        "16.09": 5
+      },
+      "series_by_patch": {
+        "16.03": 2,
+        "16.08": 2,
+        "16.09": 5
+      }
     },
     {
       "slug": "hanjin-brion",
       "name": "HANJIN BRION",
       "games": 61,
-      "league": "LCK"
+      "league": "LCK",
+      "games_by_patch": {
+        "16.01": 11,
+        "16.02": 8,
+        "16.06": 4,
+        "16.07": 10,
+        "16.08": 8,
+        "16.09": 11,
+        "16.10": 9
+      },
+      "series_by_patch": {
+        "16.01": 4,
+        "16.02": 2,
+        "16.06": 2,
+        "16.07": 4,
+        "16.08": 4,
+        "16.09": 5,
+        "16.10": 4
+      }
     },
     {
       "slug": "hanjin-brion-academy",
       "name": "HANJIN BRION Academy",
       "games": 48,
-      "league": "LAS"
+      "league": "LAS",
+      "games_by_patch": {
+        "16.05": 9,
+        "16.06": 11,
+        "16.07": 12,
+        "16.08": 16
+      },
+      "series_by_patch": {
+        "16.05": 4,
+        "16.06": 5,
+        "16.07": 6,
+        "16.08": 6
+      }
     },
     {
       "slug": "hanjin-brion-challengers",
       "name": "HANJIN BRION Challengers",
       "games": 55,
-      "league": "LCKC"
+      "league": "LCKC",
+      "games_by_patch": {
+        "16.01": 9,
+        "16.02": 8,
+        "16.06": 6,
+        "16.07": 10,
+        "16.08": 8,
+        "16.09": 10,
+        "16.10": 4
+      },
+      "series_by_patch": {
+        "16.01": 4,
+        "16.02": 3,
+        "16.06": 2,
+        "16.07": 4,
+        "16.08": 4,
+        "16.09": 4,
+        "16.10": 2
+      }
     },
     {
       "slug": "hanwha-life-esports",
       "name": "Hanwha Life Esports",
       "games": 59,
-      "league": "LCK"
+      "league": "LCK",
+      "games_by_patch": {
+        "16.01": 11,
+        "16.02": 3,
+        "16.06": 4,
+        "16.07": 9,
+        "16.08": 10,
+        "16.09": 15,
+        "16.10": 7
+      },
+      "series_by_patch": {
+        "16.01": 4,
+        "16.02": 1,
+        "16.06": 2,
+        "16.07": 4,
+        "16.08": 4,
+        "16.09": 6,
+        "16.10": 3
+      }
     },
     {
       "slug": "hanwha-life-esports-academy",
       "name": "Hanwha Life Esports Academy",
       "games": 55,
-      "league": "LAS"
+      "league": "LAS",
+      "games_by_patch": {
+        "16.05": 6,
+        "16.06": 17,
+        "16.07": 16,
+        "16.08": 10,
+        "16.09": 6
+      },
+      "series_by_patch": {
+        "16.05": 2,
+        "16.06": 7,
+        "16.07": 7,
+        "16.08": 5,
+        "16.09": 2
+      }
     },
     {
       "slug": "hanwha-life-esports-challengers",
       "name": "Hanwha Life Esports Challengers",
       "games": 63,
-      "league": "LCKC"
+      "league": "LCKC",
+      "games_by_patch": {
+        "16.01": 8,
+        "16.02": 8,
+        "16.03": 10,
+        "16.06": 4,
+        "16.07": 9,
+        "16.08": 11,
+        "16.09": 9,
+        "16.10": 4
+      },
+      "series_by_patch": {
+        "16.01": 4,
+        "16.02": 3,
+        "16.03": 2,
+        "16.06": 2,
+        "16.07": 4,
+        "16.08": 4,
+        "16.09": 4,
+        "16.10": 2
+      }
     },
     {
       "slug": "hmble",
       "name": "HMBLE",
       "games": 38,
-      "league": "LIT"
+      "league": "LIT",
+      "games_by_patch": {
+        "16.01": 7,
+        "16.02": 6,
+        "16.04": 3,
+        "16.05": 9,
+        "16.06": 3,
+        "16.07": 4,
+        "16.08": 3,
+        "16.09": 3
+      },
+      "series_by_patch": {
+        "16.01": 7,
+        "16.02": 2,
+        "16.04": 1,
+        "16.05": 4,
+        "16.06": 3,
+        "16.07": 4,
+        "16.08": 1,
+        "16.09": 1
+      }
     },
     {
       "slug": "howl-esports",
       "name": "Howl Esports",
       "games": 14,
-      "league": "HLL"
+      "league": "HLL",
+      "games_by_patch": {
+        "16.01": 4,
+        "16.02": 4,
+        "16.03": 6
+      },
+      "series_by_patch": {
+        "16.01": 2,
+        "16.02": 2,
+        "16.03": 3
+      }
     },
     {
       "slug": "huskies-esports",
       "name": "Huskies Esports",
       "games": 15,
-      "league": "LIT"
+      "league": "LIT",
+      "games_by_patch": {
+        "16.02": 5,
+        "16.03": 5,
+        "16.10": 5
+      },
+      "series_by_patch": {
+        "16.02": 2,
+        "16.03": 2,
+        "16.10": 2
+      }
     },
     {
       "slug": "ici-japon-corp-esport",
       "name": "Ici Japon Corp. Esport",
       "games": 16,
-      "league": "LFL"
+      "league": "LFL",
+      "games_by_patch": {
+        "16.01": 1,
+        "16.02": 2,
+        "16.07": 6,
+        "16.08": 3,
+        "16.09": 4
+      },
+      "series_by_patch": {
+        "16.01": 1,
+        "16.02": 2,
+        "16.07": 6,
+        "16.08": 3,
+        "16.09": 2
+      }
     },
     {
       "slug": "icon-esports",
       "name": "Icon Esports",
       "games": 12,
-      "league": "LRN"
+      "league": "LRN",
+      "games_by_patch": {
+        "16.04": 2,
+        "16.05": 5,
+        "16.06": 5
+      },
+      "series_by_patch": {
+        "16.04": 2,
+        "16.05": 2,
+        "16.06": 3
+      }
     },
     {
       "slug": "inferno-drive-tokyo",
       "name": "Inferno Drive Tokyo",
       "games": 40,
-      "league": "LJL"
+      "league": "LJL",
+      "games_by_patch": {
+        "16.02": 8,
+        "16.03": 6,
+        "16.04": 5,
+        "16.05": 8,
+        "16.07": 7,
+        "16.08": 6
+      },
+      "series_by_patch": {
+        "16.02": 8,
+        "16.03": 6,
+        "16.04": 5,
+        "16.05": 3,
+        "16.07": 7,
+        "16.08": 6
+      }
     },
     {
       "slug": "inside-games",
       "name": "Inside Games",
       "games": 7,
-      "league": "HW"
+      "league": "HW",
+      "games_by_patch": {
+        "16.01": 1,
+        "16.02": 6
+      },
+      "series_by_patch": {
+        "16.01": 1,
+        "16.02": 3
+      }
     },
     {
       "slug": "intz",
       "name": "INTZ",
       "games": 20,
-      "league": "CD"
+      "league": "CD",
+      "games_by_patch": {
+        "16.06": 3,
+        "16.07": 3,
+        "16.08": 3,
+        "16.09": 6,
+        "16.10": 5
+      },
+      "series_by_patch": {
+        "16.06": 3,
+        "16.07": 3,
+        "16.08": 3,
+        "16.09": 2,
+        "16.10": 1
+      }
     },
     {
       "slug": "invictus-gaming",
       "name": "Invictus Gaming",
       "games": 81,
-      "league": "LPL"
+      "league": "LPL",
+      "games_by_patch": {
+        "16.01": 15,
+        "16.02": 17,
+        "16.03": 11,
+        "16.07": 15,
+        "16.08": 9,
+        "16.09": 11,
+        "16.10": 3
+      },
+      "series_by_patch": {
+        "16.01": 6,
+        "16.02": 6,
+        "16.03": 3,
+        "16.07": 6,
+        "16.08": 4,
+        "16.09": 4,
+        "16.10": 1
+      }
     },
     {
       "slug": "jd-gaming",
       "name": "JD Gaming",
       "games": 96,
-      "league": "LPL"
+      "league": "LPL",
+      "games_by_patch": {
+        "16.01": 15,
+        "16.02": 11,
+        "16.03": 22,
+        "16.05": 13,
+        "16.07": 12,
+        "16.08": 9,
+        "16.09": 14
+      },
+      "series_by_patch": {
+        "16.01": 6,
+        "16.02": 4,
+        "16.03": 5,
+        "16.05": 4,
+        "16.07": 5,
+        "16.08": 4,
+        "16.09": 5
+      }
     },
     {
       "slug": "joblife",
       "name": "Joblife",
       "games": 28,
-      "league": "LFL"
+      "league": "LFL",
+      "games_by_patch": {
+        "16.01": 1,
+        "16.02": 5,
+        "16.03": 8,
+        "16.04": 5,
+        "16.07": 6,
+        "16.08": 3
+      },
+      "series_by_patch": {
+        "16.01": 1,
+        "16.02": 5,
+        "16.03": 8,
+        "16.04": 1,
+        "16.07": 6,
+        "16.08": 3
+      }
     },
     {
       "slug": "jsk-esports",
       "name": "JSK Esports",
       "games": 34,
-      "league": "AL"
+      "league": "AL",
+      "games_by_patch": {
+        "16.06": 11,
+        "16.07": 16,
+        "16.09": 7
+      },
+      "series_by_patch": {
+        "16.06": 3,
+        "16.07": 7,
+        "16.09": 3
+      }
     },
     {
       "slug": "kabum-ilha-das-lendas",
       "name": "KaBuM! Ilha das Lendas",
       "games": 17,
-      "league": "CD"
+      "league": "CD",
+      "games_by_patch": {
+        "16.06": 3,
+        "16.07": 3,
+        "16.08": 3,
+        "16.09": 3,
+        "16.10": 5
+      },
+      "series_by_patch": {
+        "16.06": 3,
+        "16.07": 3,
+        "16.08": 3,
+        "16.09": 1,
+        "16.10": 1
+      }
     },
     {
       "slug": "karmine-corp",
       "name": "Karmine Corp",
       "games": 69,
-      "league": "LEC"
+      "league": "LEC",
+      "games_by_patch": {
+        "16.01": 3,
+        "16.02": 6,
+        "16.03": 22,
+        "16.06": 3,
+        "16.07": 2,
+        "16.08": 12,
+        "16.09": 17,
+        "16.10": 4
+      },
+      "series_by_patch": {
+        "16.01": 3,
+        "16.02": 6,
+        "16.03": 8,
+        "16.06": 1,
+        "16.07": 1,
+        "16.08": 5,
+        "16.09": 6,
+        "16.10": 1
+      }
     },
     {
       "slug": "karmine-corp-blue",
       "name": "Karmine Corp Blue",
       "games": 38,
-      "league": "LFL"
+      "league": "LFL",
+      "games_by_patch": {
+        "16.01": 3,
+        "16.02": 6,
+        "16.03": 2,
+        "16.05": 7,
+        "16.06": 6,
+        "16.07": 6,
+        "16.08": 3,
+        "16.09": 2,
+        "16.10": 3
+      },
+      "series_by_patch": {
+        "16.01": 3,
+        "16.02": 6,
+        "16.03": 2,
+        "16.05": 3,
+        "16.06": 3,
+        "16.07": 6,
+        "16.08": 3,
+        "16.09": 1,
+        "16.10": 1
+      }
     },
     {
       "slug": "karmine-corp-blue-stars",
       "name": "Karmine Corp Blue Stars",
       "games": 17,
-      "league": "NL"
+      "league": "NL",
+      "games_by_patch": {
+        "16.01": 1,
+        "16.02": 2,
+        "16.07": 4,
+        "16.08": 4,
+        "16.09": 4,
+        "16.10": 2
+      },
+      "series_by_patch": {
+        "16.01": 1,
+        "16.02": 2,
+        "16.07": 4,
+        "16.08": 4,
+        "16.09": 4,
+        "16.10": 2
+      }
     },
     {
       "slug": "kaufland-hangry-knights",
       "name": "Kaufland Hangry Knights",
       "games": 30,
-      "league": "PRM"
+      "league": "PRM",
+      "games_by_patch": {
+        "16.01": 4,
+        "16.03": 4,
+        "16.04": 3,
+        "16.06": 3,
+        "16.07": 6,
+        "16.08": 5,
+        "16.09": 5
+      },
+      "series_by_patch": {
+        "16.01": 4,
+        "16.03": 4,
+        "16.04": 1,
+        "16.06": 3,
+        "16.07": 6,
+        "16.08": 2,
+        "16.09": 2
+      }
     },
     {
       "slug": "kia-esuba-academy",
       "name": "KIA.eSuba Academy",
       "games": 21,
-      "league": "HC"
+      "league": "HC",
+      "games_by_patch": {
+        "16.01": 1,
+        "16.02": 5,
+        "16.08": 6,
+        "16.09": 9
+      },
+      "series_by_patch": {
+        "16.01": 1,
+        "16.02": 3,
+        "16.08": 3,
+        "16.09": 4
+      }
     },
     {
       "slug": "kiwoom-drx",
       "name": "Kiwoom DRX",
       "games": 74,
-      "league": "LCK"
+      "league": "LCK",
+      "games_by_patch": {
+        "16.01": 11,
+        "16.02": 13,
+        "16.03": 9,
+        "16.06": 4,
+        "16.07": 9,
+        "16.08": 9,
+        "16.09": 14,
+        "16.10": 5
+      },
+      "series_by_patch": {
+        "16.01": 4,
+        "16.02": 4,
+        "16.03": 2,
+        "16.06": 2,
+        "16.07": 4,
+        "16.08": 4,
+        "16.09": 5,
+        "16.10": 2
+      }
     },
     {
       "slug": "kiwoom-drx-challengers",
       "name": "Kiwoom DRX Challengers",
       "games": 74,
-      "league": "LCKC"
+      "league": "LCKC",
+      "games_by_patch": {
+        "16.01": 8,
+        "16.02": 8,
+        "16.03": 19,
+        "16.06": 6,
+        "16.07": 10,
+        "16.08": 9,
+        "16.09": 9,
+        "16.10": 5
+      },
+      "series_by_patch": {
+        "16.01": 4,
+        "16.02": 3,
+        "16.03": 4,
+        "16.06": 2,
+        "16.07": 4,
+        "16.08": 4,
+        "16.09": 4,
+        "16.10": 2
+      }
     },
     {
       "slug": "kt-rolster",
       "name": "KT Rolster",
       "games": 58,
-      "league": "LCK"
+      "league": "LCK",
+      "games_by_patch": {
+        "16.01": 10,
+        "16.02": 7,
+        "16.06": 5,
+        "16.07": 9,
+        "16.08": 8,
+        "16.09": 12,
+        "16.10": 7
+      },
+      "series_by_patch": {
+        "16.01": 4,
+        "16.02": 2,
+        "16.06": 2,
+        "16.07": 4,
+        "16.08": 4,
+        "16.09": 5,
+        "16.10": 3
+      }
     },
     {
       "slug": "kt-rolster-academy",
       "name": "KT Rolster Academy",
       "games": 53,
-      "league": "LAS"
+      "league": "LAS",
+      "games_by_patch": {
+        "16.05": 7,
+        "16.06": 17,
+        "16.07": 13,
+        "16.08": 12,
+        "16.09": 4
+      },
+      "series_by_patch": {
+        "16.05": 3,
+        "16.06": 7,
+        "16.07": 6,
+        "16.08": 5,
+        "16.09": 1
+      }
     },
     {
       "slug": "kt-rolster-challengers",
       "name": "KT Rolster Challengers",
       "games": 65,
-      "league": "LCKC"
+      "league": "LCKC",
+      "games_by_patch": {
+        "16.01": 10,
+        "16.02": 3,
+        "16.03": 12,
+        "16.06": 5,
+        "16.07": 10,
+        "16.08": 10,
+        "16.09": 9,
+        "16.10": 6
+      },
+      "series_by_patch": {
+        "16.01": 4,
+        "16.02": 1,
+        "16.03": 3,
+        "16.06": 2,
+        "16.07": 4,
+        "16.08": 4,
+        "16.09": 4,
+        "16.10": 2
+      }
     },
     {
       "slug": "kuma-e-sports",
       "name": "Kuma e-Sports",
       "games": 9,
-      "league": "CD"
+      "league": "CD",
+      "games_by_patch": {
+        "16.10": 9
+      },
+      "series_by_patch": {
+        "16.10": 3
+      }
     },
     {
       "slug": "l-guide-gaming",
       "name": "L Guide Gaming",
       "games": 38,
-      "league": "LJL"
+      "league": "LJL",
+      "games_by_patch": {
+        "16.02": 7,
+        "16.03": 7,
+        "16.04": 5,
+        "16.05": 6,
+        "16.06": 2,
+        "16.08": 5,
+        "16.09": 4,
+        "16.10": 2
+      },
+      "series_by_patch": {
+        "16.02": 7,
+        "16.03": 7,
+        "16.04": 5,
+        "16.05": 3,
+        "16.06": 1,
+        "16.08": 2,
+        "16.09": 2,
+        "16.10": 1
+      }
     },
     {
       "slug": "la-bombas",
       "name": "La BOMBAS",
       "games": 9,
-      "league": "NLC"
+      "league": "NLC",
+      "games_by_patch": {
+        "16.01": 3,
+        "16.02": 2,
+        "16.03": 2,
+        "16.04": 2
+      },
+      "series_by_patch": {
+        "16.01": 3,
+        "16.02": 2,
+        "16.03": 2,
+        "16.04": 2
+      }
     },
     {
       "slug": "lausanne-sport-esports",
       "name": "Lausanne-Sport Esports",
       "games": 17,
-      "league": "NL"
+      "league": "NL",
+      "games_by_patch": {
+        "16.01": 1,
+        "16.02": 2,
+        "16.07": 4,
+        "16.08": 4,
+        "16.09": 4,
+        "16.10": 2
+      },
+      "series_by_patch": {
+        "16.01": 1,
+        "16.02": 2,
+        "16.07": 4,
+        "16.08": 4,
+        "16.09": 4,
+        "16.10": 2
+      }
     },
     {
       "slug": "lenovo-legion-honv-d",
       "name": "Lenovo Legion Honv\u00e9d",
       "games": 23,
-      "league": "EBL"
+      "league": "EBL",
+      "games_by_patch": {
+        "16.03": 2,
+        "16.04": 11,
+        "16.09": 5,
+        "16.10": 5
+      },
+      "series_by_patch": {
+        "16.03": 1,
+        "16.04": 4,
+        "16.09": 2,
+        "16.10": 2
+      }
     },
     {
       "slug": "leviatan",
       "name": "Leviatan",
       "games": 37,
-      "league": "CBLOL"
+      "league": "CBLOL",
+      "games_by_patch": {
+        "16.01": 2,
+        "16.02": 11,
+        "16.03": 9,
+        "16.06": 2,
+        "16.07": 6,
+        "16.08": 5,
+        "16.09": 2
+      },
+      "series_by_patch": {
+        "16.01": 2,
+        "16.02": 8,
+        "16.03": 3,
+        "16.06": 1,
+        "16.07": 3,
+        "16.08": 2,
+        "16.09": 1
+      }
     },
     {
       "slug": "lgd-gaming",
       "name": "LGD Gaming",
       "games": 34,
-      "league": "LPL"
+      "league": "LPL",
+      "games_by_patch": {
+        "16.01": 8,
+        "16.02": 9,
+        "16.07": 3,
+        "16.08": 7,
+        "16.09": 2,
+        "16.10": 5
+      },
+      "series_by_patch": {
+        "16.01": 3,
+        "16.02": 3,
+        "16.07": 1,
+        "16.08": 3,
+        "16.09": 1,
+        "16.10": 1
+      }
     },
     {
       "slug": "lille-esport",
       "name": "Lille Esport",
       "games": 26,
-      "league": "NL"
+      "league": "NL",
+      "games_by_patch": {
+        "16.01": 1,
+        "16.02": 5,
+        "16.03": 6,
+        "16.07": 4,
+        "16.08": 4,
+        "16.09": 4,
+        "16.10": 2
+      },
+      "series_by_patch": {
+        "16.01": 1,
+        "16.02": 5,
+        "16.03": 6,
+        "16.07": 4,
+        "16.08": 4,
+        "16.09": 4,
+        "16.10": 2
+      }
     },
     {
       "slug": "lng-esports",
       "name": "LNG Esports",
       "games": 39,
-      "league": "LPL"
+      "league": "LPL",
+      "games_by_patch": {
+        "16.01": 5,
+        "16.02": 16,
+        "16.07": 3,
+        "16.08": 2,
+        "16.09": 8,
+        "16.10": 5
+      },
+      "series_by_patch": {
+        "16.01": 2,
+        "16.02": 6,
+        "16.07": 1,
+        "16.08": 1,
+        "16.09": 3,
+        "16.10": 1
+      }
     },
     {
       "slug": "lodis",
       "name": "LODIS",
       "games": 24,
-      "league": "RL"
+      "league": "RL",
+      "games_by_patch": {
+        "16.03": 7,
+        "16.06": 3,
+        "16.07": 4,
+        "16.08": 3,
+        "16.09": 5,
+        "16.10": 2
+      },
+      "series_by_patch": {
+        "16.03": 5,
+        "16.06": 1,
+        "16.07": 2,
+        "16.08": 1,
+        "16.09": 2,
+        "16.10": 1
+      }
     },
     {
       "slug": "los-ratones",
       "name": "Los Ratones",
       "games": 11,
-      "league": "LEC"
+      "league": "LEC",
+      "games_by_patch": {
+        "16.01": 3,
+        "16.02": 6,
+        "16.03": 2
+      },
+      "series_by_patch": {
+        "16.01": 3,
+        "16.02": 6,
+        "16.03": 2
+      }
     },
     {
       "slug": "loud",
       "name": "LOUD",
       "games": 51,
-      "league": "CBLOL"
+      "league": "CBLOL",
+      "games_by_patch": {
+        "16.01": 2,
+        "16.02": 5,
+        "16.03": 5,
+        "16.04": 7,
+        "16.05": 8,
+        "16.06": 2,
+        "16.07": 7,
+        "16.08": 6,
+        "16.09": 6,
+        "16.10": 3
+      },
+      "series_by_patch": {
+        "16.01": 2,
+        "16.02": 5,
+        "16.03": 2,
+        "16.04": 2,
+        "16.05": 2,
+        "16.06": 1,
+        "16.07": 4,
+        "16.08": 2,
+        "16.09": 2,
+        "16.10": 1
+      }
     },
     {
       "slug": "lua-gaming",
       "name": "LUA Gaming",
       "games": 19,
-      "league": "LES"
+      "league": "LES",
+      "games_by_patch": {
+        "16.03": 3,
+        "16.07": 4,
+        "16.08": 5,
+        "16.09": 5,
+        "16.10": 2
+      },
+      "series_by_patch": {
+        "16.03": 2,
+        "16.07": 2,
+        "16.08": 2,
+        "16.09": 2,
+        "16.10": 1
+      }
     },
     {
       "slug": "lund-esports-organization",
       "name": "Lund Esports Organization",
       "games": 8,
-      "league": "NLC"
+      "league": "NLC",
+      "games_by_patch": {
+        "16.01": 3,
+        "16.02": 2,
+        "16.03": 2,
+        "16.04": 1
+      },
+      "series_by_patch": {
+        "16.01": 3,
+        "16.02": 2,
+        "16.03": 2,
+        "16.04": 1
+      }
     },
     {
       "slug": "lundqvist-lightside",
       "name": "Lundqvist Lightside",
       "games": 8,
-      "league": "NLC"
+      "league": "NLC",
+      "games_by_patch": {
+        "16.01": 3,
+        "16.02": 2,
+        "16.03": 2,
+        "16.04": 1
+      },
+      "series_by_patch": {
+        "16.01": 3,
+        "16.02": 2,
+        "16.03": 2,
+        "16.04": 1
+      }
     },
     {
       "slug": "lupus-esports",
       "name": "Lupus Esports",
       "games": 41,
-      "league": "EBL"
+      "league": "EBL",
+      "games_by_patch": {
+        "16.02": 10,
+        "16.03": 5,
+        "16.04": 11,
+        "16.05": 4,
+        "16.07": 4,
+        "16.08": 7
+      },
+      "series_by_patch": {
+        "16.02": 4,
+        "16.03": 2,
+        "16.04": 4,
+        "16.05": 2,
+        "16.07": 2,
+        "16.08": 3
+      }
     },
     {
       "slug": "lyon",
       "name": "LYON",
       "games": 65,
-      "league": "LCS"
+      "league": "LCS",
+      "games_by_patch": {
+        "16.02": 4,
+        "16.03": 3,
+        "16.04": 15,
+        "16.05": 12,
+        "16.07": 8,
+        "16.08": 10,
+        "16.09": 5,
+        "16.10": 8
+      },
+      "series_by_patch": {
+        "16.02": 3,
+        "16.03": 1,
+        "16.04": 6,
+        "16.05": 3,
+        "16.07": 3,
+        "16.08": 5,
+        "16.09": 3,
+        "16.10": 2
+      }
     },
     {
       "slug": "lyon-academy",
       "name": "LYON Academy",
       "games": 16,
-      "league": "LRN"
+      "league": "LRN",
+      "games_by_patch": {
+        "16.04": 2,
+        "16.05": 4,
+        "16.06": 5,
+        "16.07": 2,
+        "16.09": 3
+      },
+      "series_by_patch": {
+        "16.04": 1,
+        "16.05": 3,
+        "16.06": 3,
+        "16.07": 1,
+        "16.09": 2
+      }
     },
     {
       "slug": "l-s",
       "name": "L\u00d8S",
       "games": 40,
-      "league": "CBLOL"
+      "league": "CBLOL",
+      "games_by_patch": {
+        "16.01": 2,
+        "16.02": 5,
+        "16.03": 3,
+        "16.04": 4,
+        "16.06": 3,
+        "16.07": 7,
+        "16.08": 5,
+        "16.09": 8,
+        "16.10": 3
+      },
+      "series_by_patch": {
+        "16.01": 2,
+        "16.02": 5,
+        "16.03": 1,
+        "16.04": 1,
+        "16.06": 1,
+        "16.07": 3,
+        "16.08": 2,
+        "16.09": 2,
+        "16.10": 1
+      }
     },
     {
       "slug": "macko-academy",
       "name": "Macko Academy",
       "games": 5,
-      "league": "LIT"
+      "league": "LIT",
+      "games_by_patch": {
+        "16.02": 5
+      },
+      "series_by_patch": {
+        "16.02": 2
+      }
     },
     {
       "slug": "magaza-esports",
       "name": "Magaza Esports",
       "games": 17,
-      "league": "EBL"
+      "league": "EBL",
+      "games_by_patch": {
+        "16.07": 5,
+        "16.08": 6,
+        "16.09": 4,
+        "16.10": 2
+      },
+      "series_by_patch": {
+        "16.07": 2,
+        "16.08": 3,
+        "16.09": 2,
+        "16.10": 1
+      }
     },
     {
       "slug": "malvinas-gaming",
       "name": "Malvinas Gaming",
       "games": 27,
-      "league": "LRS"
+      "league": "LRS",
+      "games_by_patch": {
+        "16.04": 2,
+        "16.05": 6,
+        "16.06": 4,
+        "16.07": 4,
+        "16.08": 5,
+        "16.09": 3,
+        "16.10": 3
+      },
+      "series_by_patch": {
+        "16.04": 2,
+        "16.05": 2,
+        "16.06": 2,
+        "16.07": 2,
+        "16.08": 2,
+        "16.09": 1,
+        "16.10": 1
+      }
     },
     {
       "slug": "marere-invokers",
       "name": "Marere Invokers",
       "games": 9,
-      "league": "CD"
+      "league": "CD",
+      "games_by_patch": {
+        "16.10": 9
+      },
+      "series_by_patch": {
+        "16.10": 6
+      }
     },
     {
       "slug": "maryville-university",
       "name": "Maryville University",
       "games": 28,
-      "league": "NACL"
+      "league": "NACL",
+      "games_by_patch": {
+        "16.06": 5,
+        "16.07": 7,
+        "16.08": 4,
+        "16.09": 2,
+        "16.10": 10
+      },
+      "series_by_patch": {
+        "16.06": 2,
+        "16.07": 4,
+        "16.08": 2,
+        "16.09": 1,
+        "16.10": 4
+      }
     },
     {
       "slug": "maze-gaming",
       "name": "Maze Gaming",
       "games": 15,
-      "league": "LRS"
+      "league": "LRS",
+      "games_by_patch": {
+        "16.04": 2,
+        "16.05": 6,
+        "16.06": 3,
+        "16.07": 4
+      },
+      "series_by_patch": {
+        "16.04": 1,
+        "16.05": 4,
+        "16.06": 1,
+        "16.07": 2
+      }
     },
     {
       "slug": "mcon-esports",
       "name": "mCon esports",
       "games": 39,
-      "league": "ROL"
+      "league": "ROL",
+      "games_by_patch": {
+        "16.01": 9,
+        "16.02": 5,
+        "16.03": 3,
+        "16.06": 3,
+        "16.07": 5,
+        "16.08": 6,
+        "16.09": 5,
+        "16.10": 3
+      },
+      "series_by_patch": {
+        "16.01": 8,
+        "16.02": 2,
+        "16.03": 1,
+        "16.06": 1,
+        "16.07": 2,
+        "16.08": 2,
+        "16.09": 2,
+        "16.10": 1
+      }
     },
     {
       "slug": "meavedron",
       "name": "Meavedron",
       "games": 34,
-      "league": "HM"
+      "league": "HM",
+      "games_by_patch": {
+        "16.01": 1,
+        "16.02": 7,
+        "16.03": 8,
+        "16.07": 4,
+        "16.08": 6,
+        "16.10": 8
+      },
+      "series_by_patch": {
+        "16.01": 1,
+        "16.02": 4,
+        "16.03": 2,
+        "16.07": 2,
+        "16.08": 3,
+        "16.10": 3
+      }
     },
     {
       "slug": "misa-esports",
       "name": "Misa Esports",
       "games": 51,
-      "league": "TCL"
+      "league": "TCL",
+      "games_by_patch": {
+        "16.01": 2,
+        "16.02": 4,
+        "16.03": 6,
+        "16.04": 3,
+        "16.05": 2,
+        "16.06": 6,
+        "16.07": 14,
+        "16.08": 4,
+        "16.09": 7,
+        "16.10": 3
+      },
+      "series_by_patch": {
+        "16.01": 1,
+        "16.02": 2,
+        "16.03": 2,
+        "16.04": 1,
+        "16.05": 1,
+        "16.06": 3,
+        "16.07": 5,
+        "16.08": 2,
+        "16.09": 3,
+        "16.10": 1
+      }
     },
     {
       "slug": "movistar-koi",
       "name": "Movistar KOI",
       "games": 62,
-      "league": "LEC"
+      "league": "LEC",
+      "games_by_patch": {
+        "16.01": 3,
+        "16.02": 6,
+        "16.03": 14,
+        "16.06": 5,
+        "16.07": 5,
+        "16.08": 5,
+        "16.09": 21,
+        "16.10": 3
+      },
+      "series_by_patch": {
+        "16.01": 3,
+        "16.02": 6,
+        "16.03": 6,
+        "16.06": 2,
+        "16.07": 2,
+        "16.08": 2,
+        "16.09": 8,
+        "16.10": 1
+      }
     },
     {
       "slug": "movistar-koi-f-nix",
       "name": "Movistar KOI F\u00e9nix",
       "games": 33,
-      "league": "LES"
+      "league": "LES",
+      "games_by_patch": {
+        "16.03": 10,
+        "16.05": 3,
+        "16.06": 4,
+        "16.07": 5,
+        "16.08": 4,
+        "16.09": 4,
+        "16.10": 3
+      },
+      "series_by_patch": {
+        "16.03": 5,
+        "16.05": 1,
+        "16.06": 2,
+        "16.07": 2,
+        "16.08": 2,
+        "16.09": 2,
+        "16.10": 1
+      }
     },
     {
       "slug": "mvk-esports",
       "name": "MVK Esports",
       "games": 47,
-      "league": "LCP"
+      "league": "LCP",
+      "games_by_patch": {
+        "16.01": 8,
+        "16.02": 11,
+        "16.07": 6,
+        "16.08": 4,
+        "16.09": 10,
+        "16.10": 8
+      },
+      "series_by_patch": {
+        "16.01": 3,
+        "16.02": 4,
+        "16.07": 2,
+        "16.08": 2,
+        "16.09": 5,
+        "16.10": 2
+      }
     },
     {
       "slug": "mvk-esports-academy",
       "name": "MVK Esports Academy",
       "games": 30,
-      "league": "VCS"
+      "league": "VCS",
+      "games_by_patch": {
+        "16.04": 10,
+        "16.05": 11,
+        "16.09": 9
+      },
+      "series_by_patch": {
+        "16.04": 5,
+        "16.05": 3,
+        "16.09": 4
+      }
     },
     {
       "slug": "myth-esports",
       "name": "Myth Esports",
       "games": 30,
-      "league": "ROL"
+      "league": "ROL",
+      "games_by_patch": {
+        "16.01": 9,
+        "16.02": 4,
+        "16.06": 2,
+        "16.07": 5,
+        "16.08": 6,
+        "16.09": 4
+      },
+      "series_by_patch": {
+        "16.01": 8,
+        "16.02": 3,
+        "16.06": 1,
+        "16.07": 2,
+        "16.08": 2,
+        "16.09": 2
+      }
     },
     {
       "slug": "natus-vincere",
       "name": "Natus Vincere",
       "games": 52,
-      "league": "LEC"
+      "league": "LEC",
+      "games_by_patch": {
+        "16.01": 3,
+        "16.02": 6,
+        "16.03": 9,
+        "16.06": 6,
+        "16.07": 4,
+        "16.08": 15,
+        "16.09": 9
+      },
+      "series_by_patch": {
+        "16.01": 3,
+        "16.02": 6,
+        "16.03": 5,
+        "16.06": 2,
+        "16.07": 2,
+        "16.08": 6,
+        "16.09": 4
+      }
     },
     {
       "slug": "ncg-esports",
       "name": "NCG Esports",
       "games": 18,
-      "league": "LRN"
+      "league": "LRN",
+      "games_by_patch": {
+        "16.04": 2,
+        "16.05": 6,
+        "16.06": 5,
+        "16.07": 5
+      },
+      "series_by_patch": {
+        "16.04": 1,
+        "16.05": 3,
+        "16.06": 3,
+        "16.07": 3
+      }
     },
     {
       "slug": "nerd-s-gangster-s-carecas",
       "name": "Nerd's Gangster's Carecas",
       "games": 12,
-      "league": "CD"
+      "league": "CD",
+      "games_by_patch": {
+        "16.04": 12
+      },
+      "series_by_patch": {
+        "16.04": 5
+      }
     },
     {
       "slug": "new-meta",
       "name": "New Meta",
       "games": 51,
-      "league": "LJL"
+      "league": "LJL",
+      "games_by_patch": {
+        "16.02": 8,
+        "16.03": 6,
+        "16.04": 5,
+        "16.05": 7,
+        "16.07": 7,
+        "16.08": 10,
+        "16.09": 5,
+        "16.10": 3
+      },
+      "series_by_patch": {
+        "16.02": 8,
+        "16.03": 6,
+        "16.04": 5,
+        "16.05": 3,
+        "16.07": 7,
+        "16.08": 7,
+        "16.09": 2,
+        "16.10": 1
+      }
     },
     {
       "slug": "nextgeneration-esports",
       "name": "NextGeneration Esports",
       "games": 28,
-      "league": "AL"
+      "league": "AL",
+      "games_by_patch": {
+        "16.01": 15,
+        "16.02": 2,
+        "16.03": 5,
+        "16.06": 6
+      },
+      "series_by_patch": {
+        "16.01": 6,
+        "16.02": 1,
+        "16.03": 2,
+        "16.06": 2
+      }
     },
     {
       "slug": "ng-a-h-esports",
       "name": "Ng\u1ef1a H\u00ed Esports",
       "games": 11,
-      "league": "VCS"
+      "league": "VCS",
+      "games_by_patch": {
+        "16.04": 11
+      },
+      "series_by_patch": {
+        "16.04": 5
+      }
     },
     {
       "slug": "nightbirds",
       "name": "Nightbirds",
       "games": 41,
-      "league": "HM"
+      "league": "HM",
+      "games_by_patch": {
+        "16.01": 1,
+        "16.02": 3,
+        "16.03": 6,
+        "16.04": 4,
+        "16.05": 9,
+        "16.07": 4,
+        "16.08": 4,
+        "16.09": 3,
+        "16.10": 7
+      },
+      "series_by_patch": {
+        "16.01": 1,
+        "16.02": 2,
+        "16.03": 2,
+        "16.04": 1,
+        "16.05": 4,
+        "16.07": 2,
+        "16.08": 2,
+        "16.09": 1,
+        "16.10": 3
+      }
     },
     {
       "slug": "ninjas-in-pyjamas",
       "name": "Ninjas in Pyjamas",
       "games": 67,
-      "league": "LPL"
+      "league": "LPL",
+      "games_by_patch": {
+        "16.01": 9,
+        "16.02": 13,
+        "16.03": 7,
+        "16.07": 10,
+        "16.08": 8,
+        "16.09": 15,
+        "16.10": 5
+      },
+      "series_by_patch": {
+        "16.01": 3,
+        "16.02": 5,
+        "16.03": 2,
+        "16.07": 4,
+        "16.08": 4,
+        "16.09": 6,
+        "16.10": 1
+      }
     },
     {
       "slug": "nongshim-esports-academy",
       "name": "Nongshim Esports Academy",
       "games": 73,
-      "league": "LCKC"
+      "league": "LCKC",
+      "games_by_patch": {
+        "16.01": 9,
+        "16.02": 3,
+        "16.03": 20,
+        "16.06": 5,
+        "16.07": 11,
+        "16.08": 9,
+        "16.09": 11,
+        "16.10": 5
+      },
+      "series_by_patch": {
+        "16.01": 4,
+        "16.02": 1,
+        "16.03": 5,
+        "16.06": 2,
+        "16.07": 4,
+        "16.08": 4,
+        "16.09": 4,
+        "16.10": 2
+      }
     },
     {
       "slug": "nongshim-redforce",
       "name": "Nongshim RedForce",
       "games": 64,
-      "league": "LCK"
+      "league": "LCK",
+      "games_by_patch": {
+        "16.01": 10,
+        "16.02": 11,
+        "16.06": 4,
+        "16.07": 9,
+        "16.08": 9,
+        "16.09": 10,
+        "16.10": 11
+      },
+      "series_by_patch": {
+        "16.01": 4,
+        "16.02": 3,
+        "16.06": 2,
+        "16.07": 4,
+        "16.08": 4,
+        "16.09": 5,
+        "16.10": 4
+      }
     },
     {
       "slug": "nongshim-redforce-academy",
       "name": "Nongshim RedForce Academy",
       "games": 51,
-      "league": "LAS"
+      "league": "LAS",
+      "games_by_patch": {
+        "16.05": 8,
+        "16.06": 14,
+        "16.07": 17,
+        "16.08": 12
+      },
+      "series_by_patch": {
+        "16.05": 3,
+        "16.06": 6,
+        "16.07": 7,
+        "16.08": 5
+      }
     },
     {
       "slug": "novex",
       "name": "NOVEX",
       "games": 37,
-      "league": "LJL"
+      "league": "LJL",
+      "games_by_patch": {
+        "16.02": 7,
+        "16.03": 7,
+        "16.04": 5,
+        "16.05": 6,
+        "16.07": 6,
+        "16.08": 6
+      },
+      "series_by_patch": {
+        "16.02": 7,
+        "16.03": 7,
+        "16.04": 5,
+        "16.05": 3,
+        "16.07": 6,
+        "16.08": 6
+      }
     },
     {
       "slug": "nrg",
       "name": "NRG",
       "games": 24,
-      "league": "NACL"
+      "league": "NACL",
+      "games_by_patch": {
+        "16.06": 5,
+        "16.07": 8,
+        "16.08": 4,
+        "16.09": 5,
+        "16.10": 2
+      },
+      "series_by_patch": {
+        "16.06": 2,
+        "16.07": 5,
+        "16.08": 2,
+        "16.09": 3,
+        "16.10": 1
+      }
     },
     {
       "slug": "obsidian-oath",
       "name": "Obsidian Oath",
       "games": 6,
-      "league": "LIT"
+      "league": "LIT",
+      "games_by_patch": {
+        "16.10": 6
+      },
+      "series_by_patch": {
+        "16.10": 2
+      }
     },
     {
       "slug": "oh-my-god",
       "name": "Oh My God",
       "games": 34,
-      "league": "LPL"
+      "league": "LPL",
+      "games_by_patch": {
+        "16.01": 7,
+        "16.02": 14,
+        "16.07": 6,
+        "16.08": 2,
+        "16.09": 5
+      },
+      "series_by_patch": {
+        "16.01": 3,
+        "16.02": 5,
+        "16.07": 2,
+        "16.08": 1,
+        "16.09": 2
+      }
     },
     {
       "slug": "once-upon-a-team",
       "name": "Once Upon A Team",
       "games": 33,
-      "league": "ROL"
+      "league": "ROL",
+      "games_by_patch": {
+        "16.01": 9,
+        "16.02": 5,
+        "16.06": 2,
+        "16.07": 4,
+        "16.08": 6,
+        "16.09": 5,
+        "16.10": 2
+      },
+      "series_by_patch": {
+        "16.01": 8,
+        "16.02": 2,
+        "16.06": 1,
+        "16.07": 2,
+        "16.08": 2,
+        "16.09": 2,
+        "16.10": 1
+      }
     },
     {
       "slug": "one-more-esports",
       "name": "One More Esports",
       "games": 53,
-      "league": "AL"
+      "league": "AL",
+      "games_by_patch": {
+        "16.01": 14,
+        "16.02": 2,
+        "16.03": 7,
+        "16.06": 7,
+        "16.07": 16,
+        "16.09": 7
+      },
+      "series_by_patch": {
+        "16.01": 6,
+        "16.02": 1,
+        "16.03": 3,
+        "16.06": 2,
+        "16.07": 7,
+        "16.09": 3
+      }
     },
     {
       "slug": "one-round-specialists",
       "name": "One Round Specialists",
       "games": 6,
-      "league": "PCS"
+      "league": "PCS",
+      "games_by_patch": {
+        "16.08": 6
+      },
+      "series_by_patch": {
+        "16.08": 3
+      }
     },
     {
       "slug": "onion-team",
       "name": "Onion Team",
       "games": 28,
-      "league": "HM"
+      "league": "HM",
+      "games_by_patch": {
+        "16.03": 7,
+        "16.04": 4,
+        "16.07": 4,
+        "16.08": 3,
+        "16.09": 5,
+        "16.10": 5
+      },
+      "series_by_patch": {
+        "16.03": 5,
+        "16.04": 1,
+        "16.07": 2,
+        "16.08": 1,
+        "16.09": 2,
+        "16.10": 2
+      }
     },
     {
       "slug": "otter-side",
       "name": "Otter Side",
       "games": 23,
-      "league": "LPLOL"
+      "league": "LPLOL",
+      "games_by_patch": {
+        "16.03": 2,
+        "16.04": 10,
+        "16.05": 4,
+        "16.08": 2,
+        "16.09": 5
+      },
+      "series_by_patch": {
+        "16.03": 2,
+        "16.04": 4,
+        "16.05": 2,
+        "16.08": 2,
+        "16.09": 5
+      }
     },
     {
       "slug": "ozarox-esports",
       "name": "Ozarox Esports",
       "games": 17,
-      "league": "TCL"
+      "league": "TCL",
+      "games_by_patch": {
+        "16.07": 4,
+        "16.08": 4,
+        "16.09": 6,
+        "16.10": 3
+      },
+      "series_by_patch": {
+        "16.07": 2,
+        "16.08": 2,
+        "16.09": 3,
+        "16.10": 1
+      }
     },
     {
       "slug": "p11-esports",
       "name": "P11 Esports",
       "games": 34,
-      "league": "LIT"
+      "league": "LIT",
+      "games_by_patch": {
+        "16.01": 7,
+        "16.02": 10,
+        "16.10": 17
+      },
+      "series_by_patch": {
+        "16.01": 7,
+        "16.02": 2,
+        "16.10": 6
+      }
     },
     {
       "slug": "pain-gaming",
       "name": "paiN Gaming",
       "games": 30,
-      "league": "CBLOL"
+      "league": "CBLOL",
+      "games_by_patch": {
+        "16.01": 3,
+        "16.02": 11,
+        "16.06": 2,
+        "16.07": 7,
+        "16.08": 5,
+        "16.09": 2
+      },
+      "series_by_patch": {
+        "16.01": 3,
+        "16.02": 6,
+        "16.06": 1,
+        "16.07": 3,
+        "16.08": 2,
+        "16.09": 1
+      }
     },
     {
       "slug": "pain-gaming-academy",
       "name": "paiN Gaming Academy",
       "games": 23,
-      "league": "CD"
+      "league": "CD",
+      "games_by_patch": {
+        "16.06": 3,
+        "16.07": 3,
+        "16.08": 9,
+        "16.09": 3,
+        "16.10": 5
+      },
+      "series_by_patch": {
+        "16.06": 3,
+        "16.07": 3,
+        "16.08": 5,
+        "16.09": 1,
+        "16.10": 1
+      }
     },
     {
       "slug": "partizan-sangal",
       "name": "Partizan Sangal",
       "games": 38,
-      "league": "EBL"
+      "league": "EBL",
+      "games_by_patch": {
+        "16.02": 6,
+        "16.03": 4,
+        "16.04": 7,
+        "16.05": 7,
+        "16.07": 4,
+        "16.08": 4,
+        "16.09": 4,
+        "16.10": 2
+      },
+      "series_by_patch": {
+        "16.02": 3,
+        "16.03": 2,
+        "16.04": 3,
+        "16.05": 3,
+        "16.07": 2,
+        "16.08": 2,
+        "16.09": 2,
+        "16.10": 1
+      }
     },
     {
       "slug": "pcific-esports",
       "name": "PCIFIC Esports",
       "games": 39,
-      "league": "TCL"
+      "league": "TCL",
+      "games_by_patch": {
+        "16.01": 2,
+        "16.02": 5,
+        "16.03": 7,
+        "16.07": 4,
+        "16.08": 5,
+        "16.09": 7,
+        "16.10": 9
+      },
+      "series_by_patch": {
+        "16.01": 1,
+        "16.02": 2,
+        "16.03": 2,
+        "16.07": 2,
+        "16.08": 2,
+        "16.09": 3,
+        "16.10": 2
+      }
     },
     {
       "slug": "polar-squad-esports",
       "name": "Polar Squad Esports",
       "games": 19,
-      "league": "LRN"
+      "league": "LRN",
+      "games_by_patch": {
+        "16.04": 2,
+        "16.05": 5,
+        "16.06": 4,
+        "16.07": 4,
+        "16.09": 4
+      },
+      "series_by_patch": {
+        "16.04": 2,
+        "16.05": 4,
+        "16.06": 3,
+        "16.07": 3,
+        "16.09": 2
+      }
     },
     {
       "slug": "prediqt",
       "name": "PREDIQT",
       "games": 5,
-      "league": "CD"
+      "league": "CD",
+      "games_by_patch": {
+        "16.10": 5
+      },
+      "series_by_patch": {
+        "16.10": 2
+      }
     },
     {
       "slug": "priority",
       "name": "Priority",
       "games": 35,
-      "league": "HC"
+      "league": "HC",
+      "games_by_patch": {
+        "16.01": 1,
+        "16.02": 6,
+        "16.03": 7,
+        "16.04": 3,
+        "16.08": 8,
+        "16.09": 10
+      },
+      "series_by_patch": {
+        "16.01": 1,
+        "16.02": 4,
+        "16.03": 2,
+        "16.04": 1,
+        "16.08": 3,
+        "16.09": 4
+      }
     },
     {
       "slug": "project-conquerors",
       "name": "Project Conquerors",
       "games": 17,
-      "league": "NL"
+      "league": "NL",
+      "games_by_patch": {
+        "16.01": 1,
+        "16.02": 2,
+        "16.07": 4,
+        "16.08": 4,
+        "16.09": 4,
+        "16.10": 2
+      },
+      "series_by_patch": {
+        "16.01": 1,
+        "16.02": 2,
+        "16.07": 4,
+        "16.08": 4,
+        "16.09": 4,
+        "16.10": 2
+      }
     },
     {
       "slug": "rampage",
       "name": "RAMPAGE",
       "games": 8,
-      "league": "CD"
+      "league": "CD",
+      "games_by_patch": {
+        "16.10": 8
+      },
+      "series_by_patch": {
+        "16.10": 4
+      }
     },
     {
       "slug": "rayn-clocks",
       "name": "RAYN Clocks",
       "games": 41,
-      "league": "LJL"
+      "league": "LJL",
+      "games_by_patch": {
+        "16.02": 7,
+        "16.03": 7,
+        "16.04": 5,
+        "16.05": 8,
+        "16.06": 2,
+        "16.08": 2,
+        "16.09": 7,
+        "16.10": 3
+      },
+      "series_by_patch": {
+        "16.02": 7,
+        "16.03": 7,
+        "16.04": 5,
+        "16.05": 3,
+        "16.06": 1,
+        "16.08": 1,
+        "16.09": 3,
+        "16.10": 1
+      }
     },
     {
       "slug": "red-academy",
       "name": "RED Academy",
       "games": 14,
-      "league": "CD"
+      "league": "CD",
+      "games_by_patch": {
+        "16.06": 3,
+        "16.07": 3,
+        "16.08": 3,
+        "16.09": 2,
+        "16.10": 3
+      },
+      "series_by_patch": {
+        "16.06": 3,
+        "16.07": 3,
+        "16.08": 3,
+        "16.09": 1,
+        "16.10": 1
+      }
     },
     {
       "slug": "red-canids",
       "name": "RED Canids",
       "games": 50,
-      "league": "CBLOL"
+      "league": "CBLOL",
+      "games_by_patch": {
+        "16.01": 2,
+        "16.02": 5,
+        "16.03": 2,
+        "16.04": 18,
+        "16.06": 2,
+        "16.07": 6,
+        "16.08": 5,
+        "16.09": 3,
+        "16.10": 7
+      },
+      "series_by_patch": {
+        "16.01": 2,
+        "16.02": 5,
+        "16.03": 1,
+        "16.04": 6,
+        "16.06": 1,
+        "16.07": 3,
+        "16.08": 2,
+        "16.09": 1,
+        "16.10": 2
+      }
     },
     {
       "slug": "revolution-victory-x",
       "name": "Revolution Victory X",
       "games": 13,
-      "league": "LJL"
+      "league": "LJL",
+      "games_by_patch": {
+        "16.02": 6,
+        "16.03": 7
+      },
+      "series_by_patch": {
+        "16.02": 6,
+        "16.03": 7
+      }
     },
     {
       "slug": "rising-gaming",
       "name": "Rising Gaming",
       "games": 44,
-      "league": "LJL"
+      "league": "LJL",
+      "games_by_patch": {
+        "16.02": 7,
+        "16.03": 6,
+        "16.04": 5,
+        "16.05": 7,
+        "16.06": 5,
+        "16.08": 3,
+        "16.09": 8,
+        "16.10": 3
+      },
+      "series_by_patch": {
+        "16.02": 7,
+        "16.03": 6,
+        "16.04": 5,
+        "16.05": 3,
+        "16.06": 2,
+        "16.08": 1,
+        "16.09": 3,
+        "16.10": 1
+      }
     },
     {
       "slug": "rmd-gaming",
       "name": "RMD Gaming",
       "games": 15,
-      "league": "CD"
+      "league": "CD",
+      "games_by_patch": {
+        "16.06": 3,
+        "16.07": 3,
+        "16.08": 9
+      },
+      "series_by_patch": {
+        "16.06": 3,
+        "16.07": 3,
+        "16.08": 5
+      }
     },
     {
       "slug": "ronaldo-team",
       "name": "Ronaldo Team",
       "games": 7,
-      "league": "LPLOL"
+      "league": "LPLOL",
+      "games_by_patch": {
+        "16.08": 2,
+        "16.09": 5
+      },
+      "series_by_patch": {
+        "16.08": 2,
+        "16.09": 5
+      }
     },
     {
       "slug": "rossmann-centaurs",
       "name": "ROSSMANN Centaurs",
       "games": 25,
-      "league": "PRM"
+      "league": "PRM",
+      "games_by_patch": {
+        "16.01": 4,
+        "16.03": 4,
+        "16.06": 3,
+        "16.07": 6,
+        "16.08": 4,
+        "16.09": 4
+      },
+      "series_by_patch": {
+        "16.01": 4,
+        "16.03": 4,
+        "16.06": 3,
+        "16.07": 6,
+        "16.08": 2,
+        "16.09": 2
+      }
     },
     {
       "slug": "ruddy-corporation",
       "name": "Ruddy Corporation",
       "games": 9,
-      "league": "NLC"
+      "league": "NLC",
+      "games_by_patch": {
+        "16.01": 3,
+        "16.02": 2,
+        "16.03": 2,
+        "16.04": 2
+      },
+      "series_by_patch": {
+        "16.01": 3,
+        "16.02": 2,
+        "16.03": 2,
+        "16.04": 2
+      }
     },
     {
       "slug": "rugby-club-hav-ov",
       "name": "Rugby Club Hav\u00ed\u0159ov",
       "games": 17,
-      "league": "HC"
+      "league": "HC",
+      "games_by_patch": {
+        "16.08": 9,
+        "16.09": 8
+      },
+      "series_by_patch": {
+        "16.08": 4,
+        "16.09": 3
+      }
     },
     {
       "slug": "s2g-esports",
       "name": "S2G Esports",
       "games": 29,
-      "league": "TCL"
+      "league": "TCL",
+      "games_by_patch": {
+        "16.01": 2,
+        "16.02": 4,
+        "16.03": 8,
+        "16.04": 6,
+        "16.05": 9
+      },
+      "series_by_patch": {
+        "16.01": 1,
+        "16.02": 2,
+        "16.03": 3,
+        "16.04": 2,
+        "16.05": 4
+      }
     },
     {
       "slug": "saigon-dino",
       "name": "Saigon Dino",
       "games": 29,
-      "league": "VCS"
+      "league": "VCS",
+      "games_by_patch": {
+        "16.04": 11,
+        "16.05": 10,
+        "16.09": 8
+      },
+      "series_by_patch": {
+        "16.04": 5,
+        "16.05": 3,
+        "16.09": 4
+      }
     },
     {
       "slug": "saigon-warriors",
       "name": "Saigon Warriors",
       "games": 36,
-      "league": "VCS"
+      "league": "VCS",
+      "games_by_patch": {
+        "16.04": 10,
+        "16.05": 17,
+        "16.09": 9
+      },
+      "series_by_patch": {
+        "16.04": 5,
+        "16.05": 4,
+        "16.09": 4
+      }
     },
     {
       "slug": "sdm-tigres",
       "name": "SDM Tigres",
       "games": 25,
-      "league": "LRN"
+      "league": "LRN",
+      "games_by_patch": {
+        "16.04": 2,
+        "16.05": 4,
+        "16.06": 5,
+        "16.07": 4,
+        "16.08": 4,
+        "16.09": 3,
+        "16.10": 3
+      },
+      "series_by_patch": {
+        "16.04": 1,
+        "16.05": 3,
+        "16.06": 2,
+        "16.07": 3,
+        "16.08": 2,
+        "16.09": 2,
+        "16.10": 2
+      }
     },
     {
       "slug": "senshi-esports",
       "name": "Senshi eSports",
       "games": 37,
-      "league": "ROL"
+      "league": "ROL",
+      "games_by_patch": {
+        "16.01": 10,
+        "16.02": 4,
+        "16.03": 3,
+        "16.06": 2,
+        "16.07": 4,
+        "16.08": 4,
+        "16.09": 5,
+        "16.10": 5
+      },
+      "series_by_patch": {
+        "16.01": 8,
+        "16.02": 2,
+        "16.03": 1,
+        "16.06": 1,
+        "16.07": 2,
+        "16.08": 2,
+        "16.09": 2,
+        "16.10": 2
+      }
     },
     {
       "slug": "sentinels",
       "name": "Sentinels",
       "games": 58,
-      "league": "LCS"
+      "league": "LCS",
+      "games_by_patch": {
+        "16.02": 5,
+        "16.03": 8,
+        "16.04": 16,
+        "16.07": 8,
+        "16.08": 15,
+        "16.09": 4,
+        "16.10": 2
+      },
+      "series_by_patch": {
+        "16.02": 4,
+        "16.03": 3,
+        "16.04": 6,
+        "16.07": 4,
+        "16.08": 5,
+        "16.09": 2,
+        "16.10": 1
+      }
     },
     {
       "slug": "seven-dark",
       "name": "Seven Dark",
       "games": 21,
-      "league": "LRS"
+      "league": "LRS",
+      "games_by_patch": {
+        "16.04": 2,
+        "16.05": 5,
+        "16.06": 4,
+        "16.07": 4,
+        "16.08": 3,
+        "16.09": 3
+      },
+      "series_by_patch": {
+        "16.04": 1,
+        "16.05": 3,
+        "16.06": 2,
+        "16.07": 2,
+        "16.08": 1,
+        "16.09": 1
+      }
     },
     {
       "slug": "shifters",
       "name": "Shifters",
       "games": 40,
-      "league": "LEC"
+      "league": "LEC",
+      "games_by_patch": {
+        "16.01": 3,
+        "16.02": 6,
+        "16.03": 2,
+        "16.07": 7,
+        "16.08": 15,
+        "16.09": 7
+      },
+      "series_by_patch": {
+        "16.01": 3,
+        "16.02": 6,
+        "16.03": 2,
+        "16.07": 3,
+        "16.08": 6,
+        "16.09": 3
+      }
     },
     {
       "slug": "shopify-rebellion",
       "name": "Shopify Rebellion",
       "games": 25,
-      "league": "LCS"
+      "league": "LCS",
+      "games_by_patch": {
+        "16.02": 4,
+        "16.03": 2,
+        "16.07": 8,
+        "16.08": 4,
+        "16.09": 5,
+        "16.10": 2
+      },
+      "series_by_patch": {
+        "16.02": 3,
+        "16.03": 1,
+        "16.07": 4,
+        "16.08": 2,
+        "16.09": 2,
+        "16.10": 1
+      }
     },
     {
       "slug": "sillysilly-gaming",
       "name": "SillySilly Gaming",
       "games": 6,
-      "league": "PCS"
+      "league": "PCS",
+      "games_by_patch": {
+        "16.08": 6
+      },
+      "series_by_patch": {
+        "16.08": 3
+      }
     },
     {
       "slug": "sk-gaming",
       "name": "SK Gaming",
       "games": 38,
-      "league": "LEC"
+      "league": "LEC",
+      "games_by_patch": {
+        "16.01": 3,
+        "16.02": 6,
+        "16.03": 2,
+        "16.06": 6,
+        "16.07": 8,
+        "16.08": 10,
+        "16.09": 3
+      },
+      "series_by_patch": {
+        "16.01": 3,
+        "16.02": 6,
+        "16.03": 2,
+        "16.06": 2,
+        "16.07": 4,
+        "16.08": 5,
+        "16.09": 1
+      }
     },
     {
       "slug": "skillcamp",
       "name": "Skillcamp",
       "games": 23,
-      "league": "LFL"
+      "league": "LFL",
+      "games_by_patch": {
+        "16.01": 1,
+        "16.02": 4,
+        "16.03": 6,
+        "16.04": 3,
+        "16.07": 6,
+        "16.08": 3
+      },
+      "series_by_patch": {
+        "16.01": 1,
+        "16.02": 4,
+        "16.03": 6,
+        "16.04": 1,
+        "16.07": 6,
+        "16.08": 3
+      }
     },
     {
       "slug": "sn-cybercore-esports",
       "name": "SN CyberCore Esports",
       "games": 21,
-      "league": "VCS"
+      "league": "VCS",
+      "games_by_patch": {
+        "16.04": 11,
+        "16.09": 10
+      },
+      "series_by_patch": {
+        "16.04": 5,
+        "16.09": 4
+      }
     },
     {
       "slug": "solary",
       "name": "Solary",
       "games": 58,
-      "league": "LFL"
+      "league": "LFL",
+      "games_by_patch": {
+        "16.01": 1,
+        "16.02": 4,
+        "16.03": 6,
+        "16.04": 7,
+        "16.05": 2,
+        "16.06": 10,
+        "16.07": 11,
+        "16.08": 11,
+        "16.09": 4,
+        "16.10": 2
+      },
+      "series_by_patch": {
+        "16.01": 1,
+        "16.02": 4,
+        "16.03": 6,
+        "16.04": 2,
+        "16.05": 1,
+        "16.06": 3,
+        "16.07": 7,
+        "16.08": 6,
+        "16.09": 2,
+        "16.10": 1
+      }
     },
     {
       "slug": "spartans-eu",
       "name": "Spartans EU",
       "games": 14,
-      "league": "HLL"
+      "league": "HLL",
+      "games_by_patch": {
+        "16.06": 2,
+        "16.07": 4,
+        "16.08": 6,
+        "16.09": 2
+      },
+      "series_by_patch": {
+        "16.06": 1,
+        "16.07": 2,
+        "16.08": 3,
+        "16.09": 1
+      }
     },
     {
       "slug": "spaxfamily",
       "name": "SPAXFAMILY",
       "games": 14,
-      "league": "HW"
+      "league": "HW",
+      "games_by_patch": {
+        "16.01": 1,
+        "16.02": 6,
+        "16.03": 7
+      },
+      "series_by_patch": {
+        "16.01": 1,
+        "16.02": 4,
+        "16.03": 2
+      }
     },
     {
       "slug": "spike-syndicate",
       "name": "SPIKE Syndicate",
       "games": 29,
-      "league": "EBL"
+      "league": "EBL",
+      "games_by_patch": {
+        "16.02": 7,
+        "16.03": 5,
+        "16.07": 2,
+        "16.08": 9,
+        "16.09": 6
+      },
+      "series_by_patch": {
+        "16.02": 3,
+        "16.03": 2,
+        "16.07": 1,
+        "16.08": 4,
+        "16.09": 2
+      }
     },
     {
       "slug": "stained",
       "name": "STAINED",
       "games": 6,
-      "league": "CD"
+      "league": "CD",
+      "games_by_patch": {
+        "16.04": 6
+      },
+      "series_by_patch": {
+        "16.04": 3
+      }
     },
     {
       "slug": "stonehenge-esports",
       "name": "StoneHenge Esports",
       "games": 18,
-      "league": "LIT"
+      "league": "LIT",
+      "games_by_patch": {
+        "16.06": 3,
+        "16.07": 4,
+        "16.08": 3,
+        "16.10": 8
+      },
+      "series_by_patch": {
+        "16.06": 3,
+        "16.07": 4,
+        "16.08": 1,
+        "16.10": 3
+      }
     },
     {
       "slug": "su-esports",
       "name": "SU Esports",
       "games": 45,
-      "league": "TCL"
+      "league": "TCL",
+      "games_by_patch": {
+        "16.01": 2,
+        "16.02": 4,
+        "16.03": 14,
+        "16.07": 5,
+        "16.08": 5,
+        "16.09": 7,
+        "16.10": 8
+      },
+      "series_by_patch": {
+        "16.01": 1,
+        "16.02": 2,
+        "16.03": 4,
+        "16.07": 2,
+        "16.08": 2,
+        "16.09": 3,
+        "16.10": 2
+      }
     },
     {
       "slug": "super-stars",
       "name": "Super Stars",
       "games": 10,
-      "league": "AL"
+      "league": "AL",
+      "games_by_patch": {
+        "16.06": 10
+      },
+      "series_by_patch": {
+        "16.06": 3
+      }
     },
     {
       "slug": "supernova",
       "name": "Supernova",
       "games": 25,
-      "league": "NACL"
+      "league": "NACL",
+      "games_by_patch": {
+        "16.06": 5,
+        "16.07": 4,
+        "16.08": 7,
+        "16.09": 3,
+        "16.10": 6
+      },
+      "series_by_patch": {
+        "16.06": 2,
+        "16.07": 2,
+        "16.08": 3,
+        "16.09": 1,
+        "16.10": 2
+      }
     },
     {
       "slug": "t1",
       "name": "T1",
       "games": 63,
-      "league": "LCK"
+      "league": "LCK",
+      "games_by_patch": {
+        "16.01": 11,
+        "16.02": 3,
+        "16.03": 9,
+        "16.06": 4,
+        "16.07": 9,
+        "16.08": 9,
+        "16.09": 13,
+        "16.10": 5
+      },
+      "series_by_patch": {
+        "16.01": 4,
+        "16.02": 1,
+        "16.03": 2,
+        "16.06": 2,
+        "16.07": 4,
+        "16.08": 4,
+        "16.09": 6,
+        "16.10": 2
+      }
     },
     {
       "slug": "t1-esports-academy",
       "name": "T1 Esports Academy",
       "games": 73,
-      "league": "LCKC"
+      "league": "LCKC",
+      "games_by_patch": {
+        "16.01": 9,
+        "16.02": 10,
+        "16.03": 15,
+        "16.06": 5,
+        "16.07": 11,
+        "16.08": 10,
+        "16.09": 9,
+        "16.10": 4
+      },
+      "series_by_patch": {
+        "16.01": 4,
+        "16.02": 3,
+        "16.03": 4,
+        "16.06": 2,
+        "16.07": 4,
+        "16.08": 4,
+        "16.09": 4,
+        "16.10": 2
+      }
     },
     {
       "slug": "t1-esports-academy-rookies",
       "name": "T1 Esports Academy Rookies",
       "games": 64,
-      "league": "LAS"
+      "league": "LAS",
+      "games_by_patch": {
+        "16.05": 6,
+        "16.06": 16,
+        "16.07": 15,
+        "16.08": 11,
+        "16.09": 16
+      },
+      "series_by_patch": {
+        "16.05": 3,
+        "16.06": 7,
+        "16.07": 6,
+        "16.08": 5,
+        "16.09": 4
+      }
     },
     {
       "slug": "team-heretics",
       "name": "Team Heretics",
       "games": 40,
-      "league": "LEC"
+      "league": "LEC",
+      "games_by_patch": {
+        "16.01": 3,
+        "16.02": 6,
+        "16.03": 7,
+        "16.06": 5,
+        "16.07": 9,
+        "16.08": 6,
+        "16.09": 4
+      },
+      "series_by_patch": {
+        "16.01": 3,
+        "16.02": 6,
+        "16.03": 4,
+        "16.06": 2,
+        "16.07": 4,
+        "16.08": 3,
+        "16.09": 2
+      }
     },
     {
       "slug": "team-heretics-academy",
       "name": "Team Heretics Academy",
       "games": 31,
-      "league": "LES"
+      "league": "LES",
+      "games_by_patch": {
+        "16.03": 5,
+        "16.05": 6,
+        "16.06": 5,
+        "16.07": 5,
+        "16.08": 4,
+        "16.09": 4,
+        "16.10": 2
+      },
+      "series_by_patch": {
+        "16.03": 3,
+        "16.05": 3,
+        "16.06": 2,
+        "16.07": 2,
+        "16.08": 2,
+        "16.09": 2,
+        "16.10": 1
+      }
     },
     {
       "slug": "team-insidious",
       "name": "Team Insidious",
       "games": 36,
-      "league": "HLL"
+      "league": "HLL",
+      "games_by_patch": {
+        "16.01": 4,
+        "16.02": 6,
+        "16.03": 4,
+        "16.04": 3,
+        "16.06": 2,
+        "16.07": 4,
+        "16.08": 4,
+        "16.09": 9
+      },
+      "series_by_patch": {
+        "16.01": 2,
+        "16.02": 3,
+        "16.03": 2,
+        "16.04": 1,
+        "16.06": 1,
+        "16.07": 2,
+        "16.08": 2,
+        "16.09": 3
+      }
     },
     {
       "slug": "team-liquid",
       "name": "Team Liquid",
       "games": 50,
-      "league": "LCS"
+      "league": "LCS",
+      "games_by_patch": {
+        "16.02": 4,
+        "16.03": 4,
+        "16.04": 7,
+        "16.07": 10,
+        "16.08": 13,
+        "16.09": 5,
+        "16.10": 7
+      },
+      "series_by_patch": {
+        "16.02": 3,
+        "16.03": 2,
+        "16.04": 2,
+        "16.07": 4,
+        "16.08": 5,
+        "16.09": 3,
+        "16.10": 2
+      }
     },
     {
       "slug": "team-phantasma",
       "name": "Team Phantasma",
       "games": 49,
-      "league": "HLL"
+      "league": "HLL",
+      "games_by_patch": {
+        "16.01": 4,
+        "16.02": 6,
+        "16.03": 4,
+        "16.04": 7,
+        "16.05": 9,
+        "16.06": 2,
+        "16.07": 4,
+        "16.08": 6,
+        "16.09": 7
+      },
+      "series_by_patch": {
+        "16.01": 2,
+        "16.02": 3,
+        "16.03": 2,
+        "16.04": 2,
+        "16.05": 4,
+        "16.06": 1,
+        "16.07": 2,
+        "16.08": 3,
+        "16.09": 2
+      }
     },
     {
       "slug": "team-phoenix",
       "name": "Team Phoenix",
       "games": 23,
-      "league": "TCL"
+      "league": "TCL",
+      "games_by_patch": {
+        "16.01": 3,
+        "16.02": 4,
+        "16.07": 4,
+        "16.08": 5,
+        "16.09": 7
+      },
+      "series_by_patch": {
+        "16.01": 1,
+        "16.02": 2,
+        "16.07": 2,
+        "16.08": 2,
+        "16.09": 3
+      }
     },
     {
       "slug": "team-secret-whales",
       "name": "Team Secret Whales",
       "games": 58,
-      "league": "LCP"
+      "league": "LCP",
+      "games_by_patch": {
+        "16.01": 8,
+        "16.02": 8,
+        "16.03": 12,
+        "16.05": 6,
+        "16.07": 4,
+        "16.08": 5,
+        "16.09": 12,
+        "16.10": 3
+      },
+      "series_by_patch": {
+        "16.01": 3,
+        "16.02": 4,
+        "16.03": 3,
+        "16.05": 2,
+        "16.07": 2,
+        "16.08": 2,
+        "16.09": 5,
+        "16.10": 1
+      }
     },
     {
       "slug": "team-solid",
       "name": "Team Solid",
       "games": 11,
-      "league": "CD"
+      "league": "CD",
+      "games_by_patch": {
+        "16.06": 3,
+        "16.07": 3,
+        "16.08": 5
+      },
+      "series_by_patch": {
+        "16.06": 3,
+        "16.07": 3,
+        "16.08": 4
+      }
     },
     {
       "slug": "team-spawn-peek",
       "name": "Team Spawn Peek",
       "games": 7,
-      "league": "EBL"
+      "league": "EBL",
+      "games_by_patch": {
+        "16.09": 5,
+        "16.10": 2
+      },
+      "series_by_patch": {
+        "16.09": 2,
+        "16.10": 1
+      }
     },
     {
       "slug": "team-vitality",
       "name": "Team Vitality",
       "games": 53,
-      "league": "LEC"
+      "league": "LEC",
+      "games_by_patch": {
+        "16.01": 3,
+        "16.02": 6,
+        "16.03": 9,
+        "16.06": 5,
+        "16.07": 11,
+        "16.08": 10,
+        "16.09": 6,
+        "16.10": 3
+      },
+      "series_by_patch": {
+        "16.01": 3,
+        "16.02": 6,
+        "16.03": 5,
+        "16.06": 2,
+        "16.07": 4,
+        "16.08": 4,
+        "16.09": 2,
+        "16.10": 1
+      }
     },
     {
       "slug": "team-we",
       "name": "Team WE",
       "games": 69,
-      "league": "LPL"
+      "league": "LPL",
+      "games_by_patch": {
+        "16.01": 12,
+        "16.02": 13,
+        "16.03": 6,
+        "16.07": 10,
+        "16.08": 9,
+        "16.09": 14,
+        "16.10": 5
+      },
+      "series_by_patch": {
+        "16.01": 5,
+        "16.02": 4,
+        "16.03": 2,
+        "16.07": 5,
+        "16.08": 4,
+        "16.09": 5,
+        "16.10": 1
+      }
     },
     {
       "slug": "teamorangegaming",
       "name": "TeamOrangeGaming",
       "games": 35,
-      "league": "PRM"
+      "league": "PRM",
+      "games_by_patch": {
+        "16.01": 4,
+        "16.02": 2,
+        "16.03": 4,
+        "16.04": 2,
+        "16.06": 3,
+        "16.07": 6,
+        "16.08": 5,
+        "16.09": 5,
+        "16.10": 4
+      },
+      "series_by_patch": {
+        "16.01": 4,
+        "16.02": 1,
+        "16.03": 4,
+        "16.04": 1,
+        "16.06": 3,
+        "16.07": 6,
+        "16.08": 2,
+        "16.09": 2,
+        "16.10": 1
+      }
     },
     {
       "slug": "the-bandits",
       "name": "The Bandits",
       "games": 48,
-      "league": "ROL"
+      "league": "ROL",
+      "games_by_patch": {
+        "16.01": 10,
+        "16.02": 5,
+        "16.03": 11,
+        "16.05": 5,
+        "16.06": 2,
+        "16.07": 4,
+        "16.08": 4,
+        "16.09": 5,
+        "16.10": 2
+      },
+      "series_by_patch": {
+        "16.01": 8,
+        "16.02": 2,
+        "16.03": 3,
+        "16.05": 2,
+        "16.06": 1,
+        "16.07": 2,
+        "16.08": 2,
+        "16.09": 2,
+        "16.10": 1
+      }
     },
     {
       "slug": "the-new-kings",
       "name": "The New Kings",
       "games": 21,
-      "league": "LRS"
+      "league": "LRS",
+      "games_by_patch": {
+        "16.04": 3,
+        "16.05": 6,
+        "16.06": 5,
+        "16.07": 4,
+        "16.09": 3
+      },
+      "series_by_patch": {
+        "16.04": 1,
+        "16.05": 3,
+        "16.06": 2,
+        "16.07": 2,
+        "16.09": 1
+      }
     },
     {
       "slug": "the-paradox",
       "name": "The ParadOx",
       "games": 33,
-      "league": "HLL"
+      "league": "HLL",
+      "games_by_patch": {
+        "16.01": 6,
+        "16.02": 4,
+        "16.03": 4,
+        "16.06": 2,
+        "16.07": 4,
+        "16.08": 6,
+        "16.09": 7
+      },
+      "series_by_patch": {
+        "16.01": 3,
+        "16.02": 2,
+        "16.03": 2,
+        "16.06": 1,
+        "16.07": 2,
+        "16.08": 3,
+        "16.09": 2
+      }
     },
     {
       "slug": "the-secret-club",
       "name": "The Secret Club",
       "games": 37,
-      "league": "EBL"
+      "league": "EBL",
+      "games_by_patch": {
+        "16.02": 9,
+        "16.03": 5,
+        "16.04": 4,
+        "16.07": 2,
+        "16.08": 8,
+        "16.09": 4,
+        "16.10": 5
+      },
+      "series_by_patch": {
+        "16.02": 4,
+        "16.03": 2,
+        "16.04": 2,
+        "16.07": 1,
+        "16.08": 4,
+        "16.09": 2,
+        "16.10": 2
+      }
     },
     {
       "slug": "thundertalk-gaming",
       "name": "ThunderTalk Gaming",
       "games": 33,
-      "league": "LPL"
+      "league": "LPL",
+      "games_by_patch": {
+        "16.01": 9,
+        "16.02": 7,
+        "16.07": 5,
+        "16.08": 3,
+        "16.09": 6,
+        "16.10": 3
+      },
+      "series_by_patch": {
+        "16.01": 4,
+        "16.02": 3,
+        "16.07": 2,
+        "16.08": 1,
+        "16.09": 2,
+        "16.10": 1
+      }
     },
     {
       "slug": "titans",
       "name": "TITANS",
       "games": 10,
-      "league": "LIT"
+      "league": "LIT",
+      "games_by_patch": {
+        "16.06": 3,
+        "16.07": 4,
+        "16.08": 3
+      },
+      "series_by_patch": {
+        "16.06": 3,
+        "16.07": 4,
+        "16.08": 1
+      }
     },
     {
       "slug": "tln-pirates",
       "name": "TLN Pirates",
       "games": 37,
-      "league": "LFL"
+      "league": "LFL",
+      "games_by_patch": {
+        "16.01": 1,
+        "16.02": 4,
+        "16.03": 6,
+        "16.04": 9,
+        "16.07": 6,
+        "16.08": 3,
+        "16.09": 2,
+        "16.10": 6
+      },
+      "series_by_patch": {
+        "16.01": 1,
+        "16.02": 4,
+        "16.03": 6,
+        "16.04": 2,
+        "16.07": 6,
+        "16.08": 3,
+        "16.09": 1,
+        "16.10": 2
+      }
     },
     {
       "slug": "top-esports",
       "name": "Top Esports",
       "games": 73,
-      "league": "LPL"
+      "league": "LPL",
+      "games_by_patch": {
+        "16.01": 15,
+        "16.02": 15,
+        "16.03": 13,
+        "16.07": 12,
+        "16.08": 8,
+        "16.09": 10
+      },
+      "series_by_patch": {
+        "16.01": 6,
+        "16.02": 5,
+        "16.03": 3,
+        "16.07": 6,
+        "16.08": 4,
+        "16.09": 4
+      }
     },
     {
       "slug": "tq-durpa-kashlq",
       "name": "TQ DURPA KASHLQ",
       "games": 11,
-      "league": "EBL"
+      "league": "EBL",
+      "games_by_patch": {
+        "16.03": 2,
+        "16.04": 2,
+        "16.09": 5,
+        "16.10": 2
+      },
+      "series_by_patch": {
+        "16.03": 1,
+        "16.04": 1,
+        "16.09": 2,
+        "16.10": 1
+      }
     },
     {
       "slug": "tu-pap-esports",
       "name": "Tu Pap\u00e1 Esports",
       "games": 13,
-      "league": "LRS"
+      "league": "LRS",
+      "games_by_patch": {
+        "16.04": 2,
+        "16.05": 5,
+        "16.06": 2,
+        "16.07": 4
+      },
+      "series_by_patch": {
+        "16.04": 2,
+        "16.05": 4,
+        "16.06": 1,
+        "16.07": 2
+      }
     },
     {
       "slug": "ub-alma-mater",
       "name": "UB Alma Mater",
       "games": 19,
-      "league": "LES"
+      "league": "LES",
+      "games_by_patch": {
+        "16.03": 5,
+        "16.07": 4,
+        "16.08": 4,
+        "16.09": 4,
+        "16.10": 2
+      },
+      "series_by_patch": {
+        "16.03": 3,
+        "16.07": 2,
+        "16.08": 2,
+        "16.09": 2,
+        "16.10": 1
+      }
     },
     {
       "slug": "ucam-esports",
       "name": "UCAM Esports",
       "games": 34,
-      "league": "LES"
+      "league": "LES",
+      "games_by_patch": {
+        "16.03": 7,
+        "16.05": 9,
+        "16.07": 5,
+        "16.08": 6,
+        "16.09": 4,
+        "16.10": 3
+      },
+      "series_by_patch": {
+        "16.03": 3,
+        "16.05": 4,
+        "16.07": 2,
+        "16.08": 2,
+        "16.09": 2,
+        "16.10": 1
+      }
     },
     {
       "slug": "uec-esports-plusplus",
       "name": "UEC eSports PlusPlus",
       "games": 14,
-      "league": "LJL"
+      "league": "LJL",
+      "games_by_patch": {
+        "16.02": 8,
+        "16.03": 6
+      },
+      "series_by_patch": {
+        "16.02": 8,
+        "16.03": 6
+      }
     },
     {
       "slug": "ultra-prime",
       "name": "Ultra Prime",
       "games": 25,
-      "league": "LPL"
+      "league": "LPL",
+      "games_by_patch": {
+        "16.01": 4,
+        "16.02": 9,
+        "16.07": 2,
+        "16.08": 5,
+        "16.09": 5
+      },
+      "series_by_patch": {
+        "16.01": 2,
+        "16.02": 4,
+        "16.07": 1,
+        "16.08": 2,
+        "16.09": 2
+      }
     },
     {
       "slug": "unicorns-of-love-sexy-edition",
       "name": "Unicorns of Love Sexy Edition",
       "games": 64,
-      "league": "PRM"
+      "league": "PRM",
+      "games_by_patch": {
+        "16.01": 4,
+        "16.02": 3,
+        "16.03": 4,
+        "16.04": 11,
+        "16.05": 10,
+        "16.06": 11,
+        "16.07": 8,
+        "16.08": 5,
+        "16.09": 5,
+        "16.10": 3
+      },
+      "series_by_patch": {
+        "16.01": 4,
+        "16.02": 1,
+        "16.03": 4,
+        "16.04": 3,
+        "16.05": 4,
+        "16.06": 6,
+        "16.07": 7,
+        "16.08": 2,
+        "16.09": 2,
+        "16.10": 1
+      }
     },
     {
       "slug": "utesports",
       "name": "UTeSports",
       "games": 12,
-      "league": "LJL"
+      "league": "LJL",
+      "games_by_patch": {
+        "16.07": 6,
+        "16.08": 6
+      },
+      "series_by_patch": {
+        "16.07": 6,
+        "16.08": 6
+      }
     },
     {
       "slug": "uwinks",
       "name": "Uwinks",
       "games": 44,
-      "league": "LJL"
+      "league": "LJL",
+      "games_by_patch": {
+        "16.02": 8,
+        "16.03": 6,
+        "16.04": 5,
+        "16.07": 6,
+        "16.08": 10,
+        "16.09": 7,
+        "16.10": 2
+      },
+      "series_by_patch": {
+        "16.02": 8,
+        "16.03": 6,
+        "16.04": 5,
+        "16.07": 6,
+        "16.08": 8,
+        "16.09": 3,
+        "16.10": 1
+      }
     },
     {
       "slug": "v3-esports",
       "name": "V3 Esports",
       "games": 26,
-      "league": "LJL"
+      "league": "LJL",
+      "games_by_patch": {
+        "16.02": 7,
+        "16.03": 7,
+        "16.07": 6,
+        "16.08": 6
+      },
+      "series_by_patch": {
+        "16.02": 7,
+        "16.03": 7,
+        "16.07": 6,
+        "16.08": 6
+      }
     },
     {
       "slug": "vantex-esports",
       "name": "Vantex Esports",
       "games": 16,
-      "league": "LPLOL"
+      "league": "LPLOL",
+      "games_by_patch": {
+        "16.03": 2,
+        "16.04": 10,
+        "16.05": 4
+      },
+      "series_by_patch": {
+        "16.03": 2,
+        "16.04": 3,
+        "16.05": 2
+      }
     },
     {
       "slug": "varrel-youth",
       "name": "VARREL YOUTH",
       "games": 25,
-      "league": "LJL"
+      "league": "LJL",
+      "games_by_patch": {
+        "16.04": 5,
+        "16.05": 6,
+        "16.07": 6,
+        "16.08": 8
+      },
+      "series_by_patch": {
+        "16.04": 5,
+        "16.05": 3,
+        "16.07": 6,
+        "16.08": 8
+      }
     },
     {
       "slug": "vasco-e-sports",
       "name": "Vasco E-Sports",
       "games": 12,
-      "league": "CD"
+      "league": "CD",
+      "games_by_patch": {
+        "16.04": 5,
+        "16.10": 7
+      },
+      "series_by_patch": {
+        "16.04": 2,
+        "16.10": 4
+      }
     },
     {
       "slug": "velbelikaizokudan",
       "name": "VelbeliKaizokudan",
       "games": 26,
-      "league": "LJL"
+      "league": "LJL",
+      "games_by_patch": {
+        "16.02": 7,
+        "16.03": 7,
+        "16.07": 6,
+        "16.08": 6
+      },
+      "series_by_patch": {
+        "16.02": 7,
+        "16.03": 7,
+        "16.07": 6,
+        "16.08": 6
+      }
     },
     {
       "slug": "verdant",
       "name": "Verdant",
       "games": 25,
-      "league": "NLC"
+      "league": "NLC",
+      "games_by_patch": {
+        "16.01": 3,
+        "16.02": 2,
+        "16.03": 2,
+        "16.04": 11,
+        "16.05": 2,
+        "16.06": 5
+      },
+      "series_by_patch": {
+        "16.01": 3,
+        "16.02": 2,
+        "16.03": 2,
+        "16.04": 5,
+        "16.05": 1,
+        "16.06": 2
+      }
     },
     {
       "slug": "vfb-esports",
       "name": "VfB eSports",
       "games": 18,
-      "league": "PRM"
+      "league": "PRM",
+      "games_by_patch": {
+        "16.06": 3,
+        "16.07": 6,
+        "16.08": 4,
+        "16.09": 5
+      },
+      "series_by_patch": {
+        "16.06": 3,
+        "16.07": 6,
+        "16.08": 2,
+        "16.09": 2
+      }
     },
     {
       "slug": "vitality-bee",
       "name": "Vitality.Bee",
       "games": 29,
-      "league": "LFL"
+      "league": "LFL",
+      "games_by_patch": {
+        "16.01": 1,
+        "16.02": 5,
+        "16.03": 6,
+        "16.07": 6,
+        "16.08": 3,
+        "16.09": 5,
+        "16.10": 3
+      },
+      "series_by_patch": {
+        "16.01": 1,
+        "16.02": 5,
+        "16.03": 6,
+        "16.07": 6,
+        "16.08": 3,
+        "16.09": 2,
+        "16.10": 1
+      }
     },
     {
       "slug": "vivo-keyd-stars",
       "name": "Vivo Keyd Stars",
       "games": 39,
-      "league": "CBLOL"
+      "league": "CBLOL",
+      "games_by_patch": {
+        "16.01": 3,
+        "16.02": 7,
+        "16.03": 6,
+        "16.06": 2,
+        "16.07": 7,
+        "16.08": 5,
+        "16.09": 6,
+        "16.10": 3
+      },
+      "series_by_patch": {
+        "16.01": 3,
+        "16.02": 5,
+        "16.03": 2,
+        "16.06": 1,
+        "16.07": 3,
+        "16.08": 2,
+        "16.09": 2,
+        "16.10": 1
+      }
     },
     {
       "slug": "vivo-keyd-stars-academy",
       "name": "Vivo Keyd Stars Academy",
       "games": 18,
-      "league": "CD"
+      "league": "CD",
+      "games_by_patch": {
+        "16.06": 3,
+        "16.07": 3,
+        "16.08": 3,
+        "16.09": 4,
+        "16.10": 5
+      },
+      "series_by_patch": {
+        "16.06": 3,
+        "16.07": 3,
+        "16.08": 3,
+        "16.09": 2,
+        "16.10": 1
+      }
     },
     {
       "slug": "volticons",
       "name": "Volticons",
       "games": 22,
-      "league": "LRS"
+      "league": "LRS",
+      "games_by_patch": {
+        "16.04": 3,
+        "16.05": 5,
+        "16.06": 4,
+        "16.07": 5,
+        "16.08": 5
+      },
+      "series_by_patch": {
+        "16.04": 1,
+        "16.05": 3,
+        "16.06": 2,
+        "16.07": 2,
+        "16.08": 2
+      }
     },
     {
       "slug": "washed-gaming",
       "name": "Washed Gaming",
       "games": 5,
-      "league": "EBL"
+      "league": "EBL",
+      "games_by_patch": {
+        "16.09": 5
+      },
+      "series_by_patch": {
+        "16.09": 2
+      }
     },
     {
       "slug": "weibo-gaming",
       "name": "Weibo Gaming",
       "games": 84,
-      "league": "LPL"
+      "league": "LPL",
+      "games_by_patch": {
+        "16.01": 13,
+        "16.02": 13,
+        "16.03": 18,
+        "16.07": 13,
+        "16.08": 14,
+        "16.09": 8,
+        "16.10": 5
+      },
+      "series_by_patch": {
+        "16.01": 5,
+        "16.02": 5,
+        "16.03": 5,
+        "16.07": 5,
+        "16.08": 6,
+        "16.09": 3,
+        "16.10": 1
+      }
     },
     {
       "slug": "winthrop-university",
       "name": "Winthrop University",
       "games": 25,
-      "league": "NACL"
+      "league": "NACL",
+      "games_by_patch": {
+        "16.06": 4,
+        "16.07": 4,
+        "16.08": 6,
+        "16.09": 2,
+        "16.10": 9
+      },
+      "series_by_patch": {
+        "16.06": 2,
+        "16.07": 2,
+        "16.08": 3,
+        "16.09": 1,
+        "16.10": 3
+      }
     },
     {
       "slug": "witchcraft",
       "name": "Witchcraft",
       "games": 10,
-      "league": "EM"
+      "league": "EM",
+      "games_by_patch": {
+        "16.05": 10
+      },
+      "series_by_patch": {
+        "16.05": 4
+      }
     },
     {
       "slug": "wlgaming-esports",
       "name": "WLGaming Esports",
       "games": 55,
-      "league": "HLL"
+      "league": "HLL",
+      "games_by_patch": {
+        "16.01": 6,
+        "16.02": 2,
+        "16.03": 6,
+        "16.04": 9,
+        "16.05": 10,
+        "16.06": 2,
+        "16.07": 4,
+        "16.08": 4,
+        "16.09": 12
+      },
+      "series_by_patch": {
+        "16.01": 3,
+        "16.02": 1,
+        "16.03": 3,
+        "16.04": 2,
+        "16.05": 4,
+        "16.06": 1,
+        "16.07": 2,
+        "16.08": 2,
+        "16.09": 4
+      }
     },
     {
       "slug": "yang-yang-gaming",
       "name": "Yang Yang Gaming",
       "games": 17,
-      "league": "LJL"
+      "league": "LJL",
+      "games_by_patch": {
+        "16.04": 5,
+        "16.07": 6,
+        "16.08": 6
+      },
+      "series_by_patch": {
+        "16.04": 5,
+        "16.07": 6,
+        "16.08": 6
+      }
     },
     {
       "slug": "zen-esports",
       "name": "ZEN Esports",
       "games": 8,
-      "league": "VCS"
+      "league": "VCS",
+      "games_by_patch": {
+        "16.09": 8
+      },
+      "series_by_patch": {
+        "16.09": 4
+      }
     },
     {
       "slug": "zena-esports",
       "name": "Zena Esports",
       "games": 25,
-      "league": "LIT"
+      "league": "LIT",
+      "games_by_patch": {
+        "16.01": 7,
+        "16.02": 3,
+        "16.06": 3,
+        "16.07": 4,
+        "16.08": 3,
+        "16.09": 5
+      },
+      "series_by_patch": {
+        "16.01": 7,
+        "16.02": 1,
+        "16.06": 3,
+        "16.07": 4,
+        "16.08": 1,
+        "16.09": 1
+      }
     },
     {
       "slug": "zennit",
       "name": "ZennIT",
       "games": 39,
-      "league": "ROL"
+      "league": "ROL",
+      "games_by_patch": {
+        "16.01": 9,
+        "16.02": 5,
+        "16.03": 8,
+        "16.06": 3,
+        "16.07": 4,
+        "16.08": 5,
+        "16.09": 5
+      },
+      "series_by_patch": {
+        "16.01": 8,
+        "16.02": 2,
+        "16.03": 2,
+        "16.06": 1,
+        "16.07": 2,
+        "16.08": 2,
+        "16.09": 2
+      }
     },
     {
       "slug": "zephyr-esport",
       "name": "Zephyr Esport",
       "games": 16,
-      "league": "NL"
+      "league": "NL",
+      "games_by_patch": {
+        "16.01": 1,
+        "16.02": 1,
+        "16.07": 4,
+        "16.08": 4,
+        "16.09": 4,
+        "16.10": 2
+      },
+      "series_by_patch": {
+        "16.01": 1,
+        "16.02": 1,
+        "16.07": 4,
+        "16.08": 4,
+        "16.09": 4,
+        "16.10": 2
+      }
     },
     {
       "slug": "zerolag-esports",
       "name": "Zerolag Esports",
       "games": 8,
-      "league": "HLL"
+      "league": "HLL",
+      "games_by_patch": {
+        "16.03": 3,
+        "16.09": 5
+      },
+      "series_by_patch": {
+        "16.03": 1,
+        "16.09": 1
+      }
     },
     {
       "slug": "zerozone-gaming",
       "name": "ZeroZone Gaming",
       "games": 14,
-      "league": "LPLOL"
+      "league": "LPLOL",
+      "games_by_patch": {
+        "16.03": 2,
+        "16.04": 5,
+        "16.08": 2,
+        "16.09": 5
+      },
+      "series_by_patch": {
+        "16.03": 2,
+        "16.04": 2,
+        "16.08": 2,
+        "16.09": 5
+      }
     },
     {
       "slug": "zeu5-esports",
       "name": "Zeu5 Esports",
       "games": 28,
-      "league": "LRN"
+      "league": "LRN",
+      "games_by_patch": {
+        "16.04": 2,
+        "16.05": 5,
+        "16.06": 6,
+        "16.07": 5,
+        "16.08": 3,
+        "16.09": 4,
+        "16.10": 3
+      },
+      "series_by_patch": {
+        "16.04": 1,
+        "16.05": 3,
+        "16.06": 4,
+        "16.07": 3,
+        "16.08": 2,
+        "16.09": 2,
+        "16.10": 2
+      }
     },
     {
       "slug": "zyb-esport",
       "name": "ZYB Esport",
       "games": 26,
-      "league": "LFL"
+      "league": "LFL",
+      "games_by_patch": {
+        "16.01": 1,
+        "16.02": 5,
+        "16.03": 6,
+        "16.07": 6,
+        "16.08": 3,
+        "16.09": 5
+      },
+      "series_by_patch": {
+        "16.01": 1,
+        "16.02": 5,
+        "16.03": 6,
+        "16.07": 6,
+        "16.08": 3,
+        "16.09": 2
+      }
     }
   ],
   "patches": [

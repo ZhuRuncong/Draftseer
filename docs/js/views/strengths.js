@@ -38,23 +38,33 @@ export async function renderStrengths(root, params) {
 
   const tbody = root.querySelector("tbody");
   let sortKey = "strength", sortDir = -1;
+  let liveSearch = search;
 
-  function render() {
+  // Rank is computed against the role-filtered list under the current sort,
+  // BEFORE applying the search filter, so typing in the search box never
+  // re-numbers the rows.
+  function rankedList() {
     let list = meta.rows.slice();
     if (activeRole !== "all") list = list.filter(r => r.role === activeRole);
-    if (search) list = list.filter(r => r.champ.toLowerCase().includes(search));
     list.sort((a, b) => {
       const va = a[sortKey], vb = b[sortKey];
       if (typeof va === "string") return sortDir * va.localeCompare(vb);
       return sortDir * (va - vb);
     });
-    tbody.innerHTML = list.map((r, i) => rowHTML(r, i)).join("");
+    return list.map((r, i) => ({ row: r, rank: i + 1 }));
   }
 
-  function rowHTML(r, i) {
+  function render() {
+    const ranked = rankedList();
+    const s = liveSearch;
+    const shown = s ? ranked.filter(x => x.row.champ.toLowerCase().includes(s)) : ranked;
+    tbody.innerHTML = shown.map(x => rowHTML(x.row, x.rank)).join("");
+  }
+
+  function rowHTML(r, rank) {
     return `
       <tr>
-        <td class="rank-col" style="color:var(--text-dim)">${i + 1}</td>
+        <td class="rank-col" style="color:var(--text-dim)">${rank}</td>
         <td class="role-col"><img class="role-icon-cell" src="${roleIcon(r.role)}" alt="${r.role}" title="${ROLE_LABEL[r.role]}" /></td>
         <td>
           <a class="champ-cell" href="#/champion?name=${encodeURIComponent(r.champ)}&role=${r.role}">
@@ -100,25 +110,10 @@ export async function renderStrengths(root, params) {
       const p = new URLSearchParams(location.hash.split("?")[1] || "");
       p.set("q", ev.target.value);
       history.replaceState(null, "", `#/strengths?${p.toString()}`);
-      // re-render without re-routing
-      const newSearch = ev.target.value.toLowerCase();
-      // mutate closure-local search via re-render path
-      _applySearch(newSearch);
+      liveSearch = ev.target.value.toLowerCase();
+      render();
     }, 120);
   });
-
-  function _applySearch(s) {
-    // small helper that avoids a full route() trip
-    let list = meta.rows.slice();
-    if (activeRole !== "all") list = list.filter(r => r.role === activeRole);
-    if (s) list = list.filter(r => r.champ.toLowerCase().includes(s));
-    list.sort((a, b) => {
-      const va = a[sortKey], vb = b[sortKey];
-      if (typeof va === "string") return sortDir * va.localeCompare(vb);
-      return sortDir * (va - vb);
-    });
-    tbody.innerHTML = list.map((r, i) => rowHTML(r, i)).join("");
-  }
 
   render();
 }

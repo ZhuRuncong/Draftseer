@@ -19,25 +19,37 @@ export async function renderSynergies(root, params) {
 
   root.innerHTML = `
     <div class="toolbar">
-      <label>Ally A</label>
-      ${roleSelect("r1", r1)}
-      <img class="role-icon" src="${roleIcon(r1)}" alt="" />
-      <label>Ally B</label>
-      ${roleSelect("r2", r2)}
-      <img class="role-icon" src="${roleIcon(r2)}" alt="" />
-      <label>Sort</label>
-      <select id="sort">
-        <option value="strength" ${sortBy==='strength'?'selected':''}>Strength</option>
-        <option value="alpha"    ${sortBy==='alpha'   ?'selected':''}>Alphabetical</option>
-      </select>
-      <label>Show top</label>
-      <select id="limit">
-        <option value="0"  ${limit===0 ?'selected':''}>All</option>
-        <option value="20" ${limit===20?'selected':''}>20</option>
-        <option value="25" ${limit===25?'selected':''}>25</option>
-        <option value="30" ${limit===30?'selected':''}>30</option>
-        <option value="50" ${limit===50?'selected':''}>50</option>
-      </select>
+      <label class="field">
+        <span class="field-label">Ally A</span>
+        <div class="field-row">
+          ${roleSelect("r1", r1)}
+          <img class="role-icon" src="${roleIcon(r1)}" alt="" />
+        </div>
+      </label>
+      <label class="field">
+        <span class="field-label">Ally B</span>
+        <div class="field-row">
+          ${roleSelect("r2", r2)}
+          <img class="role-icon" src="${roleIcon(r2)}" alt="" />
+        </div>
+      </label>
+      <label class="field">
+        <span class="field-label">Sort</span>
+        <select id="sort">
+          <option value="strength" ${sortBy==='strength'?'selected':''}>Strength</option>
+          <option value="alpha"    ${sortBy==='alpha'   ?'selected':''}>Alphabetical</option>
+        </select>
+      </label>
+      <label class="field">
+        <span class="field-label">Show top</span>
+        <select id="limit">
+          <option value="0"  ${limit===0 ?'selected':''}>All</option>
+          <option value="20" ${limit===20?'selected':''}>20</option>
+          <option value="25" ${limit===25?'selected':''}>25</option>
+          <option value="30" ${limit===30?'selected':''}>30</option>
+          <option value="50" ${limit===50?'selected':''}>50</option>
+        </select>
+      </label>
       ${toggleHTML()}
       <div class="spacer"></div>
       <span style="color:var(--text-dim); font-size:12px;">
