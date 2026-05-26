@@ -9,7 +9,7 @@ export async function renderMatchups(root, params) {
   const allyRole  = params.get("ally")  || "top";
   const enemyRole = params.get("enemy") || "top";
   const sortBy    = params.get("sort")  || "strength";
-  const limit     = parseInt(params.get("limit") ?? "20", 10); // 0 = all
+  const limit     = parseInt(params.get("limit") ?? "25", 10); // 0 = all
 
   const [meta, ids, mat] = await Promise.all([
     loadMeta(), loadChampIds(), loadMatchup(allyRole, enemyRole),
@@ -32,6 +32,7 @@ export async function renderMatchups(root, params) {
       <select id="limit">
         <option value="0"  ${limit===0 ?'selected':''}>All</option>
         <option value="20" ${limit===20?'selected':''}>20</option>
+        <option value="25" ${limit===25?'selected':''}>25</option>
         <option value="30" ${limit===30?'selected':''}>30</option>
         <option value="50" ${limit===50?'selected':''}>50</option>
       </select>
