@@ -175,6 +175,8 @@ export async function renderTeams(root, params) {
   }
 
   async function rerender() {
+    paintRange();
+    updateSummary();
     if (!selectedSlug) {
       titleEl.textContent = "—";
       tableEl.innerHTML = `<div class="loading">No teams in this league.</div>`;
@@ -187,7 +189,8 @@ export async function renderTeams(root, params) {
       ? `${team.name}${team.league ? " · " + team.league : ""}`
       : "—";
     const rows = await loadTeamVs(selectedSlug);
-    const filtered = rows.filter(r => selectedPatches.has(r.patch));
+    const patchSet = selectedPatchSet();
+    const filtered = rows.filter(r => patchSet.has(r.patch));
     const byChamp = new Map();
     for (const r of filtered) {
       let rec = byChamp.get(r.champ);
@@ -205,7 +208,8 @@ export async function renderTeams(root, params) {
     const out = [...byChamp.values()]
       .filter(rec => rec.total > 0)
       .sort((a, b) => b.total - a.total || a.champ.localeCompare(b.champ));
-    hintEl.textContent = `${out.length} champions · ${filtered.reduce((s,r)=>s+r.picksBy+r.bansVs,0)} total actions · ${selectedPatches.size}/${patches.length} patches`;
+    const span = toIdx - fromIdx + 1;
+    hintEl.textContent = `${out.length} champions · ${filtered.reduce((s,r)=>s+r.picksBy+r.bansVs,0)} total actions · ${span}/${patches.length} patches`;
     tableEl.innerHTML = buildTable(out, ids);
     syncURL();
   }
