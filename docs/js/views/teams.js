@@ -53,10 +53,30 @@ export async function renderTeams(root, params) {
   const selectedPatchList = () => patches.slice(fromIdx, toIdx + 1);
   const selectedPatchSet = () => new Set(selectedPatchList());
 
+  function teamLogoHTML(team, size = 22) {
+    if (team?.logo) {
+      return `<img class="team-logo" loading="lazy" width="${size}" height="${size}" src="${team.logo}" alt=""/>`;
+    }
+    const mono = (team?.name || "?").replace(/[^\p{L}\p{N}]/gu, "").slice(0, 2).toUpperCase() || "?";
+    return `<span class="team-logo team-logo-mono" aria-hidden="true" style="width:${size}px;height:${size}px;line-height:${size}px;font-size:${Math.round(size*0.46)}px">${mono}</span>`;
+  }
+
   function teamOptionsHTML() {
     return teamsInLeague()
-      .map(t => `<option value="${t.slug}" ${t.slug===selectedSlug?"selected":""}>${t.name} (${t.games})</option>`)
+      .map(t => `<button type="button" class="team-combobox-option ${t.slug===selectedSlug?"is-selected":""}" role="option" data-slug="${t.slug}" aria-selected="${t.slug===selectedSlug}">
+        ${teamLogoHTML(t, 20)}
+        <span class="team-name">${t.name}</span>
+        <span class="team-games">${t.games}</span>
+      </button>`)
       .join("");
+  }
+
+  function teamButtonHTML(team) {
+    if (!team) return `<span class="team-combobox-placeholder">— select a team —</span><span class="combobox-caret">▾</span>`;
+    return `${teamLogoHTML(team, 22)}
+      <span class="team-name">${team.name}</span>
+      <span class="team-games">${team.games}</span>
+      <span class="combobox-caret">▾</span>`;
   }
 
   root.innerHTML = `
@@ -71,7 +91,15 @@ export async function renderTeams(root, params) {
         </label>
         <label class="field">
           <span class="field-label">Team <span class="field-hint">(sorted by games played)</span></span>
-          <select id="team-pick">${teamOptionsHTML()}</select>
+          <div class="team-combobox" id="team-pick" data-open="false">
+            <button type="button" class="team-combobox-button" id="team-pick-btn"
+                    aria-haspopup="listbox" aria-expanded="false">
+              ${teamButtonHTML(allTeams.find(t => t.slug === selectedSlug))}
+            </button>
+            <div class="team-combobox-panel" id="team-pick-panel" role="listbox" hidden>
+              ${teamOptionsHTML()}
+            </div>
+          </div>
         </label>
         <div class="field patch-range-field">
           <span class="field-label">Patch range ${infoTip("Drag either handle to narrow the patch range. Snaps to each patch.")}</span>
@@ -112,6 +140,8 @@ export async function renderTeams(root, params) {
 
   const leaguePick = root.querySelector("#league-pick");
   const teamPick = root.querySelector("#team-pick");
+  const teamPickBtn = root.querySelector("#team-pick-btn");
+  const teamPickPanel = root.querySelector("#team-pick-panel");
   const rangeEl = root.querySelector("#patch-range");
   const trackEl = root.querySelector("#patch-range-track");
   const fillEl = root.querySelector("#patch-range-fill");
@@ -218,14 +248,56 @@ export async function renderTeams(root, params) {
     selectedLeague = leaguePick.value;
     const first = teamsInLeague()[0];
     selectedSlug = first ? first.slug : null;
-    teamPick.innerHTML = teamOptionsHTML();
+    refreshTeamCombobox();
     rerender();
   });
 
-  teamPick.addEventListener("change", () => {
-    selectedSlug = teamPick.value;
+  function refreshTeamCombobox() {
+    const sel = allTeams.find(t => t.slug === selectedSlug);
+    teamPickBtn.innerHTML = teamButtonHTML(sel);
+    teamPickPanel.innerHTML = teamOptionsHTML();
+  }
+
+  function setComboOpen(open) {
+    teamPick.dataset.open = String(open);
+    teamPickBtn.setAttribute("aria-expanded", String(open));
+    teamPickPanel.hidden = !open;
+    if (open) {
+      const cur = teamPickPanel.querySelector(".team-combobox-option.is-selected");
+      if (cur) cur.scrollIntoView({ block: "nearest" });
+    }
+  }
+
+  teamPickBtn.addEventListener("click", (ev) => {
+    ev.stopPropagation();
+    setComboOpen(teamPick.dataset.open !== "true");
+  });
+  teamPickPanel.addEventListener("click", (ev) => {
+    const opt = ev.target.closest(".team-combobox-option");
+    if (!opt) return;
+    selectedSlug = opt.dataset.slug;
+    setComboOpen(false);
+    refreshTeamCombobox();
     rerender();
   });
+  const onDocClick = (ev) => {
+    if (!teamPick.isConnected) {
+      document.removeEventListener("click", onDocClick);
+      document.removeEventListener("keydown", onDocKey);
+      return;
+    }
+    if (!teamPick.contains(ev.target)) setComboOpen(false);
+  };
+  const onDocKey = (ev) => {
+    if (!teamPick.isConnected) {
+      document.removeEventListener("click", onDocClick);
+      document.removeEventListener("keydown", onDocKey);
+      return;
+    }
+    if (ev.key === "Escape") setComboOpen(false);
+  };
+  document.addEventListener("click", onDocClick);
+  document.addEventListener("keydown", onDocKey);
 
   // ---- dual-handle snap slider ----
   function indexFromClientX(x) {

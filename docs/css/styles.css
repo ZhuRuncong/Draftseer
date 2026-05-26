@@ -522,6 +522,79 @@ main {
   opacity: .7;
 }
 
+/* ---- Team combobox (custom dropdown with logos) ---- */
+.team-combobox { position: relative; min-width: 240px; }
+.team-combobox-button {
+  display: flex; align-items: center; gap: 8px;
+  width: 100%; min-height: 32px;
+  padding: 4px 10px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--panel);
+  color: var(--text);
+  font: inherit;
+  cursor: pointer;
+  text-align: left;
+}
+.team-combobox-button:hover { border-color: var(--accent); }
+.team-combobox[data-open="true"] .team-combobox-button {
+  border-color: var(--accent);
+  box-shadow: 0 0 0 3px rgba(122,162,255,.15);
+}
+.team-combobox .team-name { flex: 1 1 auto; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.team-combobox .team-games {
+  color: var(--text-dim);
+  font-family: var(--mono);
+  font-size: 11px;
+  margin-left: auto;
+}
+.team-combobox .combobox-caret {
+  color: var(--text-dim); font-size: 10px; margin-left: 4px; opacity: .8;
+}
+.team-combobox-placeholder { color: var(--text-dim); flex: 1 1 auto; }
+.team-combobox-panel {
+  position: absolute; top: calc(100% + 4px); left: 0; right: 0;
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  max-height: 340px;
+  overflow-y: auto;
+  z-index: 30;
+  padding: 4px;
+  box-shadow: 0 8px 24px rgba(0,0,0,.35);
+}
+.team-combobox-option {
+  display: flex; align-items: center; gap: 8px;
+  width: 100%;
+  padding: 6px 8px;
+  border: 0;
+  background: transparent;
+  color: var(--text);
+  font: inherit;
+  text-align: left;
+  cursor: pointer;
+  border-radius: 6px;
+}
+.team-combobox-option:hover { background: rgba(255,255,255,.06); }
+.team-combobox-option.is-selected { background: rgba(122,162,255,.14); }
+.team-combobox-option .team-name { flex: 1 1 auto; }
+.team-combobox-option .team-games {
+  color: var(--text-dim); font-family: var(--mono); font-size: 11px;
+}
+.team-logo {
+  flex: 0 0 auto;
+  object-fit: contain;
+  border-radius: 4px;
+  background: rgba(255,255,255,.04);
+}
+.team-logo-mono {
+  display: inline-flex; align-items: center; justify-content: center;
+  font-family: var(--mono); font-weight: 600;
+  color: var(--text-dim);
+  border: 1px solid var(--line);
+  text-align: center;
+}
+
 .tbl-teams th.role-col { text-align: center; width: 92px; }
 .tbl-teams th.role-col .role-svg { width: 18px; height: 18px; vertical-align: middle; opacity: .85; }
 .tbl-teams td.cell-vs { text-align: center; font-family: var(--mono); font-size: 12px; white-space: nowrap; }
