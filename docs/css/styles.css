@@ -446,8 +446,15 @@ main {
 }
 
 /* ---- Patch range slider ---- */
-.patch-range-field { min-width: 380px; }
-.patch-range { padding: 4px 0 0; }
+.patch-range-field {
+  flex-direction: row;
+  align-items: center;
+  gap: 14px;
+  flex: 1 1 420px;
+  min-width: 360px;
+}
+.patch-range-field > .field-label { flex: 0 0 auto; white-space: nowrap; }
+.patch-range { flex: 1 1 auto; min-width: 280px; padding: 4px 0 0; }
 .patch-range-summary {
   font-size: 12px; color: var(--text-dim);
   margin: 0 0 26px;
