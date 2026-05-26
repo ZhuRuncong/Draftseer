@@ -182,7 +182,25 @@ main { padding: 20px; min-height: calc(100vh - 110px); }
 .tbl td.num, .tbl th.num { font-family: var(--mono); text-align: right; }
 .tbl thead th.num { font-family: inherit; }
 .tbl .champ-cell { display: flex; align-items: center; gap: 10px; }
-.tbl .champ-cell img { width: 28px; height: 28px; border-radius: 6px; border: 1px solid var(--line); }
+.tbl .champ-cell img { width: 30px; height: 30px; border-radius: 6px; border: 1px solid var(--line); }
+/* Strengths view: narrower max-width, left-aligned rank, role icon cell. */
+.view-strengths { max-width: 1100px; margin: 0 auto; padding: 0 16px; }
+.tbl th.rank-col, .tbl td.rank-col {
+  text-align: left;
+  font-family: var(--mono);
+  width: 56px;
+}
+.tbl th.role-col, .tbl td.role-col {
+  text-align: center;
+  width: 64px;
+  padding-left: 4px; padding-right: 4px;
+}
+.role-icon-cell {
+  width: 22px; height: 22px;
+  vertical-align: middle;
+  opacity: .85;
+  filter: invert(85%);
+}
 
 .role-pill {
   display: inline-flex; align-items: center; gap: 5px;

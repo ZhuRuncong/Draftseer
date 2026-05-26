@@ -9,6 +9,7 @@ export async function renderStrengths(root, params) {
   const search = (params.get("q") || "").toLowerCase();
 
   root.innerHTML = `
+    <div class="view-strengths">
     <div class="toolbar">
       <div class="role-tabs" id="role-tabs">
         <button data-role="all" class="${activeRole==='all'?'active':''}">All</button>
@@ -22,9 +23,9 @@ export async function renderStrengths(root, params) {
     </div>
     <table class="tbl" id="strengths-tbl">
       <thead><tr>
-        <th data-key="rank">#</th>
+        <th class="rank-col" data-key="rank">Rank</th>
+        <th class="role-col" data-key="role">Role</th>
         <th data-key="champ">Champion</th>
-        <th data-key="role">Role</th>
         <th class="num sort-desc" data-key="strength">Strength${infoTip(STRENGTH_TIP, {right:true})}</th>
         <th class="num" data-key="pickRate">Pick rate</th>
         <th class="num" data-key="banRate">Ban rate</th>
@@ -32,6 +33,7 @@ export async function renderStrengths(root, params) {
       </tr></thead>
       <tbody></tbody>
     </table>
+    </div>
   `;
 
   const tbody = root.querySelector("tbody");
@@ -46,24 +48,27 @@ export async function renderStrengths(root, params) {
       if (typeof va === "string") return sortDir * va.localeCompare(vb);
       return sortDir * (va - vb);
     });
-    tbody.innerHTML = list.map((r, i) => `
+    tbody.innerHTML = list.map((r, i) => rowHTML(r, i)).join("");
+  }
+
+  function rowHTML(r, i) {
+    return `
       <tr>
-        <td class="num" style="color:var(--text-dim)">${i + 1}</td>
+        <td class="rank-col" style="color:var(--text-dim)">${i + 1}</td>
+        <td class="role-col"><img class="role-icon-cell" src="${roleIcon(r.role)}" alt="${r.role}" title="${ROLE_LABEL[r.role]}" /></td>
         <td>
           <a class="champ-cell" href="#/champion?name=${encodeURIComponent(r.champ)}&role=${r.role}">
             <img loading="lazy" src="${ids.champions[r.champ]?.square || ''}" alt="${r.champ}" />
             <span>${r.champ}</span>
           </a>
         </td>
-        <td><span class="role-pill ${r.role}"><img src="${roleIcon(r.role)}" alt="" />${r.role}</span></td>
         <td class="num" style="color:${r.strength>=0?'var(--pos)':'var(--neg)'}">
           ${r.strength>=0?'+':'−'}${Math.abs(r.strength).toFixed(3)}
         </td>
         <td class="num">${(r.pickRate*100).toFixed(1)}%</td>
         <td class="num">${(r.banRate*100).toFixed(1)}%</td>
         <td class="num">${r.pickCount}</td>
-      </tr>
-    `).join("");
+      </tr>`;
   }
 
   root.querySelectorAll("thead th[data-key]").forEach(th => {
@@ -112,19 +117,7 @@ export async function renderStrengths(root, params) {
       if (typeof va === "string") return sortDir * va.localeCompare(vb);
       return sortDir * (va - vb);
     });
-    tbody.innerHTML = list.map((r, i) => `
-      <tr>
-        <td class="num" style="color:var(--text-dim)">${i + 1}</td>
-        <td><a class="champ-cell" href="#/champion?name=${encodeURIComponent(r.champ)}&role=${r.role}">
-          <img loading="lazy" src="${ids.champions[r.champ]?.square || ''}" alt="${r.champ}" /><span>${r.champ}</span>
-        </a></td>
-        <td><span class="role-pill ${r.role}"><img src="${roleIcon(r.role)}" alt="" />${r.role}</span></td>
-        <td class="num" style="color:${r.strength>=0?'var(--pos)':'var(--neg)'}">
-          ${r.strength>=0?'+':'−'}${Math.abs(r.strength).toFixed(3)}</td>
-        <td class="num">${(r.pickRate*100).toFixed(1)}%</td>
-        <td class="num">${(r.banRate*100).toFixed(1)}%</td>
-        <td class="num">${r.pickCount}</td>
-      </tr>`).join("");
+    tbody.innerHTML = list.map((r, i) => rowHTML(r, i)).join("");
   }
 
   render();
