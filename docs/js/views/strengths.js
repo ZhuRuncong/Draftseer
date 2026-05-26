@@ -18,7 +18,7 @@ export async function renderStrengths(root, params) {
       <input type="search" id="search" placeholder="Search champion…" value="${search.replace(/"/g,'&quot;')}" />
       <div class="spacer"></div>
       <span style="color:var(--text-dim); font-size:12px;">
-        ${meta.rows.length} champion–role rows · sorted by strength
+        fitted on patch 16.9 + 16.10
       </span>
     </div>
     <table class="tbl" id="strengths-tbl">
