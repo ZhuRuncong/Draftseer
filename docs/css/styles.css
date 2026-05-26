@@ -228,7 +228,12 @@ main {
 /* ---- Heatmap ---- */
 .heatmap-wrap {
   background: var(--bg-2); border: 1px solid var(--line); border-radius: var(--radius);
-  overflow-x: auto; position: relative;
+  position: relative;
+  /* No overflow here: making this a scroll container would bind the sticky
+     thead to the wrap (which never scrolls vertically) instead of the page
+     viewport. With overflow visible, the thead's `position: sticky; top: 0`
+     attaches to the viewport so it pins to the top of the screen as the
+     page scrolls. Wide heatmaps overflow horizontally onto the page. */
 }
 .heatmap {
   border-collapse: separate; border-spacing: 0;
