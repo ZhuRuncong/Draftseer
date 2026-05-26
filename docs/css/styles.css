@@ -483,14 +483,13 @@ main {
   width: 18px; height: 18px; padding: 0;
   border-radius: 50%;
   border: 2px solid var(--accent);
-  background: var(--panel);
+  background: var(--accent);
   transform: translate(-50%, -50%);
   cursor: grab;
   z-index: 2;
-  transition: background .12s, box-shadow .12s, transform .12s;
+  transition: box-shadow .12s, transform .12s;
 }
 .patch-range-handle:hover {
-  background: var(--accent);
   box-shadow: 0 0 0 6px rgba(122,162,255,.15);
 }
 .patch-range-handle:focus-visible {
@@ -498,29 +497,11 @@ main {
   box-shadow: 0 0 0 4px rgba(122,162,255,.35);
 }
 .patch-range-handle.dragging {
-  background: var(--accent);
   cursor: grabbing;
   box-shadow: 0 0 0 8px rgba(122,162,255,.20);
   transform: translate(-50%, -50%) scale(1.05);
 }
-.patch-range-bubble {
-  position: absolute;
-  bottom: calc(100% + 8px);
-  left: 50%;
-  transform: translateX(-50%);
-  font-family: var(--mono); font-size: 11px;
-  color: var(--text);
-  background: var(--panel);
-  border: 1px solid var(--line);
-  border-radius: 6px;
-  padding: 2px 7px;
-  white-space: nowrap;
-  pointer-events: none;
-}
-.patch-range-handle.dragging .patch-range-bubble,
-.patch-range-handle:hover .patch-range-bubble {
-  border-color: var(--accent);
-}
+.patch-range-bubble { display: none; }
 .patch-range-axis {
   position: relative;
   height: 14px;
