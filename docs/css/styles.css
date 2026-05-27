@@ -387,9 +387,9 @@ main {
   transition: opacity .12s;
 }
 .slot-bar:hover .bar-fill { filter: brightness(1.2); }
-/* Merged bar spans two grid columns; shrink the fill by the inter-column
-   gap so the visual width matches two adjacent single bars (2W, not 2W+gap). */
-.slot-bar.merged .bar-fill { width: calc(100% - 4px); }
+/* Merged bars span two grid columns; let the fill cover the full span so
+   the inter-bar gap stays the same 4px as between single bars. */
+.slot-bar.merged .bar-fill { width: 100%; }
 .slot-bar .bar-label {
   font-size: 9px; color: var(--text-dim); font-family: var(--mono);
   margin-top: 2px; line-height: 1;
