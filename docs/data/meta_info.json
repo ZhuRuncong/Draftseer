@@ -1,6 +1,6 @@
 {
   "ddragon_version": "16.10.1",
-  "model_rows": 136,
+  "model_rows": 210,
   "source": "artifacts/value_model_windowed_csvs",
   "note": "Latest training window from value_model_windowed.py"
 }
