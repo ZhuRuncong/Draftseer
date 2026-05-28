@@ -243,7 +243,6 @@ export async function renderTeams(root, params) {
         .sort((a, b) => (b.p + b.b) - (a.p + a.b) || a.champ.localeCompare(b.champ));
     }
     const span = toIdx - fromIdx + 1;
-    const team = allTeams.find(t => t.slug === selectedSlug);
     const sbp = team?.series_by_patch || {};
     let totalSeries = 0;
     for (const p of selectedPatchList()) totalSeries += sbp[p] || 0;
