@@ -604,3 +604,26 @@ main {
 .tbl-teams .vs-p { color: var(--blue); }
 .tbl-teams .vs-b { color: var(--red); }
 .tbl-teams td.num.strong { color: var(--text); font-weight: 600; }
+
+/* 5-column per-role layout for Teams view */
+.role-columns {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 12px;
+}
+.role-col-block { min-width: 0; }
+.role-col-head {
+  display: flex; align-items: center; gap: 6px;
+  font-size: 12px; color: var(--text-dim);
+  padding: 4px 6px 6px; border-bottom: 1px solid var(--line);
+  margin-bottom: 4px;
+}
+.role-col-head .role-svg { width: 16px; height: 16px; opacity: .85; }
+.tbl-teams.tbl-role { width: 100%; }
+.tbl-teams.tbl-role td { padding: 3px 6px; }
+.tbl-teams.tbl-role td.champ-cell img { width: 20px; height: 20px; }
+.tbl-teams.tbl-role td.champ-cell span { font-size: 12px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.tbl-teams.tbl-role td.cell-vs { text-align: right; }
+@media (max-width: 900px) {
+  .role-columns { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}

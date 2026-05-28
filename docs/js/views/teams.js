@@ -221,26 +221,30 @@ export async function renderTeams(root, params) {
     const rows = await loadTeamVs(selectedSlug);
     const patchSet = selectedPatchSet();
     const filtered = rows.filter(r => patchSet.has(r.patch));
-    const byChamp = new Map();
+    // Build a per-role ranked list of champions (sorted by picks+bans in
+    // that role).
+    const byRole = Object.fromEntries(ROLES.map(r => [r, new Map()]));
+    let totalActions = 0;
+    const champSeen = new Set();
     for (const r of filtered) {
-      let rec = byChamp.get(r.champ);
-      if (!rec) {
-        rec = { champ: r.champ, cells: {}, total: 0 };
-        for (const role of ROLES) rec.cells[role] = { p: 0, b: 0 };
-        byChamp.set(r.champ, rec);
-      }
-      const cell = rec.cells[r.role];
-      if (!cell) continue;
-      cell.p += r.picksBy;
-      cell.b += r.bansVs;
-      rec.total += r.picksBy + r.bansVs;
+      const m = byRole[r.role];
+      if (!m) continue;
+      let rec = m.get(r.champ);
+      if (!rec) { rec = { champ: r.champ, p: 0, b: 0 }; m.set(r.champ, rec); }
+      rec.p += r.picksBy;
+      rec.b += r.bansVs;
+      totalActions += r.picksBy + r.bansVs;
+      champSeen.add(r.champ);
     }
-    const out = [...byChamp.values()]
-      .filter(rec => rec.total > 0)
-      .sort((a, b) => b.total - a.total || a.champ.localeCompare(b.champ));
+    const perRole = {};
+    for (const role of ROLES) {
+      perRole[role] = [...byRole[role].values()]
+        .filter(rec => rec.p + rec.b > 0)
+        .sort((a, b) => (b.p + b.b) - (a.p + a.b) || a.champ.localeCompare(b.champ));
+    }
     const span = toIdx - fromIdx + 1;
-    hintEl.textContent = `${out.length} champions · ${filtered.reduce((s,r)=>s+r.picksBy+r.bansVs,0)} total actions · ${span}/${patches.length} patches`;
-    tableEl.innerHTML = buildTable(out, ids);
+    hintEl.textContent = `${champSeen.size} champions · ${totalActions} total actions · ${span}/${patches.length} patches`;
+    tableEl.innerHTML = buildRoleColumns(perRole, ids);
     syncURL();
   }
 
@@ -351,6 +355,39 @@ export async function renderTeams(root, params) {
   });
 
   await rerender();
+}
+
+function buildRoleColumns(perRole, ids) {
+  const cols = ROLES.map(role => {
+    const list = perRole[role] || [];
+    const items = list.map((rec, i) => {
+      const img = ids.champions[rec.champ]?.square || "";
+      const parts = [];
+      if (rec.p) parts.push(`<span class="vs-p" title="${rec.p} pick${rec.p===1?"":"s"} by this team">${rec.p}P</span>`);
+      if (rec.b) parts.push(`<span class="vs-b" title="${rec.b} ban${rec.b===1?"":"s"} vs this team">${rec.b}B</span>`);
+      return `<tr>
+        <td class="num">${i + 1}</td>
+        <td class="champ-cell">
+          ${img ? `<img loading="lazy" src="${img}" alt="${rec.champ}" />` : ""}
+          <span>${rec.champ}</span>
+        </td>
+        <td class="cell-vs">${parts.join(" ")}</td>
+      </tr>`;
+    }).join("");
+    const empty = list.length === 0
+      ? `<tr><td colspan="3" class="cell-empty" style="text-align:center; padding:12px;">No data</td></tr>`
+      : "";
+    return `<div class="role-col-block">
+      <div class="role-col-head">
+        <img class="role-svg" src="${roleIcon(role)}" alt="${ROLE_LABEL[role]}" title="${ROLE_LABEL[role]}" />
+        <span>${ROLE_LABEL[role]}</span>
+      </div>
+      <table class="tbl tbl-teams tbl-role">
+        <tbody>${items}${empty}</tbody>
+      </table>
+    </div>`;
+  }).join("");
+  return `<div class="role-columns">${cols}</div>`;
 }
 
 function buildTable(rows, ids) {
