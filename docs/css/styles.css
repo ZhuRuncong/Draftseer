@@ -423,6 +423,8 @@ main {
 
 /* ---- Teams view ---- */
 .view-teams .toolbar { align-items: flex-start; }
+.view-teams .panel.wide { padding-left: 10px; padding-right: 10px; }
+.view-teams .panel.toolbar { padding-left: 12px; padding-right: 12px; }
 .field { display: flex; flex-direction: column; gap: 6px; }
 .field-label {
   font-size: 11px; color: var(--text-dim);
