@@ -230,9 +230,10 @@ export async function renderTeams(root, params) {
       const m = byRole[r.role];
       if (!m) continue;
       let rec = m.get(r.champ);
-      if (!rec) { rec = { champ: r.champ, p: 0, b: 0 }; m.set(r.champ, rec); }
+      if (!rec) { rec = { champ: r.champ, p: 0, b: 0, sp: 0 }; m.set(r.champ, rec); }
       rec.p += r.picksBy;
       rec.b += r.bansVs;
+      rec.sp += r.seriesPresence;
       totalActions += r.picksBy + r.bansVs;
       champSeen.add(r.champ);
     }
@@ -240,7 +241,7 @@ export async function renderTeams(root, params) {
     for (const role of ROLES) {
       perRole[role] = [...byRole[role].values()]
         .filter(rec => rec.p + rec.b > 0)
-        .sort((a, b) => (b.p + b.b) - (a.p + a.b) || a.champ.localeCompare(b.champ));
+        .sort((a, b) => (b.sp - a.sp) || (b.p + b.b) - (a.p + a.b) || a.champ.localeCompare(b.champ));
     }
     const span = toIdx - fromIdx + 1;
     const sbp = team?.series_by_patch || {};
@@ -369,7 +370,7 @@ function buildRoleColumns(perRole, ids, totalSeries) {
       if (rec.p) parts.push(`<span class="vs-p" title="${rec.p} pick${rec.p===1?"":"s"} by this team">${rec.p}P</span>`);
       if (rec.b) parts.push(`<span class="vs-b" title="${rec.b} ban${rec.b===1?"":"s"} vs this team">${rec.b}B</span>`);
       const pres = totalSeries > 0
-        ? `<span class="vs-pres" title="${rec.p + rec.b} actions across ${totalSeries} series">${Math.round((rec.p + rec.b) / totalSeries * 100)}%</span>`
+        ? `<span class="vs-pres" title="Appeared (picked or banned) in ${rec.sp} of ${totalSeries} series">${Math.round(rec.sp / totalSeries * 100)}%</span>`
         : "";
       return `<tr>
         <td class="num">${i + 1}</td>

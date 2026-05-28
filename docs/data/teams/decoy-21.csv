@@ -1,46 +1,46 @@
-patch,champ,role,picks_by,bans_vs
-16.10,Dr. Mundo,jng,0,5
-16.10,Sylas,mid,3,2
-16.10,Ambessa,top,1,3
-16.10,Cassiopeia,mid,1,3
-16.10,Jarvan IV,jng,3,1
-16.10,Nocturne,jng,1,3
-16.10,Ornn,top,2,2
-16.10,Azir,mid,2,1
-16.10,Orianna,mid,1,2
-16.10,Sion,top,3,0
-16.10,Taric,sup,0,3
-16.10,Xin Zhao,jng,2,1
-16.10,Ashe,bot,1,1
-16.10,Bard,sup,2,0
-16.10,Caitlyn,bot,2,0
-16.10,Cho'Gath,top,1,1
-16.10,Dr. Mundo,top,2,0
-16.10,Ezreal,bot,2,0
-16.10,Karma,sup,2,0
-16.10,Kayle,top,0,2
-16.10,Lulu,sup,2,0
-16.10,Sivir,bot,2,0
-16.10,Vayne,top,0,2
-16.10,Wukong,jng,1,1
-16.10,Akali,mid,1,0
-16.10,Ambessa,jng,1,0
-16.10,Diana,jng,0,1
-16.10,Galio,mid,1,0
-16.10,Jax,top,0,1
-16.10,Jinx,bot,0,1
-16.10,Karthus,jng,1,0
-16.10,Lucian,bot,1,0
-16.10,Malphite,top,1,0
-16.10,Mel,mid,0,1
-16.10,Mel,sup,1,0
-16.10,Milio,sup,1,0
-16.10,Nautilus,sup,1,0
-16.10,Rakan,sup,0,1
-16.10,Seraphine,sup,1,0
-16.10,Smolder,bot,1,0
-16.10,Trundle,jng,1,0
-16.10,Viktor,mid,0,1
-16.10,Xayah,bot,1,0
-16.10,Yasuo,mid,1,0
-16.10,Yunara,bot,0,1
+patch,champ,role,picks_by,bans_vs,series_presence
+16.10,Dr. Mundo,jng,0,5,2
+16.10,Sylas,mid,3,2,4
+16.10,Ambessa,top,1,3,2
+16.10,Cassiopeia,mid,1,3,2
+16.10,Jarvan IV,jng,3,1,3
+16.10,Nocturne,jng,1,3,3
+16.10,Ornn,top,2,2,3
+16.10,Azir,mid,2,1,3
+16.10,Orianna,mid,1,2,2
+16.10,Sion,top,3,0,3
+16.10,Taric,sup,0,3,1
+16.10,Xin Zhao,jng,2,1,3
+16.10,Ashe,bot,1,1,2
+16.10,Bard,sup,2,0,2
+16.10,Caitlyn,bot,2,0,2
+16.10,Cho'Gath,top,1,1,2
+16.10,Dr. Mundo,top,2,0,2
+16.10,Ezreal,bot,2,0,2
+16.10,Karma,sup,2,0,2
+16.10,Kayle,top,0,2,1
+16.10,Lulu,sup,2,0,2
+16.10,Sivir,bot,2,0,2
+16.10,Vayne,top,0,2,2
+16.10,Wukong,jng,1,1,2
+16.10,Akali,mid,1,0,1
+16.10,Ambessa,jng,1,0,1
+16.10,Diana,jng,0,1,1
+16.10,Galio,mid,1,0,1
+16.10,Jax,top,0,1,1
+16.10,Jinx,bot,0,1,1
+16.10,Karthus,jng,1,0,1
+16.10,Lucian,bot,1,0,1
+16.10,Malphite,top,1,0,1
+16.10,Mel,mid,0,1,1
+16.10,Mel,sup,1,0,1
+16.10,Milio,sup,1,0,1
+16.10,Nautilus,sup,1,0,1
+16.10,Rakan,sup,0,1,1
+16.10,Seraphine,sup,1,0,1
+16.10,Smolder,bot,1,0,1
+16.10,Trundle,jng,1,0,1
+16.10,Viktor,mid,0,1,1
+16.10,Xayah,bot,1,0,1
+16.10,Yasuo,mid,1,0,1
+16.10,Yunara,bot,0,1,1

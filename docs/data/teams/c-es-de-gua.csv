@@ -1,46 +1,46 @@
-patch,champ,role,picks_by,bans_vs
-16.03,Ryze,mid,1,2
-16.03,Akali,mid,0,2
-16.03,Ambessa,top,1,1
-16.03,Braum,sup,0,2
-16.03,Nautilus,sup,1,1
-16.03,Varus,bot,1,1
-16.03,Zaahen,top,0,2
-16.03,Ahri,mid,1,0
-16.03,Bard,sup,1,0
-16.03,Dr. Mundo,jng,1,0
-16.03,Galio,top,1,0
-16.03,Galio,mid,0,1
-16.03,Jarvan IV,jng,1,0
-16.03,Kai'Sa,bot,1,0
-16.03,Malphite,top,1,0
-16.03,Nami,sup,0,1
-16.03,Neeko,sup,0,1
-16.03,Poppy,sup,1,0
-16.03,Sion,top,0,1
-16.03,Smolder,bot,1,0
-16.03,Viktor,mid,1,0
-16.03,Zaahen,jng,1,0
-16.04,Ambessa,top,0,3
-16.04,Zaahen,top,0,3
-16.04,Lux,sup,0,2
-16.04,Ornn,top,1,1
-16.04,Sion,top,0,2
-16.04,Annie,mid,1,0
-16.04,Bard,sup,0,1
-16.04,Corki,bot,1,0
-16.04,Dr. Mundo,jng,1,0
-16.04,Fiora,top,1,0
-16.04,Gnar,top,0,1
-16.04,Hwei,mid,0,1
-16.04,Jarvan IV,jng,1,0
-16.04,Karma,sup,1,0
-16.04,Kennen,top,1,0
-16.04,Nami,sup,1,0
-16.04,Nautilus,sup,1,0
-16.04,Orianna,mid,0,1
-16.04,Ryze,mid,1,0
-16.04,Senna,bot,1,0
-16.04,Sivir,bot,1,0
-16.04,Taliyah,mid,1,0
-16.04,Trundle,jng,1,0
+patch,champ,role,picks_by,bans_vs,series_presence
+16.03,Ryze,mid,1,2,3
+16.03,Akali,mid,0,2,2
+16.03,Ambessa,top,1,1,2
+16.03,Braum,sup,0,2,2
+16.03,Nautilus,sup,1,1,2
+16.03,Varus,bot,1,1,2
+16.03,Zaahen,top,0,2,2
+16.03,Ahri,mid,1,0,1
+16.03,Bard,sup,1,0,1
+16.03,Dr. Mundo,jng,1,0,1
+16.03,Galio,top,1,0,1
+16.03,Galio,mid,0,1,1
+16.03,Jarvan IV,jng,1,0,1
+16.03,Kai'Sa,bot,1,0,1
+16.03,Malphite,top,1,0,1
+16.03,Nami,sup,0,1,1
+16.03,Neeko,sup,0,1,1
+16.03,Poppy,sup,1,0,1
+16.03,Sion,top,0,1,1
+16.03,Smolder,bot,1,0,1
+16.03,Viktor,mid,1,0,1
+16.03,Zaahen,jng,1,0,1
+16.04,Ambessa,top,0,3,2
+16.04,Zaahen,top,0,3,2
+16.04,Lux,sup,0,2,1
+16.04,Ornn,top,1,1,1
+16.04,Sion,top,0,2,1
+16.04,Annie,mid,1,0,1
+16.04,Bard,sup,0,1,1
+16.04,Corki,bot,1,0,1
+16.04,Dr. Mundo,jng,1,0,1
+16.04,Fiora,top,1,0,1
+16.04,Gnar,top,0,1,1
+16.04,Hwei,mid,0,1,1
+16.04,Jarvan IV,jng,1,0,1
+16.04,Karma,sup,1,0,1
+16.04,Kennen,top,1,0,1
+16.04,Nami,sup,1,0,1
+16.04,Nautilus,sup,1,0,1
+16.04,Orianna,mid,0,1,1
+16.04,Ryze,mid,1,0,1
+16.04,Senna,bot,1,0,1
+16.04,Sivir,bot,1,0,1
+16.04,Taliyah,mid,1,0,1
+16.04,Trundle,jng,1,0,1
