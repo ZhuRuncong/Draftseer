@@ -50,6 +50,8 @@ export async function renderTeams(root, params) {
   }
   if (fromIdx > toIdx) [fromIdx, toIdx] = [toIdx, fromIdx];
 
+  let game1Only = params.get("g1") === "1";
+
   const selectedPatchList = () => patches.slice(fromIdx, toIdx + 1);
   const selectedPatchSet = () => new Set(selectedPatchList());
 
@@ -126,6 +128,13 @@ export async function renderTeams(root, params) {
             </div>
           </div>
         </div>
+        <label class="field field-checkbox">
+          <span class="field-label">&nbsp;</span>
+          <label class="checkbox-row">
+            <input type="checkbox" id="game1-only" ${game1Only?"checked":""}/>
+            <span>Game 1 only</span>
+          </label>
+        </label>
       </div>
 
       <div class="panel wide">
@@ -176,7 +185,7 @@ export async function renderTeams(root, params) {
   function updateSummary() {
     const team = allTeams.find(t => t.slug === selectedSlug);
     const gbp = team?.games_by_patch || {};
-    const sbp = team?.series_by_patch || {};
+    const sbp = (game1Only ? team?.g1_series_by_patch : team?.series_by_patch) || {};
     let games = 0, series = 0;
     for (const p of selectedPatchList()) {
       games += gbp[p] || 0;
@@ -185,9 +194,10 @@ export async function renderTeams(root, params) {
     const span = toIdx === fromIdx
       ? patches[fromIdx]
       : `${patches[fromIdx]}\u2013${patches[toIdx]}`;
+    const label = game1Only ? "game-1 series" : "series";
     summaryEl.innerHTML =
       `<strong>${games}</strong> game${games===1?"":"s"} \u00b7 ` +
-      `<strong>${series}</strong> series \u00b7 ` +
+      `<strong>${series}</strong> ${label} \u00b7 ` +
       `patches <strong>${span}</strong>`;
   }
 
@@ -197,6 +207,7 @@ export async function renderTeams(root, params) {
     if (selectedSlug) sp.set("team", selectedSlug);
     if (fromIdx !== 0) sp.set("patchFrom", patches[fromIdx]);
     if (toIdx !== patches.length - 1) sp.set("patchTo", patches[toIdx]);
+    if (game1Only) sp.set("g1", "1");
     const qs = sp.toString();
     const newHash = qs ? `#/teams?${qs}` : "#/teams";
     if (location.hash !== newHash) {
@@ -231,11 +242,14 @@ export async function renderTeams(root, params) {
       if (!m) continue;
       let rec = m.get(r.champ);
       if (!rec) { rec = { champ: r.champ, p: 0, b: 0, sp: 0 }; m.set(r.champ, rec); }
-      rec.p += r.picksBy;
-      rec.b += r.bansVs;
-      rec.sp += r.seriesPresence;
-      totalActions += r.picksBy + r.bansVs;
-      champSeen.add(r.champ);
+      const pAdd = game1Only ? r.picksByG1 : r.picksBy;
+      const bAdd = game1Only ? r.bansVsG1  : r.bansVs;
+      const sAdd = game1Only ? r.seriesPresenceG1 : r.seriesPresence;
+      rec.p += pAdd;
+      rec.b += bAdd;
+      rec.sp += sAdd;
+      totalActions += pAdd + bAdd;
+      if (pAdd + bAdd > 0) champSeen.add(r.champ);
     }
     const perRole = {};
     for (const role of ROLES) {
@@ -244,10 +258,10 @@ export async function renderTeams(root, params) {
         .sort((a, b) => (b.sp - a.sp) || (b.p + b.b) - (a.p + a.b) || a.champ.localeCompare(b.champ));
     }
     const span = toIdx - fromIdx + 1;
-    const sbp = team?.series_by_patch || {};
+    const sbp = (game1Only ? team?.g1_series_by_patch : team?.series_by_patch) || {};
     let totalSeries = 0;
     for (const p of selectedPatchList()) totalSeries += sbp[p] || 0;
-    hintEl.textContent = `${champSeen.size} champions · ${totalActions} total actions · ${span}/${patches.length} patches`;
+    hintEl.textContent = `${champSeen.size} champions \u00b7 ${totalActions} total actions \u00b7 ${span}/${patches.length} patches${game1Only ? " \u00b7 game 1 only" : ""}`;
     tableEl.innerHTML = buildRoleColumns(perRole, ids, totalSeries);
     syncURL();
   }
@@ -257,6 +271,12 @@ export async function renderTeams(root, params) {
     const first = teamsInLeague()[0];
     selectedSlug = first ? first.slug : null;
     refreshTeamCombobox();
+    rerender();
+  });
+
+  const g1Checkbox = root.querySelector("#game1-only");
+  g1Checkbox.addEventListener("change", () => {
+    game1Only = g1Checkbox.checked;
     rerender();
   });
 

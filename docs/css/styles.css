@@ -425,6 +425,11 @@ main {
 .view-teams .toolbar { align-items: flex-start; }
 .view-teams .panel.wide { padding-left: 10px; padding-right: 10px; }
 .view-teams .panel.toolbar { padding-left: 12px; padding-right: 12px; }
+.field-checkbox .checkbox-row {
+  display: flex; align-items: center; gap: 8px; height: 32px;
+  font-size: 13px; color: var(--text);
+}
+.field-checkbox .checkbox-row input { width: 14px; height: 14px; cursor: pointer; }
 .field { display: flex; flex-direction: column; gap: 6px; }
 .field-label {
   font-size: 11px; color: var(--text-dim);

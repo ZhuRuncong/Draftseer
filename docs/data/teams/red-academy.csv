@@ -1,100 +1,100 @@
-patch,champ,role,picks_by,bans_vs,series_presence
-16.06,Anivia,mid,0,2,2
-16.06,Aurora,mid,2,0,2
-16.06,Cassiopeia,mid,0,2,2
-16.06,Corki,bot,2,0,2
-16.06,Gnar,top,2,0,2
-16.06,Karma,sup,0,2,2
-16.06,Nami,sup,2,0,2
-16.06,Orianna,mid,0,2,2
-16.06,Rumble,top,1,1,2
-16.06,Seraphine,sup,1,1,2
-16.06,Xin Zhao,jng,1,1,2
-16.06,Aatrox,jng,1,0,1
-16.06,Ashe,bot,1,0,1
-16.06,Dr. Mundo,jng,1,0,1
-16.06,Jarvan IV,jng,0,1,1
-16.06,Nautilus,sup,0,1,1
-16.06,Renekton,top,0,1,1
-16.06,Ryze,mid,1,0,1
-16.06,Varus,bot,0,1,1
-16.07,Nocturne,jng,1,2,3
-16.07,Rumble,top,2,1,3
-16.07,Varus,bot,0,3,3
-16.07,Ashe,bot,1,1,2
-16.07,Aurora,mid,1,1,2
-16.07,Nami,sup,1,1,2
-16.07,Orianna,mid,1,1,2
-16.07,Xin Zhao,jng,1,1,2
-16.07,Aatrox,jng,1,0,1
-16.07,Ambessa,top,1,0,1
-16.07,Anivia,mid,0,1,1
-16.07,Bard,sup,0,1,1
-16.07,Corki,bot,1,0,1
-16.07,Dr. Mundo,jng,0,1,1
-16.07,Jhin,bot,1,0,1
-16.07,Neeko,sup,1,0,1
-16.07,Ryze,mid,0,1,1
-16.07,Seraphine,sup,1,0,1
-16.07,Zoe,mid,1,0,1
-16.08,Pantheon,jng,2,1,3
-16.08,Rumble,top,2,1,3
-16.08,Bard,sup,0,2,2
-16.08,Ezreal,bot,1,1,2
-16.08,Jarvan IV,jng,1,1,2
-16.08,Lucian,bot,1,1,2
-16.08,Neeko,sup,1,1,2
-16.08,Orianna,mid,1,1,2
-16.08,Anivia,mid,1,0,1
-16.08,Anivia,sup,1,0,1
-16.08,Aurora,mid,1,0,1
-16.08,Jayce,top,1,0,1
-16.08,Kai'Sa,bot,1,0,1
-16.08,Karma,sup,0,1,1
-16.08,Nami,sup,1,0,1
-16.08,Nautilus,sup,0,1,1
-16.08,Nocturne,jng,0,1,1
-16.08,Seraphine,sup,0,1,1
-16.08,Varus,bot,0,1,1
-16.08,Yunara,bot,0,1,1
-16.09,Aurora,mid,0,2,1
-16.09,Ezreal,bot,0,2,1
-16.09,Varus,bot,1,1,1
-16.09,Aatrox,jng,1,0,1
-16.09,Akali,mid,0,1,1
-16.09,Azir,mid,1,0,1
-16.09,Lee Sin,jng,1,0,1
-16.09,Leona,sup,0,1,1
-16.09,Lucian,bot,1,0,1
-16.09,Lulu,sup,1,0,1
-16.09,Milio,sup,1,0,1
-16.09,Nautilus,sup,0,1,1
-16.09,Nocturne,jng,0,1,1
-16.09,Renekton,top,1,0,1
-16.09,Rumble,top,1,0,1
-16.09,Viktor,mid,1,0,1
-16.09,Zoe,mid,0,1,1
-16.10,Ezreal,bot,0,3,1
-16.10,Annie,mid,0,2,1
-16.10,Rumble,top,0,2,1
-16.10,Twisted Fate,mid,0,2,1
-16.10,Vayne,top,0,2,1
-16.10,Aatrox,jng,1,0,1
-16.10,Ahri,mid,1,0,1
-16.10,Ashe,bot,1,0,1
-16.10,Bard,sup,1,0,1
-16.10,Gwen,top,1,0,1
-16.10,Jarvan IV,jng,0,1,1
-16.10,Jax,top,1,0,1
-16.10,Jhin,bot,1,0,1
-16.10,Lee Sin,jng,1,0,1
-16.10,Nocturne,jng,1,0,1
-16.10,Orianna,mid,0,1,1
-16.10,Ryze,mid,1,0,1
-16.10,Seraphine,sup,1,0,1
-16.10,Sion,top,1,0,1
-16.10,Sivir,bot,1,0,1
-16.10,Syndra,mid,1,0,1
-16.10,Varus,bot,0,1,1
-16.10,Yorick,top,0,1,1
-16.10,Yuumi,sup,1,0,1
+patch,champ,role,picks_by,bans_vs,series_presence,picks_by_g1,bans_vs_g1,series_presence_g1
+16.06,Anivia,mid,0,2,2,0,2,2
+16.06,Aurora,mid,2,0,2,2,0,2
+16.06,Cassiopeia,mid,0,2,2,0,2,2
+16.06,Corki,bot,2,0,2,2,0,2
+16.06,Gnar,top,2,0,2,2,0,2
+16.06,Karma,sup,0,2,2,0,2,2
+16.06,Nami,sup,2,0,2,2,0,2
+16.06,Orianna,mid,0,2,2,0,2,2
+16.06,Rumble,top,1,1,2,1,1,2
+16.06,Seraphine,sup,1,1,2,1,1,2
+16.06,Xin Zhao,jng,1,1,2,1,1,2
+16.06,Aatrox,jng,1,0,1,1,0,1
+16.06,Ashe,bot,1,0,1,1,0,1
+16.06,Dr. Mundo,jng,1,0,1,1,0,1
+16.06,Jarvan IV,jng,0,1,1,0,1,1
+16.06,Nautilus,sup,0,1,1,0,1,1
+16.06,Renekton,top,0,1,1,0,1,1
+16.06,Ryze,mid,1,0,1,1,0,1
+16.06,Varus,bot,0,1,1,0,1,1
+16.07,Nocturne,jng,1,2,3,1,2,3
+16.07,Rumble,top,2,1,3,2,1,3
+16.07,Varus,bot,0,3,3,0,3,3
+16.07,Ashe,bot,1,1,2,1,1,2
+16.07,Aurora,mid,1,1,2,1,1,2
+16.07,Nami,sup,1,1,2,1,1,2
+16.07,Orianna,mid,1,1,2,1,1,2
+16.07,Xin Zhao,jng,1,1,2,1,1,2
+16.07,Aatrox,jng,1,0,1,1,0,1
+16.07,Ambessa,top,1,0,1,1,0,1
+16.07,Anivia,mid,0,1,1,0,1,1
+16.07,Bard,sup,0,1,1,0,1,1
+16.07,Corki,bot,1,0,1,1,0,1
+16.07,Dr. Mundo,jng,0,1,1,0,1,1
+16.07,Jhin,bot,1,0,1,1,0,1
+16.07,Neeko,sup,1,0,1,1,0,1
+16.07,Ryze,mid,0,1,1,0,1,1
+16.07,Seraphine,sup,1,0,1,1,0,1
+16.07,Zoe,mid,1,0,1,1,0,1
+16.08,Pantheon,jng,2,1,3,2,1,3
+16.08,Rumble,top,2,1,3,2,1,3
+16.08,Bard,sup,0,2,2,0,2,2
+16.08,Ezreal,bot,1,1,2,1,1,2
+16.08,Jarvan IV,jng,1,1,2,1,1,2
+16.08,Lucian,bot,1,1,2,1,1,2
+16.08,Neeko,sup,1,1,2,1,1,2
+16.08,Orianna,mid,1,1,2,1,1,2
+16.08,Anivia,mid,1,0,1,1,0,1
+16.08,Anivia,sup,1,0,1,1,0,1
+16.08,Aurora,mid,1,0,1,1,0,1
+16.08,Jayce,top,1,0,1,1,0,1
+16.08,Kai'Sa,bot,1,0,1,1,0,1
+16.08,Karma,sup,0,1,1,0,1,1
+16.08,Nami,sup,1,0,1,1,0,1
+16.08,Nautilus,sup,0,1,1,0,1,1
+16.08,Nocturne,jng,0,1,1,0,1,1
+16.08,Seraphine,sup,0,1,1,0,1,1
+16.08,Varus,bot,0,1,1,0,1,1
+16.08,Yunara,bot,0,1,1,0,1,1
+16.09,Aurora,mid,0,2,1,0,1,1
+16.09,Ezreal,bot,0,2,1,0,1,1
+16.09,Varus,bot,1,1,1,0,1,1
+16.09,Aatrox,jng,1,0,1,0,0,0
+16.09,Akali,mid,0,1,1,0,0,0
+16.09,Azir,mid,1,0,1,0,0,0
+16.09,Lee Sin,jng,1,0,1,1,0,1
+16.09,Leona,sup,0,1,1,0,1,1
+16.09,Lucian,bot,1,0,1,1,0,1
+16.09,Lulu,sup,1,0,1,0,0,0
+16.09,Milio,sup,1,0,1,1,0,1
+16.09,Nautilus,sup,0,1,1,0,1,1
+16.09,Nocturne,jng,0,1,1,0,0,0
+16.09,Renekton,top,1,0,1,0,0,0
+16.09,Rumble,top,1,0,1,1,0,1
+16.09,Viktor,mid,1,0,1,1,0,1
+16.09,Zoe,mid,0,1,1,0,0,0
+16.10,Ezreal,bot,0,3,1,0,1,1
+16.10,Annie,mid,0,2,1,0,1,1
+16.10,Rumble,top,0,2,1,0,1,1
+16.10,Twisted Fate,mid,0,2,1,0,1,1
+16.10,Vayne,top,0,2,1,0,0,0
+16.10,Aatrox,jng,1,0,1,0,0,0
+16.10,Ahri,mid,1,0,1,1,0,1
+16.10,Ashe,bot,1,0,1,0,0,0
+16.10,Bard,sup,1,0,1,0,0,0
+16.10,Gwen,top,1,0,1,0,0,0
+16.10,Jarvan IV,jng,0,1,1,0,0,0
+16.10,Jax,top,1,0,1,0,0,0
+16.10,Jhin,bot,1,0,1,0,0,0
+16.10,Lee Sin,jng,1,0,1,0,0,0
+16.10,Nocturne,jng,1,0,1,1,0,1
+16.10,Orianna,mid,0,1,1,0,1,1
+16.10,Ryze,mid,1,0,1,0,0,0
+16.10,Seraphine,sup,1,0,1,0,0,0
+16.10,Sion,top,1,0,1,1,0,1
+16.10,Sivir,bot,1,0,1,1,0,1
+16.10,Syndra,mid,1,0,1,0,0,0
+16.10,Varus,bot,0,1,1,0,0,0
+16.10,Yorick,top,0,1,1,0,0,0
+16.10,Yuumi,sup,1,0,1,1,0,1

@@ -1,7 +1,7 @@
 // Lightweight data layer: parses the CSVs once and caches in-memory.
 
 const ROOT = "data";
-const DATA_V = "11"; // bump to invalidate browser cache for data files
+const DATA_V = "12"; // bump to invalidate browser cache for data files
 export const ROLES = ["top", "jng", "mid", "bot", "sup"];
 export const ROLE_LABEL = { top: "Top", jng: "Jungle", mid: "Mid", bot: "Bot", sup: "Support" };
 
@@ -165,15 +165,18 @@ export function loadTeamVs(slug) {
   return memo(`team|${slug}`, async () => {
     const txt = await fetchText(`${ROOT}/teams/${slug}.csv?v=${DATA_V}`);
     const lines = txt.trim().split(/\r?\n/);
-    lines.shift(); // patch,champ,role,picks_by,bans_vs,series_presence
+    lines.shift(); // patch,champ,role,picks_by,bans_vs,series_presence,picks_by_g1,bans_vs_g1,series_presence_g1
     const rows = [];
     for (const line of lines) {
-      const [patch, champ, role, p, b, sp] = line.split(",");
+      const [patch, champ, role, p, b, sp, pg1, bg1, spg1] = line.split(",");
       rows.push({
         patch, champ, role,
         picksBy: parseInt(p, 10) || 0,
         bansVs:  parseInt(b, 10) || 0,
         seriesPresence: parseInt(sp, 10) || 0,
+        picksByG1: parseInt(pg1, 10) || 0,
+        bansVsG1:  parseInt(bg1, 10) || 0,
+        seriesPresenceG1: parseInt(spg1, 10) || 0,
       });
     }
     return rows;
