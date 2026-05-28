@@ -129,10 +129,11 @@ export async function renderTeams(root, params) {
           </div>
         </div>
         <label class="field field-checkbox">
-          <span class="field-label">&nbsp;</span>
-          <label class="checkbox-row">
+          <span class="field-label">Game filter</span>
+          <label class="toggle-switch">
             <input type="checkbox" id="game1-only" ${game1Only?"checked":""}/>
-            <span>Game 1 only</span>
+            <span class="toggle-track"><span class="toggle-thumb"></span></span>
+            <span class="toggle-label">Game 1 only</span>
           </label>
         </label>
       </div>
