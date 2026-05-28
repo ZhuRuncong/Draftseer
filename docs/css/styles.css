@@ -469,7 +469,11 @@ main {
   border-color: rgba(255, 255, 255, 0.24);
 }
 .toggle-label {
-  font-size: 13px; color: var(--text); line-height: 1;
+  font-size: 11px;
+  color: var(--text-dim);
+  text-transform: uppercase;
+  letter-spacing: .5px;
+  line-height: 1;
 }
 
 .field { display: flex; flex-direction: column; gap: 6px; }
