@@ -243,8 +243,12 @@ export async function renderTeams(root, params) {
         .sort((a, b) => (b.p + b.b) - (a.p + a.b) || a.champ.localeCompare(b.champ));
     }
     const span = toIdx - fromIdx + 1;
+    const team = allTeams.find(t => t.slug === selectedSlug);
+    const sbp = team?.series_by_patch || {};
+    let totalSeries = 0;
+    for (const p of selectedPatchList()) totalSeries += sbp[p] || 0;
     hintEl.textContent = `${champSeen.size} champions · ${totalActions} total actions · ${span}/${patches.length} patches`;
-    tableEl.innerHTML = buildRoleColumns(perRole, ids);
+    tableEl.innerHTML = buildRoleColumns(perRole, ids, totalSeries);
     syncURL();
   }
 
@@ -357,7 +361,7 @@ export async function renderTeams(root, params) {
   await rerender();
 }
 
-function buildRoleColumns(perRole, ids) {
+function buildRoleColumns(perRole, ids, totalSeries) {
   const cols = ROLES.map(role => {
     const list = perRole[role] || [];
     const items = list.map((rec, i) => {
@@ -365,6 +369,9 @@ function buildRoleColumns(perRole, ids) {
       const parts = [];
       if (rec.p) parts.push(`<span class="vs-p" title="${rec.p} pick${rec.p===1?"":"s"} by this team">${rec.p}P</span>`);
       if (rec.b) parts.push(`<span class="vs-b" title="${rec.b} ban${rec.b===1?"":"s"} vs this team">${rec.b}B</span>`);
+      const pres = totalSeries > 0
+        ? `<span class="vs-pres" title="${rec.p + rec.b} actions across ${totalSeries} series">${Math.round((rec.p + rec.b) / totalSeries * 100)}%</span>`
+        : "";
       return `<tr>
         <td class="num">${i + 1}</td>
         <td class="champ-cell">
@@ -372,10 +379,11 @@ function buildRoleColumns(perRole, ids) {
           <span>${rec.champ}</span>
         </td>
         <td class="cell-vs">${parts.join(" ")}</td>
+        <td class="cell-pres">${pres}</td>
       </tr>`;
     }).join("");
     const empty = list.length === 0
-      ? `<tr><td colspan="3" class="cell-empty" style="text-align:center; padding:12px;">No data</td></tr>`
+      ? `<tr><td colspan="4" class="cell-empty" style="text-align:center; padding:12px;">No data</td></tr>`
       : "";
     return `<div class="role-col-block">
       <div class="role-col-head">
